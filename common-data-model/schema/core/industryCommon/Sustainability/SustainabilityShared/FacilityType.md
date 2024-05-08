@@ -1,11 +1,11 @@
 ---
-title: FacilityType in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: FacilityType in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of facility, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity used for classifying the type of facility, as defined in the reporting co
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityType/(resolvedAttributes)/facilitytypeId](#facilitytypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityType/(resolvedAttributes)/facilitytypeId](#facilitytypeId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,21 +51,21 @@ Entity used for classifying the type of facility, as defined in the reporting co
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilitytypeId](#facilitytypeId)|Unique identifier for entity instances|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[statecode](#statecode)|Status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
-|[name](#name)|The name of the custom entity.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[facilitytypeId](#facilitytypeId)|Unique identifier for entity instances|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[statecode](#statecode)|Status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[name](#name)|The name of the custom entity.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
 
 ### <a href=#facilitytypeId name="facilitytypeId">facilitytypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -81,12 +81,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityType/(resolvedAttributes)/facilitytypeId](#facilitytypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityType/(resolvedAttributes)/facilitytypeId](#facilitytypeId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -106,14 +106,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -154,14 +154,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -500,6 +500,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

@@ -1,11 +1,11 @@
 ---
-title: OrganizationalHierarchy in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: OrganizationalHierarchy in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ The classification that a company or organization uses to categorize its entitie
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalHierarchy/(resolvedAttributes)/sustainabilityorganizationalhierarchyId](#sustainabilityorganizationalhierarchyId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalHierarchy/(resolvedAttributes)/sustainabilityorganizationalhierarchyId](#sustainabilityorganizationalhierarchyId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalHierarchy/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,26 +51,26 @@ The classification that a company or organization uses to categorize its entitie
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityorganizationalhierarchyId](#sustainabilityorganizationalhierarchyId)|Unique identifier for entity instances|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[statecode](#statecode)|Status of the Organizational Hierarchy|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[statuscode](#statuscode)|Reason for the status of the Organizational Hierarchy|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[name](#name)|The name of the custom entity.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[effectiveenddate](#effectiveenddate)|The date which represents the end of the reporting period.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[effectivestartdate](#effectivestartdate)|The date which represents the start of the reporting period.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the organizational hierarchy.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
-|[parentid](#parentid)|Unique identifier for the organizational unit associated with the organizational hierarchy.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy</a>|
+|[sustainabilityorganizationalhierarchyId](#sustainabilityorganizationalhierarchyId)|Unique identifier for entity instances|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[statecode](#statecode)|Status of the Organizational Hierarchy|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[statuscode](#statuscode)|Reason for the status of the Organizational Hierarchy|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[name](#name)|The name of the custom entity.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[effectiveenddate](#effectiveenddate)|The date which represents the end of the reporting period.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[effectivestartdate](#effectivestartdate)|The date which represents the start of the reporting period.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the organizational hierarchy.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
+|[parentid](#parentid)|Unique identifier for the organizational unit associated with the organizational hierarchy.|<a href="OrganizationalHierarchy.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalHierarchy</a>|
 
 ### <a href=#sustainabilityorganizationalhierarchyId name="sustainabilityorganizationalhierarchyId">sustainabilityorganizationalhierarchyId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -86,12 +86,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalHierarchy/(resolvedAttributes)/sustainabilityorganizationalhierarchyId](#sustainabilityorganizationalhierarchyId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalHierarchy/(resolvedAttributes)/sustainabilityorganizationalhierarchyId](#sustainabilityorganizationalhierarchyId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -111,14 +111,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Organizational Hierarchy  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Organizational Hierarchy  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -500,14 +500,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#effectiveenddate name="effectiveenddate">effectiveenddate</a>
 
 The date which represents the end of the reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -544,7 +544,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#effectivestartdate name="effectivestartdate">effectivestartdate</a>
 
 The date which represents the start of the reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the organizational hierarchy.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -619,14 +619,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -642,7 +642,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -667,14 +667,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#parentid name="parentid">parentid</a>
 
 Unique identifier for the organizational unit associated with the organizational hierarchy.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -712,6 +712,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

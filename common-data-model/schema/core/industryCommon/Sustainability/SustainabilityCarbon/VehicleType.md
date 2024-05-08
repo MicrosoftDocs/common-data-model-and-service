@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/6/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Vehicle type in Cloud for Sustainability carbon data model(VehicleType)
+# Vehicle type in Cloud for Sustainability carbon data model (VehicleType)
 
 Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.  
   
@@ -25,7 +25,7 @@ Category of vehicle. Used by your organization as reference data to assist with 
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[VehicleType/(resolvedAttributes)/vehicletypeId](#vehicletypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[VehicleType/(resolvedAttributes)/vehicletypeId](#vehicletypeId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[VehicleType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,24 +51,24 @@ Category of vehicle. Used by your organization as reference data to assist with 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[vehicletypeId](#vehicletypeId)|Unique identifier for entity instances|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[statecode](#statecode)|Status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[name](#name)|The name of the custom entity.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[isonroad](#isonroad)|Identifier for the vehicle classification used in mobile combustion and needed for correct emission identification.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
+|[vehicletypeId](#vehicletypeId)|Unique identifier for entity instances|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[statecode](#statecode)|Status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[name](#name)|The name of the custom entity.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[isonroad](#isonroad)|Identifier for the vehicle classification used in mobile combustion and needed for correct emission identification.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
 
 ### <a href=#vehicletypeId name="vehicletypeId">vehicletypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -84,12 +84,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[VehicleType/(resolvedAttributes)/vehicletypeId](#vehicletypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[VehicleType/(resolvedAttributes)/vehicletypeId](#vehicletypeId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +109,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Vehicle Type  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Vehicle Type  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -498,14 +498,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -521,7 +521,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -546,14 +546,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#isonroad name="isonroad">isonroad</a>
 
 Identifier for the vehicle classification used in mobile combustion and needed for correct emission identification.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/VehicleType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/VehicleType (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -630,6 +630,6 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Vehicle
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

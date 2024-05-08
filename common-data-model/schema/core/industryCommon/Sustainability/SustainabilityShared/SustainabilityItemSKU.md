@@ -1,11 +1,11 @@
 ---
-title: SustainabilityItemSKU in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: SustainabilityItemSKU in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity for capturing data on items/SKU inventoried such as input material and finished goods.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityItemSKU/(resolvedAttributes)/sustainabilityitemskuId](#sustainabilityitemskuId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityItemSKU/(resolvedAttributes)/sustainabilityitemskuId](#sustainabilityitemskuId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityItemSKU/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,37 +51,37 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityitemskuId](#sustainabilityitemskuId)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[statecode](#statecode)|Status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[statuscode](#statuscode)|Reason for the status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[name](#name)|The name of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[casnumber](#casnumber)|Chemical Abstracts Service|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[globaltradeitemnumber](#globaltradeitemnumber)|The Global Trade Item Number (GTIN).|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[sustainabilityitemcategorysku](#sustainabilityitemcategorysku)|The category of the item defined by the undertaking in its upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[itemtype](#itemtype)|The type of item such as input material, or finished good.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[material](#material)|The material the item is made of.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[sustainabilityproduct](#sustainabilityproduct)|Lookup to the company name for the sustainability product.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[validfromdate](#validfromdate)||<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[validtodate](#validtodate)|The date up to which the product will remain active. This date can be in the future.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[valuechainpartner](#valuechainpartner)|The supplier name that is supplying this item from the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[volume](#volume)||<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[volumeunit](#volumeunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[weight](#weight)|The weight of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[weightunit](#weightunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[sustainabilityitemskuId](#sustainabilityitemskuId)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[statecode](#statecode)|Status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[statuscode](#statuscode)|Reason for the status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[name](#name)|The name of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[casnumber](#casnumber)|Chemical Abstracts Service|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[globaltradeitemnumber](#globaltradeitemnumber)|The Global Trade Item Number (GTIN).|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[sustainabilityitemcategorysku](#sustainabilityitemcategorysku)|The category of the item defined by the undertaking in its upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[itemtype](#itemtype)|The type of item such as input material, or finished good.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[material](#material)|The material the item is made of.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[sustainabilityproduct](#sustainabilityproduct)|Lookup to the sustainability product.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[validfromdate](#validfromdate)||<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[validtodate](#validtodate)|The date up to which the product will remain active. This date can be in the future.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[valuechainpartner](#valuechainpartner)|The supplier name that is supplying this item from the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[volume](#volume)||<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[volumeunit](#volumeunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[weight](#weight)|The weight of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[weightunit](#weightunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
 
 ### <a href=#sustainabilityitemskuId name="sustainabilityitemskuId">sustainabilityitemskuId</a>
 
 The unique identifier of the item in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -97,12 +97,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityItemSKU/(resolvedAttributes)/sustainabilityitemskuId](#sustainabilityitemskuId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityItemSKU/(resolvedAttributes)/sustainabilityitemskuId](#sustainabilityitemskuId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -122,14 +122,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -169,7 +169,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Item  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Item  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -304,7 +304,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -347,7 +347,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -427,7 +427,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#name name="name">name</a>
 
 The name of the item.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -486,7 +486,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -511,14 +511,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#casnumber name="casnumber">casnumber</a>
 
 Chemical Abstracts Service  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -534,7 +534,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -559,14 +559,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -582,7 +582,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -607,14 +607,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#globaltradeitemnumber name="globaltradeitemnumber">globaltradeitemnumber</a>
 
 The Global Trade Item Number (GTIN).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -630,7 +630,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -655,14 +655,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainabilityitemcategorysku name="sustainabilityitemcategorysku">sustainabilityitemcategorysku</a>
 
 The category of the item defined by the undertaking in its upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -678,7 +678,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -700,14 +700,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#itemtype name="itemtype">itemtype</a>
 
 The type of item such as input material, or finished good.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#material name="material">material</a>
 
 The material the item is made of.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -769,7 +769,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -791,18 +791,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
-Lookup to the company name for the sustainability product.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+Lookup to the sustainability product.  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product name company</td></tr><tr><td>description</td><td>Lookup to the company name for the sustainability product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product (Sustainability)</td></tr><tr><td>description</td><td>Lookup to the sustainability product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -814,7 +814,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -822,27 +822,27 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to the company name for the sustainability product.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to the sustainability product.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product name company</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (Sustainability)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PreviewProductSustainability.md" target="_blank">PreviewProductSustainability.cdm.json/PreviewProductSustainability</a></td><td><a href="PreviewProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="ProductSustainability.md" target="_blank">ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -882,7 +882,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the product will remain active. This date can be in the future.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#valuechainpartner name="valuechainpartner">valuechainpartner</a>
 
 The supplier name that is supplying this item from the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -938,7 +938,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -960,13 +960,13 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#volume name="volume">volume</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#volumeunit name="volumeunit">volumeunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1025,7 +1025,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1047,14 +1047,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#weight name="weight">weight</a>
 
 The weight of the item.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1097,7 +1097,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#weightunit name="weightunit">weightunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1113,7 +1113,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1135,14 +1135,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1158,7 +1158,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1183,14 +1183,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 

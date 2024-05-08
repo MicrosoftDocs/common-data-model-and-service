@@ -3,9 +3,9 @@ title: WaterSource in Cloud for Sustainability water data model - Common Data Mo
 description: Entity to store details of sources from/to which water gets withdrawn/discharged.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity to store details of sources from/to which water gets withdrawn/discharged
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterSource/(resolvedAttributes)/watersourceId](#watersourceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterSource/(resolvedAttributes)/watersourceId](#watersourceId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterSource/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,26 +51,26 @@ Entity to store details of sources from/to which water gets withdrawn/discharged
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[watersourceId](#watersourceId)|Unique identifier for entity instances.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[statecode](#statecode)|Status of the water source.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[statuscode](#statuscode)|Reason for the status of the water source.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[description](#description)|Optional field to describe the entity.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to assign an identifier code provided by the origin system.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[subtype](#subtype)|Optional field to further classify the water source type.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[sourcetype](#sourcetype)|Field used to classify the water source.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[waterqualitytype](#waterqualitytype)|Describes the quality of the water being withdrawn from or discharged to the water source.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
+|[watersourceId](#watersourceId)|Unique identifier for entity instances.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[statecode](#statecode)|Status of the water source.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[statuscode](#statuscode)|Reason for the status of the water source.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[description](#description)|Optional field to describe the entity.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to assign an identifier code provided by the origin system.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[subtype](#subtype)|Optional field to further classify the water source type.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[sourcetype](#sourcetype)|Field used to classify the water source.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
+|[waterqualitytype](#waterqualitytype)|Describes the quality of the water being withdrawn from or discharged to the water source.|<a href="WaterSource.md" target="_blank">Sustainability/SustainabilityWater/WaterSource</a>|
 
 ### <a href=#watersourceId name="watersourceId">watersourceId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -86,12 +86,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterSource/(resolvedAttributes)/watersourceId](#watersourceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterSource/(resolvedAttributes)/watersourceId](#watersourceId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -111,14 +111,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the water source.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the water source.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -500,14 +500,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -523,7 +523,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -548,14 +548,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to assign an identifier code provided by the origin system.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -571,7 +571,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -596,14 +596,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#subtype name="subtype">subtype</a>
 
 Optional field to further classify the water source type.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -619,7 +619,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -644,14 +644,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sourcetype name="sourcetype">sourcetype</a>
 
 Field used to classify the water source.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
@@ -697,7 +697,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 ### <a href=#waterqualitytype name="waterqualitytype">waterqualitytype</a>
 
 Describes the quality of the water being withdrawn from or discharged to the water source.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 

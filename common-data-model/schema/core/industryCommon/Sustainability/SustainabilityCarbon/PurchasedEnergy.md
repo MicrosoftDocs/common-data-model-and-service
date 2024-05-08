@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/6/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Purchased energy in Cloud for Sustainability carbon data model(PurchasedEnergy)
+# Purchased energy in Cloud for Sustainability carbon data model (PurchasedEnergy)
 
 Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.  
   
@@ -25,7 +25,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PurchasedEnergy/(resolvedAttributes)/purchasedenergyId](#purchasedenergyId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PurchasedEnergy/(resolvedAttributes)/purchasedenergyId](#purchasedenergyId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/PurchasedEnergy.cdm.json/PurchasedEnergy<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -48,50 +48,54 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[purchasedenergyId](#purchasedenergyId)|Unique identifier for entity instances|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[name](#name)|The name of the custom entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[contractualinstrumenttypeid](#contractualinstrumenttypeid)|Unique identifier for the contractual instrument type associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[cost](#cost)|Cost associated with activity data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[energyprovidername](#energyprovidername)|Name of the energy provider.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[energytype](#energytype)|Energy sub-category within Scope 2 emissions. |<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[facilityusagedetailid](#facilityusagedetailid)|The facility usage detail associated with this purchased energy|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[isrenewable](#isrenewable)|Identifier used to determine if the source electric energy is renewable or not.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[leasedassetcategory](#leasedassetcategory)|Indicator of classification of category. An empty value means this activity is in scope 2.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[meternumber](#meternumber)|Field representing meter number for purchased energy entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[meterid](#meterid)|Field representing meter for purchased energy entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[goodsquantity](#goodsquantity)|Quantity of goods in the corresponding activity data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[goodsunit](#goodsunit)|Unit of measure for the goods quantity in record.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the spend category. Generally, applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[category](#category)|Indicator of classification of category.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
+|[purchasedenergyId](#purchasedenergyId)|Unique identifier for entity instances|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[name](#name)|The name of the custom entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[contractualinstrumenttypeid](#contractualinstrumenttypeid)|Unique identifier for the contractual instrument type associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[cost](#cost)|Cost associated with activity data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[energyprovidername](#energyprovidername)|Name of the energy provider.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[energytype](#energytype)|Energy sub-category within Scope 2 emissions. |<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[facilityusagedetailid](#facilityusagedetailid)|The facility usage detail associated with this purchased energy|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[isrenewable](#isrenewable)|Identifier used to determine if the source electric energy is renewable or not.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[leasedassetcategory](#leasedassetcategory)|Indicator of classification of category. An empty value means this activity is in scope 2.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[meternumber](#meternumber)|Field representing meter number for purchased energy entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[meterid](#meterid)|Field representing meter for purchased energy entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[goodsquantity](#goodsquantity)|Quantity of goods in the corresponding activity data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[goodsunit](#goodsunit)|Unit of measure for the goods quantity in record.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the spend category. Generally, applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[category](#category)|Indicator of classification of category.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/SustainabilityCarbon/PurchasedEnergy</a>|
 
 ### <a href=#purchasedenergyId name="purchasedenergyId">purchasedenergyId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -107,12 +111,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PurchasedEnergy/(resolvedAttributes)/purchasedenergyId](#purchasedenergyId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PurchasedEnergy/(resolvedAttributes)/purchasedenergyId](#purchasedenergyId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -132,14 +136,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -182,7 +186,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -198,7 +202,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -223,14 +227,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -270,7 +274,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -310,7 +314,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -353,7 +357,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -390,7 +394,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -406,7 +410,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -431,14 +435,59 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
+
+Lookup field for country/region.  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the countryregioncode attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/CountryRegion.md" target="_blank">/SustainabilityShared/CountryRegion.cdm.json/CountryRegion</a></td><td><a href="../SustainabilityShared/CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#accountid name="accountid">accountid</a>
 
 Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -454,7 +503,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -471,19 +520,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Account.md" target="_blank">../SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="../SustainabilityShared/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Account.md" target="_blank">/SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="../SustainabilityShared/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -512,7 +561,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_consumptionenddate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"32"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.date**  
   </details>
@@ -520,7 +569,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -549,7 +598,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_consumptionstartdate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.date**  
   </details>
@@ -557,7 +606,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#contractualinstrumenttypeid name="contractualinstrumenttypeid">contractualinstrumenttypeid</a>
 
 Unique identifier for the contractual instrument type associated with the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -573,7 +622,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -595,14 +644,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -635,7 +684,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_cost"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -645,7 +694,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -661,7 +710,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -678,19 +727,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">../SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -706,7 +755,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -727,18 +776,18 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_customdimension"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -776,7 +825,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_dataqualitytype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -784,7 +833,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -800,7 +849,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -821,18 +870,18 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energyprovidername name="energyprovidername">energyprovidername</a>
 
 Name of the energy provider.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -848,7 +897,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -869,18 +918,18 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_energyprovidername"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energytype name="energytype">energytype</a>
 
 Energy sub-category within Scope 2 emissions.   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -918,7 +967,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_energytype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -926,7 +975,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -942,7 +991,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **means.reference.URL**  
   A Uniform Resource Locator. A web address.  
@@ -966,18 +1015,18 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_evidence"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -993,7 +1042,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1010,19 +1059,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Facility.md" target="_blank">../SustainabilityShared/Facility.cdm.json/Facility</a></td><td><a href="../SustainabilityShared/Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Facility.md" target="_blank">/SustainabilityShared/Facility.cdm.json/Facility</a></td><td><a href="../SustainabilityShared/Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#facilityusagedetailid name="facilityusagedetailid">facilityusagedetailid</a>
 
 The facility usage detail associated with this purchased energy  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1038,7 +1087,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1055,19 +1104,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/FacilityUsageDetail.md" target="_blank">../SustainabilityShared/FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../SustainabilityShared/FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/FacilityUsageDetail.md" target="_blank">/SustainabilityShared/FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../SustainabilityShared/FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#isrenewable name="isrenewable">isrenewable</a>
 
 Identifier used to determine if the source electric energy is renewable or not.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1095,7 +1144,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_isrenewable"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
   </details>
@@ -1103,7 +1152,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#leasedassetcategory name="leasedassetcategory">leasedassetcategory</a>
 
 Indicator of classification of category. An empty value means this activity is in scope 2.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1141,7 +1190,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_leasedassetcategory"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -1149,7 +1198,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#meternumber name="meternumber">meternumber</a>
 
 Field representing meter number for purchased energy entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1165,7 +1214,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1186,22 +1235,22 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_meternumber"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"51"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#meterid name="meterid">meterid</a>
 
 Field representing meter for purchased energy entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Meter</td></tr><tr><td>description</td><td>Field representing meter for purchased energy entity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_meterid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Meter</td></tr><tr><td>description</td><td>Field representing meter for purchased energy entity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -1213,7 +1262,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1229,26 +1278,20 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_meterid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Meter.md" target="_blank">/SustainabilityShared/Meter.cdm.json/Meter</a></td><td><a href="../SustainabilityShared/Meter.md#meterId" target="_blank">meterId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#lifespaninyears name="lifespaninyears">lifespaninyears</a>
 
 The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1281,7 +1324,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_lifespaninyears"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"54"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -1291,7 +1334,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1307,7 +1350,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1324,19 +1367,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/OrganizationalUnit.md" target="_blank">../SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../SustainabilityShared/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/OrganizationalUnit.md" target="_blank">/SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../SustainabilityShared/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1369,7 +1412,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_quantity"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"55"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -1379,7 +1422,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1395,7 +1438,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1416,18 +1459,18 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"57"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1456,7 +1499,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transactiondate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"57"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"58"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.date**  
   </details>
@@ -1464,7 +1507,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1480,7 +1523,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1497,19 +1540,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">../SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 Quantity of goods in the corresponding activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1542,7 +1585,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_goodsquantity"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"59"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"60"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -1552,7 +1595,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 Unit of measure for the goods quantity in record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1568,7 +1611,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1585,19 +1628,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">../SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with the spend category. Generally, applies to scope 3 emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1613,7 +1656,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1635,14 +1678,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1658,7 +1701,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1675,23 +1718,113 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ValueChainPartner.md" target="_blank">../SustainabilityShared/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../SustainabilityShared/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ValueChainPartner.md" target="_blank">/SustainabilityShared/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../SustainabilityShared/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#product name="product">product</a>
+
+A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product (Deprecated)</td></tr><tr><td>description</td><td>A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the product attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ProductSustainability.md" target="_blank">/SustainabilityShared/ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="../SustainabilityShared/ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
+
+A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product or item</td></tr><tr><td>description</td><td>A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the sustainabilityproductitem attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product or item</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ProductSustainability.md" target="_blank">/SustainabilityShared/ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="../SustainabilityShared/ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first-party end product.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Sustainability product footprint</td></tr><tr><td>description</td><td>Product carbon footprint that this activity contributes to, such as first-party end product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Sustainability product footprint (Deprecated)</td></tr><tr><td>description</td><td>Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -1703,7 +1836,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1711,28 +1844,73 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint that this activity contributes to, such as first-party end product.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Sustainability product footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Sustainability product footprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PreviewProductFootprint.md" target="_blank">PreviewProductFootprint.cdm.json/PreviewProductFootprint</a></td><td><a href="PreviewProductFootprint.md#sustainabilityproductfootprintId" target="_blank">sustainabilityproductfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="ProductFootprint.md" target="_blank">ProductFootprint.cdm.json/ProductFootprint</a></td><td><a href="ProductFootprint.md#sustainabilityproductfootprintId" target="_blank">sustainabilityproductfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#productidentifier name="productidentifier">productidentifier</a>
+
+A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product identifier (Deprecated)</td></tr><tr><td>description</td><td>A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the productidentifier attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product identifier (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/DeprecatedProductIdentifier.md" target="_blank">/SustainabilityShared/DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="../SustainabilityShared/DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#category name="category">category</a>
 
 Indicator of classification of category.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1770,7 +1948,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_category"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"66"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"68"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -1778,7 +1956,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1809,7 +1987,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingdate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"68"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"70"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
   **is.dataFormat.date**  

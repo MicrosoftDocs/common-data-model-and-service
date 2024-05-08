@@ -1,11 +1,11 @@
 ---
-title: OrganizationalProfile in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: OrganizationalProfile in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: The base information of the organization, for which the solution is built.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ The base information of the organization, for which the solution is built.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalProfile/(resolvedAttributes)/organizationalprofileId](#organizationalprofileId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalProfile/(resolvedAttributes)/organizationalprofileId](#organizationalprofileId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalProfile/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,32 +51,33 @@ The base information of the organization, for which the solution is built.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[organizationalprofileId](#organizationalprofileId)|Unique identifier for entity instances|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[statecode](#statecode)|Status of the Organizational Profile|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[statuscode](#statuscode)|Reason for the status of the Organizational Profile|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[name](#name)|The name of the custom entity.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[addressline1](#addressline1)|The street address, including the number and street name of the facility.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[addressline2](#addressline2)|Secondary street address information.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[city](#city)|The city in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[companyProfileLogoBase64](#companyProfileLogoBase64)|The logo representing a company or organization.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[countryisocode](#countryisocode)|The three letter ISO code of the country/region.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[postalcode](#postalcode)|The zip or postal code in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[reportingstartday](#reportingstartday)|Day of the month (Internal).|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[reportingstartmonth](#reportingstartmonth)|The month in which reporting begins for a given organization (Internal).|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[stateprovince](#stateprovince)|The state or province in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
+|[organizationalprofileId](#organizationalprofileId)|Unique identifier for entity instances|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[statecode](#statecode)|Status of the Organizational Profile|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[statuscode](#statuscode)|Reason for the status of the Organizational Profile|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[name](#name)|The name of the custom entity.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[addressline1](#addressline1)|The street address, including the number and street name of the facility.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[addressline2](#addressline2)|Secondary street address information.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[city](#city)|The city in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[companyProfileLogoBase64](#companyProfileLogoBase64)|The logo representing a company or organization.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[countryisocode](#countryisocode)|The three letter ISO code of the country/region.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[postalcode](#postalcode)|The zip or postal code in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[reportingstartday](#reportingstartday)|Day of the month (Internal).|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[reportingstartmonth](#reportingstartmonth)|The month in which reporting begins for a given organization (Internal).|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
+|[stateprovince](#stateprovince)|The state or province in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalProfile</a>|
 
 ### <a href=#organizationalprofileId name="organizationalprofileId">organizationalprofileId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -92,12 +93,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalProfile/(resolvedAttributes)/organizationalprofileId](#organizationalprofileId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OrganizationalProfile/(resolvedAttributes)/organizationalprofileId](#organizationalprofileId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -117,14 +118,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -164,7 +165,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -204,7 +205,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Organizational Profile  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -250,7 +251,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Organizational Profile  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -299,7 +300,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -342,7 +343,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -379,7 +380,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -422,7 +423,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -465,7 +466,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -481,7 +482,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -506,14 +507,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addressline1 name="addressline1">addressline1</a>
 
 The street address, including the number and street name of the facility.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -529,7 +530,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -554,14 +555,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addressline2 name="addressline2">addressline2</a>
 
 Secondary street address information.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -577,7 +578,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -602,14 +603,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#city name="city">city</a>
 
 The city in which the organization resides.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -625,7 +626,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -650,14 +651,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#companyProfileLogoBase64 name="companyProfileLogoBase64">companyProfileLogoBase64</a>
 
 The logo representing a company or organization.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -673,7 +674,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -698,18 +699,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#countryisocode name="countryisocode">countryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region (Deprecated)</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryisocode</td></tr></table>
 
 #### Traits
 
@@ -721,16 +722,16 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The three letter ISO code of the country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"3"</td><td>integer</td><td></td></tr></table>
@@ -746,14 +747,59 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
+
+Lookup field for country/region.  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the countryregioncode attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -786,7 +832,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_latitude"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -796,7 +842,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -829,7 +875,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_longitude"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -839,7 +885,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#postalcode name="postalcode">postalcode</a>
 
 The zip or postal code in which the organization resides.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -855,7 +901,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -876,18 +922,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_postalcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#reportingstartday name="reportingstartday">reportingstartday</a>
 
 Day of the month (Internal).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -925,7 +971,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingstartday"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -933,7 +979,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#reportingstartmonth name="reportingstartmonth">reportingstartmonth</a>
 
 The month in which reporting begins for a given organization (Internal).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -971,7 +1017,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingstartmonth"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"46"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -979,7 +1025,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#stateprovince name="stateprovince">stateprovince</a>
 
 The state or province in which the organization resides.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalProfile (this entity)  
 
 #### Properties
 
@@ -995,7 +1041,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1016,10 +1062,10 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_stateprovince"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

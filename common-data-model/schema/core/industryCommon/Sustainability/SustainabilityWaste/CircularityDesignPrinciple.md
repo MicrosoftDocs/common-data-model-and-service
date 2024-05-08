@@ -3,9 +3,9 @@ title: CircularityDesignPrinciple in Cloud for Sustainability waste data model -
 description: Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Describes the circularity princple followed to produce the finished good such as
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/circularitydesignprincipleId](#circularitydesignprincipleId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/circularitydesignprincipleId](#circularitydesignprincipleId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,25 +51,25 @@ Describes the circularity princple followed to produce the finished good such as
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[circularitydesignprincipleId](#circularitydesignprincipleId)|The unique identifier of the circularity design principle.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[statecode](#statecode)|Status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[statuscode](#statuscode)|Reason for the status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[name](#name)|The name of the circularity principle applied.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[description](#description)|Optional description of the principles followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[followscircularitydesignprinciples](#followscircularitydesignprinciples)|Indicates whether any of the circularity design principles were followed in producing the finished good.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[sustainabilityitemsku](#sustainabilityitemsku)|The item/finished good for which the circularity principle was followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
+|[circularitydesignprincipleId](#circularitydesignprincipleId)|The unique identifier of the circularity design principle.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[statecode](#statecode)|Status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[statuscode](#statuscode)|Reason for the status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[name](#name)|The name of the circularity principle applied.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[description](#description)|Optional description of the principles followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[followscircularitydesignprinciples](#followscircularitydesignprinciples)|Indicates whether any of the circularity design principles were followed in producing the finished good.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[sustainabilityitemsku](#sustainabilityitemsku)|The item/finished good for which the circularity principle was followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
 
 ### <a href=#circularitydesignprincipleId name="circularitydesignprincipleId">circularitydesignprincipleId</a>
 
 The unique identifier of the circularity design principle.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -85,12 +85,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/circularitydesignprincipleId](#circularitydesignprincipleId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/circularitydesignprincipleId](#circularitydesignprincipleId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -110,14 +110,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Circularity design principle  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Circularity design principle  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#name name="name">name</a>
 
 The name of the circularity principle applied.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -499,14 +499,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description of the principles followed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -547,14 +547,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#followscircularitydesignprinciples name="followscircularitydesignprinciples">followscircularitydesignprinciples</a>
 
 Indicates whether any of the circularity design principles were followed in producing the finished good.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -600,7 +600,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 The item/finished good for which the circularity principle was followed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -616,7 +616,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -633,23 +633,23 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">../SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">/SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field for origin correlation id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>Optional field for origin correlation id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -661,7 +661,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -670,7 +670,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field for origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -686,6 +686,6 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

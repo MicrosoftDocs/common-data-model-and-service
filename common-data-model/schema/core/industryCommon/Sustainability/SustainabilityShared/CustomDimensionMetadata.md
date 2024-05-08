@@ -1,11 +1,11 @@
 ---
-title: CustomDimensionMetadata in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: CustomDimensionMetadata in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Table holding information about all the custom dimensions available in Microsoft Sustainability Manager
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Table holding information about all the custom dimensions available in Microsoft
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CustomDimensionMetadata/(resolvedAttributes)/customdimensionmetadataId](#customdimensionmetadataId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CustomDimensionMetadata/(resolvedAttributes)/customdimensionmetadataId](#customdimensionmetadataId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CustomDimensionMetadata/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,24 +51,24 @@ Table holding information about all the custom dimensions available in Microsoft
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[customdimensionmetadataId](#customdimensionmetadataId)|Unique identifier for entity instances|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[statecode](#statecode)|Status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[statuscode](#statuscode)|Reason for the status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[logicalname](#logicalname)|Logical name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[datatype](#datatype)|The type of data stored in the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[description](#description)|The description of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[displayname](#displayname)|The user friendly name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
+|[customdimensionmetadataId](#customdimensionmetadataId)|Unique identifier for entity instances|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[statecode](#statecode)|Status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[statuscode](#statuscode)|Reason for the status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[logicalname](#logicalname)|Logical name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[datatype](#datatype)|The type of data stored in the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[description](#description)|The description of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[displayname](#displayname)|The user friendly name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
 
 ### <a href=#customdimensionmetadataId name="customdimensionmetadataId">customdimensionmetadataId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -84,12 +84,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CustomDimensionMetadata/(resolvedAttributes)/customdimensionmetadataId](#customdimensionmetadataId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CustomDimensionMetadata/(resolvedAttributes)/customdimensionmetadataId](#customdimensionmetadataId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +109,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Custom dimension metadata  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Custom dimension metadata  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#logicalname name="logicalname">logicalname</a>
 
 Logical name of the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -498,14 +498,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#datatype name="datatype">datatype</a>
 
 The type of data stored in the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#description name="description">description</a>
 
 The description of the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -567,7 +567,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -592,14 +592,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#displayname name="displayname">displayname</a>
 
 The user friendly name of the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -640,6 +640,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

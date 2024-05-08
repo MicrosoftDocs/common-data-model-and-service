@@ -1,15 +1,15 @@
 ---
-title: ValueChainPartner in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: ValueChainPartner in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity for value chain partner or supplier.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Value Chain Partner in Cloud for Sustainability shared data model 
+# Value Chain Partner in Cloud for Sustainability shared data model
 
 Entity for value chain partner or supplier.  
   
@@ -25,7 +25,7 @@ Entity for value chain partner or supplier.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ValueChainPartner/(resolvedAttributes)/valuechainpartnerId](#valuechainpartnerId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ValueChainPartner/(resolvedAttributes)/valuechainpartnerId](#valuechainpartnerId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ValueChainPartner/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,31 +51,32 @@ Entity for value chain partner or supplier.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[valuechainpartnerId](#valuechainpartnerId)|Unique identifier for entity instances|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[statecode](#statecode)|Status of the Value Chain Partner|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[statuscode](#statuscode)|Reason for the status of the Value Chain Partner|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[name](#name)|The name of the custom entity.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addresscity](#addresscity)|City associated with the value chain partner.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addresscountryisocode](#addresscountryisocode)|The three letter ISO code of the country/region.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addresscounty](#addresscounty)|County associated with the value chain partner address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addressstateprovince](#addressstateprovince)|State/province associated with the value chain partner address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addressstreet1](#addressstreet1)|Address line 1 of the street address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addressstreet2](#addressstreet2)|Address line 2 of the street address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[addresszippostalcode](#addresszippostalcode)|Zip code or postal code associated with the address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
+|[valuechainpartnerId](#valuechainpartnerId)|Unique identifier for entity instances|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[statecode](#statecode)|Status of the Value Chain Partner|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[statuscode](#statuscode)|Reason for the status of the Value Chain Partner|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[name](#name)|The name of the custom entity.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addresscity](#addresscity)|City associated with the value chain partner.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addresscountryisocode](#addresscountryisocode)|The three letter ISO code of the country/region.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addresscounty](#addresscounty)|County associated with the value chain partner address.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addressstateprovince](#addressstateprovince)|State/province associated with the value chain partner address.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addressstreet1](#addressstreet1)|Address line 1 of the street address.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addressstreet2](#addressstreet2)|Address line 2 of the street address.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[addresszippostalcode](#addresszippostalcode)|Zip code or postal code associated with the address.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ValueChainPartner.md" target="_blank">Sustainability/SustainabilityShared/ValueChainPartner</a>|
 
 ### <a href=#valuechainpartnerId name="valuechainpartnerId">valuechainpartnerId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -91,12 +92,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ValueChainPartner/(resolvedAttributes)/valuechainpartnerId](#valuechainpartnerId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ValueChainPartner/(resolvedAttributes)/valuechainpartnerId](#valuechainpartnerId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -116,14 +117,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -163,7 +164,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -203,7 +204,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Value Chain Partner  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -249,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Value Chain Partner  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -298,7 +299,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -341,7 +342,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -378,7 +379,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -421,7 +422,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -464,7 +465,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -480,7 +481,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -505,14 +506,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 City associated with the value chain partner.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -528,7 +529,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -553,18 +554,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region (Deprecated)</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
 
 #### Traits
 
@@ -576,7 +577,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -585,7 +586,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The three letter ISO code of the country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"6"</td><td>integer</td><td></td></tr></table>
@@ -601,14 +602,59 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
+
+Lookup field for country/region.  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the countryregioncode attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 County associated with the value chain partner address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -624,7 +670,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -645,18 +691,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_addresscounty"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 State/province associated with the value chain partner address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -672,7 +718,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -693,18 +739,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_addressstateprovince"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 Address line 1 of the street address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -720,7 +766,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -741,18 +787,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_addressstreet1"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Address line 2 of the street address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -768,7 +814,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -789,18 +835,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_addressstreet2"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 Zip code or postal code associated with the address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -816,7 +862,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -837,18 +883,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_addresszippostalcode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#companyregistrationnumber name="companyregistrationnumber">companyregistrationnumber</a>
 
 Unique identifier that is related to the value chain partner.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -864,7 +910,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -885,18 +931,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_companyregistrationnumber"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -912,7 +958,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -933,18 +979,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -960,7 +1006,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -981,10 +1027,10 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

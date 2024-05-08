@@ -1,15 +1,15 @@
 ---
-title: Account in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: Account in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Business that represents a customer or potential customer. The company that is billed in business transactions.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Account in Cloud for Sustainability shared data model 
+# Account in Cloud for Sustainability shared data model
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   
@@ -25,7 +25,7 @@ Business that represents a customer or potential customer. The company that is b
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Account/(resolvedAttributes)/accountId](#accountId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Account/(resolvedAttributes)/accountId](#accountId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/Account.cdm.json/Account/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -48,23 +48,22 @@ Business that represents a customer or potential customer. The company that is b
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[companyname](#companyname)|The name of a supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[energyprovidertype](#energyprovidertype)|Type of provider for the purchased energy.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[industry](#industry)|Industry of the supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[reportingstartday](#reportingstartday)|The day on which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[reportingstartmonth](#reportingstartmonth)|The month in which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[siccode](#siccode)|Standard Industrial Classification code assigned by the US government|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[suppliertier](#suppliertier)|Tier of Supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[sustainabilityaccountname](#sustainabilityaccountname)|Unique name of the account, for integration with Sustainability|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
+|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[companyname](#companyname)|The name of a supplier|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[industry](#industry)|Industry of the supplier|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[reportingstartday](#reportingstartday)|The day on which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[reportingstartmonth](#reportingstartmonth)|The month in which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[siccode](#siccode)|Standard Industrial Classification code assigned by the US government|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[suppliertier](#suppliertier)|Tier of Supplier|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[sustainabilityaccountname](#sustainabilityaccountname)|Unique name of the account, for integration with Sustainability|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -80,12 +79,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Account/(resolvedAttributes)/accountId](#accountId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Account/(resolvedAttributes)/accountId](#accountId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -105,14 +104,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#accountCategoryCode name="accountCategoryCode">accountCategoryCode</a>
 
 Select a category to indicate whether the customer account is standard or preferred.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -158,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#companyname name="companyname">companyname</a>
 
 The name of a supplier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -174,7 +173,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -199,65 +198,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#energyprovidertype name="energyprovidertype">energyprovidertype</a>
-
-Type of provider for the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Energy provider type</td></tr><tr><td>description</td><td>Type of provider for the purchased energy.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_energyprovidertype</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the energyprovidertype attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.guid**  
-  **means.identity.entityId**  
-  **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of provider for the purchased energy.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Energy provider type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.lookup**  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_energyprovidertype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10009"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#industry name="industry">industry</a>
 
 Industry of the supplier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -273,7 +221,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -295,14 +243,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#reportingstartday name="reportingstartday">reportingstartday</a>
 
 The day on which the supplier's reporting year starts  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -340,7 +288,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingstartday"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10011"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10010"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -348,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#reportingstartmonth name="reportingstartmonth">reportingstartmonth</a>
 
 The month in which the supplier's reporting year starts  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -386,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingstartmonth"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10013"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10012"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -394,7 +342,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#siccode name="siccode">siccode</a>
 
 Standard Industrial Classification code assigned by the US government  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -410,7 +358,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -431,18 +379,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_siccode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10015"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10014"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#suppliertier name="suppliertier">suppliertier</a>
 
 Tier of Supplier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -458,7 +406,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -479,18 +427,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_suppliertier"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10016"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10015"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#companyregistrationnumber name="companyregistrationnumber">companyregistrationnumber</a>
 
 Unique identifier that is related to the value chain partner.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -506,7 +454,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -527,18 +475,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_companyregistrationnumber"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10019"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10018"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -554,7 +502,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -575,18 +523,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10020"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10019"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainabilityaccountname name="sustainabilityaccountname">sustainabilityaccountname</a>
 
 Unique name of the account, for integration with Sustainability  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -602,7 +550,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -623,10 +571,10 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityaccountname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10021"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10020"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

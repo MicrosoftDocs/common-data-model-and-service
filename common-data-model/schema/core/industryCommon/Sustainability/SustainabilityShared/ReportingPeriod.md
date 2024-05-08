@@ -1,11 +1,11 @@
 ---
-title: ReportingPeriod in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: ReportingPeriod in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity used to track reporting periods created for each reporting year.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity used to track reporting periods created for each reporting year.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReportingPeriod/(resolvedAttributes)/reportingperiodId](#reportingperiodId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReportingPeriod/(resolvedAttributes)/reportingperiodId](#reportingperiodId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReportingPeriod/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,25 +51,25 @@ Entity used to track reporting periods created for each reporting year.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[reportingperiodId](#reportingperiodId)|Unique identifier for entity instances.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[statecode](#statecode)|Status of the reporting period|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[statuscode](#statuscode)|Reason for the status of the reporting period|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[name](#name)|Field representing the friendly name for a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[enddate](#enddate)|Field representing the end date for a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[periodstatus](#periodstatus)|Field representing the status of a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[reportingyearid](#reportingyearid)|Unique identifier of the reporting year associated with the reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
-|[startdate](#startdate)|Field representing the start date for a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingPeriod</a>|
+|[reportingperiodId](#reportingperiodId)|Unique identifier for entity instances.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[statecode](#statecode)|Status of the reporting period|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[statuscode](#statuscode)|Reason for the status of the reporting period|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[name](#name)|Field representing the friendly name for a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[enddate](#enddate)|Field representing the end date for a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[periodstatus](#periodstatus)|Field representing the status of a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[reportingyearid](#reportingyearid)|Unique identifier of the reporting year associated with the reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
+|[startdate](#startdate)|Field representing the start date for a reporting period.|<a href="ReportingPeriod.md" target="_blank">Sustainability/SustainabilityShared/ReportingPeriod</a>|
 
 ### <a href=#reportingperiodId name="reportingperiodId">reportingperiodId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -85,12 +85,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReportingPeriod/(resolvedAttributes)/reportingperiodId](#reportingperiodId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReportingPeriod/(resolvedAttributes)/reportingperiodId](#reportingperiodId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -110,14 +110,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the reporting period  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the reporting period  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#name name="name">name</a>
 
 Field representing the friendly name for a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -499,14 +499,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#enddate name="enddate">enddate</a>
 
 Field representing the end date for a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -543,7 +543,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#periodstatus name="periodstatus">periodstatus</a>
 
 Field representing the status of a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#reportingyearid name="reportingyearid">reportingyearid</a>
 
 Unique identifier of the reporting year associated with the reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -627,14 +627,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#startdate name="startdate">startdate</a>
 
 Field representing the start date for a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
+First included in: Sustainability/SustainabilityShared/ReportingPeriod (this entity)  
 
 #### Properties
 

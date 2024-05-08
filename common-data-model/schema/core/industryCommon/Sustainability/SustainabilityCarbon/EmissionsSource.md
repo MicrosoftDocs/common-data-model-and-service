@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/6/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Emissions source in Cloud for Sustainability carbon data model(EmissionsSource)
+# Emissions source in Cloud for Sustainability carbon data model (EmissionsSource)
 
 Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.  
   
@@ -25,7 +25,7 @@ Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionsSource/(resolvedAttributes)/emissionsourceId](#emissionsourceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionsSource/(resolvedAttributes)/emissionsourceId](#emissionsourceId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionsSource/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,31 +51,31 @@ Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[emissionsourceId](#emissionsourceId)|Unique identifier for entity instances|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[statecode](#statecode)|Status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[statuscode](#statuscode)|Reason for the status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[name](#name)|Industry standard terminology as defined by the GHG Protocol|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[entityname](#entityname)|Internal reference used to map an entity to the corresponding record.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[isactive](#isactive)|Internal reference assigned during import.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[parentemissionsource](#parentemissionsource)|Lookup to the parent emission source|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatafield](#sourcedatafield)|Optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatafield2](#sourcedatafield2)|Second optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatavalue](#sourcedatavalue)|The value of source data.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatavalue2](#sourcedatavalue2)|The value of source data (Source data field 2).|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourceviewid](#sourceviewid)|Optional entity for additional views|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
+|[emissionsourceId](#emissionsourceId)|Unique identifier for entity instances|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[statecode](#statecode)|Status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[statuscode](#statuscode)|Reason for the status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[name](#name)|Industry standard terminology as defined by the GHG Protocol|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[entityname](#entityname)|Internal reference used to map an entity to the corresponding record.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[isactive](#isactive)|Internal reference assigned during import.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[parentemissionsource](#parentemissionsource)|Lookup to the parent emission source|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatafield](#sourcedatafield)|Optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatafield2](#sourcedatafield2)|Second optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatavalue](#sourcedatavalue)|The value of source data.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatavalue2](#sourcedatavalue2)|The value of source data (Source data field 2).|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourceviewid](#sourceviewid)|Optional entity for additional views|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
 
 ### <a href=#emissionsourceId name="emissionsourceId">emissionsourceId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -91,12 +91,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionsSource/(resolvedAttributes)/emissionsourceId](#emissionsourceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionsSource/(resolvedAttributes)/emissionsourceId](#emissionsourceId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -116,14 +116,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Emissions Source  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Emissions Source  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#name name="name">name</a>
 
 Industry standard terminology as defined by the GHG Protocol  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -462,14 +462,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#activitytypedatafield name="activitytypedatafield">activitytypedatafield</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -485,7 +485,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -510,14 +510,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -533,7 +533,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -558,14 +558,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#entityname name="entityname">entityname</a>
 
 Internal reference used to map an entity to the corresponding record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -606,14 +606,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#isactive name="isactive">isactive</a>
 
 Internal reference assigned during import.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#parentemissionsource name="parentemissionsource">parentemissionsource</a>
 
 Lookup to the parent emission source  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -665,7 +665,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -687,14 +687,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#scope name="scope">scope</a>
 
 Emission scope as defined by the Greenhouse Gas Protocol.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#sourcedatafield name="sourcedatafield">sourcedatafield</a>
 
 Optional field entity for additional views.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -756,7 +756,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -781,14 +781,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sourcedatafield2 name="sourcedatafield2">sourcedatafield2</a>
 
 Second optional field entity for additional views.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -804,7 +804,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -829,14 +829,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sourcedatavalue name="sourcedatavalue">sourcedatavalue</a>
 
 The value of source data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -852,7 +852,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -877,14 +877,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sourcedatavalue2 name="sourcedatavalue2">sourcedatavalue2</a>
 
 The value of source data (Source data field 2).  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -900,7 +900,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -925,14 +925,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sourceviewid name="sourceviewid">sourceviewid</a>
 
 Optional entity for additional views  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EmissionsSource (this entity)  
 
 #### Properties
 
@@ -948,7 +948,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -973,6 +973,6 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

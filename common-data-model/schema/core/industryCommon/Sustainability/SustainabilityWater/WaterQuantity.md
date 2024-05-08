@@ -3,9 +3,9 @@ title: WaterQuantity in Cloud for Sustainability water data model - Common Data 
 description: Stores the actual quantity information from water transactions within the organization.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Stores the actual quantity information from water transactions within the organi
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQuantity/(resolvedAttributes)/waterquantityId](#waterquantityId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQuantity/(resolvedAttributes)/waterquantityId](#waterquantityId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWaterDataModel<br>/WaterQuantity.cdm.json/WaterQuantity<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -48,36 +48,40 @@ Stores the actual quantity information from water transactions within the organi
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterquantityId](#waterquantityId)|Unique identifier for entity instances.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[partitionId](#partitionId)|Logical partition identifier. A logical partition consists of a set of records with same partition ID.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[activityentityname](#activityentityname)|Internal reference used to map an entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[activityid](#activityid)|Internal reference used to map the entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[activityname](#activityname)|Category or reference data used for reporting purposes and populated during the calculation process.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[description](#description)|Optional field to describe the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[transactionstartdate](#transactionstartdate)|Indicates the date and time at which the transaction recording started.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[evidence](#evidence)|Optional field to indicate the origin for the water quantity data.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[unit](#unit)|Indicates the unit of measurement for the water transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[waterinstrument](#waterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is metered, measured, or estimated.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[facility](#facility)|Indicates the facility mapped to the water instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[industrialprocesstype](#industrialprocesstype)|Indicates the process for which the water instrument is being used.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[organizationalunit](#organizationalunit)|Indicates the organizational unit where the water instrument is located.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[watersource](#watersource)|Indicates the source from which the water enters or leaves the instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[watertransactiontype](#watertransactiontype)|Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
+|[waterquantityId](#waterquantityId)|Unique identifier for entity instances.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[partitionId](#partitionId)|Logical partition identifier. A logical partition consists of a set of records with same partition ID.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[activityentityname](#activityentityname)|Internal reference used to map an entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[activityid](#activityid)|Internal reference used to map the entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[activityname](#activityname)|Category or reference data used for reporting purposes and populated during the calculation process.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[description](#description)|Optional field to describe the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[cost](#cost)|Cost associated with water diversion.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[transactionstartdate](#transactionstartdate)|Indicates the date and time at which the transaction recording started.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[evidence](#evidence)|Optional field to indicate the origin for the water quantity data.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[unit](#unit)|Indicates the unit of measurement for the water transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[waterinstrument](#waterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is metered, measured, or estimated.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[facility](#facility)|Indicates the facility mapped to the water instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[industrialprocesstype](#industrialprocesstype)|Indicates the process for which the water instrument is being used.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[organizationalunit](#organizationalunit)|Indicates the organizational unit where the water instrument is located.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[watersource](#watersource)|Indicates the source from which the water enters or leaves the instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[watertransactiontype](#watertransactiontype)|Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
 
 ### <a href=#waterquantityId name="waterquantityId">waterquantityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -93,12 +97,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQuantity/(resolvedAttributes)/waterquantityId](#waterquantityId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQuantity/(resolvedAttributes)/waterquantityId](#waterquantityId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -118,14 +122,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -168,7 +172,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition identifier. A logical partition consists of a set of records with same partition ID.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -184,7 +188,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -209,14 +213,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -256,7 +260,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -296,7 +300,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -339,7 +343,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -376,7 +380,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -392,7 +396,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -417,14 +421,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#activityentityname name="activityentityname">activityentityname</a>
 
 Internal reference used to map an entity to the corresponding record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -440,7 +444,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -465,14 +469,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#activityid name="activityid">activityid</a>
 
 Internal reference used to map the entity to the corresponding record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -488,7 +492,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -513,14 +517,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#activityname name="activityname">activityname</a>
 
 Category or reference data used for reporting purposes and populated during the calculation process.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -536,7 +540,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -561,14 +565,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -584,7 +588,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -609,14 +613,102 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#cost name="cost">cost</a>
+
+Cost associated with water diversion.  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost</td></tr><tr><td>description</td><td>Cost associated with water diversion.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_cost</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the cost attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+  for setting the exact precision and scale of numeric values  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost associated with water diversion.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_cost"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.numeric.shaped**  
+  for setting the exact precision and scale of numeric values  
+
+</details>
+
+### <a href=#costunit name="costunit">costunit</a>
+
+Unit associated with the cost quantity.  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost unit</td></tr><tr><td>description</td><td>Unit associated with the cost quantity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the costunit attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit associated with the cost quantity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier values for the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -632,7 +724,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -653,18 +745,18 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#quantity name="quantity">quantity</a>
 
 Indicates the actual quantity of water that was part of the transaction.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -697,7 +789,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_quantity"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -707,7 +799,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#transactionenddate name="transactionenddate">transactionenddate</a>
 
 Indicates the date and time at which the transaction recording ended.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -738,7 +830,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transactionenddate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
   **is.dataFormat.date**  
@@ -747,7 +839,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#transactionstartdate name="transactionstartdate">transactionstartdate</a>
 
 Indicates the date and time at which the transaction recording started.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -778,7 +870,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transactionstartdate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
   **is.dataFormat.date**  
@@ -787,7 +879,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field to indicate the origin for the water quantity data.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -803,7 +895,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -824,18 +916,18 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_evidence"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#unit name="unit">unit</a>
 
 Indicates the unit of measurement for the water transaction.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -851,7 +943,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -868,19 +960,19 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">../SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#waterinstrument name="waterinstrument">waterinstrument</a>
 
 Describes the corresponding water instrument for which the water quantity information is being recorded.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -896,7 +988,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -918,14 +1010,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality that identifies whether the data is metered, measured, or estimated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -963,7 +1055,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_dataqualitytype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -971,7 +1063,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility mapped to the water instrument.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -987,7 +1079,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1004,19 +1096,19 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Facility.md" target="_blank">/SustainabilityShared/Facility.cdm.json/Facility</a></td><td><a href="../SustainabilityShared/Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Indicates the process for which the water instrument is being used.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1032,7 +1124,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1049,19 +1141,19 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/IndustrialProcessType.md" target="_blank">../SustainabilityShared/IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../SustainabilityShared/IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/IndustrialProcessType.md" target="_blank">/SustainabilityShared/IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../SustainabilityShared/IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Indicates the organizational unit where the water instrument is located.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1077,7 +1169,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1094,19 +1186,19 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/OrganizationalUnit.md" target="_blank">../SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../SustainabilityShared/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/OrganizationalUnit.md" target="_blank">/SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../SustainabilityShared/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#watersource name="watersource">watersource</a>
 
 Indicates the source from which the water enters or leaves the instrument.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1122,7 +1214,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1144,14 +1236,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#watertransactiontype name="watertransactiontype">watertransactiontype</a>
 
 Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1189,7 +1281,95 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watertransactiontype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
+  </details>
+
+### <a href=#customdimension name="customdimension">customdimension</a>
+
+Field where Custom Dimension values are stored in JSON format.  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Dimension</td></tr><tr><td>description</td><td>Field where Custom Dimension values are stored in JSON format.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1048576</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_customdimension</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the customdimension attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Field where Custom Dimension values are stored in JSON format.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Custom Dimension</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1048576"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_customdimension"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#reportingdate name="reportingdate">reportingdate</a>
+
+Date used to parameterize reports.  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting date</td></tr><tr><td>description</td><td>Date used to parameterize reports.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_reportingdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the reportingdate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date used to parameterize reports.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reporting date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingdate"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>

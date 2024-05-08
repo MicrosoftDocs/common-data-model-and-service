@@ -1,11 +1,11 @@
 ---
-title: EnergyContract in Cloud for Sustainability energy data model  - Common Data Model | Microsoft Docs
+title: EnergyContract in Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
 description: Documented method/approach to source energy.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Documented method/approach to source energy.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergyContract/(resolvedAttributes)/energycontractId](#energycontractId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergyContract/(resolvedAttributes)/energycontractId](#energycontractId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergyContract/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,36 +51,36 @@ Documented method/approach to source energy.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[energycontractId](#energycontractId)|Unique identifier for entity instances|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[statecode](#statecode)|Status of the Energy contract|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[statuscode](#statuscode)|Reason for the status of the Energy contract|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[name](#name)||<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[contractualinstrumenttype](#contractualinstrumenttype)|Contractual instrument type record associated with the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[cost](#cost)|Cost associated with activity data.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[emissionfactorid](#emissionfactorid)|Emission factor used to define the grid mix of the contracted energy.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[energyprovider](#energyprovider)|Name of the energy provider.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[energysource](#energysource)|Primary source used to generate the selected energy type.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[expirydate](#expirydate)|Date associated with the actual date when the contract expires.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[geographicareaid](#geographicareaid)|Unique identifier for entity instances.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[mastercontract](#mastercontract)|Parent contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[agreementdetails](#agreementdetails)|Binding agreement between the energy provider and the customer for the energy being sourced or procured. |<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[organizationalunit](#organizationalunit)|The organizational unit to be associated with the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[startdate](#startdate)|Start date of the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[quantity](#quantity)|Generic quantity field associated with activity entities.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
+|[energycontractId](#energycontractId)|Unique identifier for entity instances|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[statecode](#statecode)|Status of the Energy contract|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[statuscode](#statuscode)|Reason for the status of the Energy contract|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[name](#name)||<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[contractualinstrumenttype](#contractualinstrumenttype)|Contractual instrument type record associated with the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[cost](#cost)|Cost associated with activity data.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[emissionfactorid](#emissionfactorid)|Emission factor used to define the grid mix of the contracted energy.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[energyprovider](#energyprovider)|Name of the energy provider.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[energysource](#energysource)|Primary source used to generate the selected energy type.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[expirydate](#expirydate)|Date associated with the actual date when the contract expires.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[geographicareaid](#geographicareaid)|Unique identifier for entity instances.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[mastercontract](#mastercontract)|Parent contract.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[agreementdetails](#agreementdetails)|Binding agreement between the energy provider and the customer for the energy being sourced or procured. |<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[organizationalunit](#organizationalunit)|The organizational unit to be associated with the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[startdate](#startdate)|Start date of the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[quantity](#quantity)|Generic quantity field associated with activity entities.|<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="EnergyContract.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContract</a>|
 
 ### <a href=#energycontractId name="energycontractId">energycontractId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -96,12 +96,12 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergyContract/(resolvedAttributes)/energycontractId](#energycontractId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergyContract/(resolvedAttributes)/energycontractId](#energycontractId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -121,14 +121,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -168,7 +168,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -208,7 +208,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Energy contract  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -254,7 +254,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Energy contract  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -426,7 +426,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -484,7 +484,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -509,14 +509,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#contractualinstrumenttype name="contractualinstrumenttype">contractualinstrumenttype</a>
 
 Contractual instrument type record associated with the energy contract.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -532,7 +532,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -554,14 +554,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -620,7 +620,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -642,14 +642,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#emissionfactorid name="emissionfactorid">emissionfactorid</a>
 
 Emission factor used to define the grid mix of the contracted energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -665,7 +665,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -687,14 +687,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energyprovider name="energyprovider">energyprovider</a>
 
 Name of the energy provider.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -710,7 +710,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -732,14 +732,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energysource name="energysource">energysource</a>
 
 Primary source used to generate the selected energy type.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -777,14 +777,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#expirydate name="expirydate">expirydate</a>
 
 Date associated with the actual date when the contract expires.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -821,7 +821,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -837,7 +837,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -859,18 +859,18 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#geographicareaid name="geographicareaid">geographicareaid</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geographic area</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographicareaid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geographic area</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -882,7 +882,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -898,26 +898,20 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_geographicareaid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/GeographicArea.md" target="_blank">/SustainabilityShared/GeographicArea.cdm.json/GeographicArea</a></td><td><a href="../SustainabilityShared/GeographicArea.md#geographicareaId" target="_blank">geographicareaId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#mastercontract name="mastercontract">mastercontract</a>
 
 Parent contract.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -933,7 +927,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -955,14 +949,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#agreementdetails name="agreementdetails">agreementdetails</a>
 
 Binding agreement between the energy provider and the customer for the energy being sourced or procured.   
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -978,7 +972,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1000,14 +994,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 The organizational unit to be associated with the energy contract.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -1023,7 +1017,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1045,14 +1039,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#startdate name="startdate">startdate</a>
 
 Start date of the energy contract.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -1092,7 +1086,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quantity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -1135,7 +1129,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContract (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
@@ -1151,7 +1145,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1173,6 +1167,6 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

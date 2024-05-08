@@ -1,11 +1,11 @@
 ---
-title: DataSourceType in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: DataSourceType in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: The different types of sources for energy data.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ The different types of sources for energy data.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DataSourceType/(resolvedAttributes)/datasourcetypeId](#datasourcetypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DataSourceType/(resolvedAttributes)/datasourcetypeId](#datasourcetypeId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DataSourceType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,21 +51,21 @@ The different types of sources for energy data.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[datasourcetypeId](#datasourcetypeId)|Unique identifier for entity instances|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[statecode](#statecode)|Status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[name](#name)||<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[datasourcetypeId](#datasourcetypeId)|Unique identifier for entity instances|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[statecode](#statecode)|Status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[name](#name)||<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
 
 ### <a href=#datasourcetypeId name="datasourcetypeId">datasourcetypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -81,12 +81,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DataSourceType/(resolvedAttributes)/datasourcetypeId](#datasourcetypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DataSourceType/(resolvedAttributes)/datasourcetypeId](#datasourcetypeId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -106,14 +106,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Data source type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Data source type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -494,6 +494,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

@@ -1,15 +1,15 @@
 ---
-title: Industry in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: Industry in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Parent level of the industry classification which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Industry in Cloud for Sustainability shared data model 
+# Industry in Cloud for Sustainability shared data model
 
 Parent level of the industry classification which contains an ID and name.  
   
@@ -25,7 +25,7 @@ Parent level of the industry classification which contains an ID and name.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Industry/(resolvedAttributes)/industryId](#industryId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Industry/(resolvedAttributes)/industryId](#industryId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Industry/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,21 +51,21 @@ Parent level of the industry classification which contains an ID and name.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[industryId](#industryId)|Unique identifier for entity instances|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[statecode](#statecode)|Status of the industry|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[statuscode](#statuscode)|Reason for the status of the industry|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[name](#name)|The name of the parent-level industry classification.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
-|[industrynum](#industrynum)|Contains the mapping to the industry classification code in the form of a range.|<a href="Industry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Industry</a>|
+|[industryId](#industryId)|Unique identifier for entity instances|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[statecode](#statecode)|Status of the industry|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[statuscode](#statuscode)|Reason for the status of the industry|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[name](#name)|The name of the parent-level industry classification.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
+|[industrynum](#industrynum)|Contains the mapping to the industry classification code in the form of a range.|<a href="Industry.md" target="_blank">Sustainability/SustainabilityShared/Industry</a>|
 
 ### <a href=#industryId name="industryId">industryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -81,12 +81,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Industry/(resolvedAttributes)/industryId](#industryId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Industry/(resolvedAttributes)/industryId](#industryId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -106,14 +106,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the industry  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the industry  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -325,7 +325,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 ### <a href=#name name="name">name</a>
 
 The name of the parent-level industry classification.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -427,7 +427,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -452,14 +452,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#industrynum name="industrynum">industrynum</a>
 
 Contains the mapping to the industry classification code in the form of a range.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industry (this entity)  
+First included in: Sustainability/SustainabilityShared/Industry (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -500,6 +500,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Industr
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
