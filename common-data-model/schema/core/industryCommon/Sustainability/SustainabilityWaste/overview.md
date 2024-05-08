@@ -1,5 +1,5 @@
 ---
-title: overview of CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
+title: Overview of Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: CloudforSustainabilityWasteDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Overview of CloudforSustainabilityWasteDataModel
+# c
 
 Cloud for Sustainability Waste Data Model CDM entity definitions  
 
