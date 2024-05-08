@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewSustainabilityProductFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewSustainabilityProductCarbonFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductOrSectorSpecificRule.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/ProductOrSectorSpecificRuleset",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprint.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/productfootprint",
       "redirect_document_id": "false"
