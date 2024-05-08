@@ -2959,10 +2959,6 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/EmployeeCommutingType.md
           - name: EndOfLifeTreatmentOfSoldProducts 
             href: industryCommon/Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts.md
-          - name: ExternalActivity 
-            href: industryCommon/Sustainability/SustainabilityCarbon/ExternalActivity.md
-          - name: ExternalEmissions
-            href: industryCommon/Sustainability/SustainabilityCarbon/ExternalEmissions.md
           - name: FuelType 
             href: industryCommon/Sustainability/SustainabilityCarbon/FuelType.md
           - name: FugitiveEmission 
@@ -2975,8 +2971,6 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/Investment.md
           - name: MobileCombustion 
             href: industryCommon/Sustainability/SustainabilityCarbon/MobileCombustion.md
-          - name: PreviewCarbonFootprintAssurance
-            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprintAssurance.md
           - name: PreviewProductFootprintRuleMapping
             href: industryCommon/Sustainability/SustainabilityCarbon/PreviewProductFootprintRuleMapping.md
           - name: PreviewProductOrSectorSpecificRule
