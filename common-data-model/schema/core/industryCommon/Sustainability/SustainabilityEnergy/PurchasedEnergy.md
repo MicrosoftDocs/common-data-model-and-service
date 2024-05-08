@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Purchased energy in CloudforSustainabilityEnergyDataModel(PurchasedEnergy)
 
-Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement\.  
+Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy.cdm.json" target="_blank">GitHub</a>.  
 
@@ -49,9 +49,9 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[purchasedenergyId](#purchasedenergyId)|Unique identifier for entity instances|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
-|[datasourcetype](#datasourcetype)|Type of source from where data is obtained \(utility bills, sensors, BMS etc\.\)\.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
-|[energycontract](#energycontract)|Type of agreement to deliver purchased energy\.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
-|[energysource](#energysource)|Primary source used to generate the selected energy type\.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
+|[datasourcetype](#datasourcetype)|Type of source from where data is obtained \(utility bills, sensors, BMS etc.\).|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
+|[energycontract](#energycontract)|Type of agreement to deliver purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
+|[energysource](#energysource)|Primary source used to generate the selected energy type.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
 
 ### <a href=#purchasedenergyId name="purchasedenergyId">purchasedenergyId</a>
 
@@ -67,43 +67,43 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 <details>
 <summary>List of traits for the purchasedenergyId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.identifiedBy\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.identifiedBy\*\*  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PurchasedEnergy/(resolvedAttributes)/purchasedenergyId](#purchasedenergyId)</td><td>attribute</td><td></td></tr></table>
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purchased energy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_purchasedenergyid"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#datasourcetype name="datasourcetype">datasourcetype</a>
 
-Type of source from where data is obtained \(utility bills, sensors, BMS etc\.\)\.  
+Type of source from where data is obtained \(utility bills, sensors, BMS etc.\).  
 First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy \(this entity\)  
 
 #### Properties
@@ -115,40 +115,40 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 <details>
 <summary>List of traits for the datasourcetype attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of source from where data is obtained (utility bills, sensors, BMS etc.).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data source type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.lookup\*\*  
+\*\*is.CDS.lookup\*\*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.linkedEntity\.identifier\*\*  
+\*\*is.linkedEntity.identifier\*\*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType.md" target="_blank">/Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType.cdm.json/DataSourceType</a></td><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType.md#datasourcetypeId" target="_blank">datasourcetypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energycontract name="energycontract">energycontract</a>
 
-Type of agreement to deliver purchased energy\.  
+Type of agreement to deliver purchased energy.  
 First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy \(this entity\)  
 
 #### Properties
@@ -160,40 +160,40 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 <details>
 <summary>List of traits for the energycontract attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of agreement to deliver purchased energy.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Energy contract</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.lookup\*\*  
+\*\*is.CDS.lookup\*\*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.linkedEntity\.identifier\*\*  
+\*\*is.linkedEntity.identifier\*\*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../EnergyContract.md" target="_blank">EnergyContract.cdm.json/EnergyContract</a></td><td><a href="../../EnergyContract.md#energycontractId" target="_blank">energycontractId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energysource name="energysource">energysource</a>
 
-Primary source used to generate the selected energy type\.  
+Primary source used to generate the selected energy type.  
 First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy \(this entity\)  
 
 #### Properties
@@ -205,33 +205,33 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 <details>
 <summary>List of traits for the energysource attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Primary source used to generate the selected energy type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Energy Source</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.lookup\*\*  
+\*\*is.CDS.lookup\*\*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.linkedEntity\.identifier\*\*  
+\*\*is.linkedEntity.identifier\*\*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../EnergySource.md" target="_blank">EnergySource.cdm.json/EnergySource</a></td><td><a href="../../EnergySource.md#energysourceId" target="_blank">energysourceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
