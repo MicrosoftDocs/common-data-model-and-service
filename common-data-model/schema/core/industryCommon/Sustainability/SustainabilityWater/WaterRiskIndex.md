@@ -1,6 +1,6 @@
 ---
 title: WaterRiskIndex in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
-description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.Ex&#58- Low- Low-medium- Medium- Medium-high- High- Extremely-high
+description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.Ex: - Low- Low-medium- Medium- Medium-high- High- Extremely-high
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -33,7 +33,7 @@ Ex:
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterRiskIndex/(resolvedAttributes)/waterriskindexId](#waterriskindexId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterRiskIndex/(resolvedAttributes)/waterriskindexId](#waterriskindexId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterRiskIndex/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -105,7 +105,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterRiskIndex/(resolvedAttributes)/waterriskindexId](#waterriskindexId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterRiskIndex/(resolvedAttributes)/waterriskindexId](#waterriskindexId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
