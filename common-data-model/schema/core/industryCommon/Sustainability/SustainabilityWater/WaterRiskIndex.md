@@ -67,24 +67,24 @@ Ex:
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterriskindexId](#waterriskindexId)|Unique identifier for entity instances.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[statecode](#statecode)|Status of the water risk index.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[statuscode](#statuscode)|Reason for the status of the Water risk index|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[description](#description)|Optional field to describe the entity.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[waterstressedarea](#waterstressedarea)|Field to store the flag to categorise a water risk index record as a high-water stress category.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
+|[waterriskindexId](#waterriskindexId)|Unique identifier for entity instances.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[statecode](#statecode)|Status of the water risk index.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[statuscode](#statuscode)|Reason for the status of the Water risk index|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[description](#description)|Optional field to describe the entity.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[waterstressedarea](#waterstressedarea)|Field to store the flag to categorise a water risk index record as a high-water stress category.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.|<a href="WaterRiskIndex.md" target="_blank">Sustainability/SustainabilityWater/WaterRiskIndex</a>|
 
 ### <a href=#waterriskindexId name="waterriskindexId">waterriskindexId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -132,7 +132,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -172,7 +172,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -212,7 +212,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the water risk index.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -258,7 +258,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Water risk index  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -307,7 +307,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -350,7 +350,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -387,7 +387,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -430,7 +430,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -521,7 +521,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -569,7 +569,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#waterstressedarea name="waterstressedarea">waterstressedarea</a>
 
 Field to store the flag to categorise a water risk index record as a high-water stress category.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterRiskIndex (this entity)  
 
 #### Properties
 

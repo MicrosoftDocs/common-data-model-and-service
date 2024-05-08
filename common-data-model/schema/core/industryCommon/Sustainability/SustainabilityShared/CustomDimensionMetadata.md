@@ -51,24 +51,24 @@ Table holding information about all the custom dimensions available in Microsoft
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[customdimensionmetadataId](#customdimensionmetadataId)|Unique identifier for entity instances|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[statecode](#statecode)|Status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[statuscode](#statuscode)|Reason for the status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[logicalname](#logicalname)|Logical name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[datatype](#datatype)|The type of data stored in the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[description](#description)|The description of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
-|[displayname](#displayname)|The user friendly name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata</a>|
+|[customdimensionmetadataId](#customdimensionmetadataId)|Unique identifier for entity instances|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[statecode](#statecode)|Status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[statuscode](#statuscode)|Reason for the status of the Custom dimension metadata|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[logicalname](#logicalname)|Logical name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[datatype](#datatype)|The type of data stored in the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[description](#description)|The description of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
+|[displayname](#displayname)|The user friendly name of the custom dimension|<a href="CustomDimensionMetadata.md" target="_blank">Sustainability/SustainabilityShared/CustomDimensionMetadata</a>|
 
 ### <a href=#customdimensionmetadataId name="customdimensionmetadataId">customdimensionmetadataId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Custom dimension metadata  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Custom dimension metadata  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#logicalname name="logicalname">logicalname</a>
 
 Logical name of the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#datatype name="datatype">datatype</a>
 
 The type of data stored in the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#description name="description">description</a>
 
 The description of the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomD
 ### <a href=#displayname name="displayname">displayname</a>
 
 The user friendly name of the custom dimension  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CustomDimensionMetadata (this entity)  
+First included in: Sustainability/SustainabilityShared/CustomDimensionMetadata (this entity)  
 
 #### Properties
 

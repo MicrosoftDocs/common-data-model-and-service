@@ -48,14 +48,14 @@ Base-level location to attribute activity data. May contain multiple buildings a
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityId](#facilityId)|Unique identifier for entity instances.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
-|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
-|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[facilityId](#facilityId)|Unique identifier for entity instances.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
+|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
+|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 ### <a href=#waterbasin name="waterbasin">waterbasin</a>
 
 Stores the details of the basin from which water is drawn by the facility.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
@@ -148,7 +148,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 ### <a href=#waterriskindex name="waterriskindex">waterriskindex</a>
 
 Describes the overall water risk index of the facility.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityWater/Facility (this entity)  
 
 #### Properties
 

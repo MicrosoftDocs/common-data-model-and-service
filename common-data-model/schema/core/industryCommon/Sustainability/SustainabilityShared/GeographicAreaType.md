@@ -51,23 +51,23 @@ User or industry defined type of geographic area
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[geographicareatypeId](#geographicareatypeId)|Unique identifier for entity instances|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[statecode](#statecode)|Status of the Geographic Area Type|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Geographic Area Type|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[name](#name)|The name of the custom entity.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[description](#description)|Optional description that provides additional detail about the record.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="GeographicAreaType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/GeographicAreaType</a>|
+|[geographicareatypeId](#geographicareatypeId)|Unique identifier for entity instances|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[statecode](#statecode)|Status of the Geographic Area Type|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Geographic Area Type|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[name](#name)|The name of the custom entity.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[description](#description)|Optional description that provides additional detail about the record.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="GeographicAreaType.md" target="_blank">Sustainability/SustainabilityShared/GeographicAreaType</a>|
 
 ### <a href=#geographicareatypeId name="geographicareatypeId">geographicareatypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Geographic Area Type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Geographic Area Type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Geograp
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/GeographicAreaType (this entity)  
+First included in: Sustainability/SustainabilityShared/GeographicAreaType (this entity)  
 
 #### Properties
 

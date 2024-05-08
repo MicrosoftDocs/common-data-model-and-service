@@ -51,35 +51,35 @@ Captures intensity scores for a facility in a given year.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityannualdetailId](#facilityannualdetailId)|Unique identifier for entity instances|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[statecode](#statecode)|Status of the Facility Annual Details|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[statuscode](#statuscode)|Reason for the status of the Facility Annual Details|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[year](#year)|The name of the custom entity.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[activeperiodend](#activeperiodend)|Usage of facility end|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[activeperiodstart](#activeperiodstart)|Usage of facility start|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[area](#area)|The physical space contained in a facility.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[areaunit](#areaunit)|Unit of measure used to describe the area of a space.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[description](#description)|Optional description that provides additional detail about the record.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[facility](#facility)|Unique identifier for the facility annual detail.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[facilityusagedetails](#facilityusagedetails)|Details regarding facility usage|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[headcount](#headcount)|The number of people who are employed at a given facility.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[leasedorowned](#leasedorowned)|Classification of leased or owned facility|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[lessee](#lessee)|Name of the lessee|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[lessor](#lessor)|Name of the lessor of the facility|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[name](#name)|The unique name of this facility usage detail.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
-|[percentusage](#percentusage)|Percent of facility used for operations|<a href="FacilityUsageDetail.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityUsageDetail</a>|
+|[facilityannualdetailId](#facilityannualdetailId)|Unique identifier for entity instances|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[statecode](#statecode)|Status of the Facility Annual Details|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[statuscode](#statuscode)|Reason for the status of the Facility Annual Details|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[year](#year)|The name of the custom entity.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[activeperiodend](#activeperiodend)|Usage of facility end|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[activeperiodstart](#activeperiodstart)|Usage of facility start|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[area](#area)|The physical space contained in a facility.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[areaunit](#areaunit)|Unit of measure used to describe the area of a space.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[description](#description)|Optional description that provides additional detail about the record.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[facility](#facility)|Unique identifier for the facility annual detail.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[facilityusagedetails](#facilityusagedetails)|Details regarding facility usage|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[headcount](#headcount)|The number of people who are employed at a given facility.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[leasedorowned](#leasedorowned)|Classification of leased or owned facility|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[lessee](#lessee)|Name of the lessee|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[lessor](#lessor)|Name of the lessor of the facility|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[name](#name)|The unique name of this facility usage detail.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
+|[percentusage](#percentusage)|Percent of facility used for operations|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/SustainabilityShared/FacilityUsageDetail</a>|
 
 ### <a href=#facilityannualdetailId name="facilityannualdetailId">facilityannualdetailId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -167,7 +167,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -207,7 +207,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility Annual Details  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -253,7 +253,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility Annual Details  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -302,7 +302,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -382,7 +382,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -425,7 +425,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#year name="year">year</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -516,7 +516,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#activeperiodend name="activeperiodend">activeperiodend</a>
 
 Usage of facility end  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#activeperiodstart name="activeperiodstart">activeperiodstart</a>
 
 Usage of facility start  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -590,7 +590,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#area name="area">area</a>
 
 The physical space contained in a facility.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -633,7 +633,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#areaunit name="areaunit">areaunit</a>
 
 Unit of measure used to describe the area of a space.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -678,7 +678,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -726,7 +726,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier for the facility annual detail.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#facilityusagedetails name="facilityusagedetails">facilityusagedetails</a>
 
 Details regarding facility usage  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#headcount name="headcount">headcount</a>
 
 The number of people who are employed at a given facility.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -862,7 +862,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#leasedorowned name="leasedorowned">leasedorowned</a>
 
 Classification of leased or owned facility  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -908,7 +908,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#lessee name="lessee">lessee</a>
 
 Name of the lessee  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -956,7 +956,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#lessor name="lessor">lessor</a>
 
 Name of the lessor of the facility  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -1004,7 +1004,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#name name="name">name</a>
 
 The unique name of this facility usage detail.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -1052,7 +1052,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -1100,7 +1100,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#percentusage name="percentusage">percentusage</a>
 
 Percent of facility used for operations  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityUsageDetail (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityUsageDetail (this entity)  
 
 #### Properties
 

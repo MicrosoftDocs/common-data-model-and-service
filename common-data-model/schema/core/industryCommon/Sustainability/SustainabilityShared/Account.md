@@ -48,22 +48,22 @@ Business that represents a customer or potential customer. The company that is b
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[companyname](#companyname)|The name of a supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[industry](#industry)|Industry of the supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[reportingstartday](#reportingstartday)|The day on which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[reportingstartmonth](#reportingstartmonth)|The month in which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[siccode](#siccode)|Standard Industrial Classification code assigned by the US government|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[suppliertier](#suppliertier)|Tier of Supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
-|[sustainabilityaccountname](#sustainabilityaccountname)|Unique name of the account, for integration with Sustainability|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
+|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[companyname](#companyname)|The name of a supplier|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[industry](#industry)|Industry of the supplier|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[reportingstartday](#reportingstartday)|The day on which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[reportingstartmonth](#reportingstartmonth)|The month in which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[siccode](#siccode)|Standard Industrial Classification code assigned by the US government|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[suppliertier](#suppliertier)|Tier of Supplier|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
+|[sustainabilityaccountname](#sustainabilityaccountname)|Unique name of the account, for integration with Sustainability|<a href="Account.md" target="_blank">Sustainability/SustainabilityShared/Account</a>|
 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -111,7 +111,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#accountCategoryCode name="accountCategoryCode">accountCategoryCode</a>
 
 Select a category to indicate whether the customer account is standard or preferred.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#companyname name="companyname">companyname</a>
 
 The name of a supplier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -205,7 +205,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#industry name="industry">industry</a>
 
 Industry of the supplier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#reportingstartday name="reportingstartday">reportingstartday</a>
 
 The day on which the supplier's reporting year starts  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#reportingstartmonth name="reportingstartmonth">reportingstartmonth</a>
 
 The month in which the supplier's reporting year starts  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#siccode name="siccode">siccode</a>
 
 Standard Industrial Classification code assigned by the US government  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#suppliertier name="suppliertier">suppliertier</a>
 
 Tier of Supplier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -438,7 +438,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#companyregistrationnumber name="companyregistrationnumber">companyregistrationnumber</a>
 
 Unique identifier that is related to the value chain partner.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -486,7 +486,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 
@@ -534,7 +534,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 ### <a href=#sustainabilityaccountname name="sustainabilityaccountname">sustainabilityaccountname</a>
 
 Unique name of the account, for integration with Sustainability  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityShared/Account (this entity)  
 
 #### Properties
 

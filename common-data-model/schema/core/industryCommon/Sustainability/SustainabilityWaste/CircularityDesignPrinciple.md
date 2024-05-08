@@ -51,25 +51,25 @@ Describes the circularity princple followed to produce the finished good such as
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[circularitydesignprincipleId](#circularitydesignprincipleId)|The unique identifier of the circularity design principle.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[statecode](#statecode)|Status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[statuscode](#statuscode)|Reason for the status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[name](#name)|The name of the circularity principle applied.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[description](#description)|Optional description of the principles followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[followscircularitydesignprinciples](#followscircularitydesignprinciples)|Indicates whether any of the circularity design principles were followed in producing the finished good.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[sustainabilityitemsku](#sustainabilityitemsku)|The item/finished good for which the circularity principle was followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
+|[circularitydesignprincipleId](#circularitydesignprincipleId)|The unique identifier of the circularity design principle.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[statecode](#statecode)|Status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[statuscode](#statuscode)|Reason for the status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[name](#name)|The name of the circularity principle applied.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[description](#description)|Optional description of the principles followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[followscircularitydesignprinciples](#followscircularitydesignprinciples)|Indicates whether any of the circularity design principles were followed in producing the finished good.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[sustainabilityitemsku](#sustainabilityitemsku)|The item/finished good for which the circularity principle was followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability/SustainabilityWaste/CircularityDesignPrinciple</a>|
 
 ### <a href=#circularitydesignprincipleId name="circularitydesignprincipleId">circularitydesignprincipleId</a>
 
 The unique identifier of the circularity design principle.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Circularity design principle  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Circularity design principle  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#name name="name">name</a>
 
 The name of the circularity principle applied.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#description name="description">description</a>
 
 Optional description of the principles followed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#followscircularitydesignprinciples name="followscircularitydesignprinciples">followscircularitydesignprinciples</a>
 
 Indicates whether any of the circularity design principles were followed in producing the finished good.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -600,7 +600,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 The item/finished good for which the circularity principle was followed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 
@@ -645,7 +645,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Circular
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
 
 #### Properties
 

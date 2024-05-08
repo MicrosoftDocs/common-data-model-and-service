@@ -48,14 +48,14 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
-|[sustainabilitycontactname](#sustainabilitycontactname)|Name|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
+|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
+|[sustainabilitycontactname](#sustainabilitycontactname)|Name|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 ### <a href=#sustainabilitycontactname name="sustainabilitycontactname">sustainabilitycontactname</a>
 
 Name  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -151,7 +151,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 

@@ -48,27 +48,27 @@ Entity which records the Bill Of Material (BOM) used to create the item. The BOM
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[itembillofmaterialId](#itembillofmaterialId)|The unique identifier of the item bill of material.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[name](#name)|The name of the custom entity.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[description](#description)|Optional description of the item bill of material.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[componentitem](#componentitem)||<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[item](#item)|The unique ID of the item in the undertaking’s upstream systems.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[msdyn_unit](#msdyn_unit)|The unit of measure for the consumed units. The unit of measure is available in a list of units in Microsoft Sustainability Manager.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[quantityused](#quantityused)|The number of units that were consumed to produce the finished product.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[validfromdate](#validfromdate)|The date from which the bill of material applies for the specified finished product.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[validtodate](#validtodate)|The date up to which the bill of material applies for the specified finished product. This date can be in the future.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials</a>|
+|[itembillofmaterialId](#itembillofmaterialId)|The unique identifier of the item bill of material.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[name](#name)|The name of the custom entity.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[description](#description)|Optional description of the item bill of material.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[componentitem](#componentitem)||<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[item](#item)|The unique ID of the item in the undertaking’s upstream systems.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[msdyn_unit](#msdyn_unit)|The unit of measure for the consumed units. The unit of measure is available in a list of units in Microsoft Sustainability Manager.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[quantityused](#quantityused)|The number of units that were consumed to produce the finished product.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[validfromdate](#validfromdate)|The date from which the bill of material applies for the specified finished product.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[validtodate](#validtodate)|The date up to which the bill of material applies for the specified finished product. This date can be in the future.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
 
 ### <a href=#itembillofmaterialId name="itembillofmaterialId">itembillofmaterialId</a>
 
 The unique identifier of the item bill of material.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -207,7 +207,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -330,7 +330,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -367,7 +367,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#description name="description">description</a>
 
 Optional description of the item bill of material.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 
 ### <a href=#componentitem name="componentitem">componentitem</a>
 
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#item name="item">item</a>
 
 The unique ID of the item in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#msdyn_unit name="msdyn_unit">msdyn_unit</a>
 
 The unit of measure for the consumed units. The unit of measure is available in a list of units in Microsoft Sustainability Manager.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#quantityused name="quantityused">quantityused</a>
 
 The number of units that were consumed to produce the finished product.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -640,7 +640,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
 The date from which the bill of material applies for the specified finished product.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -680,7 +680,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the bill of material applies for the specified finished product. This date can be in the future.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -720,7 +720,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 

@@ -51,23 +51,23 @@ The category of the item such as abrasives, castings or accessories
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityitemcategoryskuId](#sustainabilityitemcategoryskuId)|The unique identifier of the item category in the undertaking’s upstream systems.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[statecode](#statecode)|Status of the Sustainability item category SKU|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[statuscode](#statuscode)|Reason for the status of the Sustainability item category SKU|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[name](#name)|The name of the item category, such as abrasives, castings, instruments, or accessories.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU</a>|
+|[sustainabilityitemcategoryskuId](#sustainabilityitemcategoryskuId)|The unique identifier of the item category in the undertaking’s upstream systems.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[statecode](#statecode)|Status of the Sustainability item category SKU|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[statuscode](#statuscode)|Reason for the status of the Sustainability item category SKU|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[name](#name)|The name of the item category, such as abrasives, castings, instruments, or accessories.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemCategorySKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemCategorySKU</a>|
 
 ### <a href=#sustainabilityitemcategoryskuId name="sustainabilityitemcategoryskuId">sustainabilityitemcategoryskuId</a>
 
 The unique identifier of the item category in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Sustainability item category SKU  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Sustainability item category SKU  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#name name="name">name</a>
 
 The name of the item category, such as abrasives, castings, instruments, or accessories.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemCategorySKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemCategorySKU (this entity)  
 
 #### Properties
 

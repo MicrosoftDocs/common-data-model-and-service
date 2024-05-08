@@ -48,40 +48,40 @@ Stores the actual quantity information from water transactions within the organi
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterquantityId](#waterquantityId)|Unique identifier for entity instances.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[partitionId](#partitionId)|Logical partition identifier. A logical partition consists of a set of records with same partition ID.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[activityentityname](#activityentityname)|Internal reference used to map an entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[activityid](#activityid)|Internal reference used to map the entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[activityname](#activityname)|Category or reference data used for reporting purposes and populated during the calculation process.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[description](#description)|Optional field to describe the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[cost](#cost)|Cost associated with water diversion.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[transactionstartdate](#transactionstartdate)|Indicates the date and time at which the transaction recording started.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[evidence](#evidence)|Optional field to indicate the origin for the water quantity data.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[unit](#unit)|Indicates the unit of measurement for the water transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[waterinstrument](#waterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is metered, measured, or estimated.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[facility](#facility)|Indicates the facility mapped to the water instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[industrialprocesstype](#industrialprocesstype)|Indicates the process for which the water instrument is being used.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[organizationalunit](#organizationalunit)|Indicates the organizational unit where the water instrument is located.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[watersource](#watersource)|Indicates the source from which the water enters or leaves the instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[watertransactiontype](#watertransactiontype)|Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
+|[waterquantityId](#waterquantityId)|Unique identifier for entity instances.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[partitionId](#partitionId)|Logical partition identifier. A logical partition consists of a set of records with same partition ID.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[activityentityname](#activityentityname)|Internal reference used to map an entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[activityid](#activityid)|Internal reference used to map the entity to the corresponding record.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[activityname](#activityname)|Category or reference data used for reporting purposes and populated during the calculation process.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[description](#description)|Optional field to describe the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[cost](#cost)|Cost associated with water diversion.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[transactionstartdate](#transactionstartdate)|Indicates the date and time at which the transaction recording started.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[evidence](#evidence)|Optional field to indicate the origin for the water quantity data.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[unit](#unit)|Indicates the unit of measurement for the water transaction.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[waterinstrument](#waterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is metered, measured, or estimated.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[facility](#facility)|Indicates the facility mapped to the water instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[industrialprocesstype](#industrialprocesstype)|Indicates the process for which the water instrument is being used.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[organizationalunit](#organizationalunit)|Indicates the organizational unit where the water instrument is located.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[watersource](#watersource)|Indicates the source from which the water enters or leaves the instrument.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[watertransactiontype](#watertransactiontype)|Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WaterQuantity.md" target="_blank">Sustainability/SustainabilityWater/WaterQuantity</a>|
 
 ### <a href=#waterquantityId name="waterquantityId">waterquantityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -172,7 +172,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition identifier. A logical partition consists of a set of records with same partition ID.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -220,7 +220,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -260,7 +260,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -300,7 +300,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -428,7 +428,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#activityentityname name="activityentityname">activityentityname</a>
 
 Internal reference used to map an entity to the corresponding record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -476,7 +476,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#activityid name="activityid">activityid</a>
 
 Internal reference used to map the entity to the corresponding record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -524,7 +524,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#activityname name="activityname">activityname</a>
 
 Category or reference data used for reporting purposes and populated during the calculation process.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -572,7 +572,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -620,7 +620,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with water diversion.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -663,7 +663,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -708,7 +708,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier values for the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -756,7 +756,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#quantity name="quantity">quantity</a>
 
 Indicates the actual quantity of water that was part of the transaction.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -799,7 +799,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#transactionenddate name="transactionenddate">transactionenddate</a>
 
 Indicates the date and time at which the transaction recording ended.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -839,7 +839,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#transactionstartdate name="transactionstartdate">transactionstartdate</a>
 
 Indicates the date and time at which the transaction recording started.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -879,7 +879,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field to indicate the origin for the water quantity data.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -927,7 +927,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#unit name="unit">unit</a>
 
 Indicates the unit of measurement for the water transaction.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -972,7 +972,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#waterinstrument name="waterinstrument">waterinstrument</a>
 
 Describes the corresponding water instrument for which the water quantity information is being recorded.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1017,7 +1017,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality that identifies whether the data is metered, measured, or estimated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1063,7 +1063,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility mapped to the water instrument.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1108,7 +1108,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Indicates the process for which the water instrument is being used.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1153,7 +1153,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Indicates the organizational unit where the water instrument is located.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1198,7 +1198,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#watersource name="watersource">watersource</a>
 
 Indicates the source from which the water enters or leaves the instrument.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1243,7 +1243,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#watertransactiontype name="watertransactiontype">watertransactiontype</a>
 
 Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1289,7 +1289,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
@@ -1337,7 +1337,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQuantity (this entity)  
+First included in: Sustainability/SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 

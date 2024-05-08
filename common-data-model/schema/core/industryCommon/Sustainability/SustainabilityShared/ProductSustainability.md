@@ -51,28 +51,28 @@ A product that can be associated with a product carbon footprint.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityproductId](#sustainabilityproductId)|Unique identifier for entity instances.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[statecode](#statecode)|Status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[statuscode](#statuscode)|Reason for the status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[name](#name)|The non-empty trade name of the product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[accountid](#accountid)|Value-chain partner (e.g., supplier) this product is sourced from.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[productcategoryid](#productcategoryid)|Category for this product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[isfirstparty](#isfirstparty)|Whether this product is first-party.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[productalternateid](#productalternateid)|Optional identifier for product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[sustainabilityproductId](#sustainabilityproductId)|Unique identifier for entity instances.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[statecode](#statecode)|Status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[statuscode](#statuscode)|Reason for the status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[name](#name)|The non-empty trade name of the product.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[accountid](#accountid)|Value-chain partner (e.g., supplier) this product is sourced from.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[productcategoryid](#productcategoryid)|Category for this product.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[isfirstparty](#isfirstparty)|Whether this product is first-party.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[productalternateid](#productalternateid)|Optional identifier for product|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
 
 ### <a href=#sustainabilityproductId name="sustainabilityproductId">sustainabilityproductId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the (Preview) Sustainability product  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the (Preview) Sustainability product  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#name name="name">name</a>
 
 The non-empty trade name of the product.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#productcategorycpc name="productcategorycpc">productcategorycpc</a>
 
 A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#productdescription name="productdescription">productdescription</a>
 
 The free-form description of the product plus other information related to it such as production technology or packaging.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -653,7 +653,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#accountid name="accountid">accountid</a>
 
 Value-chain partner (e.g., supplier) this product is sourced from.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -698,7 +698,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#productcategoryid name="productcategoryid">productcategoryid</a>
 
 Category for this product.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#isfirstparty name="isfirstparty">isfirstparty</a>
 
 Whether this product is first-party.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -779,7 +779,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 ### <a href=#productalternateid name="productalternateid">productalternateid</a>
 
 Optional identifier for product  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
+First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
 
 #### Properties
 

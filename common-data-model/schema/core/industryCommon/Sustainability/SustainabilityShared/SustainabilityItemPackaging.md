@@ -51,25 +51,25 @@ Indicates whether the item is used for packaging when distributing a product.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityitempackagingId](#sustainabilityitempackagingId)|The unique identifier of the packaging item/material.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[statecode](#statecode)|Status of the Packaging|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[statuscode](#statuscode)|Reason for the status of the Packaging|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[name](#name)||<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[description](#description)|Optional description of the packaging item.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[ispackagingmaterial](#ispackagingmaterial)|Whether the specified item is packaging material.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[sustainabilityitemsku](#sustainabilityitemsku)|The item associated with the packaging material.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging</a>|
+|[sustainabilityitempackagingId](#sustainabilityitempackagingId)|The unique identifier of the packaging item/material.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[statecode](#statecode)|Status of the Packaging|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[statuscode](#statuscode)|Reason for the status of the Packaging|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[name](#name)||<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[description](#description)|Optional description of the packaging item.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[ispackagingmaterial](#ispackagingmaterial)|Whether the specified item is packaging material.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[sustainabilityitemsku](#sustainabilityitemsku)|The item associated with the packaging material.|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemPackaging.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemPackaging</a>|
 
 ### <a href=#sustainabilityitempackagingId name="sustainabilityitempackagingId">sustainabilityitempackagingId</a>
 
 The unique identifier of the packaging item/material.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Packaging  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Packaging  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#description name="description">description</a>
 
 Optional description of the packaging item.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#ispackagingmaterial name="ispackagingmaterial">ispackagingmaterial</a>
 
 Whether the specified item is packaging material.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 The item associated with the packaging material.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemPackaging (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemPackaging (this entity)  
 
 #### Properties
 

@@ -51,21 +51,21 @@ The different types of sources for energy data.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[datasourcetypeId](#datasourcetypeId)|Unique identifier for entity instances|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[statecode](#statecode)|Status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
-|[name](#name)||<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[datasourcetypeId](#datasourcetypeId)|Unique identifier for entity instances|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[statecode](#statecode)|Status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[name](#name)||<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
 
 ### <a href=#datasourcetypeId name="datasourcetypeId">datasourcetypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Data source type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Data source type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSou
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
+First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
 
 #### Properties
 

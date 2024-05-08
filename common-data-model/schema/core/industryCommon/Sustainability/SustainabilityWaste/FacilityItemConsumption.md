@@ -48,29 +48,29 @@ Entity used to record the quantity of an item consumed in a facility for a speci
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityitemconsumptionId](#facilityitemconsumptionId)|The unique identifier of the item consumed in a facility.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[name](#name)|The unique identifier of the item consumed in a facility.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[consumptionenddate](#consumptionenddate)|The date on which the last unit of the item/input material was consumed.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[consumptionstartdate](#consumptionstartdate)|The date on which the first unit of the item/input material was consumed.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[dataqualitytype](#dataqualitytype)|Indicates whether the data is actual, estimated, or metered.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[description](#description)|Optional description of the item/input material consumed in the facility.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[facility](#facility)||<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[sustainabilityitemsku](#sustainabilityitemsku)||<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[quantityconsumed](#quantityconsumed)|The quantity of the item consumed in the specified period.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[unit](#unit)|The unit of measure for the quantity consumed.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/FacilityItemConsumption</a>|
+|[facilityitemconsumptionId](#facilityitemconsumptionId)|The unique identifier of the item consumed in a facility.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[name](#name)|The unique identifier of the item consumed in a facility.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[consumptionenddate](#consumptionenddate)|The date on which the last unit of the item/input material was consumed.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[consumptionstartdate](#consumptionstartdate)|The date on which the first unit of the item/input material was consumed.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[dataqualitytype](#dataqualitytype)|Indicates whether the data is actual, estimated, or metered.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[description](#description)|Optional description of the item/input material consumed in the facility.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[facility](#facility)||<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[sustainabilityitemsku](#sustainabilityitemsku)||<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[quantityconsumed](#quantityconsumed)|The quantity of the item consumed in the specified period.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[unit](#unit)|The unit of measure for the quantity consumed.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FacilityItemConsumption.md" target="_blank">Sustainability/SustainabilityWaste/FacilityItemConsumption</a>|
 
 ### <a href=#facilityitemconsumptionId name="facilityitemconsumptionId">facilityitemconsumptionId</a>
 
 The unique identifier of the item consumed in a facility.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#name name="name">name</a>
 
 The unique identifier of the item consumed in a facility.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 The date on which the last unit of the item/input material was consumed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 The date on which the first unit of the item/input material was consumed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -497,7 +497,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Indicates whether the data is actual, estimated, or metered.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -543,7 +543,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#description name="description">description</a>
 
 Optional description of the item/input material consumed in the facility.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -590,7 +590,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 
 ### <a href=#facility name="facility">facility</a>
 
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -634,7 +634,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -679,7 +679,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#quantityconsumed name="quantityconsumed">quantityconsumed</a>
 
 The quantity of the item consumed in the specified period.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -722,7 +722,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#unit name="unit">unit</a>
 
 The unit of measure for the quantity consumed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -767,7 +767,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/SustainabilityWaste/FacilityItemConsumption (this entity)  
 
 #### Properties
 
