@@ -89,7 +89,7 @@ The investment entity monitors and manages indirect greenhouse gas emissions res
 ### <a href=#investmentId name="investmentId">investmentId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -180,7 +180,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -228,7 +228,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -268,7 +268,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -308,7 +308,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#name name="name">name</a>
 
 Name of the scope 3 category 15 investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where custom dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality that identifies whether the data is actual, estimated, or another descriptor of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -652,7 +652,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#emissionverified name="emissionverified">emissionverified</a>
 
 Indicates whether the emissions have been certified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -688,7 +688,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#enterprisevalueincludingcash name="enterprisevalueincludingcash">enterprisevalueincludingcash</a>
 
 The value of the enterprise, including cash.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -731,7 +731,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#exposuretosovereignbond name="exposuretosovereignbond">exposuretosovereignbond</a>
 
 The amount of the investment exposed to sovereign bond.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -774,7 +774,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#accountid name="accountid">accountid</a>
 
 Investee account of the investment  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -864,7 +864,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#investeescope1emission name="investeescope1emission">investeescope1emission</a>
 
 Total scope 1 emissions for the investee. Scope 1 emissions are direct GHG emissions from sources that the organization owns or controls.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -907,7 +907,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#investeescope1emissionunit name="investeescope1emissionunit">investeescope1emissionunit</a>
 
 Corresponding unit of measure for investee scope 1 emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -952,7 +952,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#investeescope2emission name="investeescope2emission">investeescope2emission</a>
 
 Total scope 2 emissions for the investee. Scope 2 emissions are indirect GHG emissions related to purchases of electricity, heat, cooling, or steam for the facility.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -995,7 +995,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#investeescope2emissionunit name="investeescope2emissionunit">investeescope2emissionunit</a>
 
 Corresponding unit of measure for investee scope 2 emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1040,7 +1040,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#investeescope3emission name="investeescope3emission">investeescope3emission</a>
 
 Total scope 3 emissions for the investee. Scope 3, or value chain, emissions are from assets that the organization doesn't own or control but that the organization may affect in its value chain.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1083,7 +1083,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#investeescope3emissionunit name="investeescope3emissionunit">investeescope3emissionunit</a>
 
 Corresponding unit of measure for investee scope 3 emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1128,7 +1128,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#isincode name="isincode">isincode</a>
 
 International Securities Identification Number, which is a unique alphanumeric identifier used to uniquely identify securities such as stocks, bonds, and other financial instruments.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1176,7 +1176,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1221,7 +1221,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#outstandingamount name="outstandingamount">outstandingamount</a>
 
 The outstanding amount of the investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1312,7 +1312,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#pcafassetclass name="pcafassetclass">pcafassetclass</a>
 
 The Partnership for Carbon Accounting Financials (PCAF) asset class for the investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1358,7 +1358,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#pppadjustedgdp name="pppadjustedgdp">pppadjustedgdp</a>
 
 The measurement of a country/region's gross domestic product (GDP) that takes into account differences in purchasing power between country/region, allowing for more accurate comparisons of economic output.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1401,7 +1401,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#propertyvalueatorigination name="propertyvalueatorigination">propertyvalueatorigination</a>
 
 Property value of the investment at origination.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1444,7 +1444,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#sourcetransactionId name="sourcetransactionId">sourcetransactionId</a>
 
 Identifier for the transaction.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1492,7 +1492,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#totalequityplusdebt name="totalequityplusdebt">totalequityplusdebt</a>
 
 Total equity plus debt for the investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1535,7 +1535,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#totalvalueatorigination name="totalvalueatorigination">totalvalueatorigination</a>
 
 Total value at origination for the investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1578,7 +1578,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#totalprojectequityplusdebt name="totalprojectequityplusdebt">totalprojectequityplusdebt</a>
 
 Total project equity plus debt for the investment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1621,7 +1621,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
@@ -1658,7 +1658,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investm
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Investment (this entity)  
+First included in: ../SustainabilityCarbon/Investment (this entity)  
 
 #### Properties
 
