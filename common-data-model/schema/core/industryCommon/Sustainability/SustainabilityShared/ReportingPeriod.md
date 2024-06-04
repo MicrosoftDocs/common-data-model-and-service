@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 6/3/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Reporting period in Cloud for Sustainability shared data model(ReportingPeriod)
