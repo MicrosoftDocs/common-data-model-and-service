@@ -55,7 +55,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="invalidrecipientaddress.md" target="_blank">CustomerInsightsJourneys/invalidrecipientaddress</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="invalidrecipientaddress.md" target="_blank">CustomerInsightsJourneys/invalidrecipientaddress</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="invalidrecipientaddress.md" target="_blank">CustomerInsightsJourneys/invalidrecipientaddress</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="invalidrecipientaddress.md" target="_blank">CustomerInsightsJourneys/invalidrecipientaddress</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="invalidrecipientaddress.md" target="_blank">CustomerInsightsJourneys/invalidrecipientaddress</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="invalidrecipientaddress.md" target="_blank">CustomerInsightsJourneys/invalidrecipientaddress</a>|
 
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
@@ -761,7 +761,7 @@ First included in: CustomerInsightsJourneys/invalidrecipientaddress (this entity
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/invalidrecipientaddress (this entity)  
 
 #### Properties

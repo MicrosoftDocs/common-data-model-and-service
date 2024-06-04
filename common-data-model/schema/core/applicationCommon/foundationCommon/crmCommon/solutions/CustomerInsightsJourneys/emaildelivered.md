@@ -44,7 +44,7 @@ ms.author: cdmditeam
 |[LeadId](#LeadId)|Unique identifier of the Lead.|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[IsSmartScheduled](#IsSmartScheduled)||<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[SchedulerId](#SchedulerId)||<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
-|[DeliveredCount](#DeliveredCount)|Updated when an email messages gets bounced. '1' for a delivered interaction, '\x2d1' for a bounce|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
+|[DeliveredCount](#DeliveredCount)|Updated when an email messages gets bounced. '1' for a delivered interaction, '-1' for a bounce|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[BounceCategory](#BounceCategory)||<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[ActivityExpiryTime](#ActivityExpiryTime)|Activity expiry time|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[MessageVariationName](#MessageVariationName)||<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
@@ -62,7 +62,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emaildelivered.md" target="_blank">CustomerInsightsJourneys/emaildelivered</a>|
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
@@ -441,7 +441,7 @@ First included in: CustomerInsightsJourneys/emaildelivered (this entity)
 
 ### <a href=#DeliveredCount name="DeliveredCount">DeliveredCount</a>
 
-Updated when an email messages gets bounced. '1' for a delivered interaction, '\x2d1' for a bounce  
+Updated when an email messages gets bounced. '1' for a delivered interaction, '-1' for a bounce  
 First included in: CustomerInsightsJourneys/emaildelivered (this entity)  
 
 #### Properties
@@ -950,7 +950,7 @@ First included in: CustomerInsightsJourneys/emaildelivered (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/emaildelivered (this entity)  
 
 #### Properties

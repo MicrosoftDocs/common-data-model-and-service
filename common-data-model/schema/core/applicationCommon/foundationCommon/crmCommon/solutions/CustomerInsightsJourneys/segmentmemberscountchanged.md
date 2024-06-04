@@ -40,7 +40,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 
 ### <a href=#MembersCount name="MembersCount">MembersCount</a>
@@ -278,7 +278,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this ent
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties

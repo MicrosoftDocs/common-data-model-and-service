@@ -60,7 +60,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailblockedinactivecontact.md" target="_blank">CustomerInsightsJourneys/emailblockedinactivecontact</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailblockedinactivecontact.md" target="_blank">CustomerInsightsJourneys/emailblockedinactivecontact</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailblockedinactivecontact.md" target="_blank">CustomerInsightsJourneys/emailblockedinactivecontact</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailblockedinactivecontact.md" target="_blank">CustomerInsightsJourneys/emailblockedinactivecontact</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="emailblockedinactivecontact.md" target="_blank">CustomerInsightsJourneys/emailblockedinactivecontact</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailblockedinactivecontact.md" target="_blank">CustomerInsightsJourneys/emailblockedinactivecontact</a>|
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
@@ -891,7 +891,7 @@ First included in: CustomerInsightsJourneys/emailblockedinactivecontact (this en
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/emailblockedinactivecontact (this entity)  
 
 #### Properties

@@ -51,7 +51,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailblockedconsentnotgiven.md" target="_blank">CustomerInsightsJourneys/emailblockedconsentnotgiven</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailblockedconsentnotgiven.md" target="_blank">CustomerInsightsJourneys/emailblockedconsentnotgiven</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailblockedconsentnotgiven.md" target="_blank">CustomerInsightsJourneys/emailblockedconsentnotgiven</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailblockedconsentnotgiven.md" target="_blank">CustomerInsightsJourneys/emailblockedconsentnotgiven</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="emailblockedconsentnotgiven.md" target="_blank">CustomerInsightsJourneys/emailblockedconsentnotgiven</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailblockedconsentnotgiven.md" target="_blank">CustomerInsightsJourneys/emailblockedconsentnotgiven</a>|
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
@@ -609,7 +609,7 @@ First included in: CustomerInsightsJourneys/emailblockedconsentnotgiven (this en
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/emailblockedconsentnotgiven (this entity)  
 
 #### Properties

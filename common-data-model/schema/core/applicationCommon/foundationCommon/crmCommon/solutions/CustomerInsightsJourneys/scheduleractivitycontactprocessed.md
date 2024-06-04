@@ -48,7 +48,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="scheduleractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/scheduleractivitycontactprocessed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="scheduleractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/scheduleractivitycontactprocessed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="scheduleractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/scheduleractivitycontactprocessed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="scheduleractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/scheduleractivitycontactprocessed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="scheduleractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/scheduleractivitycontactprocessed</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="scheduleractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/scheduleractivitycontactprocessed</a>|
 
 ### <a href=#Path name="Path">Path</a>
@@ -562,7 +562,7 @@ First included in: CustomerInsightsJourneys/scheduleractivitycontactprocessed (t
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/scheduleractivitycontactprocessed (this entity)  
 
 #### Properties

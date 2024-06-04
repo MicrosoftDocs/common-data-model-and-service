@@ -63,7 +63,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailhardbounced.md" target="_blank">CustomerInsightsJourneys/emailhardbounced</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailhardbounced.md" target="_blank">CustomerInsightsJourneys/emailhardbounced</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailhardbounced.md" target="_blank">CustomerInsightsJourneys/emailhardbounced</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailhardbounced.md" target="_blank">CustomerInsightsJourneys/emailhardbounced</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="emailhardbounced.md" target="_blank">CustomerInsightsJourneys/emailhardbounced</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailhardbounced.md" target="_blank">CustomerInsightsJourneys/emailhardbounced</a>|
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
@@ -984,7 +984,7 @@ First included in: CustomerInsightsJourneys/emailhardbounced (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/emailhardbounced (this entity)  
 
 #### Properties

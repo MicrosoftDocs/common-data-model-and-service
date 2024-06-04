@@ -50,7 +50,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailcontainsblacklistedlinks.md" target="_blank">CustomerInsightsJourneys/emailcontainsblacklistedlinks</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailcontainsblacklistedlinks.md" target="_blank">CustomerInsightsJourneys/emailcontainsblacklistedlinks</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailcontainsblacklistedlinks.md" target="_blank">CustomerInsightsJourneys/emailcontainsblacklistedlinks</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailcontainsblacklistedlinks.md" target="_blank">CustomerInsightsJourneys/emailcontainsblacklistedlinks</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="emailcontainsblacklistedlinks.md" target="_blank">CustomerInsightsJourneys/emailcontainsblacklistedlinks</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailcontainsblacklistedlinks.md" target="_blank">CustomerInsightsJourneys/emailcontainsblacklistedlinks</a>|
 
 ### <a href=#BlacklistedLink name="BlacklistedLink">BlacklistedLink</a>
@@ -626,7 +626,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this 
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties

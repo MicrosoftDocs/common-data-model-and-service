@@ -49,7 +49,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
 
 ### <a href=#FormId name="FormId">FormId</a>
@@ -523,7 +523,7 @@ First included in: CustomerInsightsJourneys/confirmableformsubmitted (this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/confirmableformsubmitted (this entity)  
 
 #### Properties

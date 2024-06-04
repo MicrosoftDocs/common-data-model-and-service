@@ -32,7 +32,7 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[EventCheckInId](#EventCheckInId)|Event check\x2din ID|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
+|[EventCheckInId](#EventCheckInId)|Event check-in ID|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 |[EventId](#EventId)|Event ID|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 |[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 |[SourceEntityName](#SourceEntityName)|Source entity name|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
@@ -53,12 +53,12 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="eventcheckin.md" target="_blank">CustomerInsightsJourneys/eventcheckin</a>|
 
 ### <a href=#EventCheckInId name="EventCheckInId">EventCheckInId</a>
 
-Event check\x2din ID  
+Event check-in ID  
 First included in: CustomerInsightsJourneys/eventcheckin (this entity)  
 
 #### Properties
@@ -710,7 +710,7 @@ First included in: CustomerInsightsJourneys/eventcheckin (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/eventcheckin (this entity)  
 
 #### Properties

@@ -49,7 +49,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
@@ -595,7 +595,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties

@@ -54,7 +54,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="eventregistration.md" target="_blank">CustomerInsightsJourneys/eventregistration</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="eventregistration.md" target="_blank">CustomerInsightsJourneys/eventregistration</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="eventregistration.md" target="_blank">CustomerInsightsJourneys/eventregistration</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="eventregistration.md" target="_blank">CustomerInsightsJourneys/eventregistration</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="eventregistration.md" target="_blank">CustomerInsightsJourneys/eventregistration</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="eventregistration.md" target="_blank">CustomerInsightsJourneys/eventregistration</a>|
 
 ### <a href=#EventId name="EventId">EventId</a>
@@ -741,7 +741,7 @@ First included in: CustomerInsightsJourneys/eventregistration (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/eventregistration (this entity)  
 
 #### Properties

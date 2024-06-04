@@ -49,7 +49,7 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="customdelivered.md" target="_blank">CustomerInsightsJourneys/customdelivered</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="customdelivered.md" target="_blank">CustomerInsightsJourneys/customdelivered</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="customdelivered.md" target="_blank">CustomerInsightsJourneys/customdelivered</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="customdelivered.md" target="_blank">CustomerInsightsJourneys/customdelivered</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="customdelivered.md" target="_blank">CustomerInsightsJourneys/customdelivered</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="customdelivered.md" target="_blank">CustomerInsightsJourneys/customdelivered</a>|
 
 ### <a href=#Sender name="Sender">Sender</a>
@@ -557,7 +557,7 @@ First included in: CustomerInsightsJourneys/customdelivered (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/customdelivered (this entity)  
 
 #### Properties
