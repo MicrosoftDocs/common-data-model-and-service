@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Energy provider type in Cloud for Sustainability shared data model (EnergyProviderType)
+# Energy provider type in Cloud for Sustainability shared data model(EnergyProviderType)
 
 Categories or classifications of companies or entities that supply energy, such as electricity or gas.  
   
@@ -43,7 +43,7 @@ Categories or classifications of companies or entities that supply energy, such 
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_energyprovidertype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,21 +51,21 @@ Categories or classifications of companies or entities that supply energy, such 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[energyprovidertypeId](#energyprovidertypeId)|Unique identifier for entity instances|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[statecode](#statecode)|Status of the Energy provider type|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Energy provider type|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
-|[name](#name)||<a href="EnergyProviderType.md" target="_blank">Sustainability/SustainabilityShared/EnergyProviderType</a>|
+|[energyprovidertypeId](#energyprovidertypeId)|Unique identifier for entity instances|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[statecode](#statecode)|Status of the Energy provider type|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Energy provider type|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
+|[name](#name)|Name|<a href="EnergyProviderType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EnergyProviderType</a>|
 
 ### <a href=#energyprovidertypeId name="energyprovidertypeId">energyprovidertypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Energy provider type  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Energy provider type  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
@@ -453,11 +453,12 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability/SustainabilityShared/EnergyProviderType (this entity)  
+Name  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -475,7 +476,7 @@ First included in: Sustainability/SustainabilityShared/EnergyProviderType (this 
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

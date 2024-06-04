@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Industrial process type in Cloud for Sustainability shared data model (IndustrialProcessType)
+# Industrial process type in Cloud for Sustainability shared data model(IndustrialProcessType)
 
 Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.  
   
@@ -43,7 +43,7 @@ Entity to store process classifications for various industrial processes, such a
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_industrialprocesstype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,23 +51,23 @@ Entity to store process classifications for various industrial processes, such a
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[industrialprocesstypeId](#industrialprocesstypeId)|Unique identifier for entity instances|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[statecode](#statecode)|Status of the Industrial Process Type|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Industrial Process Type|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[name](#name)|The name of the custom entity.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="IndustrialProcessType.md" target="_blank">Sustainability/SustainabilityShared/IndustrialProcessType</a>|
+|[industrialprocesstypeId](#industrialprocesstypeId)|Unique identifier for entity instances|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[statecode](#statecode)|Status of the Industrial Process Type|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Industrial Process Type|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[name](#name)|The name of the custom entity.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="IndustrialProcessType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/IndustrialProcessType</a>|
 
 ### <a href=#industrialprocesstypeId name="industrialprocesstypeId">industrialprocesstypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Industrial Process Type  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Industrial Process Type  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Sustainability/SustainabilityShared/IndustrialProcessType (th
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/IndustrialProcessType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/IndustrialProcessType (this entity)  
 
 #### Properties
 

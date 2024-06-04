@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
@@ -43,7 +43,7 @@ Child-level of the industry classisfication, which contains an ID and name.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_subindustry"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,22 +51,22 @@ Child-level of the industry classisfication, which contains an ID and name.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[subindustryId](#subindustryId)|Unique identifier for entity instances|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[statecode](#statecode)|Status of the Subindustry|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[statuscode](#statuscode)|Reason for the status of the Subindustry|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[name](#name)|Name of the subindustry classification. |<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[industry](#industry)|The unique identifier that relates to the industry ID.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
-|[subindustrynum](#subindustrynum)|Contains the mapping to the subindustry classification code in the form of a range.|<a href="Subindustry.md" target="_blank">Sustainability/SustainabilityShared/Subindustry</a>|
+|[subindustryId](#subindustryId)|Unique identifier for entity instances|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[statecode](#statecode)|Status of the Subindustry|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[statuscode](#statuscode)|Reason for the status of the Subindustry|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[name](#name)|Name of the subindustry classification. |<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[industry](#industry)|The unique identifier that relates to the industry ID.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[subindustrynum](#subindustrynum)|Contains the mapping to the subindustry classification code in the form of a range.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
 
 ### <a href=#subindustryId name="subindustryId">subindustryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Subindustry  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Subindustry  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -412,7 +412,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#name name="name">name</a>
 
 Name of the subindustry classification.   
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#industry name="industry">industry</a>
 
 The unique identifier that relates to the industry ID.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability/SustainabilityShared/Subindustry (this entity)
 ### <a href=#subindustrynum name="subindustrynum">subindustrynum</a>
 
 Contains the mapping to the subindustry classification code in the form of a range.  
-First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 

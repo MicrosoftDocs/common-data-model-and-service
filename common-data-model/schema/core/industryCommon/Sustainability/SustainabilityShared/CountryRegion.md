@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Country/Region in Cloud for Sustainability shared data model (CountryRegion)
+# Country/Region in Cloud for Sustainability shared data model(CountryRegion)
 
 Defines custom country/region codes.  
   
@@ -43,7 +43,7 @@ Defines custom country/region codes.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_countryregion"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,27 +51,27 @@ Defines custom country/region codes.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[countryregionId](#countryregionId)|Unique identifier for entity instances|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[statecode](#statecode)|Status of the Country/Region|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[statuscode](#statuscode)|Reason for the status of the Country/Region|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[name](#name)||<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[alternatecode](#alternatecode)|Organization-specific custom code.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[countryregion2lettercode](#countryregion2lettercode)|The ISO 2 letter code identifying a country/region.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[countryregion3digitcode](#countryregion3digitcode)|The numeric code identifies a physical territory, and the letters a country/region name.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[countryregion3lettercode](#countryregion3lettercode)|The 3 letter country/region code.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
-|[description](#description)|Comments on country/region line item.|<a href="CountryRegion.md" target="_blank">Sustainability/SustainabilityShared/CountryRegion</a>|
+|[countryregionId](#countryregionId)|Unique identifier for entity instances|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[statecode](#statecode)|Status of the Country/Region|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[statuscode](#statuscode)|Reason for the status of the Country/Region|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[name](#name)|Name of the Country/Region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[alternatecode](#alternatecode)|Organization-specific custom code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[countryregion2lettercode](#countryregion2lettercode)|The ISO 2 letter code identifying a country/region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[countryregion3digitcode](#countryregion3digitcode)|The numeric code identifies a physical territory, and the letters a country/region name.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[countryregion3lettercode](#countryregion3lettercode)|The 3 letter country/region code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[description](#description)|Comments on country/region line item.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 
 ### <a href=#countryregionId name="countryregionId">countryregionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Country/Region  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Country/Region  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -459,11 +459,12 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+Name of the Country/Region.  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of the Country/Region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -481,7 +482,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the Country/Region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -507,7 +508,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#alternatecode name="alternatecode">alternatecode</a>
 
 Organization-specific custom code.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -555,7 +556,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -603,7 +604,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#countryregion2lettercode name="countryregion2lettercode">countryregion2lettercode</a>
 
 The ISO 2 letter code identifying a country/region.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -651,7 +652,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#countryregion3digitcode name="countryregion3digitcode">countryregion3digitcode</a>
 
 The numeric code identifies a physical territory, and the letters a country/region name.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -694,7 +695,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#countryregion3lettercode name="countryregion3lettercode">countryregion3lettercode</a>
 
 The 3 letter country/region code.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
@@ -742,7 +743,7 @@ First included in: Sustainability/SustainabilityShared/CountryRegion (this entit
 ### <a href=#description name="description">description</a>
 
 Comments on country/region line item.  
-First included in: Sustainability/SustainabilityShared/CountryRegion (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 

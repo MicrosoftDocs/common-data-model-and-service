@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Water sample (Deprecated) in Cloud for Sustainability water data model (WaterSampleDeprecated)
+# Water sample (Deprecated) in Cloud for Sustainability water data model(WaterSampleDeprecated)
 
 Stores the attributes of the water samples collected for testing water quality.  
   
@@ -40,7 +40,7 @@ Stores the attributes of the water samples collected for testing water quality.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watersample"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -48,29 +48,29 @@ Stores the attributes of the water samples collected for testing water quality.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[watersampleId](#watersampleId)|Unique identifier for entity instances.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[partitionId](#partitionId)|Logical partition identifier. A logical partition consists of a set of records with same partition ID.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[collectiondate](#collectiondate)|Indicates the date and time at which the water sample was collected.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[collectionequipment](#collectionequipment)|Optional field to store the details of the equipment used to collect the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[collectionmethod](#collectionmethod)|Indicates the method applied to collect the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[facility](#facility)|Indicates the facility corresponding to the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[industrialprocesstype](#industrialprocesstype)|Indicates the process type corresponding to the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[organizationalunit](#organizationalunit)|Indicates the organization unit corresponding to the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for a water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[watersource](#watersource)|Optional field to store the details of the water source from or to which water is being withdrawn or discharged for the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
-|[watertransactiontype](#watertransactiontype)|Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability/SustainabilityWater/WaterSampleDeprecated</a>|
+|[watersampleId](#watersampleId)|Unique identifier for entity instances.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[partitionId](#partitionId)|Logical partition identifier. A logical partition consists of a set of records with same partition ID.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[collectiondate](#collectiondate)|Indicates the date and time at which the water sample was collected.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[collectionequipment](#collectionequipment)|Optional field to store the details of the equipment used to collect the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[collectionmethod](#collectionmethod)|Indicates the method applied to collect the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[facility](#facility)|Indicates the facility corresponding to the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[industrialprocesstype](#industrialprocesstype)|Indicates the process type corresponding to the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[organizationalunit](#organizationalunit)|Indicates the organization unit corresponding to the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for a water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[watersource](#watersource)|Optional field to store the details of the water source from or to which water is being withdrawn or discharged for the water sample.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
+|[watertransactiontype](#watertransactiontype)|Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.|<a href="WaterSampleDeprecated.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSampleDeprecated</a>|
 
 ### <a href=#watersampleId name="watersampleId">watersampleId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition identifier. A logical partition consists of a set of records with same partition ID.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#collectiondate name="collectiondate">collectiondate</a>
 
 Indicates the date and time at which the water sample was collected.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#collectionequipment name="collectionequipment">collectionequipment</a>
 
 Optional field to store the details of the equipment used to collect the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#collectionmethod name="collectionmethod">collectionmethod</a>
 
 Indicates the method applied to collect the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility corresponding to the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Indicates the process type corresponding to the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Indicates the organization unit corresponding to the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store the source unique identifier for a water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#watersource name="watersource">watersource</a>
 
 Optional field to store the details of the water source from or to which water is being withdrawn or discharged for the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 
@@ -827,7 +827,7 @@ First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (thi
 ### <a href=#watertransactiontype name="watertransactiontype">watertransactiontype</a>
 
 Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.  
-First included in: Sustainability/SustainabilityWater/WaterSampleDeprecated (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterSampleDeprecated (this entity)  
 
 #### Properties
 

@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Waste test method in Cloud for Sustainability waste data model (WasteTestMethod)
+# Waste test method in Cloud for Sustainability waste data model(WasteTestMethod)
 
 Stores information on tests performed for the contaminant.  
   
@@ -43,7 +43,7 @@ Stores information on tests performed for the contaminant.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastetestmethod"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,29 +51,29 @@ Stores information on tests performed for the contaminant.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[wastetestmethodId](#wastetestmethodId)|Unique identifier for entity instances.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[statecode](#statecode)|Status of the |<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[statuscode](#statuscode)|Status of the waste test method.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[name](#name)|The name of the custom entity.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[collectiondate](#collectiondate)|Indicates the date when the waste sample was collected.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[comments](#comments)|Optional field to provide comments from the lab regarding the test being performed.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[description](#description)|Optional field to describe the entity.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the waste quality analysis.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the waste quality test.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[sampleId](#sampleId)|Unique identifier of the waste sample id used for the test.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[testmethod](#testmethod)|Indicates the type of test performed.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WasteTestMethod.md" target="_blank">Sustainability/SustainabilityWaste/WasteTestMethod</a>|
+|[wastetestmethodId](#wastetestmethodId)|Unique identifier for entity instances.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[statecode](#statecode)|Status of the |<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[statuscode](#statuscode)|Status of the waste test method.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[name](#name)|The name of the custom entity.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[collectiondate](#collectiondate)|Indicates the date when the waste sample was collected.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[comments](#comments)|Optional field to provide comments from the lab regarding the test being performed.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[description](#description)|Optional field to describe the entity.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the waste quality analysis.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the waste quality test.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[sampleId](#sampleId)|Unique identifier of the waste sample id used for the test.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[testmethod](#testmethod)|Indicates the type of test performed.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 
 ### <a href=#wastetestmethodId name="wastetestmethodId">wastetestmethodId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the   
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Status of the waste test method.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#collectiondate name="collectiondate">collectiondate</a>
 
 Indicates the date when the waste sample was collected.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -550,7 +550,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#comments name="comments">comments</a>
 
 Optional field to provide comments from the lab regarding the test being performed.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#laboratoryname name="laboratoryname">laboratoryname</a>
 
 Indicates the name of the lab that carried out the waste quality analysis.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store the source unique identifier for the waste quality test.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#sampleId name="sampleId">sampleId</a>
 
 Unique identifier of the waste sample id used for the test.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -790,7 +790,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#testmethod name="testmethod">testmethod</a>
 
 Indicates the type of test performed.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 
@@ -838,7 +838,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteTestMethod (this entity)  
 
 #### Properties
 

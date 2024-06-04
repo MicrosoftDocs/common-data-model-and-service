@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Facility type in Cloud for Sustainability shared data model (FacilityType)
+# Facility type in Cloud for Sustainability shared data model(FacilityType)
 
 Entity used for classifying the type of facility, as defined in the reporting company.  
   
@@ -43,7 +43,7 @@ Entity used for classifying the type of facility, as defined in the reporting co
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_facilitytype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,21 +51,22 @@ Entity used for classifying the type of facility, as defined in the reporting co
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilitytypeId](#facilitytypeId)|Unique identifier for entity instances|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[statecode](#statecode)|Status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
-|[name](#name)|The name of the custom entity.|<a href="FacilityType.md" target="_blank">Sustainability/SustainabilityShared/FacilityType</a>|
+|[facilitytypeId](#facilitytypeId)|Unique identifier for entity instances|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[statecode](#statecode)|Status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Facility type|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[name](#name)|The name of the custom entity.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityType</a>|
 
 ### <a href=#facilitytypeId name="facilitytypeId">facilitytypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -110,58 +111,10 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 
 </details>
 
-### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
-
-An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>An optional identifier to correlate record with data origin.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An optional identifier to correlate record with data origin.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -201,7 +154,7 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -241,7 +194,7 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility type  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -287,7 +240,7 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility type  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -333,10 +286,53 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 **is.dataFormat.integer**  
   </details>
 
+### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
+
+Sequence number of the import that created this record.  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
+  indicates the capability to represent values less than zero.  
+
+**is.dataFormat.numeric**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"30"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.integer**  
+  </details>
+
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -373,7 +369,7 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -416,7 +412,7 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -459,7 +455,7 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityShared/FacilityType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
 
 #### Properties
 
@@ -497,6 +493,54 @@ First included in: Sustainability/SustainabilityShared/FacilityType (this entity
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
+
+An optional identifier to correlate record with data origin.  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityType (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>An optional identifier to correlate record with data origin.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An optional identifier to correlate record with data origin.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  

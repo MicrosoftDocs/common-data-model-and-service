@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Sustainability data definition in Cloud for Sustainability shared data model (SustainabilityDataDefinition)
+# Sustainability data definition in Cloud for Sustainability shared data model(SustainabilityDataDefinition)
 
 Entity used to define the data definitions for entities across Carbon, Waste and Water.  
   
@@ -43,7 +43,7 @@ Entity used to define the data definitions for entities across Carbon, Waste and
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilitydatadefinition"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,31 +51,31 @@ Entity used to define the data definitions for entities across Carbon, Waste and
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilitydatadefinitionId](#sustainabilitydatadefinitionId)|Unique identifier for entity instances|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[statecode](#statecode)|Status of the Sustainability Data Definition|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[statuscode](#statuscode)|Reason for the status of the Sustainability Data Definition|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[name](#name)|The name of the data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[definitiondetailfieldname](#definitiondetailfieldname)|Definition detail field name|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[description](#description)|Optional description that provides additional detail about the record.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[duplicaterules](#duplicaterules)|Defines rules for detecting duplicate records during ingestion.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[entitylogicalname](#entitylogicalname)|Logical name of entity described in the data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[isactive](#isactive)|Flag to identify the state of being active of the data.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[module](#module)|Module to which data definition belongs to.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[queryviewid](#queryviewid)|Id of the main view for this data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[requiredfieldrules](#requiredfieldrules)|List of fields to hide during ingestion.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[uxviewid](#uxviewid)|Unique identifier associated to the main view used by the UI.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
-|[subcategory](#subcategory)|Lookup value for data definition subcategory|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinition</a>|
+|[sustainabilitydatadefinitionId](#sustainabilitydatadefinitionId)|Unique identifier for entity instances|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[statecode](#statecode)|Status of the Sustainability Data Definition|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[statuscode](#statuscode)|Reason for the status of the Sustainability Data Definition|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[name](#name)|The name of the data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[definitiondetailfieldname](#definitiondetailfieldname)|Definition detail field name|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[description](#description)|Optional description that provides additional detail about the record.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[duplicaterules](#duplicaterules)|Defines rules for detecting duplicate records during ingestion.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[entitylogicalname](#entitylogicalname)|Logical name of entity described in the data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[isactive](#isactive)|Flag to identify the state of being active of the data.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[module](#module)|Module to which data definition belongs to.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[queryviewid](#queryviewid)|Id of the main view for this data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[requiredfieldrules](#requiredfieldrules)|List of fields to hide during ingestion.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[uxviewid](#uxviewid)|Unique identifier associated to the main view used by the UI.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[subcategory](#subcategory)|Lookup value for data definition subcategory|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
 
 ### <a href=#sustainabilitydatadefinitionId name="sustainabilitydatadefinitionId">sustainabilitydatadefinitionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Sustainability Data Definition  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Sustainability Data Definition  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#name name="name">name</a>
 
 The name of the data definition.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#activitytypedatafield name="activitytypedatafield">activitytypedatafield</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#definitiondetailfieldname name="definitiondetailfieldname">definitiondetailfieldname</a>
 
 Definition detail field name  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the record.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -613,7 +613,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#duplicaterules name="duplicaterules">duplicaterules</a>
 
 Defines rules for detecting duplicate records during ingestion.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -661,7 +661,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#entitylogicalname name="entitylogicalname">entitylogicalname</a>
 
 Logical name of entity described in the data definition.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -709,7 +709,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#isactive name="isactive">isactive</a>
 
 Flag to identify the state of being active of the data.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -745,7 +745,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#module name="module">module</a>
 
 Module to which data definition belongs to.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -790,7 +790,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#queryviewid name="queryviewid">queryviewid</a>
 
 Id of the main view for this data definition.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -838,7 +838,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#requiredfieldrules name="requiredfieldrules">requiredfieldrules</a>
 
 List of fields to hide during ingestion.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -886,7 +886,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#uxviewid name="uxviewid">uxviewid</a>
 
 Unique identifier associated to the main view used by the UI.  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -934,7 +934,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinit
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 Lookup value for data definition subcategory  
-First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 

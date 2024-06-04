@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
@@ -40,7 +40,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"contact"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -48,14 +48,14 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
-|[sustainabilitycontactname](#sustainabilitycontactname)|Name|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
+|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
+|[sustainabilitycontactname](#sustainabilitycontactname)|Name|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: Sustainability/SustainabilityShared/Contact (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: Sustainability/SustainabilityShared/Contact (this entity)
 ### <a href=#sustainabilitycontactname name="sustainabilitycontactname">sustainabilitycontactname</a>
 
 Name  
-First included in: Sustainability/SustainabilityShared/Contact (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -151,7 +151,7 @@ First included in: Sustainability/SustainabilityShared/Contact (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/Contact (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
 
 #### Properties
 

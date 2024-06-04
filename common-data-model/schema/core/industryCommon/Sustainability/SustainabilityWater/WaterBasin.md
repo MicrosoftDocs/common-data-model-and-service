@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Water basin in Cloud for Sustainability water data model (WaterBasin)
+# Water basin in Cloud for Sustainability water data model(WaterBasin)
 
 Describes the details of the basin from which water is being withdrawn by an entity.  
   
@@ -43,7 +43,7 @@ Describes the details of the basin from which water is being withdrawn by an ent
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterbasin"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,25 +51,25 @@ Describes the details of the basin from which water is being withdrawn by an ent
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterbasinId](#waterbasinId)|Unique identifier for entity instances.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[statecode](#statecode)|Status of the water basin.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[statuscode](#statuscode)|Reason for the status of the water basin.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[description](#description)|Optional field to describe the entity.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[majorbasin](#majorbasin)|Field to describe the major basin from which the water is drawn.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[minorbasin](#minorbasin)|Field to describe the minor basin from which water is drawn.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.|<a href="WaterBasin.md" target="_blank">Sustainability/SustainabilityWater/WaterBasin</a>|
+|[waterbasinId](#waterbasinId)|Unique identifier for entity instances.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[statecode](#statecode)|Status of the water basin.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[statuscode](#statuscode)|Reason for the status of the water basin.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[description](#description)|Optional field to describe the entity.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[majorbasin](#majorbasin)|Field to describe the major basin from which the water is drawn.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[minorbasin](#minorbasin)|Field to describe the minor basin from which water is drawn.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
 
 ### <a href=#waterbasinId name="waterbasinId">waterbasinId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the water basin.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the water basin.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#majorbasin name="majorbasin">majorbasin</a>
 
 Field to describe the major basin from which the water is drawn.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#minorbasin name="minorbasin">minorbasin</a>
 
 Field to describe the minor basin from which water is drawn.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
@@ -650,7 +650,7 @@ First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.  
-First included in: Sustainability/SustainabilityWater/WaterBasin (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterBasin (this entity)  
 
 #### Properties
 
