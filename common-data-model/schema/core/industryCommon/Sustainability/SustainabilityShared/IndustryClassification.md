@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Industry classification in CloudforSustainabilitySharedDataModel(IndustryClassification)
 
-Combination of the Industry parent\x2dlevel industry classification and the Subindustry child\x2dlevel industry classification, both defined on the company profile.  
+Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/IndustryClassification.cdm.json" target="_blank">GitHub</a>.  
 

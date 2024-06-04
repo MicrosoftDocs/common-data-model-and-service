@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Facility in CloudforSustainabilitySharedDataModel
 
-Base\x2dlevel location to attribute activity data. May contain multiple buildings and organizational units.  
+Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/Facility.cdm.json" target="_blank">GitHub</a>.  
 
@@ -62,7 +62,7 @@ Base\x2dlevel location to attribute activity data. May contain multiple building
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[name](#name)|The name of the custom entity.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addresscity](#addresscity)|The city in which the facility resides.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
-|[addresscountryisocode](#addresscountryisocode)|The three\x2dletter ISO code of the country or region.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
+|[addresscountryisocode](#addresscountryisocode)|The three-letter ISO code of the country or region.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addresscounty](#addresscounty)|The county or region in which the facility resides.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addressstateprovince](#addressstateprovince)|The state or province in which the facility resides.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
@@ -561,7 +561,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
-The three\x2dletter ISO code of the country or region.  
+The three-letter ISO code of the country or region.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facility (this entity)  
 
 #### Properties

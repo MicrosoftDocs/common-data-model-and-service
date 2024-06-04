@@ -63,7 +63,7 @@ An entity that represents meters.
 |[name](#name)|The unique identifier of a meter.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[class](#class)|Name of a meter class for any classification groupings.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[facility](#facility)|Reference to the Facility entity in Sustainability Manager.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
-|[metermultiplier](#metermultiplier)|Some meters that read only a fraction of each kilowatt\x2dhour (kWh) might be configured with a multiplier parameter that should be applied to the raw reported measurements.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
+|[metermultiplier](#metermultiplier)|Some meters that read only a fraction of each kilowatt-hour (kWh) might be configured with a multiplier parameter that should be applied to the raw reported measurements.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[model](#model)|Model name of the meter for any classification groupings.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[organizationalunit](#organizationalunit)|Reference to the Organizational Unit entity in Sustainability Manager.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[originCorrelationiD](#originCorrelationiD)|Reference to the Origin Correlation ID in Sustainability Manager. This ID correlates data to origin data during upsert operations.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
@@ -602,7 +602,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (
 
 ### <a href=#metermultiplier name="metermultiplier">metermultiplier</a>
 
-Some meters that read only a fraction of each kilowatt\x2dhour (kWh) might be configured with a multiplier parameter that should be applied to the raw reported measurements.  
+Some meters that read only a fraction of each kilowatt-hour (kWh) might be configured with a multiplier parameter that should be applied to the raw reported measurements.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
