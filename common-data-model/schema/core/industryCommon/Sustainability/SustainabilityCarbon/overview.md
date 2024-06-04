@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of Cloud for Sustainability carbon data model
 
-Cloud for Sustainability Carbon Data Model CDM entity definitions  
+Cloud for Sustainability carbon data model entity definitions.
 
 ## Entities
 
