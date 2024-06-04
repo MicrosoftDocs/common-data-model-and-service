@@ -3077,6 +3077,8 @@
             href: industryCommon/Sustainability/SustainabilityShared/IndustryClassification.md
           - name: Material 
             href: industryCommon/Sustainability/SustainabilityShared/Material.md
+          - name: Meter
+            href: industryCommon/Sustainability/SustainabilityShared/Meter.md
           - name: MonthlyRevenue 
             href: industryCommon/Sustainability/SustainabilityShared/MonthlyRevenue.md
           - name: OrganizationalHierarchy 
