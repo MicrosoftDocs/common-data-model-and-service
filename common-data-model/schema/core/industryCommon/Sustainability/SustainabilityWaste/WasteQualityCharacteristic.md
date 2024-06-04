@@ -72,7 +72,7 @@ Stores information on the characteristics of the contaminant or chemical being t
 ### <a href=#wastequalitycharacteristicId name="wastequalitycharacteristicId">wastequalitycharacteristicId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the waste quality characteristic.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Waste quality characteristic  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#description name="description">description</a>
 
 Optional field that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#referencerangeevidence name="referencerangeevidence">referencerangeevidence</a>
 
 Permit details which prescribes control/allowed limits for chemicals and contaminants.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -653,7 +653,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#referencerangelowerlimit name="referencerangelowerlimit">referencerangelowerlimit</a>
 
 Field for storing the lower limit of the ideal range for the characteristic measure value in the waste sample.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#referencerangeunit name="referencerangeunit">referencerangeunit</a>
 
 Indicates the unit of measurement for the reference range.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -741,7 +741,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#referencerangeupperlimit name="referencerangeupperlimit">referencerangeupperlimit</a>
 
 Field for storing the upper limit of the ideal range for the characteristic measure value in the waste sample.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#type name="type">type</a>
 
 Indicates the classification of the characteristic for which the waste sample is being tested.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 

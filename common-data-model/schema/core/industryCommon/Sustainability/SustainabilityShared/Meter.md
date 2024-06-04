@@ -63,7 +63,7 @@ An entity that represents meters.
 |[name](#name)|The unique identifier of a meter.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[class](#class)|Name of a meter class for any classification groupings.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[facility](#facility)|Reference to the Facility entity in Sustainability Manager.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
-|[metermultiplier](#metermultiplier)|Some meters that read only a fraction of each kilowatt\x2dhour \(kWh\) might be configured with a multiplier parameter that should be applied to the raw reported measurements.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
+|[metermultiplier](#metermultiplier)|Some meters that read only a fraction of each kilowatt\x2dhour (kWh) might be configured with a multiplier parameter that should be applied to the raw reported measurements.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[model](#model)|Model name of the meter for any classification groupings.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[organizationalunit](#organizationalunit)|Reference to the Organizational Unit entity in Sustainability Manager.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
 |[originCorrelationiD](#originCorrelationiD)|Reference to the Origin Correlation ID in Sustainability Manager. This ID correlates data to origin data during upsert operations.|<a href="Meter.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Meter</a>|
@@ -73,7 +73,7 @@ An entity that represents meters.
 ### <a href=#meterId name="meterId">meterId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Meter  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Meter  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#name name="name">name</a>
 
 The unique identifier of a meter.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#class name="class">class</a>
 
 Name of a meter class for any classification groupings.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#facility name="facility">facility</a>
 
 Reference to the Facility entity in Sustainability Manager.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -602,8 +602,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 
 ### <a href=#metermultiplier name="metermultiplier">metermultiplier</a>
 
-Some meters that read only a fraction of each kilowatt\x2dhour \(kWh\) might be configured with a multiplier parameter that should be applied to the raw reported measurements.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+Some meters that read only a fraction of each kilowatt\x2dhour (kWh) might be configured with a multiplier parameter that should be applied to the raw reported measurements.  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#model name="model">model</a>
 
 Model name of the meter for any classification groupings.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Reference to the Organizational Unit entity in Sustainability Manager.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#originCorrelationiD name="originCorrelationiD">originCorrelationiD</a>
 
 Reference to the Origin Correlation ID in Sustainability Manager. This ID correlates data to origin data during upsert operations.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -787,7 +787,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#serialnumber name="serialnumber">serialnumber</a>
 
 The serial number of the meter.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 
@@ -835,7 +835,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \
 ### <a href=#type name="type">type</a>
 
 Type of the meter.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Meter (this entity)  
 
 #### Properties
 

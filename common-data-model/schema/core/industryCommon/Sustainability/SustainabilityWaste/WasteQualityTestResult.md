@@ -75,7 +75,7 @@ Stores information on the result of the tests for tracking chemical/contaminant 
 ### <a href=#wastequalitytestresultId name="wastequalitytestresultId">wastequalitytestresultId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition identifier. A logical partition consists of a set of records with same partition ID.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -214,7 +214,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -254,7 +254,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#comments name="comments">comments</a>
 
 Optional field to provide comments on the waste quality test result.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -518,7 +518,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to an entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier of the facility where the waste sample was collected for testing.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -611,7 +611,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Type of industrial process where the waste sample was collected for testing.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -656,7 +656,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#measuredvalue name="measuredvalue">measuredvalue</a>
 
 The reportable measured value of a characteristic being tested.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Unique identifier for the organizational unit associated with the waste sample collected for testing.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -749,7 +749,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the waste quality test result.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -797,7 +797,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#precision name="precision">precision</a>
 
 Indicates how the measurements for a property has been prescribed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -845,7 +845,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#resultstatus name="resultstatus">resultstatus</a>
 
 Indicates whether the measure of the pollutant is within the permissible range.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -893,7 +893,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#unit name="unit">unit</a>
 
 The unit of measurement of the measure value in the test result.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -938,7 +938,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastequalitycharacteristic name="wastequalitycharacteristic">wastequalitycharacteristic</a>
 
 Indicates the quality characterisitic of the contaminant or chemical being tracked.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -983,7 +983,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastetestmethod name="wastetestmethod">wastetestmethod</a>
 
 Indicates the test method and related details for the waste quality characteristic.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -1028,7 +1028,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastequalitytestdate name="wastequalitytestdate">wastequalitytestdate</a>
 
 The actual date and time at which the waste quality test was carried out.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 
@@ -1068,7 +1068,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult (this entity)  
 
 #### Properties
 

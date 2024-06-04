@@ -71,7 +71,7 @@ The entity stores data related to the water stored within a facility.
 ### <a href=#storedwaterId name="storedwaterId">storedwaterId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#actualstorage name="actualstorage">actualstorage</a>
 
 Field to store the actual stored water quantity measurement value.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#facility name="facility">facility</a>
 
 Field to store the facility information associated with the stored water quantity measurement.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#measurementdate name="measurementdate">measurementdate</a>
 
 Field to store the date and time at which the stored water quantity was measured.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -594,7 +594,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Optional field to store the organizational unit associated with the stored water quantity measurement.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -639,7 +639,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store alternate key for the entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -687,7 +687,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#storagecontainerid name="storagecontainerid">storagecontainerid</a>
 
 Optional field to store unique identifier for a storage container.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -735,7 +735,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#storagecontainertype name="storagecontainertype">storagecontainertype</a>
 
 Optional field to classify a storage container as belonging to a type.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#totalstorage name="totalstorage">totalstorage</a>
 
 Optional field to store the maximum possible storage quantity within the storage container.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -826,7 +826,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#unit name="unit">unit</a>
 
 Field to store the unit of measurement for the water quantity values.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 
@@ -871,7 +871,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWa
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/StoredWater (this entity)  
 
 #### Properties
 

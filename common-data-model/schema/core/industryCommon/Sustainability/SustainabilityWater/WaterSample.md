@@ -76,7 +76,7 @@ Stores the attributes of the water samples collected for testing water quality.
 ### <a href=#watersamplev2Id name="watersamplev2Id">watersamplev2Id</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Water sample  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the water sample  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#collectiondate name="collectiondate">collectiondate</a>
 
 Indicates the date and time at which the water sample was collected.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#collectionequipment name="collectionequipment">collectionequipment</a>
 
 Optional field to store the details of the equipment used to collect the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#collectionmethod name="collectionmethod">collectionmethod</a>
 
 Indicates the method applied to collect the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility corresponding to the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Indicates the process type corresponding to the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -785,7 +785,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Indicates the organization unit corresponding to the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -830,7 +830,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store the source unique identifier for a water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -878,7 +878,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#watersource name="watersource">watersource</a>
 
 Optional field to store the details of the water source from or to which water is being withdrawn or discharged for the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -923,7 +923,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#watertransactiontype name="watertransactiontype">watertransactiontype</a>
 
 Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 
@@ -969,7 +969,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSam
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSample (this entity)  
 
 #### Properties
 

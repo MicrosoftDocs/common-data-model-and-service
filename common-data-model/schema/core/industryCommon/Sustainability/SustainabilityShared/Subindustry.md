@@ -66,7 +66,7 @@ Child\x2dlevel of the industry classisfication, which contains an ID and name.
 ### <a href=#subindustryId name="subindustryId">subindustryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Subindustry  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Subindustry  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -412,7 +412,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#name name="name">name</a>
 
 Name of the subindustry classification.   
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#industry name="industry">industry</a>
 
 The unique identifier that relates to the industry ID.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindu
 ### <a href=#subindustrynum name="subindustrynum">subindustrynum</a>
 
 Contains the mapping to the subindustry classification code in the form of a range.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
 
 #### Properties
 
