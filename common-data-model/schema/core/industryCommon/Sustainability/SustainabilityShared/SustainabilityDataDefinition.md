@@ -1,5 +1,5 @@
 ---
-title: SustainabilityDataDefinition in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
+title: SustainabilityDataDefinition in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity used to define the data definitions for entities across Carbon, Waste and Water.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Sustainability data definition in Cloud for Sustainability Shared Data Model(SustainabilityDataDefinition)
+# Sustainability data definition in Cloud for Sustainability shared data model(SustainabilityDataDefinition)
 
 Entity used to define the data definitions for entities across Carbon, Waste and Water.  
   

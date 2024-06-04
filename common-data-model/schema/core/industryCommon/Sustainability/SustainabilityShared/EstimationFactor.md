@@ -1,5 +1,5 @@
 ---
-title: EstimationFactor in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
+title: EstimationFactor in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity to store estimation or consumption factors.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Estimation factor in Cloud for Sustainability Shared Data Model(EstimationFactor)
+# Estimation factor in Cloud for Sustainability shared data model(EstimationFactor)
 
 Entity to store estimation or consumption factors.  
   

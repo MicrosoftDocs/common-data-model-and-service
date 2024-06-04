@@ -1,5 +1,5 @@
 ---
-title: CountryRegionMapping in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
+title: CountryRegionMapping in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Country/Region mapping in Cloud for Sustainability Shared Data Model(CountryRegionMapping)
+# Country/Region mapping in Cloud for Sustainability shared data model(CountryRegionMapping)
 
 Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.  
   

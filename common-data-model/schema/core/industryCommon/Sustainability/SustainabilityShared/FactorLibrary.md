@@ -1,5 +1,5 @@
 ---
-title: FactorLibrary in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
+title: FactorLibrary in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Repository for emission and estimation factor sets, including both system and user added.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Factor library in Cloud for Sustainability Shared Data Model(FactorLibrary)
+# Factor library in Cloud for Sustainability shared data model(FactorLibrary)
 
 Repository for emission and estimation factor sets, including both system and user added.  
   
