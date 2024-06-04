@@ -34,7 +34,7 @@ ms.author: cdmditeam
 |---|---|---|
 |[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[AccountId](#AccountId)|Unique identifier of the Account.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[ActivityId](#ActivityId)|Unique identifier of the Activity.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[ContactId](#ContactId)|Unique identifier of the Contact.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
@@ -46,13 +46,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="customerjourneyiterationstarted.md" target="_blank">CustomerInsightsJourneys/customerjourneyiterationstarted</a>|
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -88,7 +88,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -117,8 +117,8 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -148,7 +148,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
 Unique identifier of the Activity.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -220,7 +220,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -253,7 +253,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
 Unique identifier of the Lead.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -321,7 +321,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -357,7 +357,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -387,7 +387,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -449,7 +449,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -498,8 +498,8 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 
@@ -524,7 +524,7 @@ First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(th
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/customerjourneyiterationstarted \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneyiterationstarted (this entity)  
 
 #### Properties
 

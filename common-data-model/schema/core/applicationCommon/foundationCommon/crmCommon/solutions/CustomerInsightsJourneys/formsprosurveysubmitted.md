@@ -38,7 +38,7 @@ ms.author: cdmditeam
 |[SurveyId](#SurveyId)|Survey ID|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[SurveyResponseId](#SurveyResponseId)|Survey response ID|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
@@ -46,13 +46,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -85,7 +85,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Account ID  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 
 ### <a href=#FormsProSurveyIdentifier name="FormsProSurveyIdentifier">FormsProSurveyIdentifier</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -147,7 +147,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#SurveyId name="SurveyId">SurveyId</a>
 
 Survey ID  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -179,7 +179,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#SurveyResponseId name="SurveyResponseId">SurveyResponseId</a>
 
 Survey response ID  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -211,7 +211,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -240,8 +240,8 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -270,7 +270,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -324,7 +324,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -354,7 +354,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -441,7 +441,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -465,8 +465,8 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 
@@ -491,7 +491,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveysubmitted (this entity)  
 
 #### Properties
 

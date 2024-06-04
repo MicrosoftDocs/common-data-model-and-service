@@ -46,12 +46,12 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
 
 ### <a href=#FormId name="FormId">FormId</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -79,7 +79,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#FormName name="FormName">FormName</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -105,7 +105,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#FormSubmissionId name="FormSubmissionId">FormSubmissionId</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#PageUrl name="PageUrl">PageUrl</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
 
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -266,7 +266,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -302,7 +302,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -362,7 +362,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -394,7 +394,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -443,8 +443,8 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired (this entity)  
 
 #### Properties
 

@@ -58,7 +58,7 @@ ms.author: cdmditeam
 |[UsageType](#UsageType)|Usage type|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[AccountId](#AccountId)|Unique identifier of the Account.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[ActivityId](#ActivityId)|Unique identifier of the Activity.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[ContactId](#ContactId)|Unique identifier of the Contact.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
@@ -69,13 +69,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailforwarded.md" target="_blank">CustomerInsightsJourneys/emailforwarded</a>|
 
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
 Browser ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -107,7 +107,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
 Browser version  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#City name="City">City</a>
 
 City  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -167,7 +167,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
 Country ISO code  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#FormSubmissionId name="FormSubmissionId">FormSubmissionId</a>
 
 Form submission ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -229,7 +229,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
 Unique identifier of the Lead.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -265,7 +265,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
 Operating system ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
 Operating system version  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -327,7 +327,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
 Postal code  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -357,7 +357,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#SearchEngineName name="SearchEngineName">SearchEngineName</a>
 
 Search engine name  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -387,7 +387,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#SearchPhrase name="SearchPhrase">SearchPhrase</a>
 
 Search phrase  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#SecondaryRecipientProfileId name="SecondaryRecipientProfileId">SecondaryRecipientProfileId</a>
 
 Secondary recipient profile ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -449,7 +449,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
 Session ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#State name="State">State</a>
 
 State  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#VisitDuration name="VisitDuration">VisitDuration</a>
 
 Visit duration  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -539,7 +539,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#VisitorAnonymousStatus name="VisitorAnonymousStatus">VisitorAnonymousStatus</a>
 
 Visitor anonymous status  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -569,7 +569,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#VisitorId name="VisitorId">VisitorId</a>
 
 Visitor ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#VisitorReturningStatus name="VisitorReturningStatus">VisitorReturningStatus</a>
 
 Visitor returning status  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -628,7 +628,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
 The profile's email address.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -676,7 +676,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#EmailDomain name="EmailDomain">EmailDomain</a>
 
 Email domain  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -706,7 +706,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -738,7 +738,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
 Indicates the journey iteration ID.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -770,7 +770,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
 Usage type  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -836,7 +836,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -865,8 +865,8 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -896,7 +896,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
 Unique identifier of the Activity.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -968,7 +968,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1033,7 +1033,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1069,7 +1069,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1099,7 +1099,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1129,7 +1129,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1161,7 +1161,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1186,7 +1186,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1210,8 +1210,8 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 
@@ -1236,7 +1236,7 @@ First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/emailforwarded \(this entity\)  
+First included in: CustomerInsightsJourneys/emailforwarded (this entity)  
 
 #### Properties
 

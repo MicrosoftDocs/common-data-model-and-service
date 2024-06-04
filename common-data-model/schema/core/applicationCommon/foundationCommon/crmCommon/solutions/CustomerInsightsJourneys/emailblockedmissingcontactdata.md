@@ -49,7 +49,7 @@ ms.author: cdmditeam
 |[MessageVariationName](#MessageVariationName)||<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[MessageVariationIndexes](#MessageVariationIndexes)||<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[MessageId](#MessageId)|Message ID|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[JourneyRunId](#JourneyRunId)|Unique identifier of the Journey's execution.|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
@@ -61,13 +61,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailblockedmissingcontactdata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingcontactdata</a>|
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -139,7 +139,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
 Activity ID  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -208,7 +208,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
 Indicates the journey iteration ID.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
 Indicates if it's a test send, journey or trigger based.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -269,7 +269,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -286,7 +286,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#Missingdata name="Missingdata">Missingdata</a>
 
 Indicates the exact missing data of a contact.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#ActivityExpiryTime name="ActivityExpiryTime">ActivityExpiryTime</a>
 
 Activity expiry time  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
 The profile's email address.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -400,7 +400,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
 Indicates the reason for email block.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -430,7 +430,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#Details name="Details">Details</a>
 
 Contains additional information regarding the reason of block.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#Category name="Category">Category</a>
 
 Category  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -489,7 +489,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -542,7 +542,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -571,8 +571,8 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -633,7 +633,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Unique identifier of the Journey's execution.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -683,7 +683,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 Journey Action Id  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -713,7 +713,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -745,7 +745,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -781,7 +781,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -811,7 +811,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -841,7 +841,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -873,7 +873,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -898,7 +898,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -922,8 +922,8 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -948,7 +948,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 

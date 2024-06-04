@@ -37,7 +37,7 @@ ms.author: cdmditeam
 |[Reason](#Reason)|Reason|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[ReasonDetail](#ReasonDetail)|Reason Detail|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[MessageId](#MessageId)|Message ID|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[JourneyRunId](#JourneyRunId)|Unique identifier of the Journey's execution.|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
@@ -49,13 +49,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="actionevent.md" target="_blank">CustomerInsightsJourneys/actionevent</a>|
 
 ### <a href=#ActionStatus name="ActionStatus">ActionStatus</a>
 
 Action status  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -85,7 +85,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#ParentActionId name="ParentActionId">ParentActionId</a>
 
 Parent action id  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#Reason name="Reason">Reason</a>
 
 Reason  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#ReasonDetail name="ReasonDetail">ReasonDetail</a>
 
 Reason Detail  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -204,8 +204,8 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -266,7 +266,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -284,7 +284,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Unique identifier of the Journey's execution.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -316,7 +316,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 Journey Action Id  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -444,7 +444,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -531,7 +531,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -555,8 +555,8 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ First included in: CustomerInsightsJourneys/actionevent \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/actionevent \(this entity\)  
+First included in: CustomerInsightsJourneys/actionevent (this entity)  
 
 #### Properties
 

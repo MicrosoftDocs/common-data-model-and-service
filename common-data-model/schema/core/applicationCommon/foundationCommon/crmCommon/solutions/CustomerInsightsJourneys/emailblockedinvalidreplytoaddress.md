@@ -39,7 +39,7 @@ ms.author: cdmditeam
 |[MessageVariationName](#MessageVariationName)||<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[MessageVariationIndexes](#MessageVariationIndexes)||<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[MessageId](#MessageId)|Message ID|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[JourneyRunId](#JourneyRunId)|Unique identifier of the Journey's execution.|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
@@ -51,13 +51,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailblockedinvalidreplytoaddress.md" target="_blank">CustomerInsightsJourneys/emailblockedinvalidreplytoaddress</a>|
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
 The profile's email address.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -87,7 +87,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
 Indicates the reason for email block.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#Details name="Details">Details</a>
 
 Contains additional information regarding the reason of block.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -147,7 +147,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#Category name="Category">Category</a>
 
 Category  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -229,7 +229,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -258,8 +258,8 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -320,7 +320,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Unique identifier of the Journey's execution.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 Journey Action Id  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -400,7 +400,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -498,7 +498,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -585,7 +585,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -609,8 +609,8 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 
@@ -635,7 +635,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress (this entity)  
 
 #### Properties
 

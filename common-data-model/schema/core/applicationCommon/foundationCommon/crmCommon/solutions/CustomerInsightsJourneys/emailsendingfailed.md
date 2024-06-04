@@ -37,7 +37,7 @@ ms.author: cdmditeam
 |[UsageType](#UsageType)|Usage type|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[AccountId](#AccountId)|Unique identifier of the Account.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[ActivityId](#ActivityId)|Unique identifier of the Activity.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[ContactId](#ContactId)|Unique identifier of the Contact.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
@@ -49,13 +49,13 @@ ms.author: cdmditeam
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="emailsendingfailed.md" target="_blank">CustomerInsightsJourneys/emailsendingfailed</a>|
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -87,7 +87,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
 Indicates the journey iteration ID.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
 Usage type  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -149,7 +149,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -214,8 +214,8 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -281,7 +281,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
 Unique identifier of the Activity.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -317,7 +317,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -350,7 +350,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
 Unique identifier of the Lead.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -386,7 +386,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -454,7 +454,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -484,7 +484,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -514,7 +514,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -546,7 +546,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -571,7 +571,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -595,8 +595,8 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/emailsendingfailed \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsendingfailed (this entity)  
 
 #### Properties
 

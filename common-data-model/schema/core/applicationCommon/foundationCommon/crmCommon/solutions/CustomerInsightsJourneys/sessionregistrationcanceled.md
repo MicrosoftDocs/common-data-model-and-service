@@ -35,20 +35,20 @@ ms.author: cdmditeam
 |[AccountId](#AccountId)|Unique identifier of the Account.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[ContactId](#ContactId)|Unique identifier of the Contact.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[SessionId](#SessionId)|Session ID|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="sessionregistrationcanceled.md" target="_blank">CustomerInsightsJourneys/sessionregistrationcanceled</a>|
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -84,7 +84,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -146,8 +146,8 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -177,7 +177,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
 Session ID  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -207,7 +207,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -237,7 +237,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -324,7 +324,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -348,8 +348,8 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
