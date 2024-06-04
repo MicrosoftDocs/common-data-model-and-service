@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 6/4/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # EntityDeleted in CustomerInsightsJourneys
