@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of CloudforSustainabilityWasteDataModel
 
-Cloud for Sustainability Waste Data Model CDM entity definitions  
+Cloud for Sustainability waste data model entity definitions.
 
 ## Entities
 

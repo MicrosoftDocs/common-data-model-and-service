@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of CloudforSustainabilityWaterDataModel
 
-Cloud for Sustainability Water Data Model CDM entity definitions  
+Cloud for Sustainability water data model entity definitions.
 
 ## Entities
 
