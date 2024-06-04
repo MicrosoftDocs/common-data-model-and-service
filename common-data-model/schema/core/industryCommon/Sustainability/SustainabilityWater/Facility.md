@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
@@ -40,7 +40,7 @@ Base-level location to attribute activity data. May contain multiple buildings a
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_facility"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -48,14 +48,14 @@ Base-level location to attribute activity data. May contain multiple buildings a
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityId](#facilityId)|Unique identifier for entity instances.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
-|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
-|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
+|[facilityId](#facilityId)|Unique identifier for entity instances.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityWater/Facility (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/Facility (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: Sustainability/SustainabilityWater/Facility (this entity)
 ### <a href=#waterbasin name="waterbasin">waterbasin</a>
 
 Stores the details of the basin from which water is drawn by the facility.  
-First included in: Sustainability/SustainabilityWater/Facility (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/Facility (this entity)  
 
 #### Properties
 
@@ -148,7 +148,7 @@ First included in: Sustainability/SustainabilityWater/Facility (this entity)
 ### <a href=#waterriskindex name="waterriskindex">waterriskindex</a>
 
 Describes the overall water risk index of the facility.  
-First included in: Sustainability/SustainabilityWater/Facility (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/Facility (this entity)  
 
 #### Properties
 

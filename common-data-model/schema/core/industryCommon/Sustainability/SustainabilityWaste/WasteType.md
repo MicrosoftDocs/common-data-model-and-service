@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Waste type in Cloud for Sustainability waste data model (WasteType)
+# Waste type in Cloud for Sustainability waste data model(WasteType)
 
 Stores information on the type of waste generated.  
   
@@ -43,7 +43,7 @@ Stores information on the type of waste generated.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastetype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,27 +51,27 @@ Stores information on the type of waste generated.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[wastetypeId](#wastetypeId)|Unique identifier for entity instances.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[statecode](#statecode)|Status of the Waste type|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[statuscode](#statuscode)|Reason for the status of the waste type.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[name](#name)|The name of the custom entity.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[description](#description)|Optional description to give additional detail on the waste type.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[ishazardous](#ishazardous)|Indicates whether the waste is hazardous or not. |<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[isradioactive](#isradioactive)|Indicates whether the waste is radioactive in nature or not.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[wastecategory](#wastecategory)|Category of the waste such as industrial waste, municipal waste, consumer waste.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
-|[wastestream](#wastestream)|Waste stream specific to the sector, such as metal tailings, e-waste, and construction and demolition.|<a href="WasteType.md" target="_blank">Sustainability/SustainabilityWaste/WasteType</a>|
+|[wastetypeId](#wastetypeId)|Unique identifier for entity instances.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[statecode](#statecode)|Status of the Waste type|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[statuscode](#statuscode)|Reason for the status of the waste type.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[name](#name)|The name of the custom entity.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[description](#description)|Optional description to give additional detail on the waste type.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[ishazardous](#ishazardous)|Indicates whether the waste is hazardous or not. |<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[isradioactive](#isradioactive)|Indicates whether the waste is radioactive in nature or not.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[wastecategory](#wastecategory)|Category of the waste such as industrial waste, municipal waste, consumer waste.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[wastestream](#wastestream)|Waste stream specific to the sector, such as metal tailings, e-waste, and construction and demolition.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 
 ### <a href=#wastetypeId name="wastetypeId">wastetypeId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Waste type  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the waste type.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -508,7 +508,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#description name="description">description</a>
 
 Optional description to give additional detail on the waste type.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#ishazardous name="ishazardous">ishazardous</a>
 
 Indicates whether the waste is hazardous or not.   
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -592,7 +592,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#isradioactive name="isradioactive">isradioactive</a>
 
 Indicates whether the waste is radioactive in nature or not.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -628,7 +628,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier values for the entity.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -676,7 +676,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#wastecategory name="wastecategory">wastecategory</a>
 
 Category of the waste such as industrial waste, municipal waste, consumer waste.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 
@@ -724,7 +724,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 ### <a href=#wastestream name="wastestream">wastestream</a>
 
 Waste stream specific to the sector, such as metal tailings, e-waste, and construction and demolition.  
-First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties
 

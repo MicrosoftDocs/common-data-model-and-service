@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Reporting year in Cloud for Sustainability shared data model (ReportingYear)
+# Reporting year in Cloud for Sustainability shared data model(ReportingYear)
 
 Entity which lists reporting years created in the system.  
   
@@ -43,7 +43,7 @@ Entity which lists reporting years created in the system.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingyear"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,23 +51,23 @@ Entity which lists reporting years created in the system.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[reportingyearId](#reportingyearId)|Unique identifier for entity instances.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[statecode](#statecode)|Status of the reporting year|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[statuscode](#statuscode)|Reason for the status of the reporting year|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[name](#name)|Field representing the friendly name for a reporting year.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[enddate](#enddate)|Field representing the end date for a reporting year.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
-|[startdate](#startdate)|Field representing the start date for a reporting year.|<a href="ReportingYear.md" target="_blank">Sustainability/SustainabilityShared/ReportingYear</a>|
+|[reportingyearId](#reportingyearId)|Unique identifier for entity instances.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[statecode](#statecode)|Status of the reporting year|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[statuscode](#statuscode)|Reason for the status of the reporting year|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[name](#name)|Field representing the friendly name for a reporting year.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[enddate](#enddate)|Field representing the end date for a reporting year.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
+|[startdate](#startdate)|Field representing the start date for a reporting year.|<a href="ReportingYear.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ReportingYear</a>|
 
 ### <a href=#reportingyearId name="reportingyearId">reportingyearId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the reporting year  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the reporting year  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#name name="name">name</a>
 
 Field representing the friendly name for a reporting year.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#enddate name="enddate">enddate</a>
 
 Field representing the end date for a reporting year.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 
@@ -541,7 +541,7 @@ First included in: Sustainability/SustainabilityShared/ReportingYear (this entit
 ### <a href=#startdate name="startdate">startdate</a>
 
 Field representing the start date for a reporting year.  
-First included in: Sustainability/SustainabilityShared/ReportingYear (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ReportingYear (this entity)  
 
 #### Properties
 

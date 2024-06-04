@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Sustainability item SKU in Cloud for Sustainability shared data model (SustainabilityItemSKU)
+# Sustainability item SKU in Cloud for Sustainability shared data model(SustainabilityItemSKU)
 
 Entity for capturing data on items/SKU inventoried such as input material and finished goods.  
   
@@ -43,7 +43,7 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityitemsku"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,37 +51,37 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityitemskuId](#sustainabilityitemskuId)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[statecode](#statecode)|Status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[statuscode](#statuscode)|Reason for the status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[name](#name)|The name of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[casnumber](#casnumber)|Chemical Abstracts Service|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[globaltradeitemnumber](#globaltradeitemnumber)|The Global Trade Item Number (GTIN).|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[sustainabilityitemcategorysku](#sustainabilityitemcategorysku)|The category of the item defined by the undertaking in its upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[itemtype](#itemtype)|The type of item such as input material, or finished good.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[material](#material)|The material the item is made of.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[sustainabilityproduct](#sustainabilityproduct)|Lookup to the sustainability product.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[validfromdate](#validfromdate)||<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[validtodate](#validtodate)|The date up to which the product will remain active. This date can be in the future.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[valuechainpartner](#valuechainpartner)|The supplier name that is supplying this item from the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[volume](#volume)||<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[volumeunit](#volumeunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[weight](#weight)|The weight of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[weightunit](#weightunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityItemSKU</a>|
+|[sustainabilityitemskuId](#sustainabilityitemskuId)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[statecode](#statecode)|Status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[statuscode](#statuscode)|Reason for the status of the Item|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[name](#name)|The name of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[casnumber](#casnumber)|Chemical Abstracts Service|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[globaltradeitemnumber](#globaltradeitemnumber)|The Global Trade Item Number (GTIN).|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[sustainabilityitemcategorysku](#sustainabilityitemcategorysku)|The category of the item defined by the undertaking in its upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[itemtype](#itemtype)|The type of item such as input material, or finished good.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[material](#material)|The material the item is made of.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[sustainabilityproduct](#sustainabilityproduct)|Lookup to the sustainability product.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[validfromdate](#validfromdate)|Valid from date|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[validtodate](#validtodate)|The date up to which the product will remain active. This date can be in the future.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[valuechainpartner](#valuechainpartner)|The supplier name that is supplying this item from the undertaking’s upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[volume](#volume)|Volume|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[volumeunit](#volumeunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[weight](#weight)|The weight of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[weightunit](#weightunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 
 ### <a href=#sustainabilityitemskuId name="sustainabilityitemskuId">sustainabilityitemskuId</a>
 
 The unique identifier of the item in the undertaking’s upstream systems.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -169,7 +169,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Item  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Item  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -304,7 +304,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -347,7 +347,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -427,7 +427,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#name name="name">name</a>
 
 The name of the item.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -518,7 +518,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#casnumber name="casnumber">casnumber</a>
 
 Chemical Abstracts Service  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -614,7 +614,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#globaltradeitemnumber name="globaltradeitemnumber">globaltradeitemnumber</a>
 
 The Global Trade Item Number (GTIN).  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -662,7 +662,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#sustainabilityitemcategorysku name="sustainabilityitemcategorysku">sustainabilityitemcategorysku</a>
 
 The category of the item defined by the undertaking in its upstream systems.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#itemtype name="itemtype">itemtype</a>
 
 The type of item such as input material, or finished good.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#material name="material">material</a>
 
 The material the item is made of.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -798,11 +798,11 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
 Lookup to the sustainability product.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product (Sustainability)</td></tr><tr><td>description</td><td>Lookup to the sustainability product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product (sustainability)</td></tr><tr><td>description</td><td>Lookup to the sustainability product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -825,7 +825,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to the sustainability product.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (Sustainability)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (sustainability)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -842,11 +842,12 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+Valid from date  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Valid from date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_validfromdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Valid from date</td></tr><tr><td>description</td><td>Valid from date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_validfromdate</td></tr></table>
 
 #### Traits
 
@@ -861,7 +862,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Valid from date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Valid from date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -882,7 +883,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the product will remain active. This date can be in the future.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -922,7 +923,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#valuechainpartner name="valuechainpartner">valuechainpartner</a>
 
 The supplier name that is supplying this item from the undertaking’s upstream systems.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -966,11 +967,12 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 
 ### <a href=#volume name="volume">volume</a>
 
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+Volume  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Volume</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_volume</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Volume</td></tr><tr><td>description</td><td>Volume</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_volume</td></tr></table>
 
 #### Traits
 
@@ -984,7 +986,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Volume</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Volume</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1009,7 +1011,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#volumeunit name="volumeunit">volumeunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1054,7 +1056,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#weight name="weight">weight</a>
 
 The weight of the item.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1097,7 +1099,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#weightunit name="weightunit">weightunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1142,7 +1144,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1190,7 +1192,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
