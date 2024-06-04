@@ -3123,8 +3123,8 @@
             href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
           - name: FacilityItemConsumption
             href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
-          - name: ItemBillOfMaterial
-            href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
+          - name: ItemBillOfMaterials
+            href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterials.md
           - name: ItemSustainableContent
             href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
           - name: WasteCharacteristicType
