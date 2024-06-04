@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of Cloud for Sustainability energy data model
 
-Cloud for Sustainability Energy Data Model CDM entity definitions  
+Cloud for Sustainability energy data model entity definitions.
 
 ## Entities
 
