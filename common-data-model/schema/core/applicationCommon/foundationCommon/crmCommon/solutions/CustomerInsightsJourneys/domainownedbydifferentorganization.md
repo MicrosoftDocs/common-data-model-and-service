@@ -1,6 +1,6 @@
 ---
-title: DomainOwnedByDifferentOrganization in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
-description: undefined
+title: DomainOwnedByDifferentOrganization in Customer Insights Journeys - Common Data Model | Microsoft Docs
+description: Customer Insights Journeys data model reference
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,7 +9,7 @@ ms.date: 6/4/2024
 ms.author: anbichse
 ---
 
-# DomainOwnedByDifferentOrganization in CustomerInsightsJourneys
+# DomainOwnedByDifferentOrganization in Customer Insights Journeys
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/domainownedbydifferentorganization.cdm.json" target="_blank">GitHub</a>.  
