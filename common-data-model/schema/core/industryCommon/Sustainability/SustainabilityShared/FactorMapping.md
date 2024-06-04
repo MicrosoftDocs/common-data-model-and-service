@@ -1,5 +1,5 @@
 ---
-title: FactorMapping in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: FactorMapping in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
 description: Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Factor mapping in CloudforSustainabilitySharedDataModel(FactorMapping)
+# Factor mapping in Cloud for Sustainability Shared Data Model(FactorMapping)
 
 Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.  
   

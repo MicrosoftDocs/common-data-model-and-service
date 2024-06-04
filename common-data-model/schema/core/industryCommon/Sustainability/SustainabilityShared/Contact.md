@@ -1,5 +1,5 @@
 ---
-title: Contact in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: Contact in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Contact in CloudforSustainabilitySharedDataModel
+# Contact in Cloud for Sustainability Shared Data Model
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   

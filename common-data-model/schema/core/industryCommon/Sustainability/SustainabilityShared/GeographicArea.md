@@ -1,5 +1,5 @@
 ---
-title: GeographicArea in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: GeographicArea in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
 description: Definition or categorization of a given area on earth
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Geographic Area in CloudforSustainabilitySharedDataModel
+# Geographic Area in Cloud for Sustainability Shared Data Model
 
 Definition or categorization of a given area on earth  
   

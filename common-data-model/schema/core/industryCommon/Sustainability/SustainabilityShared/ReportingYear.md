@@ -1,5 +1,5 @@
 ---
-title: ReportingYear in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: ReportingYear in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
 description: Entity which lists reporting years created in the system.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Reporting year in CloudforSustainabilitySharedDataModel(ReportingYear)
+# Reporting year in Cloud for Sustainability Shared Data Model(ReportingYear)
 
 Entity which lists reporting years created in the system.  
   

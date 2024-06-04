@@ -1,5 +1,5 @@
 ---
-title: IndustryClassification in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: IndustryClassification in Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
 description: Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 6/3/2024
 ms.author: cdmditeam
 ---
 
-# Industry classification in CloudforSustainabilitySharedDataModel(IndustryClassification)
+# Industry classification in Cloud for Sustainability Shared Data Model(IndustryClassification)
 
 Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.  
   
