@@ -73,7 +73,7 @@ Entity for capturing data on the sustainable content types in the item such as p
 ### <a href=#itemsustainablecontentId name="itemsustainablecontentId">itemsustainablecontentId</a>
 
 The unique identifier of the item's sustainable content in the undertaking’s systems.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Item sustainable content  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Item sustainable content  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#name name="name">name</a>
 
 The name of the item's sustainable content.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 The unique identifier of the item in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#sustainablecontentpercentage name="sustainablecontentpercentage">sustainablecontentpercentage</a>
 
 The percentage of the sustainable content in the input material, based on sustainable content type.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#sustainablecontenttype name="sustainablecontenttype">sustainablecontenttype</a>
 
 The type of sustainable content in the material, such as recycled, reused, or renewable.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -692,7 +692,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
 The date from which the supplier-provided item has the given sustainable content.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the supplier-provided item has the given sustainable content. This date can be in the future.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -772,7 +772,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -820,7 +820,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
 

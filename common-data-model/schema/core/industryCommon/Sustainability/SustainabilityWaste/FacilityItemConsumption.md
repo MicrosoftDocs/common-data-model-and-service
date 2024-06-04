@@ -70,7 +70,7 @@ Entity used to record the quantity of an item consumed in a facility for a speci
 ### <a href=#facilityitemconsumptionId name="facilityitemconsumptionId">facilityitemconsumptionId</a>
 
 The unique identifier of the item consumed in a facility.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#name name="name">name</a>
 
 The unique identifier of the item consumed in a facility.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 The date on which the last unit of the item/input material was consumed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 The date on which the first unit of the item/input material was consumed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -497,7 +497,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Indicates whether the data is actual, estimated, or metered.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -543,7 +543,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#description name="description">description</a>
 
 Optional description of the item/input material consumed in the facility.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#facility name="facility">facility</a>
 
 Facility  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -636,7 +636,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 Item  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#quantityconsumed name="quantityconsumed">quantityconsumed</a>
 
 The quantity of the item consumed in the specified period.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -724,7 +724,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#unit name="unit">unit</a>
 
 The unit of measure for the quantity consumed.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -769,7 +769,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 
@@ -817,7 +817,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/Facility
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption (this entity)  
 
 #### Properties
 

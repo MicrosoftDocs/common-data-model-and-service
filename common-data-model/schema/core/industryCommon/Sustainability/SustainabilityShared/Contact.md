@@ -55,7 +55,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 ### <a href=#sustainabilitycontactname name="sustainabilitycontactname">sustainabilitycontactname</a>
 
 Name  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -151,7 +151,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
 
 #### Properties
 
