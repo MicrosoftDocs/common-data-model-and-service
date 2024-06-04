@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Product (Sustainability) in Cloud for Sustainability shared data model (ProductSustainability)
+# Product (sustainability) in Cloud for Sustainability shared data model(ProductSustainability)
 
 A product that can be associated with a product carbon footprint.  
   
@@ -37,13 +37,13 @@ A product that can be associated with a product carbon footprint.
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A product that can be associated with a product carbon footprint.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (Sustainability)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (sustainability)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproduct"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,28 +51,28 @@ A product that can be associated with a product carbon footprint.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityproductId](#sustainabilityproductId)|Unique identifier for entity instances.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[statecode](#statecode)|Status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[statuscode](#statuscode)|Reason for the status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[name](#name)|The non-empty trade name of the product.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[accountid](#accountid)|Value-chain partner (e.g., supplier) this product is sourced from.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[productcategoryid](#productcategoryid)|Category for this product.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[isfirstparty](#isfirstparty)|Whether this product is first-party.|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
-|[productalternateid](#productalternateid)|Optional identifier for product|<a href="ProductSustainability.md" target="_blank">Sustainability/SustainabilityShared/ProductSustainability</a>|
+|[sustainabilityproductId](#sustainabilityproductId)|Unique identifier for entity instances.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[statecode](#statecode)|Status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[statuscode](#statuscode)|Reason for the status of the (Preview) Sustainability product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[name](#name)|The non-empty trade name of the product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[accountid](#accountid)|Value-chain partner (e.g., supplier) this product is sourced from.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[productcategoryid](#productcategoryid)|Category for this product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[isfirstparty](#isfirstparty)|Whether this product is first-party.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[productalternateid](#productalternateid)|Optional identifier for product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 
 ### <a href=#sustainabilityproductId name="sustainabilityproductId">sustainabilityproductId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the (Preview) Sustainability product  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the (Preview) Sustainability product  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#name name="name">name</a>
 
 The non-empty trade name of the product.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#productcategorycpc name="productcategorycpc">productcategorycpc</a>
 
 A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#productdescription name="productdescription">productdescription</a>
 
 The free-form description of the product plus other information related to it such as production technology or packaging.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -653,11 +653,11 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#accountid name="accountid">accountid</a>
 
 Value-chain partner (e.g., supplier) this product is sourced from.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Chain Partner</td></tr><tr><td>description</td><td>Value-chain partner (e.g., supplier) this product is sourced from.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value chain partner</td></tr><tr><td>description</td><td>Value-chain partner (e.g., supplier) this product is sourced from.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -680,7 +680,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value-chain partner (e.g., supplier) this product is sourced from.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Chain Partner</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value chain partner</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -698,11 +698,11 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#productcategoryid name="productcategoryid">productcategoryid</a>
 
 Category for this product.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Category</td></tr><tr><td>description</td><td>Category for this product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product category</td></tr><tr><td>description</td><td>Category for this product.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -725,7 +725,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category for this product.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -743,7 +743,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#isfirstparty name="isfirstparty">isfirstparty</a>
 
 Whether this product is first-party.  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 
@@ -779,7 +779,7 @@ First included in: Sustainability/SustainabilityShared/ProductSustainability (th
 ### <a href=#productalternateid name="productalternateid">productalternateid</a>
 
 Optional identifier for product  
-First included in: Sustainability/SustainabilityShared/ProductSustainability (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
 

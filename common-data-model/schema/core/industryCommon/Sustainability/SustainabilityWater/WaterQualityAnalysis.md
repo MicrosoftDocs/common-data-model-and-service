@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Water quality analysis in Cloud for Sustainability water data model (WaterQualityAnalysis)
+# Water quality analysis in Cloud for Sustainability water data model(WaterQualityAnalysis)
 
 Describes the analysis performed to test a water sample for a certain characteristic.  
   
@@ -43,7 +43,7 @@ Describes the analysis performed to test a water sample for a certain characteri
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterqualityanalysis"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,26 +51,26 @@ Describes the analysis performed to test a water sample for a certain characteri
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterqualityanalysisId](#waterqualityanalysisId)|Unique identifier for entity instances.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[statecode](#statecode)|Status of the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[statuscode](#statuscode)|Reason for the status of the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[name](#name)|The name of the custom entity.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[analysismethod](#analysismethod)|Indicates the type of analysis performed.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[laboratorycomments](#laboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability/SustainabilityWater/WaterQualityAnalysis</a>|
+|[waterqualityanalysisId](#waterqualityanalysisId)|Unique identifier for entity instances.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[statecode](#statecode)|Status of the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[statuscode](#statuscode)|Reason for the status of the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[analysismethod](#analysismethod)|Indicates the type of analysis performed.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[laboratorycomments](#laboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
 
 ### <a href=#waterqualityanalysisId name="waterqualityanalysisId">waterqualityanalysisId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the water quality analysis.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the water quality analysis.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#analysismethod name="analysismethod">analysismethod</a>
 
 Indicates the type of analysis performed.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#laboratorycomments name="laboratorycomments">laboratorycomments</a>
 
 Optional field to provide the comments from the lab regarding the analysis method being performed.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#laboratoryname name="laboratoryname">laboratoryname</a>
 
 Indicates the name of the lab that carried out the water quality analysis.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
@@ -699,7 +699,7 @@ First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store the source unique identifier for the water quality analysis.  
-First included in: Sustainability/SustainabilityWater/WaterQualityAnalysis (this entity)  
+First included in: Sustainability/CloudforSustainabilityWaterDataModel/WaterQualityAnalysis (this entity)  
 
 #### Properties
 

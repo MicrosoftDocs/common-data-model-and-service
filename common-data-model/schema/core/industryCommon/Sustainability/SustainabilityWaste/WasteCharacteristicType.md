@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Waste characteristic type in Cloud for Sustainability waste data model (WasteCharacteristicType)
+# Waste characteristic type in Cloud for Sustainability waste data model(WasteCharacteristicType)
 
 Stores all the different classifications for the waste quality characteristics.  
   
@@ -43,7 +43,7 @@ Stores all the different classifications for the waste quality characteristics.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastecharacteristictype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,23 +51,23 @@ Stores all the different classifications for the waste quality characteristics.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[wastecharacteristictypeId](#wastecharacteristictypeId)|Unique identifier for entity instances|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[statecode](#statecode)|Status of the waste characteristic type.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[statuscode](#statuscode)|Reason for the status of the waste characteristic type.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[name](#name)|The name of the custom entity.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[description](#description)|Optional field that provides additional detail about the entity or attribute.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability/SustainabilityWaste/WasteCharacteristicType</a>|
+|[wastecharacteristictypeId](#wastecharacteristictypeId)|Unique identifier for entity instances|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[statecode](#statecode)|Status of the waste characteristic type.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[statuscode](#statuscode)|Reason for the status of the waste characteristic type.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[name](#name)|The name of the custom entity.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[description](#description)|Optional field that provides additional detail about the entity or attribute.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.|<a href="WasteCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteCharacteristicType</a>|
 
 ### <a href=#wastecharacteristictypeId name="wastecharacteristictypeId">wastecharacteristictypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the waste characteristic type.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the waste characteristic type.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#description name="description">description</a>
 
 Optional field that provides additional detail about the entity or attribute.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (t
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.  
-First included in: Sustainability/SustainabilityWaste/WasteCharacteristicType (this entity)  
+First included in: Sustainability/CloudforSustainabilityWasteDataModel/WasteCharacteristicType (this entity)  
 
 #### Properties
 

@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Data source type in Cloud for Sustainability shared data model (DataSourceType)
+# Data source type in Cloud for Sustainability shared data model(DataSourceType)
 
 The different types of sources for energy data.  
   
@@ -43,7 +43,7 @@ The different types of sources for energy data.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_datasourcetype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,21 +51,21 @@ The different types of sources for energy data.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[datasourcetypeId](#datasourcetypeId)|Unique identifier for entity instances|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[statecode](#statecode)|Status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
-|[name](#name)||<a href="DataSourceType.md" target="_blank">Sustainability/SustainabilityShared/DataSourceType</a>|
+|[datasourcetypeId](#datasourcetypeId)|Unique identifier for entity instances|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[statecode](#statecode)|Status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Data source type|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
+|[name](#name)|Name|<a href="DataSourceType.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DataSourceType</a>|
 
 ### <a href=#datasourcetypeId name="datasourcetypeId">datasourcetypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Data source type  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Data source type  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
@@ -453,11 +453,12 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability/SustainabilityShared/DataSourceType (this entity)  
+Name  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -475,7 +476,7 @@ First included in: Sustainability/SustainabilityShared/DataSourceType (this enti
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

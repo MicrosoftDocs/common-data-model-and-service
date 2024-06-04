@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/8/2024
+ms.date: 6/3/2024
 ms.author: anbichse
 ---
 
-# Organizational unit in Cloud for Sustainability shared data model (OrganizationalUnit)
+# Organizational unit in Cloud for Sustainability shared data model(OrganizationalUnit)
 
 A structural division of a company or organization.  
   
@@ -43,7 +43,7 @@ A structural division of a company or organization.
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityorganizationalunit"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
-  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
+  A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or restates parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
 </details>
 
@@ -51,34 +51,34 @@ A structural division of a company or organization.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityorganizationalunitId](#sustainabilityorganizationalunitId)|Unique identifier for entity instances|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[statecode](#statecode)|Status of the Reporting Organizational Unit|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[statuscode](#statuscode)|Reason for the status of the Reporting Organizational Unit|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[name](#name)|The name of the custom entity.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addresscity](#addresscity)|The city in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addresscountryisocode](#addresscountryisocode)|Country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addresscounty](#addresscounty)|The county in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addressstateprovince](#addressstateprovince)|The state or province in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addressstreet1](#addressstreet1)|The street address, including the number and street name.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addressstreet2](#addressstreet2)|Secondary street address information.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[addresszippostalcode](#addresszippostalcode)|The zip or postal code in which the organization resides.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[organizationalunittype](#organizationalunittype)|The type of organization unit selected.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="OrganizationalUnit.md" target="_blank">Sustainability/SustainabilityShared/OrganizationalUnit</a>|
+|[sustainabilityorganizationalunitId](#sustainabilityorganizationalunitId)|Unique identifier for entity instances|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[statecode](#statecode)|Status of the Reporting Organizational Unit|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[statuscode](#statuscode)|Reason for the status of the Reporting Organizational Unit|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[name](#name)|The name of the custom entity.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addresscity](#addresscity)|The city in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addresscountryisocode](#addresscountryisocode)|Country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addresscounty](#addresscounty)|The county in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addressstateprovince](#addressstateprovince)|The state or province in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addressstreet1](#addressstreet1)|The street address, including the number and street name.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addressstreet2](#addressstreet2)|Secondary street address information.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addresszippostalcode](#addresszippostalcode)|The zip or postal code in which the organization resides.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[organizationalunittype](#organizationalunittype)|The type of organization unit selected.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
 
 ### <a href=#sustainabilityorganizationalunitId name="sustainabilityorganizationalunitId">sustainabilityorganizationalunitId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Reporting Organizational Unit  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -252,7 +252,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Reporting Organizational Unit  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -344,7 +344,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 The city in which the organizational unit is based.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -563,7 +563,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
 Country/region.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -611,7 +611,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -656,7 +656,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 The county in which the organizational unit is based.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 The state or province in which the organizational unit is based.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 The street address, including the number and street name.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Secondary street address information.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 The zip or postal code in which the organization resides.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -896,7 +896,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -987,7 +987,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -1030,7 +1030,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#organizationalunittype name="organizationalunittype">organizationalunittype</a>
 
 The type of organization unit selected.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
 
 #### Properties
 
