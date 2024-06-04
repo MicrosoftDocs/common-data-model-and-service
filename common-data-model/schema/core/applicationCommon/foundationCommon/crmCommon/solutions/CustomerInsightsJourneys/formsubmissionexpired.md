@@ -1,5 +1,5 @@
 ---
-title: FormsProSurveySubmitted in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
+title: FormSubmissionExpired in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 6/4/2024
 ms.author: cdmditeam
 ---
 
-# FormsProSurveySubmitted in CustomerInsightsJourneys
+# FormSubmissionExpired in CustomerInsightsJourneys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/formsprosurveysubmitted.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/formsubmissionexpired.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,69 +32,35 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[ContactId](#ContactId)|Unique identifier of the Contact\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[AccountId](#AccountId)|Account ID|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[FormsProSurveyIdentifier](#FormsProSurveyIdentifier)||<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[SurveyId](#SurveyId)|Survey ID|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[SurveyResponseId](#SurveyResponseId)|Survey response ID|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
-|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="formsprosurveysubmitted.md" target="_blank">CustomerInsightsJourneys/formsprosurveysubmitted</a>|
+|[FormId](#FormId)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[FormName](#FormName)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[FormSubmissionId](#FormSubmissionId)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[PageUrl](#PageUrl)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[SourceEntityName](#SourceEntityName)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[SourceEntityId](#SourceEntityId)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[MessageTemplateVersion](#MessageTemplateVersion)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[JourneyVersion](#JourneyVersion)||<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
+|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="formsubmissionexpired.md" target="_blank">CustomerInsightsJourneys/formsubmissionexpired</a>|
 
-### <a href=#ContactId name="ContactId">ContactId</a>
+### <a href=#FormId name="FormId">FormId</a>
 
-Unique identifier of the Contact\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Contact.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the ContactId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../core/applicationCommon/Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Contact.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#AccountId name="AccountId">AccountId</a>
-
-Account ID  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Account ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the AccountId attribute are listed below.</summary>
+<summary>List of traits for the FormId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -104,23 +70,16 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../core/applicationCommon/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Account ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#FormsProSurveyIdentifier name="FormsProSurveyIdentifier">FormsProSurveyIdentifier</a>
+### <a href=#FormName name="FormName">FormName</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -129,7 +88,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 #### Traits
 
 <details>
-<summary>List of traits for the FormsProSurveyIdentifier attribute are listed below.</summary>
+<summary>List of traits for the FormName attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -144,19 +103,18 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 
 </details>
 
-### <a href=#SurveyId name="SurveyId">SurveyId</a>
+### <a href=#FormSubmissionId name="FormSubmissionId">FormSubmissionId</a>
 
-Survey ID  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Survey ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the SurveyId attribute are listed below.</summary>
+<summary>List of traits for the FormSubmissionId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -166,29 +124,77 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Survey ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#SurveyResponseId name="SurveyResponseId">SurveyResponseId</a>
+### <a href=#PageUrl name="PageUrl">PageUrl</a>
 
-Survey response ID  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Survey response ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the SurveyResponseId attribute are listed below.</summary>
+<summary>List of traits for the PageUrl attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
+
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SourceEntityName attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
+
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SourceEntityId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -198,29 +204,25 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Survey response ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#ProfileId name="ProfileId">ProfileId</a>
+### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
-Unique identifier of the profile\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the profile.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the ProfileId attribute are listed below.</summary>
+<summary>List of traits for the MessageTemplateVersion attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -229,28 +231,24 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the profile.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#ProfileType name="ProfileType">ProfileType</a>
+### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The profile type (Contact, Lead or CI Profile)</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the ProfileType attribute are listed below.</summary>
+<summary>List of traits for the JourneyVersion attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -259,36 +257,16 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The profile type (Contact, Lead or CI Profile)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
-
-### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
-
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>boolean</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the IsUnresolvedProfile attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.boolean\*\*  
-  \*\*is\.dataFormat\.boolean\*\*  
-  </details>
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -324,7 +302,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -354,7 +332,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -384,7 +362,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -416,7 +394,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -441,7 +419,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version\. Used for updating the interaction\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -466,7 +444,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
  Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 
@@ -491,7 +469,7 @@ First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entit
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction\.  
-First included in: CustomerInsightsJourneys/formsprosurveysubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/formsubmissionexpired \(this entity\)  
 
 #### Properties
 

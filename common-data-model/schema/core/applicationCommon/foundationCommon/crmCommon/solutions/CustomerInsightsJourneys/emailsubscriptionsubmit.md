@@ -1,15 +1,15 @@
 ---
-title: EmailSubscriptionSubmit in Customer Insights Journeys - Common Data Model | Microsoft Docs
+title: EmailSubscriptionSubmit in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/26/2024
-ms.author: anbichse
+ms.date: 6/4/2024
+ms.author: cdmditeam
 ---
 
-# EmailSubscriptionSubmit in Customer Insights Journeys
+# EmailSubscriptionSubmit in CustomerInsightsJourneys
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/emailsubscriptionsubmit.cdm.json" target="_blank">GitHub</a>.  
@@ -32,828 +32,963 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[BrowserId](#BrowserId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[BrowserVersion](#BrowserVersion)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[City](#City)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[CountryIsoCode](#CountryIsoCode)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[DeviceBrand](#DeviceBrand)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[DeviceModel](#DeviceModel)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[DeviceType](#DeviceType)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[OperatingSystemId](#OperatingSystemId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[OperatingSystemVersion](#OperatingSystemVersion)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[PostalCode](#PostalCode)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[State](#State)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[MessageId](#MessageId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[SendingId](#SendingId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[UsageType](#UsageType)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[ProfileId](#ProfileId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[ProfileType](#ProfileType)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[AccountId](#AccountId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[ActivityId](#ActivityId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[ContactId](#ContactId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[LeadId](#LeadId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[BusinessUnitId](#BusinessUnitId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[IdempotencyId](#IdempotencyId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[OrganizationId](#OrganizationId)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[Timestamp](#Timestamp)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[Version](#Version)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[SourceSystem](#SourceSystem)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
-|[InteractionType](#InteractionType)||<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[BrowserId](#BrowserId)|Browser ID|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[BrowserVersion](#BrowserVersion)|Browser version|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[City](#City)|City|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[CountryIsoCode](#CountryIsoCode)|Country ISO code|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[DeviceBrand](#DeviceBrand)|Device brand|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[DeviceModel](#DeviceModel)|Device model|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[DeviceType](#DeviceType)|Device type|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[OperatingSystemId](#OperatingSystemId)|Operating system ID|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[OperatingSystemVersion](#OperatingSystemVersion)|Operating system version|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[PostalCode](#PostalCode)|Postal code|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[State](#State)|State|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[MessageId](#MessageId)|Message ID|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[UsageType](#UsageType)|Usage type|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[AccountId](#AccountId)|Unique identifier of the Account\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[ActivityId](#ActivityId)|Unique identifier of the Activity\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[ContactId](#ContactId)|Unique identifier of the Contact\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[LeadId](#LeadId)|Unique identifier of the Lead\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
+|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="emailsubscriptionsubmit.md" target="_blank">CustomerInsightsJourneys/emailsubscriptionsubmit</a>|
 
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Browser ID  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Browser ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the BrowserId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Browser ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Browser version  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Browser version</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the BrowserVersion attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Browser version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#City name="City">City</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+City  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>City</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the City attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>City</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Country ISO code  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Country ISO code</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the CountryIsoCode attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country ISO code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#DeviceBrand name="DeviceBrand">DeviceBrand</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Device brand  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Device brand</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the DeviceBrand attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device brand</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#DeviceModel name="DeviceModel">DeviceModel</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Device model  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Device model</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the DeviceModel attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device model</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#DeviceType name="DeviceType">DeviceType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Device type  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Device type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the DeviceType attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Operating system ID  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Operating system ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the OperatingSystemId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operating system ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Operating system version  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Operating system version</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the OperatingSystemVersion attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operating system version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Postal code  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Postal code</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PostalCode attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Postal code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#State name="State">State</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+State  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>State</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the State attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>State</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Message ID  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Message ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the MessageId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Message ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Indicates the journey iteration ID\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Indicates the journey iteration ID.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the SendingId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the journey iteration ID.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Usage type  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Usage type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the UsageType attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Usage type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Customer journey iteration ID  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Customer journey iteration ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Unique identifier of the profile\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the profile.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ProfileId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the profile.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+The profile type \(Contact, Lead or CI Profile\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The profile type (Contact, Lead or CI Profile)</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ProfileType attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The profile type (Contact, Lead or CI Profile)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Unique identifier of the Account\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Account.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the AccountId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../core/applicationCommon/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Account.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Unique identifier of the Activity\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ActivityId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="../core/applicationCommon/Activity.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Activity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Unique identifier of the Contact\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Contact.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ContactId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../core/applicationCommon/Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Contact.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Unique identifier of the Lead\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Lead.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the LeadId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/foundationCommon/crmCommon/Lead.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead</a></td><td><a href="../core/applicationCommon/foundationCommon/crmCommon/Lead.md#leadId" target="_blank">leadId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Lead.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+ Unique identifier of the Customer journey  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td> Unique identifier of the Customer journey</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the CustomerJourneyId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **means.identity.entityId**  
-  **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../solutions/marketing/CustomerJourney.md" target="_blank">solutions/marketing/CustomerJourney.cdm.json/CustomerJourney</a></td><td><a href="../../solutions/marketing/CustomerJourney.md#customerJourneyId" target="_blank">customerJourneyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td> Unique identifier of the Customer journey</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Unique identifier of the Business unit\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Business unit.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the BusinessUnitId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **means.identity.entityId**  
-  **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../businessunit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../businessunit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../core/applicationCommon/BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Business unit.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Idempotency ID defines uniqueness of an analytics event\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Idempotency ID defines uniqueness of an analytics event.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the IdempotencyId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Idempotency ID defines uniqueness of an analytics event.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Internal marketing interaction Id\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Internal marketing interaction Id.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InternalMarketingInteractionId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Internal marketing interaction Id.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Organization Id\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Organization Id.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the OrganizationId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organization Id.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Indicates the exact date and time when the interaction was emitted\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Indicates the exact date and time when the interaction was emitted.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Timestamp attribute are listed below.</summary>
 
-**is.dataFormat.date**  
-  **means.measurement.date**  
-  **is.dataFormat.time**  
-  **means.measurement.time**  
-  **is.dataFormat.time**  
-  **is.dataFormat.date**  
+\*\*is\.dataFormat\.date\*\*  
+  \*\*means\.measurement\.date\*\*  
+  \*\*is\.dataFormat\.time\*\*  
+  \*\*means\.measurement\.time\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the exact date and time when the interaction was emitted.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.time\*\*  
+  \*\*is\.dataFormat\.date\*\*  
   </details>
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Interaction version\. Used for updating the interaction\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Interaction version. Used for updating the interaction.</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Version attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-  **is.dataFormat.signed**  
+\*\*is\.dataFormat\.integer\*\*  
+  \*\*is\.dataFormat\.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-**is.dataFormat.numeric**  
-  **is.dataFormat.integer**  
+\*\*is\.dataFormat\.numeric\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Interaction version. Used for updating the interaction.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.integer\*\*  
   </details>
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td> Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the SourceSystem attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-  **is.dataFormat.signed**  
+\*\*is\.dataFormat\.integer\*\*  
+  \*\*is\.dataFormat\.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-**is.dataFormat.numeric**  
-  **is.dataFormat.integer**  
+\*\*is\.dataFormat\.numeric\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td> Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.integer\*\*  
   </details>
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
+Type of the interaction\.  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Type of the interaction.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InteractionType attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-**is.dataFormat.array**  
+\*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of the interaction.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

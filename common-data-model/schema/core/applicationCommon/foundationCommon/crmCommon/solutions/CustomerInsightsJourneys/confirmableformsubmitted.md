@@ -1,5 +1,5 @@
 ---
-title: SplitterActivityContactProcessed in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
+title: ConfirmableFormSubmitted in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 6/4/2024
 ms.author: cdmditeam
 ---
 
-# SplitterActivityContactProcessed in CustomerInsightsJourneys
+# ConfirmableFormSubmitted in CustomerInsightsJourneys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/splitteractivitycontactprocessed.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/confirmableformsubmitted.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,38 +32,38 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[NextActivityId](#NextActivityId)|Next activity ID|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[WorkflowId](#WorkflowId)|Workflow ID|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[AccountId](#AccountId)|Unique identifier of the Account\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[ActivityId](#ActivityId)|Unique identifier of the Activity\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[ContactId](#ContactId)|Unique identifier of the Contact\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[LeadId](#LeadId)|Unique identifier of the Lead\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
-|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="splitteractivitycontactprocessed.md" target="_blank">CustomerInsightsJourneys/splitteractivitycontactprocessed</a>|
+|[FormId](#FormId)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[FormName](#FormName)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[FormSubmissionId](#FormSubmissionId)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[PageUrl](#PageUrl)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[SourceEntityName](#SourceEntityName)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[SourceEntityId](#SourceEntityId)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[MessageTemplateVersion](#MessageTemplateVersion)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[JourneyVersion](#JourneyVersion)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[ProfileId](#ProfileId)|Profile ID|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[ProfileType](#ProfileType)|Profile type|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
+|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="confirmableformsubmitted.md" target="_blank">CustomerInsightsJourneys/confirmableformsubmitted</a>|
 
-### <a href=#NextActivityId name="NextActivityId">NextActivityId</a>
+### <a href=#FormId name="FormId">FormId</a>
 
-Next activity ID  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Next activity ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the NextActivityId attribute are listed below.</summary>
+<summary>List of traits for the FormId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -73,29 +73,51 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next activity ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#WorkflowId name="WorkflowId">WorkflowId</a>
+### <a href=#FormName name="FormName">FormName</a>
 
-Workflow ID  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Workflow ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the WorkflowId attribute are listed below.</summary>
+<summary>List of traits for the FormName attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#FormSubmissionId name="FormSubmissionId">FormSubmissionId</a>
+
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the FormSubmissionId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -105,29 +127,77 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Workflow ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
+### <a href=#PageUrl name="PageUrl">PageUrl</a>
 
-Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Customer journey iteration ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
+<summary>List of traits for the PageUrl attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
+
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SourceEntityName attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
+
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SourceEntityId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -137,15 +207,60 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
+
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MessageTemplateVersion attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
+
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the JourneyVersion attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -153,12 +268,12 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-Unique identifier of the profile\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+Profile ID  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the profile.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Profile ID</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -173,7 +288,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the profile.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Profile ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
@@ -183,12 +298,12 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+Profile type  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The profile type (Contact, Lead or CI Profile)</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Profile type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -203,7 +318,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The profile type (Contact, Lead or CI Profile)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Profile type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
@@ -211,183 +326,27 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 </details>
 
-### <a href=#AccountId name="AccountId">AccountId</a>
+### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-Unique identifier of the Account\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Account.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>boolean</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the AccountId attribute are listed below.</summary>
+<summary>List of traits for the IsUnresolvedProfile attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="../core/applicationCommon/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Account.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#ActivityId name="ActivityId">ActivityId</a>
-
-Unique identifier of the Activity\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ActivityId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="../core/applicationCommon/Activity.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Activity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#ContactId name="ContactId">ContactId</a>
-
-Unique identifier of the Contact\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Contact.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ContactId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="../core/applicationCommon/Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Contact.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#LeadId name="LeadId">LeadId</a>
-
-Unique identifier of the Lead\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Lead.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the LeadId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/foundationCommon/crmCommon/Lead.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead</a></td><td><a href="../core/applicationCommon/foundationCommon/crmCommon/Lead.md#leadId" target="_blank">leadId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Lead.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
-
- Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td> Unique identifier of the Customer journey</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td> Unique identifier of the Customer journey</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
+\*\*is\.dataFormat\.boolean\*\*  
+  \*\*is\.dataFormat\.boolean\*\*  
+  </details>
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -423,7 +382,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -453,7 +412,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -483,7 +442,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -515,7 +474,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -540,7 +499,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version\. Used for updating the interaction\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -565,7 +524,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
  Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 
@@ -590,7 +549,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction\.  
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/confirmableformsubmitted \(this entity\)  
 
 #### Properties
 

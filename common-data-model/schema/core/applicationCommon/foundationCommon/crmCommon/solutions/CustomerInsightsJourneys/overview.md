@@ -1,15 +1,15 @@
 ---
-title: Overview of Customer Insights Journeys - Common Data Model | Microsoft Docs
+title: overview of CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: CustomerInsightsJourneys is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/26/2024
-ms.author: anbichse
+ms.date: 6/4/2024
+ms.author: cdmditeam
 ---
 
-# Overview of Customer Insights Journeys
+# Overview of CustomerInsightsJourneys
 
 
 ## Entities
@@ -29,6 +29,7 @@ ms.author: anbichse
 |[botemaillinkclicked](botemaillinkclicked.md)||
 |[botpushnotificationlinkclicked](botpushnotificationlinkclicked.md)||
 |[botsmslinkclicked](botsmslinkclicked.md)||
+|[confirmableformsubmitted](confirmableformsubmitted.md)||
 |[confirmationrequest](confirmationrequest.md)||
 |[confirmationresponse](confirmationresponse.md)||
 |[contactdeleted](contactdeleted.md)||
@@ -88,6 +89,8 @@ ms.author: anbichse
 |[formsprosurveyopened](formsprosurveyopened.md)||
 |[formsprosurveyquestionanswered](formsprosurveyquestionanswered.md)||
 |[formsprosurveysubmitted](formsprosurveysubmitted.md)||
+|[formsubmissionconfirmed](formsubmissionconfirmed.md)||
+|[formsubmissionexpired](formsubmissionexpired.md)||
 |[formsubmitted](formsubmitted.md)||
 |[formvisited](formvisited.md)||
 |[invalidrecipientaddress](invalidrecipientaddress.md)||
