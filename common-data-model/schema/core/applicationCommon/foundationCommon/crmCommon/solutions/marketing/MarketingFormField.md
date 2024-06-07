@@ -1,5 +1,5 @@
 ---
-title: MarketingPage in MarketingSolution - Common Data Model | Microsoft Docs
+title: MarketingFormField in MarketingSolution - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 6/6/2024
 ms.author: cdmditeam
 ---
 
-# Marketing Page in MarketingSolution
+# Marketing Form Field in MarketingSolution
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Marketing\MarketingSolution/MarketingPage.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Marketing\MarketingSolution/MarketingFormField.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -24,19 +24,19 @@ ms.author: cdmditeam
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/Marketing/MarketingSolution<br>/MarketingPage.cdm.json/MarketingPage<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/Marketing/MarketingSolution<br>/MarketingFormField.cdm.json/MarketingFormField<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingPage/(resolvedAttributes)/marketingPageId](#marketingPageId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingFormField/(resolvedAttributes)/marketingFormFieldId](#marketingFormFieldId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingPage/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingFormField/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing Page</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing Form Field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingpage"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingformfield"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -47,70 +47,53 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[ownerId](#ownerId)|Owner Id|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[versionNumber](#versionNumber)|Version Number|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[formToSave](#formToSave)|Form to save|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[content](#content)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[contentType](#contentType)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[contentType_display](#contentType_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[formPageMapping](#formPageMapping)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[alloweddomains](#alloweddomains)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[fullPageURL](#fullPageURL)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[fullPageUrls](#fullPageUrls)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[insightsPlaceholder](#insightsPlaceholder)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[marketingPageId](#marketingPageId)|Unique ID for entity instances|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[marketingPageTemplateId](#marketingPageTemplateId)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[marketingWebsiteId](#marketingWebsiteId)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[marketType](#marketType)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[marketType_display](#marketType_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[name](#name)|Name of the marketing page|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[optimizedFor](#optimizedFor)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[optimizedFor_display](#optimizedFor_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[partialURL](#partialURL)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[purpose](#purpose)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[purpose_display](#purpose_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[remoteWebsiteID](#remoteWebsiteID)|Unique ID for remote entity instances|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[type](#type)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[type_display](#type_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[visualStyle](#visualStyle)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[visualStyle_display](#visualStyle_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[lastPublishedDate](#lastPublishedDate)|Date and time when the marketing page was last published|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[lastUnpublishedDate](#lastUnpublishedDate)|Date and time when the marketing page was last unpublished|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[ownerIdName](#ownerIdName)|Name of the owner|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[ownerIdYomiName](#ownerIdYomiName)|Yomi name of the owner|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[stateCode](#stateCode)|Status of the marketing page|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[stateCode_display](#stateCode_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[statusCode](#statusCode)|Marketing page status reason|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[statusCode_display](#statusCode_display)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[marketingProvided](#marketingProvided)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[forcePortalLess](#forcePortalLess)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[websitefilterPlaceholder](#websitefilterPlaceholder)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[pagetemplateid](#pagetemplateid)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[parentwebpageid](#parentwebpageid)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[webtemplateid](#webtemplateid)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[websiteid](#websiteid)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[websitelanguageid](#websitelanguageid)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[webpageid](#webpageid)||<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
-|[iamlive](#iamlive)|flag to check that the page is live|<a href="MarketingPage.md" target="_blank">Marketing\MarketingSolution/MarketingPage</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[contactMapping](#contactMapping)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[defaultformlabel](#defaultformlabel)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[defaultformplaceholder](#defaultformplaceholder)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[marketingFormFieldId](#marketingFormFieldId)|Unique ID for entity instances|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[marketingformfieldtype](#marketingformfieldtype)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[marketingformfieldtype_display](#marketingformfieldtype_display)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[format](#format)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[format_display](#format_display)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[leadMapping](#leadMapping)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[name](#name)|The name of the custom entity|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[renderas](#renderas)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[renderas_display](#renderas_display)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[ownerIdName](#ownerIdName)|Name of the owner|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[ownerIdYomiName](#ownerIdYomiName)|Yomi name of the owner|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[stateCode](#stateCode)|Status of the marketing form field|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[stateCode_display](#stateCode_display)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[statusCode](#statusCode)|Reason for the status of the marketing form field|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[statusCode_display](#statusCode_display)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[marketingProvided](#marketingProvided)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[contactmappingTarget](#contactmappingTarget)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[leadmappingTarget](#leadmappingTarget)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[lookupTarget](#lookupTarget)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[prototypeAttribute](#prototypeAttribute)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[prototypeEntity](#prototypeEntity)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[prototypeTarget](#prototypeTarget)||<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
+|[publicVisibility](#publicVisibility)|I acknowledge the select lookup will be visible to public|<a href="MarketingFormField.md" target="_blank">Marketing\MarketingSolution/MarketingFormField</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -151,7 +134,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -208,7 +191,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -249,7 +232,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -306,7 +289,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -363,7 +346,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -420,7 +403,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -461,7 +444,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -501,7 +484,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -555,7 +538,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -612,7 +595,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -666,7 +649,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier for the user that owns the record.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -723,7 +706,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -777,7 +760,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -820,7 +803,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -863,7 +846,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -907,51 +890,18 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 </details>
 
-### <a href=#formToSave name="formToSave">formToSave</a>
+### <a href=#contactMapping name="contactMapping">contactMapping</a>
 
-Form to save  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Form to save</td></tr><tr><td>description</td><td>Form to save</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_formtosave</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact mapping</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_contactmapping</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the formToSave attribute are listed below.</summary>
-
-*is.dataFormat.boolean*  
-  *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_formtosave"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form to save</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form to save</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.boolean*  
-  </details>
-
-### <a href=#content name="content">content</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Content</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_content</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the content attribute are listed below.</summary>
+<summary>List of traits for the contactMapping attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -961,309 +911,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_content"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000000"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Content</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#contentType name="contentType">contentType</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Content type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_contenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Structural</td><td>0</td></tr><tr><td>en</td><td>Product launch</td><td>1</td></tr><tr><td>en</td><td>Product information</td><td>2</td></tr><tr><td>en</td><td>Company background</td><td>3</td></tr><tr><td>en</td><td>Event information</td><td>4</td></tr><tr><td>en</td><td>Offers and discounts</td><td>5</td></tr><tr><td>en</td><td>Confirmation request</td><td>6</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the contentType attribute are listed below.</summary>
-
-*is.dataFormat.integer*  
-  *is.dataFormat.signed*  
-  indicates the capability to represent values less than zero.  
-
-*is.dataFormat.numeric*  
-  *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Structural</td><td>0</td></tr><tr><td>en</td><td>Product launch</td><td>1</td></tr><tr><td>en</td><td>Product information</td><td>2</td></tr><tr><td>en</td><td>Company background</td><td>3</td></tr><tr><td>en</td><td>Event information</td><td>4</td></tr><tr><td>en</td><td>Offers and discounts</td><td>5</td></tr><tr><td>en</td><td>Confirmation request</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
-
-*is.constrainedList*  
-  the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_contenttype"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Content type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.integer*  
-  </details>
-
-### <a href=#contentType_display name="contentType_display">contentType_display</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the contentType_display attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.displayText*  
-  *is.readOnly*  
-  *is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.addedInSupportOf*  
-    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"contentType"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#formPageMapping name="formPageMapping">formPageMapping</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Form page mapping</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_formpagemapping</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the formPageMapping attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_formpagemapping"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000000"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form page mapping</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#alloweddomains name="alloweddomains">alloweddomains</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Known domains</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_alloweddomains</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the alloweddomains attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_alloweddomains"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000000"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Known domains</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#fullPageURL name="fullPageURL">fullPageURL</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Full page URL</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_full_page_url</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fullPageURL attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.URL*  
-  A Uniform Resource Locator. A web address.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_full_page_url"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Full page URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#fullPageUrls name="fullPageUrls">fullPageUrls</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Full page urls</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_full_page_urls</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the fullPageUrls attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.URL*  
-  A Uniform Resource Locator. A web address.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_full_page_urls"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000000"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Full page urls</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#insightsPlaceholder name="insightsPlaceholder">insightsPlaceholder</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_insights_placeholder</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the insightsPlaceholder attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_insights_placeholder"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_contactmapping"</td><td>string</td><td></td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -1272,7 +920,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact mapping</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1286,19 +934,107 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 </details>
 
-### <a href=#marketingPageId name="marketingPageId">marketingPageId</a>
+### <a href=#defaultformlabel name="defaultformlabel">defaultformlabel</a>
 
-Unique ID for entity instances  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marketing page</td></tr><tr><td>description</td><td>Unique ID for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyncrm_marketingpageid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Label</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_defaultformlabel</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the marketingPageId attribute are listed below.</summary>
+<summary>List of traits for the defaultformlabel attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_defaultformlabel"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Label</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#defaultformplaceholder name="defaultformplaceholder">defaultformplaceholder</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Placeholder</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_defaultformplaceholder</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the defaultformplaceholder attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_defaultformplaceholder"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Placeholder</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#marketingFormFieldId name="marketingFormFieldId">marketingFormFieldId</a>
+
+Unique ID for entity instances  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marketing form field</td></tr><tr><td>description</td><td>Unique ID for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyncrm_marketingformfieldid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the marketingFormFieldId attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -1310,16 +1046,16 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 *is.dataFormat.guid*  
   *means.identity.entityId*  
   *is.identifiedBy*  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingPage/(resolvedAttributes)/marketingPageId](#marketingPageId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingFormField/(resolvedAttributes)/marketingFormFieldId](#marketingFormFieldId)</td><td>attribute</td><td></td></tr></table>
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingpageid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingformfieldid"</td><td>string</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing page</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing form field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique ID for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1331,115 +1067,18 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 </details>
 
-### <a href=#marketingPageTemplateId name="marketingPageTemplateId">marketingPageTemplateId</a>
+### <a href=#marketingformfieldtype name="marketingformfieldtype">marketingformfieldtype</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marketing page template</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_marketingpagetemplate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Field type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdyncrm_marketingformfieldtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single line of text</td><td>1</td></tr><tr><td>en</td><td>Multiple lines of text</td><td>2</td></tr><tr><td>en</td><td>Option set</td><td>3</td></tr><tr><td>en</td><td>Two options</td><td>4</td></tr><tr><td>en</td><td>Whole number</td><td>5</td></tr><tr><td>en</td><td>Floating point number</td><td>6</td></tr><tr><td>en</td><td>Decimal number</td><td>7</td></tr><tr><td>en</td><td>Date and time</td><td>8</td></tr><tr><td>en</td><td>Currency</td><td>9</td></tr><tr><td>en</td><td>Multi-select option set</td><td>10</td></tr><tr><td>en</td><td>Lookup</td><td>11</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the marketingPageTemplateId attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.dataFormat.guid*  
-  *means.identity.entityId*  
-  *is.CDS.lookup*  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing page template</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="MarketingPageTemplate.md" target="_blank">MarketingPageTemplate.cdm.json/MarketingPageTemplate</a></td><td><a href="MarketingPageTemplate.md#marketingPageTemplateId" target="_blank">marketingPageTemplateId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingpagetemplate"</td><td>string</td><td></td></tr></table>
-
-*is.dataFormat.guid*  
-  *is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#marketingWebsiteId name="marketingWebsiteId">marketingWebsiteId</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marketing website</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyncrm_marketingwebsite</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the marketingWebsiteId attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.dataFormat.guid*  
-  *means.identity.entityId*  
-  *is.CDS.lookup*  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing website</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="MarketingWebsite.md" target="_blank">MarketingWebsite.cdm.json/MarketingWebsite</a></td><td><a href="MarketingWebsite.md#websiteId" target="_blank">websiteId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingwebsite"</td><td>string</td><td></td></tr></table>
-
-*is.dataFormat.guid*  
-  *is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#marketType name="marketType">marketType</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Market type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_markettype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Enterprise</td><td>0</td></tr><tr><td>en</td><td>Consumer</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the marketType attribute are listed below.</summary>
+<summary>List of traits for the marketingformfieldtype attribute are listed below.</summary>
 
 *is.dataFormat.integer*  
   *is.dataFormat.signed*  
@@ -1447,19 +1086,89 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 *is.dataFormat.numeric*  
   *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Enterprise</td><td>0</td></tr><tr><td>en</td><td>Consumer</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single line of text</td><td>1</td></tr><tr><td>en</td><td>Multiple lines of text</td><td>2</td></tr><tr><td>en</td><td>Option set</td><td>3</td></tr><tr><td>en</td><td>Two options</td><td>4</td></tr><tr><td>en</td><td>Whole number</td><td>5</td></tr><tr><td>en</td><td>Floating point number</td><td>6</td></tr><tr><td>en</td><td>Decimal number</td><td>7</td></tr><tr><td>en</td><td>Date and time</td><td>8</td></tr><tr><td>en</td><td>Currency</td><td>9</td></tr><tr><td>en</td><td>Multi-select option set</td><td>10</td></tr><tr><td>en</td><td>Lookup</td><td>11</td></tr></table></td><td>any</td><td></td></tr></table>
 
 *is.constrainedList*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_markettype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_marketingformfieldtype"</td><td>string</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Field type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.dataFormat.integer*  
+  </details>
+
+### <a href=#marketingformfieldtype_display name="marketingformfieldtype_display">marketingformfieldtype_display</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the marketingformfieldtype_display attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*means.reference.displayText*  
+  *is.readOnly*  
+  *is.addedInSupportOf*  
+    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"marketingformfieldtype"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#format name="format">format</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Format</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_format</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Text</td><td>1</td></tr><tr><td>en</td><td>Text area</td><td>2</td></tr><tr><td>en</td><td>Email</td><td>3</td></tr><tr><td>en</td><td>URL</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>5</td></tr><tr><td>en</td><td>Date</td><td>6</td></tr><tr><td>en</td><td>Date and time</td><td>7</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the format attribute are listed below.</summary>
+
+*is.dataFormat.integer*  
+  *is.dataFormat.signed*  
+  indicates the capability to represent values less than zero.  
+
+*is.dataFormat.numeric*  
+  *does.haveDefault*  
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Text</td><td>1</td></tr><tr><td>en</td><td>Text area</td><td>2</td></tr><tr><td>en</td><td>Email</td><td>3</td></tr><tr><td>en</td><td>URL</td><td>4</td></tr><tr><td>en</td><td>Phone</td><td>5</td></tr><tr><td>en</td><td>Date</td><td>6</td></tr><tr><td>en</td><td>Date and time</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+
+*is.constrainedList*  
+  the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_format"</td><td>string</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Market type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1470,9 +1179,9 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 *is.dataFormat.integer*  
   </details>
 
-### <a href=#marketType_display name="marketType_display">marketType_display</a>
+### <a href=#format_display name="format_display">format_display</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -1481,7 +1190,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the marketType_display attribute are listed below.</summary>
+<summary>List of traits for the format_display attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -1496,7 +1205,51 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   The attribute value may be set to NULL.  
 
 *is.addedInSupportOf*  
-    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"marketType"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"format"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#leadMapping name="leadMapping">leadMapping</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead mapping</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_leadmapping</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the leadMapping attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_leadmapping"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead mapping</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -1506,12 +1259,12 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 ### <a href=#name name="name">name</a>
 
-Name of the marketing page  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+The name of the custom entity  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of the marketing page</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdyncrm_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdyncrm_name</td></tr></table>
 
 #### Traits
 
@@ -1539,7 +1292,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the marketing page</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -1547,18 +1300,18 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 </details>
 
-### <a href=#optimizedFor name="optimizedFor">optimizedFor</a>
+### <a href=#renderas name="renderas">renderas</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Optimized for</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_optimizedfor</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Desktop</td><td>0</td></tr><tr><td>en</td><td>Tablet</td><td>1</td></tr><tr><td>en</td><td>Mobile</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rendering control</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_renderas</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Text box</td><td>1</td></tr><tr><td>en</td><td>Email input</td><td>2</td></tr><tr><td>en</td><td>URL input</td><td>3</td></tr><tr><td>en</td><td>Phone input</td><td>4</td></tr><tr><td>en</td><td>Number input</td><td>5</td></tr><tr><td>en</td><td>Text area</td><td>6</td></tr><tr><td>en</td><td>Checkbox</td><td>7</td></tr><tr><td>en</td><td>Drop-down</td><td>8</td></tr><tr><td>en</td><td>Radio buttons</td><td>9</td></tr><tr><td>en</td><td>Date picker</td><td>10</td></tr><tr><td>en</td><td>Date time picker</td><td>11</td></tr><tr><td>en</td><td>Checkbox list</td><td>12</td></tr><tr><td>en</td><td>Lookup</td><td>13</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the optimizedFor attribute are listed below.</summary>
+<summary>List of traits for the renderas attribute are listed below.</summary>
 
 *is.dataFormat.integer*  
   *is.dataFormat.signed*  
@@ -1566,19 +1319,19 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 *is.dataFormat.numeric*  
   *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Desktop</td><td>0</td></tr><tr><td>en</td><td>Tablet</td><td>1</td></tr><tr><td>en</td><td>Mobile</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Text box</td><td>1</td></tr><tr><td>en</td><td>Email input</td><td>2</td></tr><tr><td>en</td><td>URL input</td><td>3</td></tr><tr><td>en</td><td>Phone input</td><td>4</td></tr><tr><td>en</td><td>Number input</td><td>5</td></tr><tr><td>en</td><td>Text area</td><td>6</td></tr><tr><td>en</td><td>Checkbox</td><td>7</td></tr><tr><td>en</td><td>Drop-down</td><td>8</td></tr><tr><td>en</td><td>Radio buttons</td><td>9</td></tr><tr><td>en</td><td>Date picker</td><td>10</td></tr><tr><td>en</td><td>Date time picker</td><td>11</td></tr><tr><td>en</td><td>Checkbox list</td><td>12</td></tr><tr><td>en</td><td>Lookup</td><td>13</td></tr></table></td><td>any</td><td></td></tr></table>
 
 *is.constrainedList*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_optimizedfor"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_renderas"</td><td>string</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optimized for</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Rendering control</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1589,9 +1342,9 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 *is.dataFormat.integer*  
   </details>
 
-### <a href=#optimizedFor_display name="optimizedFor_display">optimizedFor_display</a>
+### <a href=#renderas_display name="renderas_display">renderas_display</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -1600,7 +1353,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the optimizedFor_display attribute are listed below.</summary>
+<summary>List of traits for the renderas_display attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -1615,403 +1368,18 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   The attribute value may be set to NULL.  
 
 *is.addedInSupportOf*  
-    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"optimizedFor"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"renderas"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
-
-### <a href=#partialURL name="partialURL">partialURL</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partial URL</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdyncrm_partialurl</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the partialURL attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.URL*  
-  A Uniform Resource Locator. A web address.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_partialurl"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Partial URL</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#purpose name="purpose">purpose</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purpose</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_purpose</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact capture</td><td>0</td></tr><tr><td>en</td><td>Newsletter subscription</td><td>1</td></tr><tr><td>en</td><td>Lead generation</td><td>2</td></tr><tr><td>en</td><td>Collateral download</td><td>3</td></tr><tr><td>en</td><td>Event registration</td><td>4</td></tr><tr><td>en</td><td>Event feedback</td><td>5</td></tr><tr><td>en</td><td>Structural</td><td>6</td></tr><tr><td>en</td><td>Double Opt-In, Email based confirmation</td><td>7</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the purpose attribute are listed below.</summary>
-
-*is.dataFormat.integer*  
-  *is.dataFormat.signed*  
-  indicates the capability to represent values less than zero.  
-
-*is.dataFormat.numeric*  
-  *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact capture</td><td>0</td></tr><tr><td>en</td><td>Newsletter subscription</td><td>1</td></tr><tr><td>en</td><td>Lead generation</td><td>2</td></tr><tr><td>en</td><td>Collateral download</td><td>3</td></tr><tr><td>en</td><td>Event registration</td><td>4</td></tr><tr><td>en</td><td>Event feedback</td><td>5</td></tr><tr><td>en</td><td>Structural</td><td>6</td></tr><tr><td>en</td><td>Double Opt-In, Email based confirmation</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
-
-*is.constrainedList*  
-  the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_purpose"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purpose</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.integer*  
-  </details>
-
-### <a href=#purpose_display name="purpose_display">purpose_display</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the purpose_display attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.displayText*  
-  *is.readOnly*  
-  *is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.addedInSupportOf*  
-    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"purpose"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#remoteWebsiteID name="remoteWebsiteID">remoteWebsiteID</a>
-
-Unique ID for remote entity instances  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remote website ID</td></tr><tr><td>description</td><td>Unique ID for remote entity instances</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_remote_websiteid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the remoteWebsiteID attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_remote_websiteid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Remote website ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique ID for remote entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#type name="type">type</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdyncrm_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Landing page</td><td>0</td></tr><tr><td>en</td><td>Subscription center</td><td>1</td></tr><tr><td>en</td><td>Forward to a friend</td><td>2</td></tr><tr><td>en</td><td>Event registration</td><td>3</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the type attribute are listed below.</summary>
-
-*is.dataFormat.integer*  
-  *is.dataFormat.signed*  
-  indicates the capability to represent values less than zero.  
-
-*is.dataFormat.numeric*  
-  *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Landing page</td><td>0</td></tr><tr><td>en</td><td>Subscription center</td><td>1</td></tr><tr><td>en</td><td>Forward to a friend</td><td>2</td></tr><tr><td>en</td><td>Event registration</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-*is.constrainedList*  
-  the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_type"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.dataFormat.integer*  
-  </details>
-
-### <a href=#type_display name="type_display">type_display</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the type_display attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.displayText*  
-  *is.readOnly*  
-  *is.addedInSupportOf*  
-    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"type"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#visualStyle name="visualStyle">visualStyle</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visual style</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_visualstyle</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Light</td><td>0</td></tr><tr><td>en</td><td>Dark</td><td>1</td></tr><tr><td>en</td><td>Colorful</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>3</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the visualStyle attribute are listed below.</summary>
-
-*is.dataFormat.integer*  
-  *is.dataFormat.signed*  
-  indicates the capability to represent values less than zero.  
-
-*is.dataFormat.numeric*  
-  *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Light</td><td>0</td></tr><tr><td>en</td><td>Dark</td><td>1</td></tr><tr><td>en</td><td>Colorful</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
-
-*is.constrainedList*  
-  the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_visualstyle"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visual style</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.integer*  
-  </details>
-
-### <a href=#visualStyle_display name="visualStyle_display">visualStyle_display</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the visualStyle_display attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*means.reference.displayText*  
-  *is.readOnly*  
-  *is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.addedInSupportOf*  
-    <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"visualStyle"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#lastPublishedDate name="lastPublishedDate">lastPublishedDate</a>
-
-Date and time when the marketing page was last published  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last published date</td></tr><tr><td>description</td><td>Date and time when the marketing page was last published</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_lastpublisheddate</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the lastPublishedDate attribute are listed below.</summary>
-
-*is.dataFormat.date*  
-  *means.measurement.date*  
-  *is.dataFormat.time*  
-  *means.measurement.time*  
-  *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_lastpublisheddate"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last published date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the marketing page was last published</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.time*  
-  *is.dataFormat.date*  
-  </details>
-
-### <a href=#lastUnpublishedDate name="lastUnpublishedDate">lastUnpublishedDate</a>
-
-Date and time when the marketing page was last unpublished  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last unpublished date</td></tr><tr><td>description</td><td>Date and time when the marketing page was last unpublished</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_lastunpublisheddate</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the lastUnpublishedDate attribute are listed below.</summary>
-
-*is.dataFormat.date*  
-  *means.measurement.date*  
-  *is.dataFormat.time*  
-  *means.measurement.time*  
-  *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_lastunpublisheddate"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last unpublished date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the marketing page was last unpublished</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.time*  
-  *is.dataFormat.date*  
-  </details>
 
 ### <a href=#ownerIdName name="ownerIdName">ownerIdName</a>
 
 Name of the owner  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -2051,7 +1419,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 ### <a href=#ownerIdYomiName name="ownerIdYomiName">ownerIdYomiName</a>
 
 Yomi name of the owner  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -2090,12 +1458,12 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
-Status of the marketing page  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+Status of the marketing form field  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the marketing page</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the marketing form field</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2114,7 +1482,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *means.entityState*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingPage/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingFormField/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 *is.CDS.sourceNamed*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
@@ -2126,14 +1494,14 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the marketing page</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the marketing form field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.dataFormat.integer*  
   </details>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -2164,12 +1532,12 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
-Marketing page status reason  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+Reason for the status of the marketing form field  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Marketing page status reason</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>0</td></tr><tr><td>en</td><td>Live, editable</td><td>192350003</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>0</td></tr><tr><td>en</td><td>Stopping...</td><td>192350007</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Reason for the status of the marketing form field</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2182,7 +1550,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 *is.dataFormat.numeric*  
   *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>0</td></tr><tr><td>en</td><td>Live, editable</td><td>192350003</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>0</td></tr><tr><td>en</td><td>Stopping...</td><td>192350007</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 *is.constrainedList*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2200,7 +1568,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing page status reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the marketing form field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
@@ -2210,7 +1578,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -2244,7 +1612,7 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 
 ### <a href=#marketingProvided name="marketingProvided">marketingProvided</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
@@ -2274,372 +1642,296 @@ First included in: Marketing\\MarketingSolution/MarketingPage (this entity)
 *is.dataFormat.boolean*  
   </details>
 
-### <a href=#forcePortalLess name="forcePortalLess">forcePortalLess</a>
+### <a href=#contactmappingTarget name="contactmappingTarget">contactmappingTarget</a>
 
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Force portal-less</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_forceportalless</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact mapping targets</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_contactmapping_target</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the forcePortalLess attribute are listed below.</summary>
+<summary>List of traits for the contactmappingTarget attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_contactmapping_target"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact mapping targets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#leadmappingTarget name="leadmappingTarget">leadmappingTarget</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead mapping targets</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_leadmapping_target</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the leadmappingTarget attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_leadmapping_target"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead mapping targets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#lookupTarget name="lookupTarget">lookupTarget</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lookup targets</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_lookup_target</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the lookupTarget attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_lookup_target"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup targets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#prototypeAttribute name="prototypeAttribute">prototypeAttribute</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unmapped attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_prototype_attribute</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the prototypeAttribute attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_prototype_attribute"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unmapped attribute</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#prototypeEntity name="prototypeEntity">prototypeEntity</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unmapped entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_prototype_entity</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the prototypeEntity attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_prototype_entity"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unmapped entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#prototypeTarget name="prototypeTarget">prototypeTarget</a>
+
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unmapped targets</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_prototype_target</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the prototypeTarget attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_prototype_target"</td><td>string</td><td></td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unmapped targets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#publicVisibility name="publicVisibility">publicVisibility</a>
+
+I acknowledge the select lookup will be visible to public  
+First included in: Marketing\\MarketingSolution/MarketingFormField (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lookup will be visible to public</td></tr><tr><td>description</td><td>I acknowledge the select lookup will be visible to public</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_publicvisibility</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the publicVisibility attribute are listed below.</summary>
 
 *is.dataFormat.boolean*  
   *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_forceportalless"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_publicvisibility"</td><td>string</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Force portal-less</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup will be visible to public</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.boolean*  
-  </details>
-
-### <a href=#websitefilterPlaceholder name="websitefilterPlaceholder">websitefilterPlaceholder</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>400</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_websitefilter_placeholder</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the websitefilterPlaceholder attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_websitefilter_placeholder"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"400"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#pagetemplateid name="pagetemplateid">pagetemplateid</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>72</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_pagetemplateid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the pagetemplateid attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"adx_pagetemplateid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#parentwebpageid name="parentwebpageid">parentwebpageid</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>72</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_parentwebpageid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the parentwebpageid attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"adx_parentwebpageid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#webtemplateid name="webtemplateid">webtemplateid</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>72</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_webtemplateid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the webtemplateid attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"adx_webtemplateid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#websiteid name="websiteid">websiteid</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>72</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_websiteid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the websiteid attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"adx_websiteid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#websitelanguageid name="websitelanguageid">websitelanguageid</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>72</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_websitelanguageid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the websitelanguageid attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"adx_websitelanguageid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#webpageid name="webpageid">webpageid</a>
-
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insights</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>72</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_webpageid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the webpageid attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"adx_webpageid"</td><td>string</td><td></td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Insights</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#iamlive name="iamlive">iamlive</a>
-
-flag to check that the page is live  
-First included in: Marketing\\MarketingSolution/MarketingPage (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>flag to check that the page is live</td></tr><tr><td>description</td><td>flag to check that the page is live</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_iamlive</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the iamlive attribute are listed below.</summary>
-
-*is.dataFormat.boolean*  
-  *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyncrm_iamlive"</td><td>string</td><td></td></tr></table>
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>flag to check that the page is live</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>flag to check that the page is live</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>I acknowledge the select lookup will be visible to public</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
