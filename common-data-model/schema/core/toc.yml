@@ -782,40 +782,118 @@
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
             - name: LeadScoringModel 
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.md
+          - name: Account
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Account.md
+          - name: AnalyticsConfiguration
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/AnalyticsConfiguration.md
           - name: Appointment 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.md
+          - name: AppointmentActivityMarketingTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/AppointmentActivityMarketingTemplate.md
           - name: Connection 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.md
           - name: Contact 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.md
           - name: ContentSettings 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/ContentSettings.md
+          - name: CustomChannelActivity
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomChannelActivity.md
+          - name: CustomerInsightsInfo
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerInsightsInfo.md
           - name: CustomerJourney 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourney.md
+          - name: CustomerJourneyIteration
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourneyIteration.md
+          - name: CustomerJourneyRuntimeState
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourneyRuntimeState.md
+          - name: CustomerJourneyTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourneyTemplate.md
+          - name: CustomerJourneyWorkflowLink
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourneyWorkflowLink.md
+          - name: DefaultSettings
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/DefaultSettings.md
+          - name: DomainAuthentication
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/DomainAuthentication.md
+          - name: FormMatching
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/FormMatching.md
           - name: FormPage 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/FormPage.md
+          - name: FormPageTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/FormPageTemplate.md
+          - name: FormWhitelistRule
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/FormWhitelistRule.md
           - name: GeoPin 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/GeoPin.md
+          - name: LandingPages
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LandingPages.md
           - name: Lead 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.md
           - name: ListForm 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/ListForm.md
-          - name: MarketingEmail 
+          - name: LiveEntityDependency
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LiveEntityDependency.md
+          - name: MarketingConfiguration
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingConfiguration.md
+          - name: MarketingDataImport
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingDataImport.md
+          - name: MarketingDynamicContentMetadata
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingDynamicContentMetadata.md
+          - name: MarketingEmail
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmail.md
+          - name: MarketingEmailDynamicContentMetadata
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmailDynamicContentMetadata.md
+          - name: MarketingEmailTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmailTemplate.md
+          - name: MarketingEmailTest
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmailTest.md
+          - name: MarketingEmailTestAttribute
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmailTestAttribute.md
+          - name: MarketingEmailTestSend
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmailTestSend.md
+          - name: MarketingFieldSubmission
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingFieldSubmission.md
           - name: MarketingForm 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingForm.md
+          - name: MarketingFormField
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingFormField.md
+          - name: MarketingFormSubmission
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingFormSubmission.md
+          - name: MarketingFormTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingFormTemplate.md
           - name: MarketingList 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.md
           - name: MarketingPage 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingPage.md
           - name: MarketingWebsite 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingWebsite.md
+          - name: MatchingStrategyAttribute
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MatchingStrategyAttribute.md
+          - name: MktActivity
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/MktActivity.md
           - name: PhoneCall 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.md
+          - name: PhoneCallActivityMarketingTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCallActivityMarketingTemplate.md
+          - name: PortalSettings
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/PortalSettings.md
+          - name: ProcessSession
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/ProcessSession.md
+          - name: RedirectURL
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/RedirectURL.md
           - name: Segment 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Segment.md
+          - name: SegmentTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/SegmentTemplate.md
           - name: Task 
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Task.md
+          - name: TaskActivityMarketingTemplate
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/TaskActivityMarketingTemplate.md
+          - name: UICConfig
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/UICConfig.md
+          - name: UserGeoRegion
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/UserGeoRegion.md
+          - name: UserSetting
+            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/UserSetting.md
         - name: portals
           items:
           - name: Summary
