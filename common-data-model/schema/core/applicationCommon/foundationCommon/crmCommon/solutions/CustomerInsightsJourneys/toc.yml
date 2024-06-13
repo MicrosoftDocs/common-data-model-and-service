@@ -1,6 +1,6 @@
 - name: Summary
   href: overview.md
-- name: Customer Insights Journeys
+- name: CustomerInsightsJourneys
   items:
   - name: Summary
     href: overview.md
@@ -30,6 +30,8 @@
     href: botpushnotificationlinkclicked.md
   - name: botsmslinkclicked 
     href: botsmslinkclicked.md
+  - name: confirmableformsubmitted 
+    href: confirmableformsubmitted.md
   - name: confirmationrequest 
     href: confirmationrequest.md
   - name: confirmationresponse 
@@ -148,6 +150,10 @@
     href: formsprosurveyquestionanswered.md
   - name: formsprosurveysubmitted 
     href: formsprosurveysubmitted.md
+  - name: formsubmissionconfirmed 
+    href: formsubmissionconfirmed.md
+  - name: formsubmissionexpired 
+    href: formsubmissionexpired.md
   - name: formsubmitted 
     href: formsubmitted.md
   - name: formvisited 
