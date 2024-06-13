@@ -1,5 +1,5 @@
 ---
-title: SmsNotSent in Customer Insights Journeys - Common Data Model | Microsoft Docs
+title: FormSubmissionConfirmed in Customer Insights Journeys - Common Data Model | Microsoft Docs
 description: Customer Insights Journeys data model reference
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 6/4/2024
 ms.author: anbichse
 ---
 
-# SmsNotSent in Customer Insights Journeys
+# FormSubmissionConfirmed in Customer Insights Journeys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/smsnotsent.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/formsubmissionconfirmed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,40 +32,38 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[Country](#Country)|The three letter ISO code associated with the SMS recipient's country.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[RecipientPhoneNumber](#RecipientPhoneNumber)|The recipient's phone number.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[SenderPhoneNumber](#SenderPhoneNumber)|The sender's phone number|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[PhoneProviderType](#PhoneProviderType)|The sender's phonenumber provider's type (for example, Twilio, Telesign)|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[BlockedReason](#BlockedReason)|Failure reason codes with a root cause of the submission failure|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[MessageId](#MessageId)|Message ID|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[JourneyRunId](#JourneyRunId)|Unique identifier of the Journey's execution.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[JourneyActionId](#JourneyActionId)|Journey Action Id|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[OrganizationId](#OrganizationId)|Organization Id.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
-|[InteractionType](#InteractionType)|Type of the interaction.|<a href="smsnotsent.md" target="_blank">CustomerInsightsJourneys/smsnotsent</a>|
+|[FormId](#FormId)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[FormName](#FormName)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[FormSubmissionId](#FormSubmissionId)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[PageUrl](#PageUrl)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[SourceEntityName](#SourceEntityName)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[SourceEntityId](#SourceEntityId)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[MessageTemplateVersion](#MessageTemplateVersion)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[JourneyVersion](#JourneyVersion)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[ProfileId](#ProfileId)|Profile ID|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[ProfileType](#ProfileType)|Profile type|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[OrganizationId](#OrganizationId)|Organization Id.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
+|[InteractionType](#InteractionType)|Type of the interaction.|<a href="formsubmissionconfirmed.md" target="_blank">CustomerInsightsJourneys/formsubmissionconfirmed</a>|
 
-### <a href=#Country name="Country">Country</a>
+### <a href=#FormId name="FormId">FormId</a>
 
-The three letter ISO code associated with the SMS recipient's country.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The three letter ISO code associated with the SMS recipient's country.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the Country attribute are listed below.</summary>
+<summary>List of traits for the FormId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -74,8 +72,33 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The three letter ISO code associated with the SMS recipient's country.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#FormName name="FormName">FormName</a>
+
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the FormName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -83,19 +106,18 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 </details>
 
-### <a href=#RecipientPhoneNumber name="RecipientPhoneNumber">RecipientPhoneNumber</a>
+### <a href=#FormSubmissionId name="FormSubmissionId">FormSubmissionId</a>
 
-The recipient's phone number.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The recipient's phone number.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the RecipientPhoneNumber attribute are listed below.</summary>
+<summary>List of traits for the FormSubmissionId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -104,8 +126,33 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The recipient's phone number.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#PageUrl name="PageUrl">PageUrl</a>
+
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PageUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -113,19 +160,18 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 </details>
 
-### <a href=#SenderPhoneNumber name="SenderPhoneNumber">SenderPhoneNumber</a>
+### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
 
-The sender's phone number  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The sender's phone number</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the SenderPhoneNumber attribute are listed below.</summary>
+<summary>List of traits for the SourceEntityName attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -133,9 +179,6 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The sender's phone number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -143,19 +186,18 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 </details>
 
-### <a href=#PhoneProviderType name="PhoneProviderType">PhoneProviderType</a>
+### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
 
-The sender's phonenumber provider's type (for example, Twilio, Telesign)  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The sender's phonenumber provider's type (for example, Twilio, Telesign)</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the PhoneProviderType attribute are listed below.</summary>
+<summary>List of traits for the SourceEntityId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -164,8 +206,33 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The sender's phonenumber provider's type (for example, Twilio, Telesign)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
+
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MessageTemplateVersion attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -173,19 +240,18 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 </details>
 
-### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
+### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
 
-Failure reason codes with a root cause of the submission failure  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Failure reason codes with a root cause of the submission failure</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the BlockedReason attribute are listed below.</summary>
+<summary>List of traits for the JourneyVersion attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -193,9 +259,6 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Failure reason codes with a root cause of the submission failure</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -205,12 +268,12 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+Profile ID  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the profile.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Profile ID</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -225,7 +288,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the profile.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Profile ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -235,12 +298,12 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type (Contact, Lead or CI Profile)  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+Profile type  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The profile type (Contact, Lead or CI Profile)</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Profile type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -255,41 +318,9 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The profile type (Contact, Lead or CI Profile)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Profile type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#MessageId name="MessageId">MessageId</a>
-
-Message ID  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Message ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the MessageId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.guid**  
-  **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Message ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
   **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -297,7 +328,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -312,104 +343,10 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
   **is.dataFormat.boolean**  
   </details>
 
-### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
-
-Unique identifier of the Journey's execution.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Journey's execution.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JourneyRunId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.guid**  
-  **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Journey's execution.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
-
-Journey Action Id  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Journey Action Id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JourneyActionId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Journey Action Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
-
- Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td> Unique identifier of the Customer journey</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.guid**  
-  **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td> Unique identifier of the Customer journey</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -445,7 +382,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -475,7 +412,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -505,7 +442,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -537,7 +474,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -562,7 +499,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -587,7 +524,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
  Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
@@ -612,7 +549,7 @@ First included in: CustomerInsightsJourneys/smsnotsent (this entity)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/smsnotsent (this entity)  
+First included in: CustomerInsightsJourneys/formsubmissionconfirmed (this entity)  
 
 #### Properties
 
