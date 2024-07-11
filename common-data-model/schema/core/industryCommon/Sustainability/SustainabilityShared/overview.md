@@ -1,17 +1,17 @@
 ---
-title: Overview of Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: Overview of Cloud for Sustainability Shared Data Model - Common Data Model | Microsoft Docs
 description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/3/2024
+ms.date: 7/9/2024
 ms.author: anbichse
 ---
 
-# Overview of Cloud for Sustainability shared data model
+# Overview of Cloud for Sustainability Shared Data Model
 
-Cloud for Sustainability shared data model entity definitions.
+Cloud for Sustainability Shared Data Model CDM entity definitions.
 
 ## Entities
 
@@ -19,7 +19,7 @@ Cloud for Sustainability shared data model entity definitions.
 |---|---|
 |[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
-|[CountryRegion](CountryRegion.md)|Defines custom country/region codes.|
+|[CountryRegion](CountryRegion.md)|Defines custom Country/region codes.|
 |[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
 |[CustomDimensionMetadata](CustomDimensionMetadata.md)|Table holding information about all the custom dimensions available in Microsoft Sustainability Manager|
 |[DataSourceType](DataSourceType.md)|The different types of sources for energy data.|
