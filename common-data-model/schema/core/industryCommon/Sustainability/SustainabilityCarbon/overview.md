@@ -1,5 +1,5 @@
 ---
-title: overview of CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: Overview of Cloud for Sustainability Carbon Data Model - Common Data Model | Microsoft Docs
 description: CloudforSustainabilityCarbonDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of CloudforSustainabilityCarbonDataModel
 
-Cloud for Sustainability Carbon Data Model CDM entity definitions  
+Cloud for Sustainability Carbon Data Model CDM entity definitions.
 
 ## Entities
 
