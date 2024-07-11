@@ -1,19 +1,19 @@
 ---
-title: ProductbartprintAudit in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: ProductfootprintAudit in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Assurance contains the assurance in conformance with Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
-# Product bartprint audit in Cloud for Sustainability carbon data model(ProductbartprintAudit)
+# Product footprint audit in Cloud for Sustainability carbon data model(ProductfootprintAudit)
 
 Assurance contains the assurance in conformance with Pathfinder Framework.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +25,22 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductbartprintAudit/(resolvedAttributes)/productcarbonbartprintassuranceId](#productcarbonbartprintassuranceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductfootprintAudit/(resolvedAttributes)/productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductbartprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductfootprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/ProductbartprintAudit.cdm.json<br>/ProductbartprintAudit/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/ProductfootprintAudit.cdm.json<br>/ProductfootprintAudit/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assurance contains the assurance in conformance with Pathfinder Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product bartprint audit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint audit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_productcarbonbartprintassurance"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_productcarbonfootprintassurance"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,38 +51,38 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productcarbonbartprintassuranceId](#productcarbonbartprintassuranceId)|Unique identifier for entity instances.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[statecode](#statecode)|Status of the Product carbon bartprint assurance|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[statuscode](#statuscode)|Reason for the status of the Product carbon bartprint assurance|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[name](#name)|The name of the custom entity.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[boundary](#boundary)|Boundary of the assurance.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[comments](#comments)|Any additional comments that will clarify the interpretation of the assurance.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[level](#level)|Level of assurance applicable to the PCF.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductbartprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductbartprintAudit</a>|
+|[productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)|Unique identifier for entity instances.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[statecode](#statecode)|Status of the Product carbon footprint assurance|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[statuscode](#statuscode)|Reason for the status of the Product carbon footprint assurance|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[name](#name)|The name of the custom entity.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[boundary](#boundary)|Boundary of the assurance.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[comments](#comments)|Any additional comments that will clarify the interpretation of the assurance.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[level](#level)|Level of assurance applicable to the PCF.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductfootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductfootprintAudit</a>|
 
-### <a href=#productcarbonbartprintassuranceId name="productcarbonbartprintassuranceId">productcarbonbartprintassuranceId</a>
+### <a href=#productcarbonfootprintassuranceId name="productcarbonfootprintassuranceId">productcarbonfootprintassuranceId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product carbon bartprint assurance</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_productcarbonbartprintassuranceid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product carbon footprint assurance</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_productcarbonfootprintassuranceid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productcarbonbartprintassuranceId attribute are listed below.</summary>
+<summary>List of traits for the productcarbonfootprintassuranceId attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -94,7 +94,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 *is.dataFormat.guid*  
   *means.identity.entityId*  
   *is.identifiedBy*  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductbartprintAudit/(resolvedAttributes)/productcarbonbartprintassuranceId](#productcarbonbartprintassuranceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductfootprintAudit/(resolvedAttributes)/productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -103,10 +103,10 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon bartprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_productcarbonbartprintassuranceid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_productcarbonfootprintassuranceid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -121,7 +121,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -200,12 +200,12 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Product carbon bartprint assurance  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+Status of the Product carbon footprint assurance  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Product carbon bartprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Product carbon footprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -224,13 +224,13 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *means.entityState*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductbartprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductfootprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Product carbon bartprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -246,12 +246,12 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Product carbon bartprint assurance  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+Reason for the status of the Product carbon footprint assurance  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Product carbon bartprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Product carbon footprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -276,7 +276,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Product carbon bartprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -296,7 +296,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#boundary name="boundary">boundary</a>
 
 Boundary of the assurance.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#comments name="comments">comments</a>
 
 Any additional comments that will clarify the interpretation of the assurance.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#completeddate name="completeddate">completeddate</a>
 
 The date at which the assurance was completed.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#coverage name="coverage">coverage</a>
 
 Level of granularity of the emissions data assured.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#level name="level">level</a>
 
 Level of assurance applicable to the PCF.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#providername name="providername">providername</a>
 
 The non-empty name of the independent third party engaged to undertake the assurance.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#standardname name="standardname">standardname</a>
 
 Name of the standard against which the PCF was assured.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 
@@ -832,7 +832,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (th
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityCarbon/ProductbartprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductfootprintAudit (this entity)  
 
 #### Properties
 

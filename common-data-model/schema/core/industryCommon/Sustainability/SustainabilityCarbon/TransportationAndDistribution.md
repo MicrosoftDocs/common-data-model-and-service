@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Transportation and distribution in Cloud for Sustainability carbon data model(TransportationAndDistribution)
@@ -84,11 +84,11 @@ Upstream and downstream transportation and distribution activities.
 |[transportationanddistributiontype](#transportationanddistributiontype)|Marks what type of transportation and distribution this record represents.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[transportmode](#transportmode)|The transport mode that corresponds to this transportation and distribution activity.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[vehicletype](#vehicletype)|Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
-|[productbartprintreporting](#productbartprintreporting)|Product bartprint that contains per-unit emissions data that can be used to compute emissions.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with transportation and distribution.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
-|[productbartprint](#productbartprint)|Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 
 ### <a href=#transportationanddistributionId name="transportationanddistributionId">transportationanddistributionId</a>
 
@@ -1672,19 +1672,19 @@ First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribu
 
 </details>
 
-### <a href=#productbartprintreporting name="productbartprintreporting">productbartprintreporting</a>
+### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
-Product bartprint that contains per-unit emissions data that can be used to compute emissions.  
+Product footprint that contains per-unit emissions data that can be used to compute emissions.  
 First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product bartprint (factor)</td></tr><tr><td>description</td><td>Product bartprint that contains per-unit emissions data that can be used to compute emissions.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product footprint (factor)</td></tr><tr><td>description</td><td>Product footprint that contains per-unit emissions data that can be used to compute emissions.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productbartprintreporting attribute are listed below.</summary>
+<summary>List of traits for the productfootprintreporting attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -1699,16 +1699,16 @@ First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribu
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product bartprint that contains per-unit emissions data that can be used to compute emissions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint that contains per-unit emissions data that can be used to compute emissions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product bartprint (factor)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint (factor)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Productbartprint.md" target="_blank">Productbartprint.cdm.json/Productbartprint</a></td><td><a href="Productbartprint.md#sustainabilityproductbartprintId" target="_blank">sustainabilityproductbartprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Productfootprint.md" target="_blank">Productfootprint.cdm.json/Productfootprint</a></td><td><a href="Productfootprint.md#sustainabilityproductfootprintId" target="_blank">sustainabilityproductfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1852,19 +1852,19 @@ First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribu
 
 </details>
 
-### <a href=#productbartprint name="productbartprint">productbartprint</a>
+### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Sustainability product bartprint (Deprecated)</td></tr><tr><td>description</td><td>Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Sustainability product footprint (Deprecated)</td></tr><tr><td>description</td><td>Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productbartprint attribute are listed below.</summary>
+<summary>List of traits for the productfootprint attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -1879,16 +1879,16 @@ First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribu
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Sustainability product bartprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Sustainability product footprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Productbartprint.md" target="_blank">Productbartprint.cdm.json/Productbartprint</a></td><td><a href="Productbartprint.md#sustainabilityproductbartprintId" target="_blank">sustainabilityproductbartprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Productfootprint.md" target="_blank">Productfootprint.cdm.json/Productfootprint</a></td><td><a href="Productfootprint.md#sustainabilityproductfootprintId" target="_blank">sustainabilityproductfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  

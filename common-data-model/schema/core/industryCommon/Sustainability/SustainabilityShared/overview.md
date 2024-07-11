@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Overview of CloudforSustainabilitySharedDataModel
@@ -47,7 +47,7 @@ Cloud for Sustainability Shared Data Model CDM entity definitions
 |[OrganizationalProfile](OrganizationalProfile.md)|The base information of the organization, for which the solution is built.|
 |[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
 |[ProductCategory](ProductCategory.md)|Represents category of a product. Can be associated with a parent product category. It is used in reports.|
-|[ProductSustainability](ProductSustainability.md)|A product that can be associated with a product carbon bartprint.|
+|[ProductSustainability](ProductSustainability.md)|A product that can be associated with a product carbon footprint.|
 |[ReportingPeriod](ReportingPeriod.md)|Entity used to track reporting periods created for each reporting year.|
 |[ReportingYear](ReportingYear.md)|Entity which lists reporting years created in the system.|
 |[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|

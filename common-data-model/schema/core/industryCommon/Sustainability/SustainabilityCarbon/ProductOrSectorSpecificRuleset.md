@@ -1,17 +1,17 @@
 ---
 title: ProductOrSectorSpecificRuleset in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
-description: A set of product- or sector-specific rules published by a specific operator and applied during product carbon bartprint calculation.
+description: A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Product or sector specific ruleset in Cloud for Sustainability carbon data model(ProductOrSectorSpecificRuleset)
 
-A set of product- or sector-specific rules published by a specific operator and applied during product carbon bartprint calculation.  
+A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,7 +34,7 @@ A set of product- or sector-specific rules published by a specific operator and 
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/ProductOrSectorSpecificRuleset.cdm.json<br>/ProductOrSectorSpecificRuleset/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A set of product- or sector-specific rules published by a specific operator and applied during product carbon bartprint calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product or sector specific ruleset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

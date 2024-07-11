@@ -1,19 +1,19 @@
 ---
-title: Productbartprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
-description: The carbon bartprint of a product with values in accordance with the Pathfinder Framework.
+title: Productfootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+description: The carbon footprint of a product with values in accordance with the Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
-# Product bartprint in Cloud for Sustainability carbon data model(Productbartprint)
+# Product footprint in Cloud for Sustainability carbon data model(Productfootprint)
 
-The carbon bartprint of a product with values in accordance with the Pathfinder Framework.  
+The carbon footprint of a product with values in accordance with the Pathfinder Framework.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +25,22 @@ The carbon bartprint of a product with values in accordance with the Pathfinder 
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productbartprint/(resolvedAttributes)/sustainabilityproductbartprintId](#sustainabilityproductbartprintId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productfootprint/(resolvedAttributes)/sustainabilityproductfootprintId](#sustainabilityproductfootprintId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productbartprint/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productfootprint/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/Productbartprint.cdm.json/Productbartprint<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/Productfootprint.cdm.json/Productfootprint<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The carbon bartprint of a product with values in accordance with the Pathfinder Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The carbon footprint of a product with values in accordance with the Pathfinder Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product bartprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproductbartprint"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproductfootprint"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,83 +51,83 @@ The carbon bartprint of a product with values in accordance with the Pathfinder 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityproductbartprintId](#sustainabilityproductbartprintId)|Unique identifier for entity instances.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[statecode](#statecode)|Status of the Sustainability product bartprint|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[statuscode](#statuscode)|Reason for the status of the Sustainability product bartprint|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[name](#name)|The name of the custom entity.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[comment](#comment)|Information which helps interpret, audit, or verify the product bartprint, or which describes its calculation.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[company](#company)|The company that is the data owner.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[companyType](#companyType)|The company that is the data owner.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[specversion](#specversion)|The version of the Pathfinder Framework data specification being used.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[bartprintstatus](#bartprintstatus)|The default status of a product bartprint is Active. A product bartprint with status Inactive shouldn't be used, for example, product bartprint calculations by data recipients.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[statuscomment](#statuscomment)|If defined, the value should be a message explaining the reason for the current status.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[sustainabilityproduct](#sustainabilityproduct)|The product this bartprint is for. (Deprecated)|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[sustainabilityproductcarbonbartprint](#sustainabilityproductcarbonbartprint)|The carbon bartprint of the given product. (Deprecated)|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[validityperiodend](#validityperiodend)|The end (exclusive) of the valid period of the PCF. Reference the description of validity period start and the Pathfinder Framework for further details.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[validityperiodstart](#validityperiodstart)|The start of the validity period, which is the interval during which the PCF is declared as valid for use by a data recipient. Reference the Pathfinder Framework for further details. |<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[version](#version)|The version of the product bartprint with value an integer in the inclusive range of 0 to (2\^31)-1.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[geographycountry](#geographycountry)|If present, the value must conform to an ISO 3166-2 alpha-2 code.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[geographycountrysubdivision](#geographycountrysubdivision)|If present, an ISO 3166-2 subdivision code.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[geographyregionorsubregion](#geographyregionorsubregion)|If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[aircraftghgemissions](#aircraftghgemissions)|The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[allocationrulesdescription](#allocationrulesdescription)|If present, a description of any allocation rules applied and the rationale explaining how the selected approach aligns with Pathfinder Framework rules.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[biogenicaccountingmethodology](#biogenicaccountingmethodology)|The standard followed to account for biogenic emissions and removals.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[biogeniccarboncontent](#biogeniccarboncontent)|The biogenic carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[biogeniccarbonwithdrawal](#biogeniccarbonwithdrawal)|If present, the biogenic carbon content in the product converted to CO2e. The value must be calculated per declared unit with unit kg expressed as a decimal equal to or greater than zero.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[boundaryprocessesdescription](#boundaryprocessesdescription)|If present, the processes attributable to each lifecycle stage. If no such description is available or otherwise provided, then this field must be empty.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[characterizationfactors](#characterizationfactors)|The IPCC Assessment Report used in the calculation of the PCF.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[completenessdqr](#completenessdqr)|DQR based on data quality matrix, scoring completeness of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[coveragepercent](#coveragepercent)|Percentage of PCF included in the data quality assessment based on the >5% emissions threshold.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[crosssectoralstandardsused1](#crosssectoralstandardsused1)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[crosssectoralstandardsused2](#crosssectoralstandardsused2)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[crosssectoralstandardsused3](#crosssectoralstandardsused3)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[declaredunit](#declaredunit)|The unit of analysis of the product.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[dlucghgemissions](#dlucghgemissions)|Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0. |<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[exemptedemissionsdescription](#exemptedemissionsdescription)|Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[exemptedemissionspercent](#exemptedemissionspercent)|The percentage of emissions excluded from PCF, expressed as a decimal number from 0.0 to 5, inclusive.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[fossilcarboncontent](#fossilcarboncontent)|The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[fossilghgemissions](#fossilghgemissions)|The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[geographicaldqr](#geographicaldqr)|DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[ilucghgemissions](#ilucghgemissions)|Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0. |<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[landmanagementghgemissions](#landmanagementghgemissions)|GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[otherbiogenicghgemissions](#otherbiogenicghgemissions)|All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[packagingemissionsincluded](#packagingemissionsincluded)|A boolean flag indicating whether packaging emissions are included in the PCF.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[packagingghgemissions](#packagingghgemissions)|Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[pcfexcludingbiogenic](#pcfexcludingbiogenic)|The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[pcfincludingbiogenic](#pcfincludingbiogenic)|The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[primarydatashare](#primarydatashare)|The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[productbartprintassurance](#productbartprintassurance)|Assurance information in accordance with the Pathfinder Framework.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[referenceperiodend](#referenceperiodend)|The end of the time boundary for which the PCF value is considered to be representative.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[referenceperiodstart](#referenceperiodstart)|The start of the time boundary for which the PCF value is considered to be representative.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[reliabilitydqr](#reliabilitydqr)|DQR based on data quality matrix, scoring reliability of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[secondaryemissionfactorsources](#secondaryemissionfactorsources)|If secondary data was used to calculate the PCF, then it must include this field with value the emission factors used for the PCF calculation. Otherwise, this property must be undefined.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[technologicaldqr](#technologicaldqr)|DQR based on data quality matrix, scoring technological representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[temporaldqr](#temporaldqr)|DQR based on data quality matrix, scoring temporal representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[uncertaintyassessmentdescription](#uncertaintyassessmentdescription)|If present, the results, key drivers, and a short qualitative description of the uncertainty assessment.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[unitaryproductamount](#unitaryproductamount)|The amount of declared units contained within the product to which the PCF is referring. The value must be strictly greater than 0.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
-|[sustainabilityproductitem](#sustainabilityproductitem)|The product or item this bartprint is for.|<a href="Productbartprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productbartprint</a>|
+|[sustainabilityproductfootprintId](#sustainabilityproductfootprintId)|Unique identifier for entity instances.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[statecode](#statecode)|Status of the Sustainability product footprint|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[statuscode](#statuscode)|Reason for the status of the Sustainability product footprint|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[name](#name)|The name of the custom entity.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[comment](#comment)|Information which helps interpret, audit, or verify the product footprint, or which describes its calculation.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[company](#company)|The company that is the data owner.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[companyType](#companyType)|The company that is the data owner.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[specversion](#specversion)|The version of the Pathfinder Framework data specification being used.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[footprintstatus](#footprintstatus)|The default status of a product footprint is Active. A product footprint with status Inactive shouldn't be used, for example, product footprint calculations by data recipients.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[statuscomment](#statuscomment)|If defined, the value should be a message explaining the reason for the current status.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[sustainabilityproduct](#sustainabilityproduct)|The product this footprint is for. (Deprecated)|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[sustainabilityproductcarbonfootprint](#sustainabilityproductcarbonfootprint)|The carbon footprint of the given product. (Deprecated)|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[validityperiodend](#validityperiodend)|The end (exclusive) of the valid period of the PCF. Reference the description of validity period start and the Pathfinder Framework for further details.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[validityperiodstart](#validityperiodstart)|The start of the validity period, which is the interval during which the PCF is declared as valid for use by a data recipient. Reference the Pathfinder Framework for further details. |<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[version](#version)|The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)-1.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[geographycountry](#geographycountry)|If present, the value must conform to an ISO 3166-2 alpha-2 code.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[geographycountrysubdivision](#geographycountrysubdivision)|If present, an ISO 3166-2 subdivision code.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[geographyregionorsubregion](#geographyregionorsubregion)|If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[aircraftghgemissions](#aircraftghgemissions)|The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[allocationrulesdescription](#allocationrulesdescription)|If present, a description of any allocation rules applied and the rationale explaining how the selected approach aligns with Pathfinder Framework rules.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[biogenicaccountingmethodology](#biogenicaccountingmethodology)|The standard followed to account for biogenic emissions and removals.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[biogeniccarboncontent](#biogeniccarboncontent)|The biogenic carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[biogeniccarbonwithdrawal](#biogeniccarbonwithdrawal)|If present, the biogenic carbon content in the product converted to CO2e. The value must be calculated per declared unit with unit kg expressed as a decimal equal to or greater than zero.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[boundaryprocessesdescription](#boundaryprocessesdescription)|If present, the processes attributable to each lifecycle stage. If no such description is available or otherwise provided, then this field must be empty.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[characterizationfactors](#characterizationfactors)|The IPCC Assessment Report used in the calculation of the PCF.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[completenessdqr](#completenessdqr)|DQR based on data quality matrix, scoring completeness of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[coveragepercent](#coveragepercent)|Percentage of PCF included in the data quality assessment based on the >5% emissions threshold.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[crosssectoralstandardsused1](#crosssectoralstandardsused1)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[crosssectoralstandardsused2](#crosssectoralstandardsused2)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[crosssectoralstandardsused3](#crosssectoralstandardsused3)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[declaredunit](#declaredunit)|The unit of analysis of the product.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[dlucghgemissions](#dlucghgemissions)|Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0. |<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[exemptedemissionsdescription](#exemptedemissionsdescription)|Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[exemptedemissionspercent](#exemptedemissionspercent)|The percentage of emissions excluded from PCF, expressed as a decimal number from 0.0 to 5, inclusive.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[fossilcarboncontent](#fossilcarboncontent)|The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[fossilghgemissions](#fossilghgemissions)|The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[geographicaldqr](#geographicaldqr)|DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[ilucghgemissions](#ilucghgemissions)|Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0. |<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[landmanagementghgemissions](#landmanagementghgemissions)|GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[otherbiogenicghgemissions](#otherbiogenicghgemissions)|All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[packagingemissionsincluded](#packagingemissionsincluded)|A boolean flag indicating whether packaging emissions are included in the PCF.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[packagingghgemissions](#packagingghgemissions)|Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[pcfexcludingbiogenic](#pcfexcludingbiogenic)|The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[pcfincludingbiogenic](#pcfincludingbiogenic)|The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[primarydatashare](#primarydatashare)|The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[productfootprintassurance](#productfootprintassurance)|Assurance information in accordance with the Pathfinder Framework.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[referenceperiodend](#referenceperiodend)|The end of the time boundary for which the PCF value is considered to be representative.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[referenceperiodstart](#referenceperiodstart)|The start of the time boundary for which the PCF value is considered to be representative.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[reliabilitydqr](#reliabilitydqr)|DQR based on data quality matrix, scoring reliability of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[secondaryemissionfactorsources](#secondaryemissionfactorsources)|If secondary data was used to calculate the PCF, then it must include this field with value the emission factors used for the PCF calculation. Otherwise, this property must be undefined.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[technologicaldqr](#technologicaldqr)|DQR based on data quality matrix, scoring technological representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[temporaldqr](#temporaldqr)|DQR based on data quality matrix, scoring temporal representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[uncertaintyassessmentdescription](#uncertaintyassessmentdescription)|If present, the results, key drivers, and a short qualitative description of the uncertainty assessment.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[unitaryproductamount](#unitaryproductamount)|The amount of declared units contained within the product to which the PCF is referring. The value must be strictly greater than 0.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
+|[sustainabilityproductitem](#sustainabilityproductitem)|The product or item this footprint is for.|<a href="Productfootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Productfootprint</a>|
 
-### <a href=#sustainabilityproductbartprintId name="sustainabilityproductbartprintId">sustainabilityproductbartprintId</a>
+### <a href=#sustainabilityproductfootprintId name="sustainabilityproductfootprintId">sustainabilityproductfootprintId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sustainability product bartprint</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_sustainabilityproductbartprintid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sustainability product footprint</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_sustainabilityproductfootprintid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the sustainabilityproductbartprintId attribute are listed below.</summary>
+<summary>List of traits for the sustainabilityproductfootprintId attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -139,7 +139,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 *is.dataFormat.guid*  
   *means.identity.entityId*  
   *is.identifiedBy*  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productbartprint/(resolvedAttributes)/sustainabilityproductbartprintId](#sustainabilityproductbartprintId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productfootprint/(resolvedAttributes)/sustainabilityproductfootprintId](#sustainabilityproductfootprintId)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -148,10 +148,10 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sustainability product bartprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sustainability product footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproductbartprintid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproductfootprintid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -166,7 +166,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -245,12 +245,12 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Sustainability product bartprint  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+Status of the Sustainability product footprint  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Sustainability product bartprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Sustainability product footprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -269,13 +269,13 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *means.entityState*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productbartprint/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Productfootprint/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Sustainability product bartprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Sustainability product footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -291,12 +291,12 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Sustainability product bartprint  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+Reason for the status of the Sustainability product footprint  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Sustainability product bartprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Sustainability product footprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -321,7 +321,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Sustainability product bartprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Sustainability product footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -341,7 +341,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -554,12 +554,12 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 ### <a href=#comment name="comment">comment</a>
 
-Information which helps interpret, audit, or verify the product bartprint, or which describes its calculation.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+Information which helps interpret, audit, or verify the product footprint, or which describes its calculation.  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Additional information</td></tr><tr><td>description</td><td>Information which helps interpret, audit, or verify the product bartprint, or which describes its calculation.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_comment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Additional information</td></tr><tr><td>description</td><td>Information which helps interpret, audit, or verify the product footprint, or which describes its calculation.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_comment</td></tr></table>
 
 #### Traits
 
@@ -577,7 +577,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information which helps interpret, audit, or verify the product bartprint, or which describes its calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information which helps interpret, audit, or verify the product footprint, or which describes its calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Additional information</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -603,7 +603,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#company name="company">company</a>
 
 The company that is the data owner.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -642,7 +642,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#companyType name="companyType">companyType</a>
 
 The company that is the data owner.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#specversion name="specversion">specversion</a>
 
 The version of the Pathfinder Framework data specification being used.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -726,19 +726,19 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 </details>
 
-### <a href=#bartprintstatus name="bartprintstatus">bartprintstatus</a>
+### <a href=#footprintstatus name="footprintstatus">footprintstatus</a>
 
-The default status of a product bartprint is Active. A product bartprint with status Inactive shouldn't be used, for example, product bartprint calculations by data recipients.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+The default status of a product footprint is Active. A product footprint with status Inactive shouldn't be used, for example, product footprint calculations by data recipients.  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product bartprint status</td></tr><tr><td>description</td><td>The default status of a product bartprint is Active. A product bartprint with status Inactive shouldn't be used, for example, product bartprint calculations by data recipients.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_bartprintstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>700610000</td></tr><tr><td>en</td><td>Inactive</td><td>700610001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product footprint status</td></tr><tr><td>description</td><td>The default status of a product footprint is Active. A product footprint with status Inactive shouldn't be used, for example, product footprint calculations by data recipients.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_footprintstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>700610000</td></tr><tr><td>en</td><td>Inactive</td><td>700610001</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the bartprintstatus attribute are listed below.</summary>
+<summary>List of traits for the footprintstatus attribute are listed below.</summary>
 
 *is.dataFormat.integer*  
   *is.dataFormat.signed*  
@@ -755,16 +755,16 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The default status of a product bartprint is Active. A product bartprint with status Inactive shouldn't be used, for example, product bartprint calculations by data recipients.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The default status of a product footprint is Active. A product footprint with status Inactive shouldn't be used, for example, product footprint calculations by data recipients.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product bartprint status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_bartprintstatus"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_footprintstatus"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
@@ -775,7 +775,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#statuscomment name="statuscomment">statuscomment</a>
 
 If defined, the value should be a message explaining the reason for the current status.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -822,12 +822,12 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
-The product this bartprint is for. (Deprecated)  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+The product this footprint is for. (Deprecated)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product (sustainability) (Deprecated)</td></tr><tr><td>description</td><td>The product this bartprint is for. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product (sustainability) (Deprecated)</td></tr><tr><td>description</td><td>The product this footprint is for. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -847,7 +847,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product this bartprint is for. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product this footprint is for. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product (sustainability) (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -865,19 +865,19 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 </details>
 
-### <a href=#sustainabilityproductcarbonbartprint name="sustainabilityproductcarbonbartprint">sustainabilityproductcarbonbartprint</a>
+### <a href=#sustainabilityproductcarbonfootprint name="sustainabilityproductcarbonfootprint">sustainabilityproductcarbonfootprint</a>
 
-The carbon bartprint of the given product. (Deprecated)  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+The carbon footprint of the given product. (Deprecated)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product carbon bartprint (Deprecated)</td></tr><tr><td>description</td><td>The carbon bartprint of the given product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product carbon footprint (Deprecated)</td></tr><tr><td>description</td><td>The carbon footprint of the given product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the sustainabilityproductcarbonbartprint attribute are listed below.</summary>
+<summary>List of traits for the sustainabilityproductcarbonfootprint attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -892,16 +892,16 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The carbon bartprint of the given product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The carbon footprint of the given product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon bartprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="DeprecatedProductCarbonbartprint.md" target="_blank">DeprecatedProductCarbonbartprint.cdm.json/DeprecatedProductCarbonbartprint</a></td><td><a href="DeprecatedProductCarbonbartprint.md#sustainabilityproductcarbonbartprintId" target="_blank">sustainabilityproductcarbonbartprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="DeprecatedProductCarbonfootprint.md" target="_blank">DeprecatedProductCarbonfootprint.cdm.json/DeprecatedProductCarbonfootprint</a></td><td><a href="DeprecatedProductCarbonfootprint.md#sustainabilityproductcarbonfootprintId" target="_blank">sustainabilityproductcarbonfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -913,7 +913,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#validityperiodend name="validityperiodend">validityperiodend</a>
 
 The end (exclusive) of the valid period of the PCF. Reference the description of validity period start and the Pathfinder Framework for further details.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -950,7 +950,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#validityperiodstart name="validityperiodstart">validityperiodstart</a>
 
 The start of the validity period, which is the interval during which the PCF is declared as valid for use by a data recipient. Reference the Pathfinder Framework for further details.   
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -986,12 +986,12 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 ### <a href=#version name="version">version</a>
 
-The version of the product bartprint with value an integer in the inclusive range of 0 to (2\^31)-1.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)-1.  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>The version of the product bartprint with value an integer in the inclusive range of 0 to (2^31)-1.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_version</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>The version of the product footprint with value an integer in the inclusive range of 0 to (2^31)-1.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_version</td></tr></table>
 
 #### Traits
 
@@ -1007,7 +1007,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The version of the product bartprint with value an integer in the inclusive range of 0 to (2^31)-1.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The version of the product footprint with value an integer in the inclusive range of 0 to (2^31)-1.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1030,7 +1030,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1078,7 +1078,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for Country/region.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1123,7 +1123,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#geographycountry name="geographycountry">geographycountry</a>
 
 If present, the value must conform to an ISO 3166-2 alpha-2 code.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1171,7 +1171,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#geographycountrysubdivision name="geographycountrysubdivision">geographycountrysubdivision</a>
 
 If present, an ISO 3166-2 subdivision code.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1219,7 +1219,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#geographyregionorsubregion name="geographyregionorsubregion">geographyregionorsubregion</a>
 
 If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1267,7 +1267,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#aircraftghgemissions name="aircraftghgemissions">aircraftghgemissions</a>
 
 The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non-negative.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1310,7 +1310,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#allocationrulesdescription name="allocationrulesdescription">allocationrulesdescription</a>
 
 If present, a description of any allocation rules applied and the rationale explaining how the selected approach aligns with Pathfinder Framework rules.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1358,7 +1358,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#biogenicaccountingmethodology name="biogenicaccountingmethodology">biogenicaccountingmethodology</a>
 
 The standard followed to account for biogenic emissions and removals.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1404,7 +1404,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#biogeniccarboncontent name="biogeniccarboncontent">biogeniccarboncontent</a>
 
 The biogenic carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1447,7 +1447,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#biogeniccarbonwithdrawal name="biogeniccarbonwithdrawal">biogeniccarbonwithdrawal</a>
 
 If present, the biogenic carbon content in the product converted to CO2e. The value must be calculated per declared unit with unit kg expressed as a decimal equal to or greater than zero.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1490,7 +1490,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#boundaryprocessesdescription name="boundaryprocessesdescription">boundaryprocessesdescription</a>
 
 If present, the processes attributable to each lifecycle stage. If no such description is available or otherwise provided, then this field must be empty.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1538,7 +1538,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#characterizationfactors name="characterizationfactors">characterizationfactors</a>
 
 The IPCC Assessment Report used in the calculation of the PCF.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1584,7 +1584,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#completenessdqr name="completenessdqr">completenessdqr</a>
 
 DQR based on data quality matrix, scoring completeness of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1627,7 +1627,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#coveragepercent name="coveragepercent">coveragepercent</a>
 
 Percentage of PCF included in the data quality assessment based on the >5% emissions threshold.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1670,7 +1670,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#crosssectoralstandardsused1 name="crosssectoralstandardsused1">crosssectoralstandardsused1</a>
 
 The cross-sectoral standards applied for calculating or allocating GHG emissions.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1716,7 +1716,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#crosssectoralstandardsused2 name="crosssectoralstandardsused2">crosssectoralstandardsused2</a>
 
 The cross-sectoral standards applied for calculating or allocating GHG emissions.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1762,7 +1762,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#crosssectoralstandardsused3 name="crosssectoralstandardsused3">crosssectoralstandardsused3</a>
 
 The cross-sectoral standards applied for calculating or allocating GHG emissions.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1808,7 +1808,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#declaredunit name="declaredunit">declaredunit</a>
 
 The unit of analysis of the product.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1853,7 +1853,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#dlucghgemissions name="dlucghgemissions">dlucghgemissions</a>
 
 Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.   
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1896,7 +1896,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#exemptedemissionsdescription name="exemptedemissionsdescription">exemptedemissionsdescription</a>
 
 Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1944,7 +1944,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#exemptedemissionspercent name="exemptedemissionspercent">exemptedemissionspercent</a>
 
 The percentage of emissions excluded from PCF, expressed as a decimal number from 0.0 to 5, inclusive.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -1987,7 +1987,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#fossilcarboncontent name="fossilcarboncontent">fossilcarboncontent</a>
 
 The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2030,7 +2030,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#fossilghgemissions name="fossilghgemissions">fossilghgemissions</a>
 
 The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2073,7 +2073,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#geographicaldqr name="geographicaldqr">geographicaldqr</a>
 
 DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2116,7 +2116,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#ilucghgemissions name="ilucghgemissions">ilucghgemissions</a>
 
 Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.   
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2159,7 +2159,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#landmanagementghgemissions name="landmanagementghgemissions">landmanagementghgemissions</a>
 
 GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2202,7 +2202,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#otherbiogenicghgemissions name="otherbiogenicghgemissions">otherbiogenicghgemissions</a>
 
 All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2245,7 +2245,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#packagingemissionsincluded name="packagingemissionsincluded">packagingemissionsincluded</a>
 
 A boolean flag indicating whether packaging emissions are included in the PCF.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2281,7 +2281,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#packagingghgemissions name="packagingghgemissions">packagingghgemissions</a>
 
 Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2324,7 +2324,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#pcfexcludingbiogenic name="pcfexcludingbiogenic">pcfexcludingbiogenic</a>
 
 The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2367,7 +2367,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#pcfincludingbiogenic name="pcfincludingbiogenic">pcfincludingbiogenic</a>
 
 The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2410,7 +2410,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#primarydatashare name="primarydatashare">primarydatashare</a>
 
 The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2450,19 +2450,19 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 </details>
 
-### <a href=#productbartprintassurance name="productbartprintassurance">productbartprintassurance</a>
+### <a href=#productfootprintassurance name="productfootprintassurance">productfootprintassurance</a>
 
 Assurance information in accordance with the Pathfinder Framework.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product bartprint audit</td></tr><tr><td>description</td><td>Assurance information in accordance with the Pathfinder Framework.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product footprint audit</td></tr><tr><td>description</td><td>Assurance information in accordance with the Pathfinder Framework.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productbartprintassurance attribute are listed below.</summary>
+<summary>List of traits for the productfootprintassurance attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -2480,13 +2480,13 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assurance information in accordance with the Pathfinder Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product bartprint audit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint audit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="ProductbartprintAudit.md" target="_blank">ProductbartprintAudit.cdm.json/ProductbartprintAudit</a></td><td><a href="ProductbartprintAudit.md#productcarbonbartprintassuranceId" target="_blank">productcarbonbartprintassuranceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="ProductfootprintAudit.md" target="_blank">ProductfootprintAudit.cdm.json/ProductfootprintAudit</a></td><td><a href="ProductfootprintAudit.md#productcarbonfootprintassuranceId" target="_blank">productcarbonfootprintassuranceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -2498,7 +2498,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#referenceperiodend name="referenceperiodend">referenceperiodend</a>
 
 The end of the time boundary for which the PCF value is considered to be representative.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2535,7 +2535,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#referenceperiodstart name="referenceperiodstart">referenceperiodstart</a>
 
 The start of the time boundary for which the PCF value is considered to be representative.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2572,7 +2572,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#reliabilitydqr name="reliabilitydqr">reliabilitydqr</a>
 
 DQR based on data quality matrix, scoring reliability of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2615,7 +2615,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#secondaryemissionfactorsources name="secondaryemissionfactorsources">secondaryemissionfactorsources</a>
 
 If secondary data was used to calculate the PCF, then it must include this field with value the emission factors used for the PCF calculation. Otherwise, this property must be undefined.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2663,7 +2663,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#technologicaldqr name="technologicaldqr">technologicaldqr</a>
 
 DQR based on data quality matrix, scoring technological representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2706,7 +2706,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#temporaldqr name="temporaldqr">temporaldqr</a>
 
 DQR based on data quality matrix, scoring temporal representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2749,7 +2749,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#uncertaintyassessmentdescription name="uncertaintyassessmentdescription">uncertaintyassessmentdescription</a>
 
 If present, the results, key drivers, and a short qualitative description of the uncertainty assessment.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2797,7 +2797,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 ### <a href=#unitaryproductamount name="unitaryproductamount">unitaryproductamount</a>
 
 The amount of declared units contained within the product to which the PCF is referring. The value must be strictly greater than 0.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
@@ -2839,12 +2839,12 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
 
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
-The product or item this bartprint is for.  
-First included in: Sustainability/SustainabilityCarbon/Productbartprint (this entity)  
+The product or item this footprint is for.  
+First included in: Sustainability/SustainabilityCarbon/Productfootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product or item</td></tr><tr><td>description</td><td>The product or item this bartprint is for.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product or item</td></tr><tr><td>description</td><td>The product or item this footprint is for.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -2864,7 +2864,7 @@ First included in: Sustainability/SustainabilityCarbon/Productbartprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product or item this bartprint is for.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product or item this footprint is for.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product or item</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

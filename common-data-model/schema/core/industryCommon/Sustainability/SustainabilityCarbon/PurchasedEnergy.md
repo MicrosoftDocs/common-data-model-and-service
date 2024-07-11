@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Purchased energy in Cloud for Sustainability carbon data model(PurchasedEnergy)
@@ -87,7 +87,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[productbartprint](#productbartprint)|Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[category](#category)|Indicator of classification of category.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
@@ -1817,19 +1817,19 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
 
 </details>
 
-### <a href=#productbartprint name="productbartprint">productbartprint</a>
+### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Sustainability product bartprint (Deprecated)</td></tr><tr><td>description</td><td>Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Sustainability product footprint (Deprecated)</td></tr><tr><td>description</td><td>Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the productbartprint attribute are listed below.</summary>
+<summary>List of traits for the productfootprint attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -1844,16 +1844,16 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon bartprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Sustainability product bartprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Sustainability product footprint (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Productbartprint.md" target="_blank">Productbartprint.cdm.json/Productbartprint</a></td><td><a href="Productbartprint.md#sustainabilityproductbartprintId" target="_blank">sustainabilityproductbartprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Productfootprint.md" target="_blank">Productfootprint.cdm.json/Productfootprint</a></td><td><a href="Productfootprint.md#sustainabilityproductfootprintId" target="_blank">sustainabilityproductfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  

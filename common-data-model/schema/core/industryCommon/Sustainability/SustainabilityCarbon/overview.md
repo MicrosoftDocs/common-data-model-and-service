@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 7/9/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Overview of CloudforSustainabilityCarbonDataModel
@@ -22,7 +22,7 @@ Cloud for Sustainability Carbon Data Model CDM entity definitions
 |[BusinessTravelType](BusinessTravelType.md)|Entity used for classifying the type of business travel, as defined in the reporting company.|
 |[CapitalGood](CapitalGood.md)|Purchased entity that depreciates over time.|
 |[ContractualInstrumentType](ContractualInstrumentType.md)|Documented method/approach to confirm and validate source data.|
-|[DeprecatedProductCarbonbartprint](DeprecatedProductCarbonbartprint.md)|The carbon bartprint of a product and related data in accordance with the Pathfinder Framework.|
+|[DeprecatedProductCarbonfootprint](DeprecatedProductCarbonfootprint.md)|The carbon footprint of a product and related data in accordance with the Pathfinder Framework.|
 |[DisposalMethod](DisposalMethod.md)|Entity used for classifying the type of disposal method, as defined in the reporting company.|
 |[Emission](Emission.md)|Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.|
 |[EmissionsSource](EmissionsSource.md)|Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.|
@@ -37,10 +37,10 @@ Cloud for Sustainability Carbon Data Model CDM entity definitions
 |[MobileCombustion](MobileCombustion.md)|Combustion that occurs in a moving vehicle, such as a car or truck.|
 |[PartnerActivity](PartnerActivity.md)|Table that holds activities from external sources|
 |[PartnerEmission](PartnerEmission.md)|Emissions from external sources|
-|[Productbartprint](Productbartprint.md)|The carbon bartprint of a product with values in accordance with the Pathfinder Framework.|
-|[ProductbartprintAudit](ProductbartprintAudit.md)|Assurance contains the assurance in conformance with Pathfinder Framework.|
-|[ProductbartprintRuleMapping](ProductbartprintRuleMapping.md)|Mapping table from sustainability product carbon bartprints to product- or sector-specific rules rules applied for calculating or allocating emissions.|
-|[ProductOrSectorSpecificRuleset](ProductOrSectorSpecificRuleset.md)|A set of product- or sector-specific rules published by a specific operator and applied during product carbon bartprint calculation.|
+|[Productfootprint](Productfootprint.md)|The carbon footprint of a product with values in accordance with the Pathfinder Framework.|
+|[ProductfootprintAudit](ProductfootprintAudit.md)|Assurance contains the assurance in conformance with Pathfinder Framework.|
+|[ProductfootprintRuleMapping](ProductfootprintRuleMapping.md)|Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.|
+|[ProductOrSectorSpecificRuleset](ProductOrSectorSpecificRuleset.md)|A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.|
 |[PurchasedEnergy](PurchasedEnergy.md)|Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.|
 |[PurchasedGoodAndService](PurchasedGoodAndService.md)|Entity for purchased goods and services.|
 |[SpendType](SpendType.md)|Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.|
