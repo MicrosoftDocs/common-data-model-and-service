@@ -9,7 +9,7 @@ ms.date: 7/9/2024
 ms.author: anbichse
 ---
 
-# Overview of CloudforSustainabilityCarbonDataModel
+# Overview of Cloud for Sustainability Carbon Data Model
 
 Cloud for Sustainability Carbon Data Model CDM entity definitions.
 
