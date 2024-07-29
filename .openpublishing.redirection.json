@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/actionevent.md",
+      "redirect_url": "/common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitywaste/itembillofmaterials",
       "redirect_document_id": "false"
