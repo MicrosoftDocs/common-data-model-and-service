@@ -42,9 +42,9 @@ ms.author: anbichse
 |[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[QuestionResponse](#QuestionResponse)|Question response|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[SurveyId](#SurveyId)|Survey ID|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[SurveyQuestionId](#SurveyQuestionId)|Survey question ID|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[SurveyQuestionResponseId](#SurveyQuestionResponseId)|Survey question response ID|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
@@ -54,7 +54,7 @@ ms.author: anbichse
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Account ID  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -90,7 +90,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 
 ### <a href=#FormsProSurveyIdentifier name="FormsProSurveyIdentifier">FormsProSurveyIdentifier</a>
 
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -274,7 +274,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -324,7 +324,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -353,8 +353,8 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+The profile type (Contact, Lead or CI Profile\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#QuestionResponse name="QuestionResponse">QuestionResponse</a>
 
 Question response  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -413,8 +413,8 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -439,7 +439,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#SurveyId name="SurveyId">SurveyId</a>
 
 Survey ID  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -471,7 +471,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#SurveyQuestionId name="SurveyQuestionId">SurveyQuestionId</a>
 
 Survey question ID  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#SurveyQuestionResponseId name="SurveyQuestionResponseId">SurveyQuestionResponseId</a>
 
 Survey question response ID  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -535,7 +535,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(thi
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered \(this entity\)  
+First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity\)  
 
 #### Properties
 

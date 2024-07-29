@@ -46,17 +46,17 @@ ms.author: anbichse
 |[MessageId](#MessageId)|Message ID|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
 |[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
-|[Platform](#Platform)|The mobile platform used for the sumbission \(iOS or Android\).|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
+|[Platform](#Platform)|The mobile platform used for the sumbission (iOS or Android\).|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="PushNotificationNotSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationNotSent</a>|
 
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
 Failure reason codes with a root cause of the submission failure  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -86,7 +86,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#Details name="Details">Details</a>
 
 Contains additional information regarding the reason of block.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#DeviceId name="DeviceId">DeviceId</a>
 
 Unique identifier of the recipient's device  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -276,7 +276,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -305,7 +305,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -323,7 +323,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -445,7 +445,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -476,8 +476,8 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 
 ### <a href=#Platform name="Platform">Platform</a>
 
-The mobile platform used for the sumbission \(iOS or Android\).  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+The mobile platform used for the sumbission (iOS or Android\).  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -536,8 +536,8 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+The profile type (Contact, Lead or CI Profile\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -566,8 +566,8 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -592,7 +592,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 
@@ -617,7 +617,7 @@ First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entit
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/PushNotificationNotSent \(this entity\)  
+First included in: CustomerInsightsJourneys/PushNotificationNotSent (this entity\)  
 
 #### Properties
 

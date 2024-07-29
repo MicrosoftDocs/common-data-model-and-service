@@ -39,14 +39,14 @@ ms.author: anbichse
 |[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -82,7 +82,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#DeletedContactId name="DeletedContactId">DeletedContactId</a>
 
 Unique identifier of the deleted Contact.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -144,7 +144,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -174,7 +174,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -236,7 +236,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -265,8 +265,8 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 
@@ -316,7 +316,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/ContactDeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/ContactDeleted (this entity\)  
 
 #### Properties
 

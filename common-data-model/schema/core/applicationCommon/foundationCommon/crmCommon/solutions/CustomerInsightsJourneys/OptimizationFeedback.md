@@ -42,16 +42,16 @@ ms.author: anbichse
 |[OptimizationDecisionStatus](#OptimizationDecisionStatus)||<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
 |[OptimizationFeedbackType](#OptimizationFeedbackType)||<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
 |[SelectedActionId](#SelectedActionId)||<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="OptimizationFeedback.md" target="_blank">CustomerInsightsJourneys/OptimizationFeedback</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -87,7 +87,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -149,7 +149,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -179,7 +179,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -268,7 +268,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 
 ### <a href=#OptimizationDecisionStatus name="OptimizationDecisionStatus">OptimizationDecisionStatus</a>
 
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 
 ### <a href=#OptimizationFeedbackType name="OptimizationFeedbackType">OptimizationFeedbackType</a>
 
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -321,7 +321,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -352,8 +352,8 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+The profile type (Contact, Lead or CI Profile\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -382,7 +382,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 
 ### <a href=#SelectedActionId name="SelectedActionId">SelectedActionId</a>
 
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -410,8 +410,8 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/OptimizationFeedback \(this entity\)  
+First included in: CustomerInsightsJourneys/OptimizationFeedback (this entity\)  
 
 #### Properties
 

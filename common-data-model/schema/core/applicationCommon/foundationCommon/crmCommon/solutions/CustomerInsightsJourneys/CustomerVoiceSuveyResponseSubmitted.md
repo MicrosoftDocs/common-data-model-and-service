@@ -42,7 +42,7 @@ ms.author: anbichse
 |[MessageId](#MessageId)|Message template id|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
 |[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
 |[SurveyFormId](#SurveyFormId)|Survey form ID|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
 |[SurveyId](#SurveyId)|Survey ID|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
 |[SurveyInvite](#SurveyInvite)|Survey invite|<a href="CustomerVoiceSuveyResponseSubmitted.md" target="_blank">CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted</a>|
@@ -55,7 +55,7 @@ ms.author: anbichse
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -91,7 +91,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -183,7 +183,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -273,7 +273,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message template id  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -364,8 +364,8 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#SurveyFormId name="SurveyFormId">SurveyFormId</a>
 
 Survey form ID  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#SurveyId name="SurveyId">SurveyId</a>
 
 Survey ID  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -452,7 +452,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#SurveyInvite name="SurveyInvite">SurveyInvite</a>
 
 Survey invite  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#SurveyName name="SurveyName">SurveyName</a>
 
 Survey name  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#SurveyResponseId name="SurveyResponseId">SurveyResponseId</a>
 
 Survey response ID  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -544,7 +544,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#SurveyResponseName name="SurveyResponseName">SurveyResponseName</a>
 
 Survey response name  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -574,7 +574,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted 
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted (this entity\)  
 
 #### Properties
 

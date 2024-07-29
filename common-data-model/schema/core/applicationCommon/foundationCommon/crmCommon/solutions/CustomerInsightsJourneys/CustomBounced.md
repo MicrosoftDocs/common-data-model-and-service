@@ -34,7 +34,7 @@ ms.author: anbichse
 |---|---|---|
 |[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[ChannelDefinitionId](#ChannelDefinitionId)|Unique identifier of the custom channel|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
-|[ChannelType](#ChannelType)|Type of the channel \(custom, sms, push, email\)|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
+|[ChannelType](#ChannelType)|Type of the channel (custom, sms, push, email\)|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
@@ -48,18 +48,18 @@ ms.author: anbichse
 |[MessageVariationName](#MessageVariationName)||<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[Reason](#Reason)|Reason the message bounced|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[Recipient](#Recipient)|Receipient of the custom message|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[Sender](#Sender)|Sender of the custom message|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="CustomBounced.md" target="_blank">CustomerInsightsJourneys/CustomBounced</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -95,7 +95,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#ChannelDefinitionId name="ChannelDefinitionId">ChannelDefinitionId</a>
 
 Unique identifier of the custom channel  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -126,8 +126,8 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 
 ### <a href=#ChannelType name="ChannelType">ChannelType</a>
 
-Type of the channel \(custom, sms, push, email\)  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+Type of the channel (custom, sms, push, email\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -189,7 +189,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -219,7 +219,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -278,7 +278,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -356,7 +356,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -443,7 +443,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -502,7 +502,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -531,8 +531,8 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+The profile type (Contact, Lead or CI Profile\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#Reason name="Reason">Reason</a>
 
 Reason the message bounced  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -592,7 +592,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#Recipient name="Recipient">Recipient</a>
 
 Receipient of the custom message  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -622,7 +622,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#Sender name="Sender">Sender</a>
 
 Sender of the custom message  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -651,8 +651,8 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -677,7 +677,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/CustomBounced \(this entity\)  
+First included in: CustomerInsightsJourneys/CustomBounced (this entity\)  
 
 #### Properties
 

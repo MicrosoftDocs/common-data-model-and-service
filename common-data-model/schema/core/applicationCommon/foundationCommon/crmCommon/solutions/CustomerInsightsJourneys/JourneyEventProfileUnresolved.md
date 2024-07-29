@@ -47,19 +47,19 @@ ms.author: anbichse
 |[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[Reason](#Reason)|Journey status reason|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[ReasonDetail](#ReasonDetail)|Provides additional information about the status of this event.|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[SegmentId](#SegmentId)|For segment based journeys, the GUID of the segment for this journey.|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[SegmentName](#SegmentName)|Segment name|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="JourneyEventProfileUnresolved.md" target="_blank">CustomerInsightsJourneys/JourneyEventProfileUnresolved</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -95,7 +95,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#DropoffId name="DropoffId">DropoffId</a>
 
 Unique identifier for events that cause a person to leave the journey.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -324,7 +324,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#JourneyStatus name="JourneyStatus">JourneyStatus</a>
 
 Describes the results of processing a person entering a journey. Indicates if a person was allowed or blocked from starting the journey.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -354,7 +354,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
 
 Version number of the journey.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -446,7 +446,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -478,7 +478,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -507,8 +507,8 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+The profile type (Contact, Lead or CI Profile\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -538,7 +538,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#Reason name="Reason">Reason</a>
 
 Journey status reason  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -568,7 +568,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#ReasonDetail name="ReasonDetail">ReasonDetail</a>
 
 Provides additional information about the status of this event.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#SegmentId name="SegmentId">SegmentId</a>
 
 For segment based journeys, the GUID of the segment for this journey.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -630,7 +630,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#SegmentName name="SegmentName">SegmentName</a>
 
 Segment name  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -659,8 +659,8 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing \(OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys \(RTJ\).  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -685,7 +685,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
@@ -710,7 +710,7 @@ First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved \(this entity\)  
+First included in: CustomerInsightsJourneys/JourneyEventProfileUnresolved (this entity\)  
 
 #### Properties
 
