@@ -59,7 +59,7 @@ ms.author: anbichse
 |[PageId](#PageId)|Page ID|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[PostalCode](#PostalCode)|Postal code|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
-|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[ReferrerUri](#ReferrerUri)|Referrer URL|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[SchedulerId](#SchedulerId)||<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[SearchEngineName](#SearchEngineName)|Search engine name|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
@@ -68,7 +68,7 @@ ms.author: anbichse
 |[SessionId](#SessionId)|Session ID|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[SourceEntityId](#SourceEntityId)|Source entity ID|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[SourceEntityName](#SourceEntityName)|Source entity name|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[State](#State)|State|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
 |[UsageType](#UsageType)|Usage type|<a href="WebsiteVisited.md" target="_blank">CustomerInsightsJourneys/WebsiteVisited</a>|
@@ -82,7 +82,7 @@ ms.author: anbichse
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#ActivityExpiryTime name="ActivityExpiryTime">ActivityExpiryTime</a>
 
 Activity expiry time  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -143,7 +143,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
 Unique identifier of the Activity.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -179,7 +179,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
 Browser ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -211,7 +211,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
 Browser version  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -277,7 +277,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#City name="City">City</a>
 
 City  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -307,7 +307,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
 Country ISO code  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -402,7 +402,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
 Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -438,7 +438,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
 The profile's email address.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#EmailDomain name="EmailDomain">EmailDomain</a>
 
 Email domain  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -498,7 +498,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -587,7 +587,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 
 ### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
 
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -622,7 +622,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
 Unique identifier of the Lead.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -658,7 +658,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
 Operating system ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -722,7 +722,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
 Operating system version  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#PageAddress name="PageAddress">PageAddress</a>
 
 Page address  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -814,7 +814,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#PageId name="PageId">PageId</a>
 
 Page ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -844,7 +844,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
 Postal code  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -874,7 +874,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -903,8 +903,8 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type (Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -934,7 +934,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#ReferrerUri name="ReferrerUri">ReferrerUri</a>
 
 Referrer URL  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -963,7 +963,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 
 ### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
 
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -992,7 +992,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#SearchEngineName name="SearchEngineName">SearchEngineName</a>
 
 Search engine name  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1022,7 +1022,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#SearchPhrase name="SearchPhrase">SearchPhrase</a>
 
 Search phrase  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1052,7 +1052,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
 Indicates the journey iteration ID.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1084,7 +1084,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
 Session ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1114,7 +1114,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
 
 Source entity ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1146,7 +1146,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
 
 Source entity name  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1175,8 +1175,8 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1201,7 +1201,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#State name="State">State</a>
 
 State  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1231,7 +1231,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1256,7 +1256,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
 Usage type  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1286,7 +1286,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1311,7 +1311,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#VisitDuration name="VisitDuration">VisitDuration</a>
 
 Visit duration  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1341,7 +1341,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#VisitorAnonymousStatus name="VisitorAnonymousStatus">VisitorAnonymousStatus</a>
 
 Visitor anonymous status  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1371,7 +1371,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#VisitorId name="VisitorId">VisitorId</a>
 
 Visitor ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1401,7 +1401,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#VisitorReturningStatus name="VisitorReturningStatus">VisitorReturningStatus</a>
 
 Visitor returning status  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 
@@ -1431,7 +1431,7 @@ First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)
 ### <a href=#WebsiteId name="WebsiteId">WebsiteId</a>
 
 Website ID  
-First included in: CustomerInsightsJourneys/WebsiteVisited (this entity\)  
+First included in: CustomerInsightsJourneys/WebsiteVisited (this entity)  
 
 #### Properties
 

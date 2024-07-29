@@ -46,17 +46,17 @@ ms.author: anbichse
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[ParentActionId](#ParentActionId)|GUID of the previous action step in the journey that occurred before this action step.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
-|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile\)|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
+|[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[Reason](#Reason)|Provides additional information about the status of this event.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[ReasonDetail](#ReasonDetail)|Reason Detail|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 
 ### <a href=#ActionStatus name="ActionStatus">ActionStatus</a>
 
 Status of the the person at an action step in the journey. Indicates if a person has entered a step in the journey, been processed by a step in the journey, or has exited the journey while at this step in the journey.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -86,7 +86,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -214,7 +214,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -321,7 +321,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#ParentActionId name="ParentActionId">ParentActionId</a>
 
 GUID of the previous action step in the journey that occurred before this action step.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -445,7 +445,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -474,8 +474,8 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-The profile type (Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+The profile type (Contact, Lead or CI Profile)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#Reason name="Reason">Reason</a>
 
 Provides additional information about the status of this event.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -535,7 +535,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#ReasonDetail name="ReasonDetail">ReasonDetail</a>
 
 Reason Detail  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -564,8 +564,8 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -590,7 +590,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity\)  
+First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties
 

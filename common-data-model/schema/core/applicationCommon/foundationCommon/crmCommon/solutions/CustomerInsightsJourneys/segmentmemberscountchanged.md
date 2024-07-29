@@ -40,14 +40,14 @@ ms.author: anbichse
 |[MembersCount](#MembersCount)|Members count|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[SegmentId](#SegmentId)|Unique identifier of the segment.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -83,7 +83,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -143,7 +143,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#InternalMarketingProperties name="InternalMarketingProperties">InternalMarketingProperties</a>
 
 Internal marketing properties  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#MembersCount name="MembersCount">MembersCount</a>
 
 Members count  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -228,7 +228,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -260,7 +260,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#SegmentId name="SegmentId">SegmentId</a>
 
 Unique identifier of the segment.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -289,8 +289,8 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity\)  
+First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties
 

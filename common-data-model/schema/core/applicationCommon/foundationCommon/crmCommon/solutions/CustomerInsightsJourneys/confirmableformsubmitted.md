@@ -48,14 +48,14 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|Profile type|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[SourceEntityId](#SourceEntityId)||<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[SourceEntityName](#SourceEntityName)||<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -90,7 +90,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#FormId name="FormId">FormId</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#FormName name="FormName">FormName</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -144,7 +144,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#FormSubmissionId name="FormSubmissionId">FormSubmissionId</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -233,7 +233,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -279,7 +279,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -305,7 +305,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -363,7 +363,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#PageUrl name="PageUrl">PageUrl</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Profile ID  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
 Profile type  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -449,7 +449,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
 
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -503,8 +503,8 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM\) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ\).  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -529,7 +529,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version. Used for updating the interaction.  
-First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity\)  
+First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties
 
