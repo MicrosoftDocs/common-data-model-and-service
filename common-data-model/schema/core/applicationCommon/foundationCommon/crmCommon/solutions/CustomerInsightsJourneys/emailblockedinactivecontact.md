@@ -59,7 +59,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
 |[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based.|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailBlockedInactiveContact.md" target="_blank">CustomerInsightsJourneys/EmailBlockedInactiveContact</a>|
@@ -870,7 +870,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedInactiveContact (this en
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailBlockedInactiveContact (this entity)  
 
 #### Properties

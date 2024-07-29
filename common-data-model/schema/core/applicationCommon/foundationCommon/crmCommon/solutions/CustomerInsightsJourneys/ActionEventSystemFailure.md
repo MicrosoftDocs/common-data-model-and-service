@@ -49,7 +49,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[Reason](#Reason)|Provides additional information about the status of this event.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[ReasonDetail](#ReasonDetail)|Reason Detail|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ActionEventSystemFailure.md" target="_blank">CustomerInsightsJourneys/ActionEventSystemFailure</a>|
 
@@ -564,7 +564,7 @@ First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/ActionEventSystemFailure (this entity)  
 
 #### Properties

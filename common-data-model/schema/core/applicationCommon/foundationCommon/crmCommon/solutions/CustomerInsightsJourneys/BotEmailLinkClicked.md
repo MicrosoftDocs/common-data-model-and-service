@@ -74,7 +74,7 @@ ms.author: anbichse
 |[SearchPhrase](#SearchPhrase)|Search phrase|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
 |[SessionId](#SessionId)|Session ID|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
 |[State](#State)|State|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
 |[TargetUrl](#TargetUrl)|Represents the actual URL that a user clicked, including any personalized elements. It shows the specific webpage or destination the user was directed to after clicking.|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="BotEmailLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotEmailLinkClicked</a>|
@@ -1374,7 +1374,7 @@ First included in: CustomerInsightsJourneys/BotEmailLinkClicked (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/BotEmailLinkClicked (this entity)  
 
 #### Properties

@@ -48,7 +48,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|Profile type|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[SourceEntityId](#SourceEntityId)||<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[SourceEntityName](#SourceEntityName)||<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ConfirmableFormSubmitted.md" target="_blank">CustomerInsightsJourneys/ConfirmableFormSubmitted</a>|
 
@@ -503,7 +503,7 @@ First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/ConfirmableFormSubmitted (this entity)  
 
 #### Properties

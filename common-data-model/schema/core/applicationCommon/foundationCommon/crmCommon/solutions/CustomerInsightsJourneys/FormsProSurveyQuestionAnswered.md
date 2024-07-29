@@ -44,7 +44,7 @@ ms.author: anbichse
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[QuestionResponse](#QuestionResponse)|Question response|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[SurveyId](#SurveyId)|Survey ID|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[SurveyQuestionId](#SurveyQuestionId)|Survey question ID|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
 |[SurveyQuestionResponseId](#SurveyQuestionResponseId)|Survey question response ID|<a href="FormsProSurveyQuestionAnswered.md" target="_blank">CustomerInsightsJourneys/FormsProSurveyQuestionAnswered</a>|
@@ -413,7 +413,7 @@ First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/FormsProSurveyQuestionAnswered (this entity)  
 
 #### Properties

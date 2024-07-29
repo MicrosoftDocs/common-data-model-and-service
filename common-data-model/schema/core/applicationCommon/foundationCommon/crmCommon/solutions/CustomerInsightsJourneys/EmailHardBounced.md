@@ -62,7 +62,7 @@ ms.author: anbichse
 |[RemoteBounce](#RemoteBounce)|Indicates if it is a remote bounce.|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
 |[UsageType](#UsageType)|Usage type|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailHardBounced.md" target="_blank">CustomerInsightsJourneys/EmailHardBounced</a>|
@@ -963,7 +963,7 @@ First included in: CustomerInsightsJourneys/EmailHardBounced (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailHardBounced (this entity)  
 
 #### Properties

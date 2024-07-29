@@ -40,7 +40,7 @@ ms.author: anbichse
 |[MembersCount](#MembersCount)|Members count|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[SegmentId](#SegmentId)|Unique identifier of the segment.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="SegmentMembersCountChanged.md" target="_blank">CustomerInsightsJourneys/SegmentMembersCountChanged</a>|
 
@@ -289,7 +289,7 @@ First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this ent
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/SegmentMembersCountChanged (this entity)  
 
 #### Properties

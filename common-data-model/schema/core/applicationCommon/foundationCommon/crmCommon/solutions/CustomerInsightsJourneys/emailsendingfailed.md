@@ -47,7 +47,7 @@ ms.author: anbichse
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
 |[UsageType](#UsageType)|Usage type|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailSendingFailed.md" target="_blank">CustomerInsightsJourneys/EmailSendingFailed</a>|
@@ -545,7 +545,7 @@ First included in: CustomerInsightsJourneys/EmailSendingFailed (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailSendingFailed (this entity)  
 
 #### Properties

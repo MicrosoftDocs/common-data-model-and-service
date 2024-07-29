@@ -48,7 +48,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
 |[RecipientPhoneNumber](#RecipientPhoneNumber)|The recipient's phone number.|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
 |[SenderPhoneNumber](#SenderPhoneNumber)|The sender's phone number|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="SmsSent.md" target="_blank">CustomerInsightsJourneys/SmsSent</a>|
 
@@ -533,7 +533,7 @@ First included in: CustomerInsightsJourneys/SmsSent (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/SmsSent (this entity)  
 
 #### Properties

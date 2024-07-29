@@ -59,7 +59,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
 |[SendingId](#SendingId)|Sending ID|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
 |[UsageType](#UsageType)|Usage type|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailBlockedDuplicateAddress.md" target="_blank">CustomerInsightsJourneys/EmailBlockedDuplicateAddress</a>|
@@ -870,7 +870,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedDuplicateAddress (this e
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailBlockedDuplicateAddress (this entity)  
 
 #### Properties

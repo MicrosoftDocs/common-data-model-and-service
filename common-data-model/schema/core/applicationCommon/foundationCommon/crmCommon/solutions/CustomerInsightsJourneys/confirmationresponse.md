@@ -61,7 +61,7 @@ ms.author: anbichse
 |[SearchPhrase](#SearchPhrase)|Search phrase|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
 |[SessionId](#SessionId)|Session ID|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
 |[State](#State)|State|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
 |[UsageType](#UsageType)|Usage type|<a href="ConfirmationResponse.md" target="_blank">CustomerInsightsJourneys/ConfirmationResponse</a>|
@@ -990,7 +990,7 @@ First included in: CustomerInsightsJourneys/ConfirmationResponse (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/ConfirmationResponse (this entity)  
 
 #### Properties

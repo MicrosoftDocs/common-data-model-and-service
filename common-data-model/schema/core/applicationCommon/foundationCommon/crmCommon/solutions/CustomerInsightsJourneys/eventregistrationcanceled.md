@@ -52,7 +52,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
 |[SourceEntityId](#SourceEntityId)|Source entity ID|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
 |[SourceEntityName](#SourceEntityName)|Source entity name|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EventRegistrationCanceled.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCanceled</a>|
 
@@ -668,7 +668,7 @@ First included in: CustomerInsightsJourneys/EventRegistrationCanceled (this enti
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EventRegistrationCanceled (this entity)  
 
 #### Properties

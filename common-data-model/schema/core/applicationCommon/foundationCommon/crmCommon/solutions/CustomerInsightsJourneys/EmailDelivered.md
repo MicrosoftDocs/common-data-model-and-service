@@ -40,7 +40,7 @@ ms.author: anbichse
 |[ContactId](#ContactId)|Unique identifier of the Contact.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
-|[DeliveredCount](#DeliveredCount)|Updated when an email messages gets bounced. '1' for a delivered interaction, '\x2d1' for a bounce|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
+|[DeliveredCount](#DeliveredCount)|Updated when an email messages gets bounced. '1' for a delivered interaction, '-1' for a bounce|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[EmailAddressUsed](#EmailAddressUsed)|The profile's email address.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[EmailDomain](#EmailDomain)|Indicates the 'From' domain.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
@@ -61,7 +61,7 @@ ms.author: anbichse
 |[Reason](#Reason)|Remote bounce reason|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
@@ -329,7 +329,7 @@ First included in: CustomerInsightsJourneys/EmailDelivered (this entity)
 
 ### <a href=#DeliveredCount name="DeliveredCount">DeliveredCount</a>
 
-Updated when an email messages gets bounced. '1' for a delivered interaction, '\x2d1' for a bounce  
+Updated when an email messages gets bounced. '1' for a delivered interaction, '-1' for a bounce  
 First included in: CustomerInsightsJourneys/EmailDelivered (this entity)  
 
 #### Properties
@@ -930,7 +930,7 @@ First included in: CustomerInsightsJourneys/EmailDelivered (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailDelivered (this entity)  
 
 #### Properties

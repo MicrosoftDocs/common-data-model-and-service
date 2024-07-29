@@ -68,7 +68,7 @@ ms.author: anbichse
 |[SearchPhrase](#SearchPhrase)|Search phrase|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
 |[SessionId](#SessionId)|Session ID|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
 |[State](#State)|State|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
 |[UsageType](#UsageType)|Usage type|<a href="RedirectLinkClicked.md" target="_blank">CustomerInsightsJourneys/RedirectLinkClicked</a>|
@@ -1187,7 +1187,7 @@ First included in: CustomerInsightsJourneys/RedirectLinkClicked (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/RedirectLinkClicked (this entity)  
 
 #### Properties

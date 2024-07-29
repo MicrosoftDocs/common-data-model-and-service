@@ -70,7 +70,7 @@ ms.author: anbichse
 |[SessionId](#SessionId)|Session ID|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
 |[SourceEntityId](#SourceEntityId)|Source entity ID|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
 |[SourceEntityName](#SourceEntityName)|Source entity name|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
 |[State](#State)|State|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
 |[UsageType](#UsageType)|Usage type|<a href="WebsiteClicked.md" target="_blank">CustomerInsightsJourneys/WebsiteClicked</a>|
@@ -1237,7 +1237,7 @@ First included in: CustomerInsightsJourneys/WebsiteClicked (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/WebsiteClicked (this entity)  
 
 #### Properties

@@ -46,7 +46,7 @@ ms.author: anbichse
 |[Platform](#Platform)|The mobile platform used for the sumbission (iOS or Android).|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
 
@@ -471,7 +471,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/PushNotificationSent (this entity)  
 
 #### Properties

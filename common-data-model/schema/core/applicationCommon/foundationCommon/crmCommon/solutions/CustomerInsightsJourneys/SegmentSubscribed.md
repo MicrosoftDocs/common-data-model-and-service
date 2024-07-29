@@ -65,7 +65,7 @@ ms.author: anbichse
 |[SegmentId](#SegmentId)|Unique identifier of the segment.|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
 |[SessionId](#SessionId)|Session ID|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
 |[State](#State)|State|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
 |[UsageType](#UsageType)|Usage type|<a href="SegmentSubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentSubscribed</a>|
@@ -1083,7 +1083,7 @@ First included in: CustomerInsightsJourneys/SegmentSubscribed (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/SegmentSubscribed (this entity)  
 
 #### Properties

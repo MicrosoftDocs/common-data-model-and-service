@@ -48,7 +48,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|Profile type|<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
 |[SourceEntityId](#SourceEntityId)||<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
 |[SourceEntityName](#SourceEntityName)||<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="FormSubmissionConfirmed.md" target="_blank">CustomerInsightsJourneys/FormSubmissionConfirmed</a>|
 
@@ -503,7 +503,7 @@ First included in: CustomerInsightsJourneys/FormSubmissionConfirmed (this entity
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/FormSubmissionConfirmed (this entity)  
 
 #### Properties

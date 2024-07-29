@@ -57,7 +57,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
 |[SchedulerId](#SchedulerId)||<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
 |[UsageType](#UsageType)|Usage type|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="OutOfEmailCredits.md" target="_blank">CustomerInsightsJourneys/OutOfEmailCredits</a>|
@@ -821,7 +821,7 @@ First included in: CustomerInsightsJourneys/OutOfEmailCredits (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/OutOfEmailCredits (this entity)  
 
 #### Properties

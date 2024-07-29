@@ -46,7 +46,7 @@ ms.author: anbichse
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
 |[WorkflowId](#WorkflowId)|Outbound Marketing Workflow ID|<a href="ActivityContactExpired.md" target="_blank">CustomerInsightsJourneys/ActivityContactExpired</a>|
@@ -505,7 +505,7 @@ First included in: CustomerInsightsJourneys/ActivityContactExpired (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/ActivityContactExpired (this entity)  
 
 #### Properties

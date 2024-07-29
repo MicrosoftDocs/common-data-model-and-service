@@ -52,7 +52,7 @@ ms.author: anbichse
 |[ReasonDetail](#ReasonDetail)|Provides additional information about the status of this event.|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
 |[SegmentId](#SegmentId)|For segment based journeys, the GUID of the segment for this journey.|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
 |[SegmentName](#SegmentName)|Segment name|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="JourneyEventEntryProcessed.md" target="_blank">CustomerInsightsJourneys/JourneyEventEntryProcessed</a>|
 
@@ -659,7 +659,7 @@ First included in: CustomerInsightsJourneys/JourneyEventEntryProcessed (this ent
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/JourneyEventEntryProcessed (this entity)  
 
 #### Properties

@@ -73,7 +73,7 @@ ms.author: anbichse
 |[SearchPhrase](#SearchPhrase)|Search phrase|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
 |[SessionId](#SessionId)|Session ID|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
 |[State](#State)|State|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
 |[UsageType](#UsageType)|Usage type|<a href="EmailOpened.md" target="_blank">CustomerInsightsJourneys/EmailOpened</a>|
@@ -1323,7 +1323,7 @@ First included in: CustomerInsightsJourneys/EmailOpened (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailOpened (this entity)  
 
 #### Properties

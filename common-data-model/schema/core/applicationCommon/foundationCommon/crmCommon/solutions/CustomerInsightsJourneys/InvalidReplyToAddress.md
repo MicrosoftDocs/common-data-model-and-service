@@ -60,7 +60,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
 |[SchedulerId](#SchedulerId)||<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
 |[UsageType](#UsageType)|Usage type|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="InvalidReplyToAddress.md" target="_blank">CustomerInsightsJourneys/InvalidReplyToAddress</a>|
@@ -909,7 +909,7 @@ First included in: CustomerInsightsJourneys/InvalidReplyToAddress (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/InvalidReplyToAddress (this entity)  
 
 #### Properties

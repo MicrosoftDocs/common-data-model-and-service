@@ -62,7 +62,7 @@ ms.author: anbichse
 |[RemoteBounce](#RemoteBounce)|Remote bounce|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
 |[UsageType](#UsageType)|Usage type|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailBounced.md" target="_blank">CustomerInsightsJourneys/EmailBounced</a>|
@@ -971,7 +971,7 @@ First included in: CustomerInsightsJourneys/EmailBounced (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailBounced (this entity)  
 
 #### Properties

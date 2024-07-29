@@ -45,7 +45,7 @@ ms.author: anbichse
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ExperimentationGoal.md" target="_blank">CustomerInsightsJourneys/ExperimentationGoal</a>|
 
@@ -440,7 +440,7 @@ First included in: CustomerInsightsJourneys/ExperimentationGoal (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/ExperimentationGoal (this entity)  
 
 #### Properties

@@ -52,7 +52,7 @@ ms.author: anbichse
 |[ReasonDetail](#ReasonDetail)|Provides additional information about the status of this event.|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
 |[SegmentId](#SegmentId)|For segment based journeys, the GUID of the segment for this journey.|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
 |[SegmentName](#SegmentName)|Segment name|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="JourneyEventCancelledBySupressionSegment.md" target="_blank">CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment</a>|
 
@@ -659,7 +659,7 @@ First included in: CustomerInsightsJourneys/JourneyEventCancelledBySupressionSeg
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment (this entity)  
 
 #### Properties

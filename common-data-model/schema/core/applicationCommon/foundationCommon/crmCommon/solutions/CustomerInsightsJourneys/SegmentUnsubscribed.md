@@ -65,7 +65,7 @@ ms.author: anbichse
 |[SegmentId](#SegmentId)|Unique identifier of the segment.|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
 |[SessionId](#SessionId)|Session ID|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
 |[State](#State)|State|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
 |[UsageType](#UsageType)|Usage type|<a href="SegmentUnsubscribed.md" target="_blank">CustomerInsightsJourneys/SegmentUnsubscribed</a>|
@@ -1083,7 +1083,7 @@ First included in: CustomerInsightsJourneys/SegmentUnsubscribed (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/SegmentUnsubscribed (this entity)  
 
 #### Properties

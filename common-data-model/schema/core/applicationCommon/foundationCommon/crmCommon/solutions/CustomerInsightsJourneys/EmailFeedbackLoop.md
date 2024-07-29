@@ -59,7 +59,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
 |[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based.|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailFeedbackLoop.md" target="_blank">CustomerInsightsJourneys/EmailFeedbackLoop</a>|
@@ -876,7 +876,7 @@ First included in: CustomerInsightsJourneys/EmailFeedbackLoop (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailFeedbackLoop (this entity)  
 
 #### Properties

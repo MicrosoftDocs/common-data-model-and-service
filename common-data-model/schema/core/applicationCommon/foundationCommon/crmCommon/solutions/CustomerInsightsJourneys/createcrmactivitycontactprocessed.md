@@ -45,7 +45,7 @@ ms.author: anbichse
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
 |[WorkflowId](#WorkflowId)|Outbound Marketing Workflow ID|<a href="CreateCrmActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/CreateCrmActivityContactProcessed</a>|
@@ -479,7 +479,7 @@ First included in: CustomerInsightsJourneys/CreateCrmActivityContactProcessed (t
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/CreateCrmActivityContactProcessed (this entity)  
 
 #### Properties

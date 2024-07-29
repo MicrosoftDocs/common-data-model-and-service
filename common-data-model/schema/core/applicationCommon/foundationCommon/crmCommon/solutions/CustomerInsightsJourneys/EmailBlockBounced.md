@@ -54,7 +54,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID.|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
 |[UsageType](#UsageType)|Usage type|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailBlockBounced.md" target="_blank">CustomerInsightsJourneys/EmailBlockBounced</a>|
@@ -742,7 +742,7 @@ First included in: CustomerInsightsJourneys/EmailBlockBounced (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailBlockBounced (this entity)  
 
 #### Properties

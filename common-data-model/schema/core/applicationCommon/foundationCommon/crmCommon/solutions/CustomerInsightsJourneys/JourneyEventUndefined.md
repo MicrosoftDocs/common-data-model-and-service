@@ -52,7 +52,7 @@ ms.author: anbichse
 |[ReasonDetail](#ReasonDetail)|Provides additional information about the status of this event.|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
 |[SegmentId](#SegmentId)|For segment based journeys, the GUID of the segment for this journey.|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
 |[SegmentName](#SegmentName)|Segment name|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="JourneyEventUndefined.md" target="_blank">CustomerInsightsJourneys/JourneyEventUndefined</a>|
 
@@ -659,7 +659,7 @@ First included in: CustomerInsightsJourneys/JourneyEventUndefined (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/JourneyEventUndefined (this entity)  
 
 #### Properties

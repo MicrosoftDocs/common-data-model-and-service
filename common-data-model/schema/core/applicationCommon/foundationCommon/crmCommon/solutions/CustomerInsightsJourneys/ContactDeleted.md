@@ -39,7 +39,7 @@ ms.author: anbichse
 |[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="ContactDeleted.md" target="_blank">CustomerInsightsJourneys/ContactDeleted</a>|
 
@@ -265,7 +265,7 @@ First included in: CustomerInsightsJourneys/ContactDeleted (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/ContactDeleted (this entity)  
 
 #### Properties

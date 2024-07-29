@@ -51,7 +51,7 @@ ms.author: anbichse
 |[Platform](#Platform)|The mobile platform used for the sumbission (iOS or Android).|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[TargetUrl](#TargetUrl)|Represents the actual URL that a user clicked, including any personalized elements. It shows the specific webpage or destination the user was directed to after clicking.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[UserAgent](#UserAgent)|User agent|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
@@ -630,7 +630,7 @@ First included in: CustomerInsightsJourneys/BotPushNotificationLinkClicked (this
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/BotPushNotificationLinkClicked (this entity)  
 
 #### Properties

@@ -49,7 +49,7 @@ ms.author: anbichse
 |[Platform](#Platform)|The mobile platform used for the sumbission (iOS or Android).|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
 |[TargetUrl](#TargetUrl)|Represents the actual URL that a user clicked, including any personalized elements. It shows the specific webpage or destination the user was directed to after clicking.|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="PushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/PushNotificationLinkClicked</a>|
@@ -567,7 +567,7 @@ First included in: CustomerInsightsJourneys/PushNotificationLinkClicked (this en
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/PushNotificationLinkClicked (this entity)  
 
 #### Properties

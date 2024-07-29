@@ -48,7 +48,7 @@ ms.author: anbichse
 |[ProfileType](#ProfileType)|Profile type|<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
 |[SourceEntityId](#SourceEntityId)||<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
 |[SourceEntityName](#SourceEntityName)||<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="FormSubmissionExpired.md" target="_blank">CustomerInsightsJourneys/FormSubmissionExpired</a>|
 
@@ -503,7 +503,7 @@ First included in: CustomerInsightsJourneys/FormSubmissionExpired (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/FormSubmissionExpired (this entity)  
 
 #### Properties

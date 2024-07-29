@@ -51,7 +51,7 @@ ms.author: anbichse
 |[OrganizationId](#OrganizationId)|Organization Id.|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile.|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
 |[ProfileType](#ProfileType)|The profile type (Contact, Lead or CI Profile)|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted.|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
 |[Version](#Version)|Interaction version. Used for updating the interaction.|<a href="EmailBlockedTrialQuotaExceeded.md" target="_blank">CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded</a>|
 
@@ -618,7 +618,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded (this
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real\x2dtime journeys (RTJ).  
+ Refers to the source system that generated the interaction. Outbound marketing (OBM) is represented by value 1. Any other value than 1 represents Real-time journeys (RTJ).  
 First included in: CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded (this entity)  
 
 #### Properties
