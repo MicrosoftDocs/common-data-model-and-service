@@ -558,8 +558,6 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidreplytoaddress.md
           - name: invalidsenderaddress 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidsenderaddress.md
-          - name: journeyevent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/journeyevent.md
           - name: leadscoreboost 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/leadscoreboost.md
           - name: linkedinformsubmission 
