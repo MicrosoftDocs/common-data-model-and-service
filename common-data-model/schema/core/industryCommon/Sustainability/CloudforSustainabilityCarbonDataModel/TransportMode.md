@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/1/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Transport mode in Cloud for Sustainability carbon data model(TransportMode)

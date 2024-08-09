@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/1/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Water basin in Cloud for Sustainability water data model (WaterBasin)
