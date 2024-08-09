@@ -64,7 +64,7 @@ Entity used to classify the data definitions.
 ### <a href=#sustainabilitymoduleId name="sustainabilitymoduleId">sustainabilitymoduleId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -112,7 +112,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -149,7 +149,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -189,7 +189,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Sustainability Module  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Sustainability Module  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -284,7 +284,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -321,7 +321,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -364,7 +364,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 
@@ -407,7 +407,7 @@ First included in: Sustainability/SustainabilityShared/SustainabilityModule (thi
 ### <a href=#name name="name">name</a>
 
 The name of the Module.  
-First included in: Sustainability/SustainabilityShared/SustainabilityModule (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityModule (this entity)  
 
 #### Properties
 

@@ -70,7 +70,7 @@ The classification that a company or organization uses to categorize its entitie
 ### <a href=#sustainabilityorganizationalhierarchyId name="sustainabilityorganizationalhierarchyId">sustainabilityorganizationalhierarchyId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Organizational Hierarchy  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Organizational Hierarchy  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#effectiveenddate name="effectiveenddate">effectiveenddate</a>
 
 The date which represents the end of the reporting period.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -544,7 +544,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#effectivestartdate name="effectivestartdate">effectivestartdate</a>
 
 The date which represents the start of the reporting period.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the organizational hierarchy.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -626,7 +626,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
@@ -674,7 +674,7 @@ First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (
 ### <a href=#parentid name="parentid">parentid</a>
 
 Unique identifier for the organizational unit associated with the organizational hierarchy.  
-First included in: Sustainability/SustainabilityShared/OrganizationalHierarchy (this entity)  
+First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalHierarchy (this entity)  
 
 #### Properties
 
