@@ -5,8 +5,8 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.date:2024
+ms.author: cdmditeam
 ---
 
 # Alternate result basis in Cloud for Sustainability shared data model (AlternateResultBasis)
@@ -67,7 +67,7 @@ Primary reason used for generating alternate sustainability records, which is do
 ### <a href=#alternateresultbasisId name="alternateresultbasisId">alternateresultbasisId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Alternate result basis  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Alternate result basis  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -455,7 +455,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#description name="description">description</a>
 
 Description of the alternate result basis record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Alternat
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/AlternateResultBasis (this entity)  
+First included in: Sustainability/SustainabilityShared/AlternateResultBasis (this entity)  
 
 #### Properties
 

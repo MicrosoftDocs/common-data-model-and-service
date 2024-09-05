@@ -73,7 +73,7 @@ The carbon footprint of a product with values in accordance with the Pathfinder 
 |[validityperiodstart](#validityperiodstart)|The start of the validity period, which is the interval during which the PCF is declared as valid for use by a data recipient. Reference the Pathfinder Framework for further details. |<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
 |[version](#version)|The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)-1.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
 |[geographycountry](#geographycountry)|If present, the value must conform to an ISO 3166-2 alpha-2 code.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
 |[geographycountrysubdivision](#geographycountrysubdivision)|If present, an ISO 3166-2 subdivision code.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
 |[geographyregionorsubregion](#geographyregionorsubregion)|If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.|<a href="ProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprint</a>|
@@ -1077,12 +1077,12 @@ First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this en
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for Country/region.  
+Lookup field for country/region.  
 First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -1102,10 +1102,10 @@ First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this en
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -1127,7 +1127,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region (Deprecated)</td></tr><tr><td>description</td><td>If present, the value must conform to an ISO 3166-2 alpha-2 code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region (deprecated)</td></tr><tr><td>description</td><td>If present, the value must conform to an ISO 3166-2 alpha-2 code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountry</td></tr></table>
 
 #### Traits
 
@@ -1148,7 +1148,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this en
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>If present, the value must conform to an ISO 3166-2 alpha-2 code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -1175,7 +1175,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region subdivision</td></tr><tr><td>description</td><td>If present, an ISO 3166-2 subdivision code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountrysubdivision</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region subdivision</td></tr><tr><td>description</td><td>If present, an ISO 3166-2 subdivision code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountrysubdivision</td></tr></table>
 
 #### Traits
 
@@ -1196,7 +1196,7 @@ First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this en
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>If present, an ISO 3166-2 subdivision code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region subdivision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region subdivision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
