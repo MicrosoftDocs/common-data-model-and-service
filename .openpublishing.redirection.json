@@ -1099,7 +1099,6 @@
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/fueltype",
       "redirect_document_id": false
     },
-    ,
     {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/FugitiveEmission.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/fugitiveemission",
