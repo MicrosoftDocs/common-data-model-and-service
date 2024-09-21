@@ -1033,6 +1033,550 @@
       "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/overview.md",
       "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/AccommodationType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/accommodationtype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/BusinessTravel.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/businesstravel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/BusinessTravelType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/businesstraveltype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/CapitalGood.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/capitalgood",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/ContractualInstrumentType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/contractualinstrumenttype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/deprecatedproductcarbonfootprint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/DisposalMethod.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/disposalmethod",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/Emission.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/emission",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/EmissionsSource.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/emissionssource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/EmployeeCommuting.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/employeecommuting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/EmployeeCommutingType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/employeecommutingtype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/endoflifetreatmentofsoldproducts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/FuelType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/fueltype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/FugitiveEmission.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/fugitiveemission",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/GreenhouseGas.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/greenhousegas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/Investment.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/investment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/MobileCombustion.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/mobilecombustion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PartnerActivity.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/partneractivity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PartnerEmission.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/partneremission",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/ProductFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/productfootprint",
+      "redirect_document_id": false
+    },{
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/ProductFootprintAudit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/productfootprintaudit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/productorsectorruleset",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PurchasedEnergy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/purchasedenergy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PurchasedGoodAndService.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/purchasedgoodandservice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/SpendType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/spendtype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/StationaryCombustion.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/stationarycombustion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/TransportMode.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/transportmode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/TransportationAndDistribution.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/transportationanddistribution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/WasteGeneratedInOperations.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/wastegeneratedinoperations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitycarbondatamodel/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/Account.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/account",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/AgreementDetails.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/agreementdetails",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/EnergyContract.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/energycontract",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/EnergyContractType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/energycontracttype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/EnergySource.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/energysource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/GeneratedEnergy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/generatedenergy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/PurchasedEnergy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/purchasedenergy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/RenewableEnergyCertificate.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/renewableenergycertificate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/UtilityType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/utilitytype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityEnergy/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityenergydatamodel/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Account.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/account",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Contact.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/contact",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/CountryRegion.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/countryregion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/CountryRegionMapping.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/countryregionmapping",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/CustomDimensionMetadata.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/customdimensionmetadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/DataSourceType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/datasourcetype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/DeprecatedProductIdentifier.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/deprecatedproductidentifier",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/EmissionFactor.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/emissionfactor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/EnergyProviderType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/energyprovidertype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/EstimationFactor.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/estimationfactor",
+      "redirect_document_id": false
+    },{
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Facility.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/facility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FacilityCapacity.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/facilitycapacity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FacilityCapacityDimension.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/facilitycapacitydimension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FacilityItemProduction.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/facilityitemproduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FacilityType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/facilitytype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FacilityUsageDetail.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/facilityusagedetail",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FactorLibrary.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/factorlibrary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/FactorMapping.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/factormapping",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/GeographicArea.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/geographicarea",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/GeographicAreaType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/geographicareatype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/IndustrialProcessType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/industrialprocesstype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Industry.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/industry",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/IndustryClassification.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/industryclassification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Material.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/material",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Meter.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/meter",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/MonthlyRevenue.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/monthlyrevenue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/OrganizationalHierarchy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/organizationalhierarchy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/OrganizationalProfile.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/organizationalprofile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/OrganizationalUnit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/organizationalunit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/ProductCategory.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/productcategory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/ProductSustainability.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/productsustainability",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/ReportingPeriod.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/reportingperiod",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/ReportingYear.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/reportingyear",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Subindustry.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/subindustry",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/SustainabilityDataDefinition.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/sustainabilitydatadefinition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/sustainabilitydatadefinitionsubcategory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/SustainabilityItemCategorySKU.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/sustainabilityitemcategorysku",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/SustainabilityItemPackaging.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/sustainabilityitempackaging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/SustainabilityItemSKU.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/sustainabilityitemsku",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/SustainabilityModule.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/sustainabilitymodule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/Unit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/unit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/UnitGroup.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/unitgroup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/ValueChainPartner.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/valuechainpartner",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilityshareddatamodel/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/circularitydesignprinciple",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/facilityitemconsumption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterials.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/itembillofmaterials",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/itemsustainablecontent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/wastecharacteristictype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/wastequalitycharacteristic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/wastequalitytestresult",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/wastequantity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/wastetestmethod",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/WasteType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/wastetype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWaste/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywastedatamodel/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/Facility.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/facility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/StoredWater.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/storedwater",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterBasin.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterbasin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterinstrument",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterQualityAnalysis.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterqualityanalysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristic.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterqualitycharacteristic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristicType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterqualitycharacteristictype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterQualityTestResult.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterqualitytestresult",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterQuantity.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterquantity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterRiskIndex.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/waterriskindex",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterSample.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/watersample",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterSampleDeprecated.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/watersampledeprecated",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/WaterSource.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/watersource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/overview",
+      "redirect_document_id": false
     }
+    
   ]
 }
