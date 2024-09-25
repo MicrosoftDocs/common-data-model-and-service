@@ -1,7 +1,7 @@
 ---
 title: FacilityType in Cloud for Sustainability shared data model
 description: Entity used for classifying the type of facility, as defined in the reporting company.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

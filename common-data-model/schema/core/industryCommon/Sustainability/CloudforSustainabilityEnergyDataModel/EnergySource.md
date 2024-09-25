@@ -1,7 +1,7 @@
 ---
 title: EnergySource in Cloud for Sustainability energy data model
 description: Medium or sources to generate energy.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

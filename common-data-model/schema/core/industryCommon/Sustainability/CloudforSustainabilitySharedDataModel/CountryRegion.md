@@ -1,7 +1,7 @@
 ---
 title: CountryRegion in Cloud for Sustainability shared data model
-description: Defines custom Country/region codes.
-author: cdm-publisher
+description: Defines custom country/region codes.
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
@@ -9,9 +9,9 @@ ms.date: 08/12/2024
 ms.author: anbichse
 ---
 
-# Country/region in Cloud for Sustainability shared data model (CountryRegion)
+# country/region in Cloud for Sustainability shared data model (CountryRegion)
 
-Defines custom Country/region codes.  
+Defines custom country/region codes.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,10 +34,10 @@ Defines custom Country/region codes.
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/CountryRegion.cdm.json/CountryRegion<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Defines custom Country/region codes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Defines custom country/region codes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_countryregion"</td><td>string</td><td></td></tr></table>
@@ -54,19 +54,19 @@ Defines custom Country/region codes.
 |[countryregionId](#countryregionId)|Unique identifier for entity instances|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[statecode](#statecode)|Status of the Country/region|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[statuscode](#statuscode)|Reason for the status of the Country/region|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[statecode](#statecode)|Status of the country/region|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[statuscode](#statuscode)|Reason for the status of the country/region|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[name](#name)|Name of the Country/region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[name](#name)|Name of the country/region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[alternatecode](#alternatecode)|Organization-specific custom code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[countryregion2lettercode](#countryregion2lettercode)|The ISO 2 letter code identifying a Country/region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[countryregion3digitcode](#countryregion3digitcode)|The numeric code identifies a physical territory, and the letters a Country/region name.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[countryregion3lettercode](#countryregion3lettercode)|The 3 letter Country/region code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[description](#description)|Comments on Country/region line item.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[countryregion2lettercode](#countryregion2lettercode)|The ISO 2 letter code identifying a country/region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[countryregion3digitcode](#countryregion3digitcode)|The numeric code identifies a physical territory, and the letters a country/region name.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[countryregion3lettercode](#countryregion3lettercode)|The 3 letter country/region code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[description](#description)|Comments on country/region line item.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 
 ### <a href=#countryregionId name="countryregionId">countryregionId</a>
 
@@ -75,7 +75,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_countryregionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_countryregionid</td></tr></table>
 
 #### Traits
 
@@ -101,7 +101,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.sourceNamed*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_countryregionid"</td><td>string</td><td></td></tr></table>
@@ -198,12 +198,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Country/region  
+Status of the country/region  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Country/region</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the country/region</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -228,7 +228,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -244,12 +244,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Country/region  
+Reason for the status of the country/region  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Country/region</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the country/region</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -274,7 +274,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -459,12 +459,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#name name="name">name</a>
 
-Name of the Country/region.  
+Name of the country/region.  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of the Country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -482,7 +482,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -603,12 +603,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#countryregion2lettercode name="countryregion2lettercode">countryregion2lettercode</a>
 
-The ISO 2 letter code identifying a Country/region.  
+The ISO 2 letter code identifying a country/region.  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region 2 letter code</td></tr><tr><td>description</td><td>The ISO 2 letter code identifying a Country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryregion2lettercode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region 2 letter code</td></tr><tr><td>description</td><td>The ISO 2 letter code identifying a country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryregion2lettercode</td></tr></table>
 
 #### Traits
 
@@ -626,10 +626,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The ISO 2 letter code identifying a Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The ISO 2 letter code identifying a country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region 2 letter code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region 2 letter code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2"</td><td>integer</td><td></td></tr></table>
@@ -651,12 +651,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#countryregion3digitcode name="countryregion3digitcode">countryregion3digitcode</a>
 
-The numeric code identifies a physical territory, and the letters a Country/region name.  
+The numeric code identifies a physical territory, and the letters a country/region name.  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region 3 digit code</td></tr><tr><td>description</td><td>The numeric code identifies a physical territory, and the letters a Country/region name.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>999</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryregion3digitcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region 3 digit code</td></tr><tr><td>description</td><td>The numeric code identifies a physical territory, and the letters a country/region name.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>999</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryregion3digitcode</td></tr></table>
 
 #### Traits
 
@@ -672,10 +672,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The numeric code identifies a physical territory, and the letters a Country/region name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The numeric code identifies a physical territory, and the letters a country/region name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region 3 digit code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region 3 digit code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"999"</td><td>decimal</td><td></td></tr></table>
@@ -694,12 +694,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#countryregion3lettercode name="countryregion3lettercode">countryregion3lettercode</a>
 
-The 3 letter Country/region code.  
+The 3 letter country/region code.  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region 3 letter code</td></tr><tr><td>description</td><td>The 3 letter Country/region code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryregion3lettercode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region 3 letter code</td></tr><tr><td>description</td><td>The 3 letter country/region code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryregion3lettercode</td></tr></table>
 
 #### Traits
 
@@ -717,10 +717,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The 3 letter Country/region code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The 3 letter country/region code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region 3 letter code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region 3 letter code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"10"</td><td>integer</td><td></td></tr></table>
@@ -742,12 +742,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
 
 ### <a href=#description name="description">description</a>
 
-Comments on Country/region line item.  
+Comments on country/region line item.  
 First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Comments on Country/region line item.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Comments on country/region line item.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -765,7 +765,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/CountryR
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Comments on Country/region line item.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Comments on country/region line item.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

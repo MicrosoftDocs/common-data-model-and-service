@@ -1,7 +1,7 @@
 ---
 title: EnergyContract in Cloud for Sustainability energy data model
 description: Documented method/approach to source energy.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

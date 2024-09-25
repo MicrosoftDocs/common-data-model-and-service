@@ -1,7 +1,7 @@
 ---
 title: MonthlyRevenue in Cloud for Sustainability shared data model
 description: Captures revenue of an organizational unit by year and month in the company currency.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

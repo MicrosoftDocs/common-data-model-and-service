@@ -1,11 +1,11 @@
 ---
 title: Emission in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/1/2024
+ms.date: 09/25/2024
 ms.author: anbichse
 ---
 
@@ -1174,7 +1174,7 @@ First included in: Sustainability/SustainabilityCarbon/Emission (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region (Deprecated)</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region (deprecated)</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryisocode</td></tr></table>
 
 #### Traits
 
@@ -1195,7 +1195,7 @@ First included in: Sustainability/SustainabilityCarbon/Emission (this entity)
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The three letter ISO code of the country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"3"</td><td>integer</td><td></td></tr></table>

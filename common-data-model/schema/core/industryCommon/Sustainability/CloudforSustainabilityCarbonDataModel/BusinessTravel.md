@@ -1,7 +1,7 @@
 ---
 title: BusinessTravel in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
@@ -66,7 +66,7 @@ Entity for business travel activity data, including vehicle, train, and air trav
 |[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
 |[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
 |[description](#description)|Optional description to give additional detail to the entity or attribute.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
 |[destinationcountryisocode](#destinationcountryisocode)|ISO code for the destination country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
 |[distance](#distance)|Quantity associated with distance activity which contributes to mobile combustion or supply chain travel.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
 |[distanceunit](#distanceunit)|Unique identifier for the unit associated with distance.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
@@ -875,12 +875,12 @@ First included in: Sustainability/SustainabilityCarbon/BusinessTravel (this enti
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for Country/region.  
+Lookup field for country/region.  
 First included in: Sustainability/SustainabilityCarbon/BusinessTravel (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -900,10 +900,10 @@ First included in: Sustainability/SustainabilityCarbon/BusinessTravel (this enti
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -925,7 +925,7 @@ First included in: Sustainability/SustainabilityCarbon/BusinessTravel (this enti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Destination Country/Region (Deprecated)</td></tr><tr><td>description</td><td>ISO code for the destination country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_destinationcountryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Destination country/region (deprecated)</td></tr><tr><td>description</td><td>ISO code for the destination country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_destinationcountryisocode</td></tr></table>
 
 #### Traits
 
@@ -946,7 +946,7 @@ First included in: Sustainability/SustainabilityCarbon/BusinessTravel (this enti
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ISO code for the destination country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Destination Country/Region (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Destination country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"3"</td><td>integer</td><td></td></tr></table>

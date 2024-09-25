@@ -1,7 +1,7 @@
 ---
 title: CircularityDesignPrinciple in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
 description: Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
