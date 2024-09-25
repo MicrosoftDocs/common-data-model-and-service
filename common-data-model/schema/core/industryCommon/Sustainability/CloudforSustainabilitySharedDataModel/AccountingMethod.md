@@ -4,7 +4,7 @@ description: Approach or method to quantify and report the environmental footpri
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/12/2024
 ms.author: anbichse
 ---

@@ -4,7 +4,7 @@ description: Financial Services is a folder that contains standard entities rela
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/3/2023
 ms.author: syalandur
 ---

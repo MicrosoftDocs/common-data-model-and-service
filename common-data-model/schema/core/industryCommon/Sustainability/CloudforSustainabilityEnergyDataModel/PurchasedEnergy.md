@@ -4,7 +4,7 @@ description: Electric energy, measured in MWh, delivered by the utility to a cus
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---

@@ -4,7 +4,7 @@ description: Describes the details of the basin from which water is being withdr
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---

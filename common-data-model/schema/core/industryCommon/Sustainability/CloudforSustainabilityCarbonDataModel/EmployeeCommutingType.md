@@ -4,7 +4,7 @@ description: Entity used for classifying the type of employee commuting, as defi
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---

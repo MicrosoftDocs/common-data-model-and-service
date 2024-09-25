@@ -4,7 +4,7 @@ description: Configures system-wide Retail Execution setting record
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/6/2024
 ms.author: anbichse
 ---

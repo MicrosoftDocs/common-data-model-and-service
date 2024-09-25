@@ -4,7 +4,7 @@ description: The investment entity monitors and manages indirect greenhouse gas 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---

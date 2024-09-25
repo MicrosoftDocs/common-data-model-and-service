@@ -4,7 +4,7 @@ description: Emissions source for scope 1 emissions relating to industrial proce
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---

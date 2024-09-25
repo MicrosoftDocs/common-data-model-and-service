@@ -4,7 +4,7 @@ description: Reasons for cancelling activities
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/1/2024
 ms.author: anbichse
 ---

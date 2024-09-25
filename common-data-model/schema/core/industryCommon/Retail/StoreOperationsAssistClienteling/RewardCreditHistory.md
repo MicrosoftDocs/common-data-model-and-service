@@ -4,7 +4,7 @@ description: Stores currency credit done to an account in the name of rewards, g
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/1/2024
 ms.author: anbichse
 ---
