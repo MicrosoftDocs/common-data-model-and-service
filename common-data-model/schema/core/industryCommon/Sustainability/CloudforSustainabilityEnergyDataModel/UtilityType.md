@@ -1,7 +1,7 @@
 ---
 title: UtilityType in Cloud for Sustainability energy data model
 description: Classification of energy entities such as electricity or gas.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

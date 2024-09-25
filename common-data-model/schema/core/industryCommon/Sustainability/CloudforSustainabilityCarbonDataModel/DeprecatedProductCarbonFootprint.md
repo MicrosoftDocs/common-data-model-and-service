@@ -1,7 +1,7 @@
 ---
 title: DeprecatedProductCarbonFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The carbon footprint of a product and related data in accordance with the Pathfinder Framework.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

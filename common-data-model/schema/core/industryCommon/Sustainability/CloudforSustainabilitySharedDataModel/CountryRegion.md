@@ -1,7 +1,7 @@
 ---
 title: CountryRegion in Cloud for Sustainability shared data model
 description: Defines custom country/region codes.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

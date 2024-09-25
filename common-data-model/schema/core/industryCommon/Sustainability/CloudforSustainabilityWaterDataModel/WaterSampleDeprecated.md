@@ -1,7 +1,7 @@
 ---
 title: WaterSampleDeprecated in Cloud for Sustainability water data model
 description: Stores the attributes of the water samples collected for testing water quality.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

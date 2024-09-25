@@ -1,7 +1,7 @@
 ---
 title: WasteGeneratedInOperations in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for waste generated in operations, including disposal and treatment of waste generated.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

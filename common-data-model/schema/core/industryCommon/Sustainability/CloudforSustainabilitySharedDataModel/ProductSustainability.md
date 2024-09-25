@@ -1,7 +1,7 @@
 ---
 title: ProductSustainability in Cloud for Sustainability shared data model
 description: A product that can be associated with a product carbon footprint.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

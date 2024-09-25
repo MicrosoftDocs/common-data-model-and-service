@@ -1,7 +1,7 @@
 ---
 title: ValueChainPartner in Cloud for Sustainability shared data model
 description: Entity for value chain partner or supplier.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

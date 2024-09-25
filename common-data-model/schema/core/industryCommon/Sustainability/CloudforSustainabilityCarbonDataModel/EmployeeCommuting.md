@@ -1,7 +1,7 @@
 ---
 title: EmployeeCommuting in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for employee commuting data
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

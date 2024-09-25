@@ -1,7 +1,7 @@
 ---
 title: WaterQualityAnalysis in Cloud for Sustainability water data model
 description: Describes the analysis performed to test a water sample for a certain characteristic.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

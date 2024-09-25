@@ -1,7 +1,7 @@
 ---
 title: CountryRegionMapping in Cloud for Sustainability shared data model
 description: Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

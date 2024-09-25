@@ -1,7 +1,7 @@
 ---
 title: FacilityCapacityDimension in Cloud for Sustainability shared data model
 description: The dimension of the facility based on which the water usage intensity factors are defined such as area.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

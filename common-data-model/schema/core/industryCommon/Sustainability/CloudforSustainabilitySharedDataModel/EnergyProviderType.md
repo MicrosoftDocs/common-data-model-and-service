@@ -1,7 +1,7 @@
 ---
 title: EnergyProviderType in Cloud for Sustainability shared data model
 description: Categories or classifications of companies or entities that supply energy, such as electricity or gas.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
