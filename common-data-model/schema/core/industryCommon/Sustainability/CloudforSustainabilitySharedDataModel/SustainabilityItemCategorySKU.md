@@ -1,7 +1,7 @@
 ---
 title: SustainabilityItemCategorySKU in Cloud for Sustainability shared data model
 description: The category of the item such as abrasives, castings or accessories
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

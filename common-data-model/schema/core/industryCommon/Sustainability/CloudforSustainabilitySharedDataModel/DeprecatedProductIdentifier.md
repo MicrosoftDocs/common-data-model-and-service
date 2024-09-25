@@ -1,7 +1,7 @@
 ---
 title: DeprecatedProductIdentifier in Cloud for Sustainability shared data model
 description: Uniquely identifies a product.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

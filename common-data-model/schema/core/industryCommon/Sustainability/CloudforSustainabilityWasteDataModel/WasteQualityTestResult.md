@@ -1,7 +1,7 @@
 ---
 title: WasteQualityTestResult in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
 description: Stores information on the result of the tests for tracking chemical/contaminant levels.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

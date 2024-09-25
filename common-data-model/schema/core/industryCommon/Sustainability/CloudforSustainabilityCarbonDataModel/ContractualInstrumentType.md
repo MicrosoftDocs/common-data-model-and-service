@@ -1,7 +1,7 @@
 ---
 title: ContractualInstrumentType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Documented method/approach to confirm and validate source data.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

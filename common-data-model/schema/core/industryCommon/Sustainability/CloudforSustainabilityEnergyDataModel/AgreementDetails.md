@@ -1,7 +1,7 @@
 ---
 title: AgreementDetails in Cloud for Sustainability energy data model
 description: Binding agreement between the energy provider and the customer for the energy being sourced or procured. 
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

@@ -1,7 +1,7 @@
 ---
 title: Meter in Cloud for Sustainability shared data model
 description: An entity that represents meters.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

@@ -1,7 +1,7 @@
 ---
 title: EndOfLifeTreatmentOfSoldProducts in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for end for life treatment of sold products
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 
@@ -62,7 +62,7 @@ Entity for end for life treatment of sold products
 |[cost](#cost)|Cost associated with activity data.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[costunit](#costunit)|Unit associated with the cost quantity.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[description](#description)|Optional description to give additional detail to the entity or attribute.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[disposalmethodid](#disposalmethodid)|Method of waste disposal, such as compost or recycle.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
@@ -694,12 +694,12 @@ First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldP
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for Country/region.  
+Lookup field for country/region.  
 First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -719,10 +719,10 @@ First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldP
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>

@@ -1,7 +1,7 @@
 ---
 title: Industry in Cloud for Sustainability shared data model
 description: Parent level of the industry classification which contains an ID and name.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

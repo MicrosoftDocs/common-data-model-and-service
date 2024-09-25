@@ -1,7 +1,7 @@
 ---
 title: OrganizationalHierarchy in Cloud for Sustainability shared data model
 description: The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 
