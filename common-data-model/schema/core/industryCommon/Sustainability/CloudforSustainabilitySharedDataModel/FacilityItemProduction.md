@@ -1,7 +1,7 @@
 ---
 title: FacilityItemProduction in Cloud for Sustainability shared data model
 description: Entity used to record the production quantity of an item in a facility for a specified period. 
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

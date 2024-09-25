@@ -1,7 +1,7 @@
 ---
 title: GeographicAreaType in Cloud for Sustainability shared data model
 description: User or industry defined type of geographic area
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

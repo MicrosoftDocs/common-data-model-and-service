@@ -1,7 +1,7 @@
 ---
 title: Contact in Cloud for Sustainability shared data model
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

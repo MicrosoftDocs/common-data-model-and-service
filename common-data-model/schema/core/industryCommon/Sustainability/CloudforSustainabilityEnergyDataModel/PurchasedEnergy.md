@@ -1,7 +1,7 @@
 ---
 title: PurchasedEnergy in Cloud for Sustainability energy data model
 description: Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

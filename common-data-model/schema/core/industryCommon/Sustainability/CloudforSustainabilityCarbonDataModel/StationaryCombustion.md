@@ -1,7 +1,7 @@
 ---
 title: StationaryCombustion in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Combustion that occurs in a fixed asset, such as a boiler or furnace.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
@@ -56,7 +56,7 @@ Combustion that occurs in a fixed asset, such as a boiler or furnace.
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[name](#name)|The name of the custom entity.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
@@ -441,12 +441,12 @@ First included in: Sustainability/SustainabilityCarbon/StationaryCombustion (thi
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for Country/region.  
+Lookup field for country/region.  
 First included in: Sustainability/SustainabilityCarbon/StationaryCombustion (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -466,10 +466,10 @@ First included in: Sustainability/SustainabilityCarbon/StationaryCombustion (thi
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>

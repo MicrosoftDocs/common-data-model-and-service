@@ -1,7 +1,7 @@
 ---
 title: WaterQualityCharacteristicType in Cloud for Sustainability water data model
 description: Stores all the different classifications for the water quality characteristics.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

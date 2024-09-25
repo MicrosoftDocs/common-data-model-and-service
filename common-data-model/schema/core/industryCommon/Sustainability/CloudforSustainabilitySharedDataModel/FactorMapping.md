@@ -1,7 +1,7 @@
 ---
 title: FactorMapping in Cloud for Sustainability shared data model
 description: Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

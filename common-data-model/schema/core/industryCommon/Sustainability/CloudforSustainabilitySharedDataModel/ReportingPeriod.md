@@ -1,7 +1,7 @@
 ---
 title: ReportingPeriod in Cloud for Sustainability shared data model
 description: Entity used to track reporting periods created for each reporting year.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

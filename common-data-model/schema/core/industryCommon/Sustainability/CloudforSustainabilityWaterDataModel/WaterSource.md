@@ -1,7 +1,7 @@
 ---
 title: WaterSource in Cloud for Sustainability water data model
 description: Entity to store details of sources from/to which water gets withdrawn/discharged.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: RenewableEnergyCertificate in Cloud for Sustainability energy data model
 description: Market-based instrument that represents the environmental attributes of electricity generated from renewable energy sources.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
