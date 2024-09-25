@@ -1,7 +1,7 @@
 ---
 title: Unit in Cloud for Sustainability shared data model
 description: Unit of measure.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

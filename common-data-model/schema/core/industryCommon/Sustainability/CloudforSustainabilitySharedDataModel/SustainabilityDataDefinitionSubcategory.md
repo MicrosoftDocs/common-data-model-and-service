@@ -1,7 +1,7 @@
 ---
 title: SustainabilityDataDefinitionSubcategory in Cloud for Sustainability shared data model
 description: Stores data definition subcategories and help links
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

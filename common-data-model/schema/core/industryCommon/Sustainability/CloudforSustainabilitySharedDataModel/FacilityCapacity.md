@@ -1,7 +1,7 @@
 ---
 title: FacilityCapacity in Cloud for Sustainability shared data model
 description: Entity to capture the facility's capacity dimension and measure for a specified time period.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

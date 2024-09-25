@@ -1,7 +1,7 @@
 ---
 title: FacilityUsageDetail in Cloud for Sustainability shared data model
 description: Captures intensity scores for a facility in a given year.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

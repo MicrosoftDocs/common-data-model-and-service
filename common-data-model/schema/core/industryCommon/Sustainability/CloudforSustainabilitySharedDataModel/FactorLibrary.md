@@ -1,7 +1,7 @@
 ---
 title: FactorLibrary in Cloud for Sustainability shared data model
 description: Repository for emission and estimation factor sets, including both system and user added.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

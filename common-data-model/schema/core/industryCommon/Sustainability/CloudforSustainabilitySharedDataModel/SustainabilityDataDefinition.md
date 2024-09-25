@@ -1,7 +1,7 @@
 ---
 title: SustainabilityDataDefinition in Cloud for Sustainability shared data model
 description: Entity used to define the data definitions for entities across Carbon, Waste and Water.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

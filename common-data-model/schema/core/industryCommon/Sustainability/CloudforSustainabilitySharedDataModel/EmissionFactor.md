@@ -1,7 +1,7 @@
 ---
 title: EmissionFactor in Cloud for Sustainability shared data model
 description: Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.
-author: cdm-publisher
+author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 
