@@ -4,7 +4,7 @@ description: Any payment that relates to a Policy, e.g., Policy monthly premium 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 4/5/2023
 ms.author: cdmditeam
 ---

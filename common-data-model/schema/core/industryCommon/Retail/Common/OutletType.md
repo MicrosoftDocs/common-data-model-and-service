@@ -4,7 +4,7 @@ description: This table contains the different types of an outlet such as Superm
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/1/2024
 ms.author: anbichse
 ---

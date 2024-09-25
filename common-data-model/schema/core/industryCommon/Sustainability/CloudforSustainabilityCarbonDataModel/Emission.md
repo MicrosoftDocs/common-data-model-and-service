@@ -3,8 +3,8 @@ title: Emission in Cloud for Sustainability carbon data model - Common Data Mode
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
 author: andreabichsel
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: article
+ms.reviewer: anbichse
+ms.topic: reference 
 ms.date: 09/25/2024
 ms.author: anbichse
 ---

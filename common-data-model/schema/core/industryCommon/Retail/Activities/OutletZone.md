@@ -4,7 +4,7 @@ description: Defines a common area in the outlet where an execution activity tak
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/6/2024
 ms.author: anbichse
 ---

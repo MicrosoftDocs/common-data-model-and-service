@@ -4,7 +4,7 @@ description: Contain the definition of each custom pipeline step that the user a
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/3/2023
 ms.author: cdmditeam
 ---

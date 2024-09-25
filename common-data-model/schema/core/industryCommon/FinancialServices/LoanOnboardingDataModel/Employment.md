@@ -4,7 +4,7 @@ description: Describes the loan contact's job or place of work, or work history.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 4/5/2023
 ms.author: cdmditeam
 ---

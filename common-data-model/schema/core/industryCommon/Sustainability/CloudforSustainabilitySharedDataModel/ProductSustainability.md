@@ -4,7 +4,7 @@ description: A product that can be associated with a product carbon footprint.
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/12/2024
 ms.author: anbichse
 ---

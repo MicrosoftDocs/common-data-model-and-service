@@ -3,8 +3,8 @@ title: AccountingMethod in Cloud for Sustainability shared data model
 description: Approach or method to quantify and report the environmental footprint of an organization's activities, encompassing greenhouse gas emissions and broader sustainability factors.
 author: andreabichsel
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: article
+ms.reviewer: anbichse
+ms.topic: reference 
 ms.date: 09/25/2024
 ms.author: anbichse
 ---

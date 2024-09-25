@@ -4,7 +4,7 @@ description: The different types of sources for energy data.
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/12/2024
 ms.author: anbichse
 ---

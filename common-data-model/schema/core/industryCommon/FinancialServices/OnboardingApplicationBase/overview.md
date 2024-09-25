@@ -4,7 +4,7 @@ description: OnboardingApplicationBase is a folder that contains standard entiti
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 4/5/2023
 ms.author: cdmditeam
 ---
