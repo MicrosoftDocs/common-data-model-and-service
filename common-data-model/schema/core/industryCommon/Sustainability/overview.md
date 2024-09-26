@@ -4,7 +4,7 @@ description: Sustainability is a folder that contains standard entities related 
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: anbichse
-ms.topic: article
+ms.topic: reference 
 ms.date: 07/11/2024
 ms.author: anbichse
 ---

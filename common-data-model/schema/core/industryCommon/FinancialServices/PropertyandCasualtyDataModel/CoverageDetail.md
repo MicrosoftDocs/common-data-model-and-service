@@ -4,7 +4,7 @@ description: Details (attributes) extensions to a Coverage which varies based on
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 4/5/2023
 ms.author: cdmditeam
 ---

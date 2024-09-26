@@ -4,7 +4,7 @@ description: Entity which records the Bill Of Material (BOM) used to create the 
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/2/2024
 ms.author: anbichse
 ---

@@ -4,7 +4,7 @@ description: Stores information on the result of the tests for tracking chemical
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/2/2024
 ms.author: anbichse
 ---

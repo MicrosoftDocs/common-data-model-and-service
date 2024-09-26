@@ -4,7 +4,7 @@ description: A deposit account holding that allows the holder to make deposits a
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 4/5/2023
 ms.author: cdmditeam
 ---

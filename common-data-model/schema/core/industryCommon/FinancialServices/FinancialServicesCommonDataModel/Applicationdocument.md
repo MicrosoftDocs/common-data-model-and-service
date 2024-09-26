@@ -4,7 +4,7 @@ description: Document filled out by a potential borrower to apply for a loan; pr
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 4/5/2023
 ms.author: cdmditeam
 ---

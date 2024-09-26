@@ -4,7 +4,7 @@ description: Base-level location to attribute activity data. May contain multipl
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---

@@ -4,7 +4,7 @@ description: Represents category of a product. Can be associated with a parent p
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/12/2024
 ms.author: anbichse
 ---

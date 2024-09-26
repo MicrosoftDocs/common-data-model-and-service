@@ -4,7 +4,7 @@ description: Person with access to the Microsoft CRM system and who owns objects
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 3/18/2024
 ms.author: anbichse
 ---

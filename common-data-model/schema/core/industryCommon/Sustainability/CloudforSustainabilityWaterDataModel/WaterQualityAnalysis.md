@@ -4,7 +4,7 @@ description: Describes the analysis performed to test a water sample for a certa
 author: andreabichsel
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 8/1/2024
 ms.author: anbichse
 ---
