@@ -4,7 +4,7 @@ description: API reference for TokenProvider.
 author: yidi
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/25/2020
 ms.author: yidi
 ---

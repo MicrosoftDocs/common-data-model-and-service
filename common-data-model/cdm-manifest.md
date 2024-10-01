@@ -4,7 +4,7 @@ description: Learn more about Common Data Model metadata manifest.
 author: oovanesy
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 04/23/2020
 ms.author: olegov
 ---

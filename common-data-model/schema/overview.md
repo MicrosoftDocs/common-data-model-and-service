@@ -4,7 +4,7 @@ description: docs is a folder that contains standard entities related to the Com
 author: nenad1002
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 2/28/2020
 ms.author: nebanfic
 ---

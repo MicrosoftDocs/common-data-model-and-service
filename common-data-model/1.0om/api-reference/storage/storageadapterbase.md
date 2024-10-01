@@ -4,7 +4,7 @@ description: The API reference for StorageAdapterBase.
 author: mafrisci
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/24/2020
 ms.author: mafrisci
 ---

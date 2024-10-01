@@ -4,7 +4,7 @@ description: This article provides assistance to developers in finding the appro
 author: surenderpawar
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/12/2021
 ms.author: supawa
 ---

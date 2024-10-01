@@ -4,7 +4,7 @@ description: API reference for FileStatusCheckOptions.
 author: mafrisci
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 1/5/2023
 ms.author: mafrisci
 ---

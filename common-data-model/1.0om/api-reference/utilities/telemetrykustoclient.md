@@ -4,7 +4,7 @@ description: API reference for TelemetryKustoClient.
 author: honchenMS
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 07/15/2021
 ms.author: t-honchen
 ---

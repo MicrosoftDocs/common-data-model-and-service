@@ -4,7 +4,7 @@ description: Usage guide for the Add Supporting Attribute operation.
 author: violivei
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/24/2020
 ms.author: violivei
 ---

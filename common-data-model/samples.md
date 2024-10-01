@@ -4,7 +4,7 @@ description: "How to how to use the Common Data Model sample code."
 author: oovanesy
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/27/2020
 ms.author: olegov
 ---

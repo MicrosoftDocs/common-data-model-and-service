@@ -4,7 +4,7 @@ description: "Common Data Model is a standardized, modular, and extensible colle
 author: matgos
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/11/2020
 ms.author: matgos
 ---

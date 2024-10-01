@@ -4,7 +4,7 @@ description: "The Common Data Model provides semantic consistency to data in Azu
 author: oovanesy 
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/11/2020
 ms.author: olegov
 ---
