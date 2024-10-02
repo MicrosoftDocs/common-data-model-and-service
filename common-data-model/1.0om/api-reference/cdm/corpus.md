@@ -4,7 +4,7 @@ description: API reference for CdmCorpusDefinition.
 author: mafrisci
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/20/2020
 ms.author: mafrisci
 ---

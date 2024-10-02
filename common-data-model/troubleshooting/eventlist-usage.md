@@ -4,7 +4,7 @@ description: This article helps developer to analyze API behavior using EventLis
 author: surenderpawar
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/15/2021
 ms.author: supawa
 ---

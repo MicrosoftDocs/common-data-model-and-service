@@ -4,7 +4,7 @@ description: API reference for CdmObjectReference.
 author: miroslavplese
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 10/18/2019
 ms.author: miplese
 ---

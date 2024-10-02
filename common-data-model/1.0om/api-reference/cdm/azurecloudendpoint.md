@@ -4,7 +4,7 @@ description: API reference for AzureCloudEndpoint.
 author: llawwaii
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 09/07/2021
 ms.author: weiluo
 ---

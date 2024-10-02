@@ -4,7 +4,7 @@ description: API reference for CdmOperationAddArtifactAttribute.
 author: llawwaii
 
 ms.reviewer: v-iap 
-ms.topic: article
+ms.topic: reference 
 ms.date: 09/03/2021
 ms.author: weiluo
 ---

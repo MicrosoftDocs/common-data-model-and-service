@@ -4,7 +4,7 @@ description: API reference for StorageUtils.
 author: jinichu
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 06/19/2020
 ms.author: jibyun
 ---

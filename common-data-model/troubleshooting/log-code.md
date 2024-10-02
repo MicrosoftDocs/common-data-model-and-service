@@ -3,7 +3,7 @@ title: Guidance on SDK error and warning codes | Microsoft Docs
 description: Guidance on SDK error and warning codes.
 author: mafrisci
 
-ms.topic: article
+ms.topic: reference 
 ms.date: 07/28/2021
 ms.author: mafrisci
 ---

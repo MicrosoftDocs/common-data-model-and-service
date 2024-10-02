@@ -4,7 +4,7 @@ description: Trait concepts and use cases - a detailed overview of traits for re
 author: matgos
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 11/24/2020
 ms.author: jeffbern
 ---

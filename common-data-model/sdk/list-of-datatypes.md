@@ -4,7 +4,7 @@ description: A list of Common Data Model datatypes.
 author: msftman
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 05/06/2021
 ms.author: matgos
 ---

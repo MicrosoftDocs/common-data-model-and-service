@@ -4,7 +4,7 @@ description: API reference overview.
 author: jinichu
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 1/29/2020
 ms.author: jibyun
 ---

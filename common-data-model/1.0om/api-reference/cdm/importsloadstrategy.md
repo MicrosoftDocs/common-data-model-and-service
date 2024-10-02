@@ -4,7 +4,7 @@ description: API reference for ImportsLoadStrategy.
 author: violivei
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 11/09/2020
 ms.author: violivei
 ---

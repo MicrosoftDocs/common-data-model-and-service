@@ -3,7 +3,7 @@ title: CdmReadPartitionFromPatternException | Microsoft Docs
 description: API reference for CdmReadPartitionFromPatternException.
 author: mafrisci
 ms.reviewer: anbichse
-ms.topic: article
+ms.topic: reference 
 ms.date: 01/23/2024
 ms.author: mafrisci
 ---

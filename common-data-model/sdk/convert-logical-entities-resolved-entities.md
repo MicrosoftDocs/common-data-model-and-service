@@ -4,7 +4,7 @@ description: Resolving a logical entity definition.
 author: msftman
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/24/2021
 ms.author: Deonhe
 ---

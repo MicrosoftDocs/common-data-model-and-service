@@ -4,7 +4,7 @@ description: API reference for CdmTraitGroupReference.
 author: miroslavplese
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 04/17/2021
 ms.author: miplese
 ---

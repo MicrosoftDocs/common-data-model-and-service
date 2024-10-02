@@ -4,7 +4,7 @@ description: API reference for ResolveOptions.
 author: jinichu
 
 ms.reviewer: v-iap 
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/24/2021
 ms.author: jibyun
 ---

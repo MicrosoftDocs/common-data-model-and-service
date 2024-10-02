@@ -4,7 +4,7 @@ description: Usage guide for the Combine Attributes operation.
 author: violivei
 
 ms.reviewer: v-iap 
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/24/2021
 ms.author: violivei
 ---

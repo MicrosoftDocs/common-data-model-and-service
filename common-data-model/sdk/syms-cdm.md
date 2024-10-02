@@ -3,7 +3,7 @@ title: Working with Synapse metadata store | Microsoft Docs
 description: This article provides guidance to developers for using Common Data Model SDK with Synapse workspaces and their metadata stores.
 author: supawa
 
-ms.topic: article
+ms.topic: reference 
 ms.date: 09/01/2021
 ms.author: supawa
 ---

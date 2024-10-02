@@ -4,7 +4,7 @@ description: API reference for the Common Data Model object model.
 author: jinichu
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/05/2020
 ms.author: jibyun
 ---

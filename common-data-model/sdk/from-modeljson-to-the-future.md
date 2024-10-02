@@ -4,7 +4,7 @@ description: Developer guide to using Common Data Model SDK with model.json meta
 author: miroslavplese
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 06/23/2020
 ms.author: miplese
 ---
