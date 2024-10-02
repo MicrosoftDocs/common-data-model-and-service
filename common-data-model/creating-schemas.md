@@ -4,7 +4,7 @@ description: How to create schema documents for the Common Data Model.
 author: jinichu
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 06/24/2020
 ms.author: kvivek
 ---

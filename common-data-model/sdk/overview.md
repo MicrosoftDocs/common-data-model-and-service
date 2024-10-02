@@ -4,7 +4,7 @@ description: Overview of Common Data Model.
 author: msftman
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 03/13/2020
 ms.author: Deonhe
 ---

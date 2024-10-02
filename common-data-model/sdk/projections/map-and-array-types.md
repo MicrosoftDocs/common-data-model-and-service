@@ -4,7 +4,7 @@ description: Usage guide for constructing map and array types using projection o
 author: llawwaii
 
 ms.reviewer: v-iap 
-ms.topic: article
+ms.topic: reference 
 ms.date: 09/08/2021
 ms.author: weiluo
 ---

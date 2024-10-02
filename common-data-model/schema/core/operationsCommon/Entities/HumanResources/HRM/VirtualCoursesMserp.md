@@ -4,7 +4,7 @@ description: Courses that are virtual
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference 
 ms.date: 12/15/2022
 ms.author: rbernhar
 ---

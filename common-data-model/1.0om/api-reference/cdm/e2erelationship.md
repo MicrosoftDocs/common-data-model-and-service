@@ -4,7 +4,7 @@ description: API reference for CdmE2ERelationship.
 author: jinichu
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 10/18/2019
 ms.author: jibyun
 ---

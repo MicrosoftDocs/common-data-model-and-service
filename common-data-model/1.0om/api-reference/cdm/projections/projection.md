@@ -4,7 +4,7 @@ description: API reference for CdmProjection.
 author: violivei
 
 ms.reviewer: v-iap 
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/24/2021
 ms.author: violivei
 ---

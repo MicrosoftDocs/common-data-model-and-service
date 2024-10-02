@@ -4,7 +4,7 @@ description: API reference for CdmManifestDefinition.
 author: mafrisci
 
 ms.reviewer: anbichse
-ms.topic: article
+ms.topic: reference 
 ms.date: 10/18/2019
 ms.author: mafrisci
 ---

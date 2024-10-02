@@ -4,7 +4,7 @@ description: How you can use the Common Data Model to develop apps and solutions
 author: theresapalmer
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 04/03/2020
 ms.author: tpalmer
 ---

@@ -4,7 +4,7 @@ description: API reference for CdmIncrementalPartitionType.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 04/20/2022
 ms.author: weiluo
 ---

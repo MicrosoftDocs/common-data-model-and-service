@@ -4,7 +4,7 @@ description: API reference for CdmStatusLevel.
 author: miroslavplese
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 12/08/2020
 ms.author: miplese
 ---

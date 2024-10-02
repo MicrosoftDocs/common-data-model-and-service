@@ -4,7 +4,7 @@ description: Learn about Common Data Model.
 author: theresapalmer
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 07/07/2020
 ms.author: olegov
 ---

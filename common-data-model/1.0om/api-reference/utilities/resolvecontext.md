@@ -4,7 +4,7 @@ description: API reference for ResolveContext.
 author: miroslavplese
 
 ms.reviewer: deonhe 
-ms.topic: article
+ms.topic: reference 
 ms.date: 08/20/2020
 ms.author: miplese
 ---

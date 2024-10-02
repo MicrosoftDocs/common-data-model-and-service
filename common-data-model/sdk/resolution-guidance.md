@@ -4,7 +4,7 @@ description: Clarify and illustrate the process that resolves logical entities i
 author: msftman
 
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference 
 ms.date: 02/24/2021
 ms.author: Deonhe
 ---
