@@ -837,7 +837,7 @@ cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "exam
 //    new ADLSAdapter(
 //      "<ACCOUNT-NAME>.dfs.core.windows.net", // Hostname.
 //      "/<FILESYSTEM-NAME>", // Root.
-//      "72f988bf-86f1-41af-91ab-2d7cd011db47",  // Tenant ID.
+//      "aaaabbbb-0000-cccc-1111-dddd2222eeee",  // Tenant ID.
 //      "<CLIENT-ID>",  // Client ID.
 //      "<CLIENT-SECRET>" // Client secret.
 //    )
@@ -881,7 +881,7 @@ cdmCorpus.Storage.Mount("cdm", new LocalAdapter(@"C:\path\to\CDM\schemaDocuments
 //    new ADLSAdapter(
 //      "<ACCOUNT-NAME>.dfs.core.windows.net", // Hostname.
 //      "/<FILESYSTEM-NAME>", // Root.
-//      "72f988bf-86f1-41af-91ab-2d7cd011db47",  // Tenant ID.
+//      "aaaabbbb-0000-cccc-1111-dddd2222eeee",  // Tenant ID.
 //      "<CLIENT-ID>",  // Client ID.
 //      "<CLIENT-SECRET>" // Client secret.
 //    )
