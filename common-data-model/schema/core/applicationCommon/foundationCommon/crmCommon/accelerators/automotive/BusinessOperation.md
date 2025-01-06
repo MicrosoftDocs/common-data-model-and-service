@@ -66,7 +66,7 @@ Operation run at a business facility, such as new car sales showroom, used car s
 |[versionNumber](#versionNumber)|Version Number|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
 |[accountId](#accountId)|Parent company of the business operation.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
 |[addressCity](#addressCity)|City where the business operation is located.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
-|[addressCountry](#addressCountry)|Country where the business operation is located.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
+|[addressCountry](#addressCountry)|Country/region where the business operation is located.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
 |[addressCounty](#addressCounty)|County where the business operation is located.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
 |[addressLatitude](#addressLatitude)|Latitude coordinate of the business operation's location.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
 |[addressLongitude](#addressLongitude)|Longitude coordinate of the business operation's location.|<a href="BusinessOperation.md" target="_blank">automotive/BusinessOperation</a>|
@@ -884,12 +884,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#addressCountry name="addressCountry">addressCountry</a>
 
-Country where the business operation is located.  
+Country/region where the business operation is located.  
 First included in: automotive/BusinessOperation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address: Country</td></tr><tr><td>description</td><td>Country where the business operation is located.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msauto_addresscountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address: Country</td></tr><tr><td>description</td><td>Country/region where the business operation is located.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msauto_addresscountry</td></tr></table>
 
 #### Traits
 
@@ -909,7 +909,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address: Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country where the business operation is located.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region where the business operation is located.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
