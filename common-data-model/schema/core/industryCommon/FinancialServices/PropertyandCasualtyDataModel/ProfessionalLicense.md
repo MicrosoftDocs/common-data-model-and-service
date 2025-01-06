@@ -63,8 +63,8 @@ A permit from an authority for insurance professionals, for example to sell insu
 |[name](#name)|Required name field.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[expiration](#expiration)|Expiration date of the license.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[issuedby](#issuedby)|License issuing authority.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
-|[issuedlocation](#issuedlocation)|Location where license was issued (State/Country).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
-|[issuedlocationType](#issuedlocationType)|Location where license was issued (State/Country).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
+|[issuedlocation](#issuedlocation)|Location where license was issued (State/Country or region).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
+|[issuedlocationType](#issuedlocationType)|Location where license was issued (State/Country or region).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licensedocument](#licensedocument)|Reference to license document.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licenseholder](#licenseholder)|The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licenseholderType](#licenseholderType)|The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
@@ -601,12 +601,12 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity
 
 ### <a href=#issuedlocation name="issuedlocation">issuedlocation</a>
 
-Location where license was issued (State/Country).  
+Location where license was issued (State/Country or region).  
 First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued location</td></tr><tr><td>description</td><td>Location where license was issued (State/Country).</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued location</td></tr><tr><td>description</td><td>Location where license was issued (State/Country or region).</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -626,7 +626,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Country.md" target="_blank">Country.cdm.json/Country</a></td><td><a href="Country.md#countryId" target="_blank">countryId</a></td></tr><tr><td><a href="StateProvince.md" target="_blank">StateProvince.cdm.json/StateProvince</a></td><td><a href="StateProvince.md#stateprovinceId" target="_blank">stateprovinceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location where license was issued (State/Country).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location where license was issued (State/Country or region).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Issued location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -640,12 +640,12 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity
 
 ### <a href=#issuedlocationType name="issuedlocationType">issuedlocationType</a>
 
-Location where license was issued (State/Country).  
+Location where license was issued (State/Country or region).  
 First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued location</td></tr><tr><td>description</td><td>Location where license was issued (State/Country).</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued location</td></tr><tr><td>description</td><td>Location where license was issued (State/Country or region).</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -666,7 +666,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity
   Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.  
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location where license was issued (State/Country).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location where license was issued (State/Country or region).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Issued location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
