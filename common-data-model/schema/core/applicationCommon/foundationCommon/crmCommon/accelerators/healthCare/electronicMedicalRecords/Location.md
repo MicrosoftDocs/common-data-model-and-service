@@ -56,7 +56,7 @@ Details and position information for a physical place where services are provide
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressCity](#addressCity)|The name of the city, town, village or other community or delivery center.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
-|[addressCountry](#addressCountry)|Country - a nation as commonly understood or generally accepted.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressCountry](#addressCountry)|Country or region - a nation as commonly understood or generally accepted.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressDistinct](#addressDistinct)|The name of the administrative area (county).|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressLine1](#addressLine1)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressLine2](#addressLine2)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
@@ -64,7 +64,7 @@ Details and position information for a physical place where services are provide
 |[addressPeriodEnd](#addressPeriodEnd)|Time period when address was/is in use.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressPeriodStart](#addressPeriodStart)|Time period when address was/is in use.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressPostalCode](#addressPostalCode)|A postal code designating a region defined by the postal service.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
-|[addressState](#addressState)|Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressState](#addressState)|Sub-unit of a country or region with limited sovereignty in a federally organized country or region. A code may be used if codes are in common use (i.e. US 2 letter state codes).|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressText](#addressText)|A full text representation of the address.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressType](#addressType)|Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 |[addressType_display](#addressType_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
@@ -426,12 +426,12 @@ The attribute value may be set to NULL.
 
 ### <a href=#addressCountry name="addressCountry">addressCountry</a>
 
-Country - a nation as commonly understood or generally accepted.  
+Country or region - a nation as commonly understood or generally accepted.  
 First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Country</td></tr><tr><td>description</td><td>Country - a nation as commonly understood or generally accepted.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addresscountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Country</td></tr><tr><td>description</td><td>Country or region - a nation as commonly understood or generally accepted.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addresscountry</td></tr></table>
 
 #### Traits
 
@@ -454,7 +454,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country - a nation as commonly understood or generally accepted.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country or region - a nation as commonly understood or generally accepted.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -734,12 +734,12 @@ The attribute value may be set to NULL.
 
 ### <a href=#addressState name="addressState">addressState</a>
 
-Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).  
+Sub-unit of a country or region with limited sovereignty in a federally organized country or region. A code may be used if codes are in common use (i.e. US 2 letter state codes).  
 First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address State</td></tr><tr><td>description</td><td>Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addressstate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address State</td></tr><tr><td>description</td><td>Sub-unit of a country or region with limited sovereignty in a federally organized country or region. A code may be used if codes are in common use (i.e. US 2 letter state codes).</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addressstate</td></tr></table>
 
 #### Traits
 
@@ -762,7 +762,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address State</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sub-unit of a country or region with limited sovereignty in a federally organized country or region. A code may be used if codes are in common use (i.e. US 2 letter state codes).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
