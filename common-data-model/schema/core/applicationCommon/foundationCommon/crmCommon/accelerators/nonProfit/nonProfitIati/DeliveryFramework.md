@@ -65,7 +65,7 @@ Delivery Framework represents a management unit of work defined by the organizat
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[accountId](#accountId)|Account|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
-|[country](#country)|Records the country related to the delivery framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[country](#country)|Records the country/region related to the delivery framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkId](#deliveryFrameworkId)|Unique identifier for entity instances|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkType](#deliveryFrameworkType)|The type of Framwork, i.e. Program, Project, Initiative, Activity|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkType_display](#deliveryFrameworkType_display)||<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
@@ -120,8 +120,8 @@ Delivery Framework represents a management unit of work defined by the organizat
 |[defaultLanguageId](#defaultLanguageId)|Lookup to the default language for the delivery framework|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[defaultTiedStatusIdId](#defaultTiedStatusIdId)|Unique identifier for Non Embedded Codelist associated with Delivery Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[extractionDate](#extractionDate)|The exact date when the information was collected or extracted from donors’ aid management systems.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
-|[phaseoutYear](#phaseoutYear)|If there are plans to phase out operations from the partner country, this column shows the projected year of last disbursements.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
-|[fssPriority](#fssPriority)|Indicates if the partner country is a priority partner country.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[phaseoutYear](#phaseoutYear)|If there are plans to phase out operations from the partner country/region, this column shows the projected year of last disbursements.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[fssPriority](#fssPriority)|Indicates if the partner country/region is a priority partner country/region.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[hierarchyLevel](#hierarchyLevel)||<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[humanitarianScope](#humanitarianScope)|Indicates if the delivery framework is related to a humanitarian event|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[iatiActivityId](#iatiActivityId)|This element contains the official IATI identifier for an entity (delivery framework or organization)|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
@@ -898,12 +898,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#country name="country">country</a>
 
-Records the country related to the delivery framework.  
+Records the country/region related to the delivery framework.  
 First included in: nonProfitIati/DeliveryFramework (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country</td></tr><tr><td>description</td><td>Records the country related to the delivery framework.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_country</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country</td></tr><tr><td>description</td><td>Records the country/region related to the delivery framework.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_country</td></tr></table>
 
 #### Traits
 
@@ -927,7 +927,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Records the country related to the delivery framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Records the country/region related to the delivery framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -2891,12 +2891,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#phaseoutYear name="phaseoutYear">phaseoutYear</a>
 
-If there are plans to phase out operations from the partner country, this column shows the projected year of last disbursements.  
+If there are plans to phase out operations from the partner country/region, this column shows the projected year of last disbursements.  
 First included in: nonProfitIati/DeliveryFramework (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Phaseout Year</td></tr><tr><td>description</td><td>If there are plans to phase out operations from the partner country, this column shows the projected year of last disbursements.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>3000</td></tr><tr><td>minimumValue</td><td>1900</td></tr><tr><td>sourceName</td><td>msiati_fssphaseoutyear</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Phaseout Year</td></tr><tr><td>description</td><td>If there are plans to phase out operations from the partner country/region, this column shows the projected year of last disbursements.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>3000</td></tr><tr><td>minimumValue</td><td>1900</td></tr><tr><td>sourceName</td><td>msiati_fssphaseoutyear</td></tr></table>
 
 #### Traits
 
@@ -2914,19 +2914,19 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Phaseout Year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>If there are plans to phase out operations from the partner country, this column shows the projected year of last disbursements.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>If there are plans to phase out operations from the partner country/region, this column shows the projected year of last disbursements.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
 
 ### <a href=#fssPriority name="fssPriority">fssPriority</a>
 
-Indicates if the partner country is a priority partner country.  
+Indicates if the partner country/region is a priority partner country/region.  
 First included in: nonProfitIati/DeliveryFramework (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates if the partner country is a priority partner country.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msiati_fsspriority</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates if the partner country/region is a priority partner country/region.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msiati_fsspriority</td></tr></table>
 
 #### Traits
 
@@ -2941,7 +2941,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates if the partner country is a priority partner country.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates if the partner country/region is a priority partner country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.boolean**  
 </details>
