@@ -1,6 +1,6 @@
 ---
 title: AuthorizedJurisdiction in PropertyandCasualtyDataModel - Common Data Model | Microsoft Docs
-description: Country and State where business is authorized/not authorized to be conducted.
+description: Country/region and State where business is authorized/not authorized to be conducted.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Authorized jurisdiction in PropertyandCasualtyDataModel(AuthorizedJurisdiction)
 
-Country and State where business is authorized/not authorized to be conducted.  
+Country/region and State where business is authorized/not authorized to be conducted.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/AuthorizedJurisdiction.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,7 +34,7 @@ Country and State where business is authorized/not authorized to be conducted.
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/FinancialServices/PropertyandCasualtyDataModel<br>/AuthorizedJurisdiction.cdm.json<br>/AuthorizedJurisdiction/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country and State where business is authorized/not authorized to be conducted.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region and State where business is authorized/not authorized to be conducted.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Authorized jurisdiction</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -62,8 +62,8 @@ Country and State where business is authorized/not authorized to be conducted.
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
 |[name](#name)|Required name field.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
 |[allowed](#allowed)|Indicator for authorized jurisdiction.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
-|[location](#location)|Location of jurisdiction, e.g., state, country, province.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
-|[locationType](#locationType)|Location of jurisdiction, e.g., state, country, province.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
+|[location](#location)|Location of jurisdiction, e.g., state, country/region, province.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
+|[locationType](#locationType)|Location of jurisdiction, e.g., state, country/region, province.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
 |[party](#party)|The referenced party associated to the jurisdiction.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
 |[partyType](#partyType)|The referenced party associated to the jurisdiction.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
 |[validfrom](#validfrom)|Authorized start date.|<a href="AuthorizedJurisdiction.md" target="_blank">PropertyandCasualtyDataModel/AuthorizedJurisdiction</a>|
@@ -554,12 +554,12 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this ent
 
 ### <a href=#location name="location">location</a>
 
-Location of jurisdiction, e.g., state, country, province.  
+Location of jurisdiction, e.g., state, country/region, province.  
 First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>Location of jurisdiction, e.g., state, country, province.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>Location of jurisdiction, e.g., state, country/region, province.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -579,7 +579,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this ent
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Country.md" target="_blank">Country.cdm.json/Country</a></td><td><a href="Country.md#countryId" target="_blank">countryId</a></td></tr><tr><td><a href="StateProvince.md" target="_blank">StateProvince.cdm.json/StateProvince</a></td><td><a href="StateProvince.md#stateprovinceId" target="_blank">stateprovinceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location of jurisdiction, e.g., state, country, province.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location of jurisdiction, e.g., state, country/region, province.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -593,12 +593,12 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this ent
 
 ### <a href=#locationType name="locationType">locationType</a>
 
-Location of jurisdiction, e.g., state, country, province.  
+Location of jurisdiction, e.g., state, country/region, province.  
 First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>Location of jurisdiction, e.g., state, country, province.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>Location of jurisdiction, e.g., state, country/region, province.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -619,7 +619,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this ent
   Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.  
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location of jurisdiction, e.g., state, country, province.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location of jurisdiction, e.g., state, country/region, province.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

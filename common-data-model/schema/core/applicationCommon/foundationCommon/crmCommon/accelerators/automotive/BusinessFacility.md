@@ -66,8 +66,8 @@ Physical facility or building where a business runs operations.
 |[versionNumber](#versionNumber)|Version Number|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
 |[accountId](#accountId)|Parent company that owns this facility.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
 |[addressCity](#addressCity)|City where this facility is located.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
-|[addressCountry](#addressCountry)|Country where this facility is located.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
-|[addressCounty](#addressCounty)|County where this facility is located.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
+|[addressCountry](#addressCountry)|Country/region where this facility is located.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
+|[addressCounty](#addressCounty)|County/region where this facility is located.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
 |[addressLatitude](#addressLatitude)|Latitude coordinate of this facility's location.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
 |[addressLongitude](#addressLongitude)|Longitude coordinate of this facility's location.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
 |[addressName](#addressName)|Name of the facility.|<a href="BusinessFacility.md" target="_blank">automotive/BusinessFacility</a>|
@@ -883,12 +883,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#addressCountry name="addressCountry">addressCountry</a>
 
-Country where this facility is located.  
+Country/region where this facility is located.  
 First included in: automotive/BusinessFacility (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address: Country</td></tr><tr><td>description</td><td>Country where this facility is located.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msauto_addresscountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address: Country</td></tr><tr><td>description</td><td>Country/region where this facility is located.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msauto_addresscountry</td></tr></table>
 
 #### Traits
 
@@ -908,7 +908,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Address: Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country where this facility is located.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region where this facility is located.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  

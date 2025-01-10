@@ -64,7 +64,7 @@ Information of an Insured Home.
 |[areausagetype](#areausagetype)|Area usage type, for example primary dwelling or commercial.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[assetdescription](#assetdescription)|The description of the asset insured under the Policy.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[city](#city)|City of the property insured.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
-|[countryregion](#countryregion)|Country of the property insured.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
+|[countryregion](#countryregion)|Country/region of the property insured.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[coverage](#coverage)|Reference to Coverage for Home insurance.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[description](#description)|Location description of the property insured under this Policy.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[fairmarketvalue](#fairmarketvalue)|The estimated current value of the asset when the Policy was issued.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
@@ -673,12 +673,12 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)
 
 ### <a href=#countryregion name="countryregion">countryregion</a>
 
-Country of the property insured.  
+Country/region of the property insured.  
 First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Country of the property insured.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msfsi_countryregion</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Country/region of the property insured.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msfsi_countryregion</td></tr></table>
 
 #### Traits
 
@@ -696,7 +696,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country of the property insured.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region of the property insured.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

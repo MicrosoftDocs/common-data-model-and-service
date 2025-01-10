@@ -1,6 +1,6 @@
 ---
 title: NonEmbeddedCodelist in nonProfitIati - Common Data Model | Microsoft Docs
-description: Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries, etc.
+description: Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries/regions, etc.
 author: llawwaii
 
 ms.reviewer: deonhe
@@ -11,7 +11,7 @@ ms.author: weiluo
 
 # Non Embedded Codelist in nonProfitIati
 
-Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries, etc.  
+Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries/regions, etc.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelist.cdm.json" target="_blank">GitHub</a>.  
 
@@ -37,7 +37,7 @@ Non-functional codelists that usually provide lookup information on e.g. currenc
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Non Embedded Codelist</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries, etc.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries/regions, etc.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msiati_nonembeddedcodelist"</td><td>string</td><td></td></tr></table>
