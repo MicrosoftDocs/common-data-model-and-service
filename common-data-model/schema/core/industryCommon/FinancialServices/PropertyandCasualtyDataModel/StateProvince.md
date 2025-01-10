@@ -61,7 +61,7 @@ Generic State/Province table.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="StateProvince.md" target="_blank">PropertyandCasualtyDataModel/StateProvince</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="StateProvince.md" target="_blank">PropertyandCasualtyDataModel/StateProvince</a>|
 |[name](#name)|Required name field.|<a href="StateProvince.md" target="_blank">PropertyandCasualtyDataModel/StateProvince</a>|
-|[country](#country)|Reference to country.|<a href="StateProvince.md" target="_blank">PropertyandCasualtyDataModel/StateProvince</a>|
+|[country](#country)|Reference to country or region.|<a href="StateProvince.md" target="_blank">PropertyandCasualtyDataModel/StateProvince</a>|
 
 ### <a href=#stateprovinceId name="stateprovinceId">stateprovinceId</a>
 
@@ -502,12 +502,12 @@ First included in: PropertyandCasualtyDataModel/StateProvince (this entity)
 
 ### <a href=#country name="country">country</a>
 
-Reference to country.  
+Reference to country or region.  
 First included in: PropertyandCasualtyDataModel/StateProvince (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country</td></tr><tr><td>description</td><td>Reference to country.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country</td></tr><tr><td>description</td><td>Reference to country or region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -527,7 +527,7 @@ First included in: PropertyandCasualtyDataModel/StateProvince (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference to country.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference to country or region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
