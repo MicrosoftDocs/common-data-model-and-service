@@ -25,7 +25,7 @@ Property and Casualty Data Model CDM entity definitions
 |[AgentInsurer](AgentInsurer.md)|Information about the relationship between the Insurer and the Agent.|
 |[AssetDetail](AssetDetail.md)|Details (attributes) extensions to an Insured Asset which varies based on Line of business. e.g., vehicle for Auto insurance, apartment for home insurance.|
 |[AssetDetailCatalog](AssetDetailCatalog.md)|A definition of an asset detail (attribute) which is later used when extending a Policy Insured Asset’s detail.|
-|[AuthorizedJurisdiction](AuthorizedJurisdiction.md)|Country and State where business is authorized/not authorized to be conducted.|
+|[AuthorizedJurisdiction](AuthorizedJurisdiction.md)|Country/region and State where business is authorized/not authorized to be conducted.|
 |[BrokerAgency](BrokerAgency.md)|Information about the relationship between the broker and its Agency.|
 |[CauseOfLoss](CauseOfLoss.md)|The perils that can trigger damage or loss. Relates to Policy's Coverages, Exclusions and Inclusions.|
 |[CauseOfLossCatalog](CauseOfLossCatalog.md)|The inventory of all cause of loss.|
@@ -33,7 +33,7 @@ Property and Casualty Data Model CDM entity definitions
 |[Claim](Claim.md)|A demand raised by a customer with an active Insurance Policy to recover in the event of a loss that is covered under their Policy.|
 |[ClaimRevision](ClaimRevision.md)|Captures any updates that happen to the claim incident.|
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
-|[Country](Country.md)|Generic country table.|
+|[Country](Country.md)|Generic country/region table.|
 |[Coverage](Coverage.md)|Protection provided by the Insurer and the level of indemnification provided under an Insurance Policy, example include liability, earthquake, or collision.|
 |[CoverageCatalog](CoverageCatalog.md)|Inventory of all Coverages which are subsequently used to create the Line of business.|
 |[CoverageDetail](CoverageDetail.md)|Details (attributes) extensions to a Coverage which varies based on Line of business.|

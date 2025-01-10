@@ -34,7 +34,7 @@ ms.author: anbichse
 |---|---|---|
 |[BotDetectionReason](#BotDetectionReason)|Bot detection reason|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
 |[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit.|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
-|[Country](#Country)|Country|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
+|[Country](#Country)|Country or region|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
 |[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
 |[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event.|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
 |[InteractionType](#InteractionType)|Type of the interaction.|<a href="BotSmsLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotSmsLinkClicked</a>|
@@ -125,7 +125,7 @@ First included in: CustomerInsightsJourneys/BotSmsLinkClicked (this entity)
 
 ### <a href=#Country name="Country">Country</a>
 
-Country  
+Country or region
 First included in: CustomerInsightsJourneys/BotSmsLinkClicked (this entity)  
 
 #### Properties

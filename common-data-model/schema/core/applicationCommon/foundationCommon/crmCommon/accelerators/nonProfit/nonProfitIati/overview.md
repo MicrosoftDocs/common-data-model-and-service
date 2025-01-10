@@ -35,7 +35,7 @@ CDM Solution for the 'NONPROFITIATI' CDS Solution
 |[DisbursementDistribution](DisbursementDistribution.md)|Disbursement Distribution represents the Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.|
 |[Docket](Docket.md)|A Docket is used to group inquiries (LOIs) and/or requests with a specific grant/award cycle or date (usually a review/board meeting).|
 |[DocumentCategory](DocumentCategory.md)|IATI Document Category.|
-|[DocumentCountry](DocumentCountry.md)|The recipient country that is the focus of the document.|
+|[DocumentCountry](DocumentCountry.md)|The recipient country/region that is the focus of the document.|
 |[DocumentLanguage](DocumentLanguage.md)|The language in which target document is written.|
 |[DocumentLink](DocumentLink.md)|A link to an online, publicly accessible web page or document.|
 |[DonorCommitment](DonorCommitment.md)|Donor commitments represent the actual or prospective agreement between a donor and an organization for the donor to make a gift to the organization.|
@@ -52,7 +52,7 @@ CDM Solution for the 'NONPROFITIATI' CDS Solution
 |[Membership](Membership.md)|Representation of a Customer Membership.|
 |[MembershipCategory](MembershipCategory.md)|Represents the types of membership associated to products.|
 |[NarrativeTranslation](NarrativeTranslation.md)|Allows the translation of different narrative elements for IATI reporting.|
-|[NonEmbeddedCodelist](NonEmbeddedCodelist.md)|Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries, etc.|
+|[NonEmbeddedCodelist](NonEmbeddedCodelist.md)|Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries/regions, etc.|
 |[NonEmbeddedCodelistVocabulary](NonEmbeddedCodelistVocabulary.md)|Sources for non embedded codelists|
 |[Objective](Objective.md)|An Objective represents the organization's highest priorities, strategies and/or goals that guide investments (in the case of Requests and Awards) and program delivery.|
 |[Opportunity](Opportunity.md)|An opportunity represents prospective, pending and closed "deals" or gifts.  This entity allows nonprofit organizations to track their efforts to build relationships with prospective donors.|
@@ -61,7 +61,7 @@ CDM Solution for the 'NONPROFITIATI' CDS Solution
 |[PaymentSchedule](PaymentSchedule.md)|A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.|
 |[PlannedGiving](PlannedGiving.md)|A planned gift is a gift made during a donor's lifetime or at the time of their death that involves their estate and/or tax planning.|
 |[PolicyMarker](PolicyMarker.md)|A policy or theme addressed by the Delivery Framework.|
-|[RecipientCountry](RecipientCountry.md)|The country that will benefit from this delivery framework|
+|[RecipientCountry](RecipientCountry.md)|The country/region that will benefit from this delivery framework|
 |[RecipientRegion](RecipientRegion.md)|A supranational geopolitical region that will benefit from the delivery framework|
 |[Request](Request.md)|Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.|
 |[Result](Result.md)|A Result is a container that represents the changes in the context in which an organization operates..|
