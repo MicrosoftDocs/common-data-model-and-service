@@ -1,5 +1,5 @@
 ---
-title: PushNotificationSent in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
+title: VoiceCallSent in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 1/27/2025
 ms.author: cdmditeam
 ---
 
-# PushNotificationSent in CustomerInsightsJourneys
+# VoiceCallSent in CustomerInsightsJourneys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/PushNotificationSent.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/VoiceCallSent.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,29 +32,30 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[Details](#Details)|Additional details|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[JourneyActionId](#JourneyActionId)|GUID of the journey action step associated with this event\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[JourneyRunId](#JourneyRunId)|Flow run ID of the Power Automate run instance associated with this event\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[MessageId](#MessageId)|Message ID|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[Platform](#Platform)|The mobile platform used for the sumbission \(iOS or Android\)\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
-|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="PushNotificationSent.md" target="_blank">CustomerInsightsJourneys/PushNotificationSent</a>|
+|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[Details](#Details)|Additional details|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[JourneyActionId](#JourneyActionId)|GUID of the journey action step associated with this event\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[JourneyRunId](#JourneyRunId)|Flow run ID of the Power Automate run instance associated with this event\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[MessageId](#MessageId)|Message ID|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[ProactiveEngagementConfigId](#ProactiveEngagementConfigId)|The ID of proactive engagement entity|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[RecipientPhoneNumber](#RecipientPhoneNumber)|The recipient's phone number\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
+|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="VoiceCallSent.md" target="_blank">CustomerInsightsJourneys/VoiceCallSent</a>|
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -90,7 +91,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -122,7 +123,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#Details name="Details">Details</a>
 
 Additional details  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -153,7 +154,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -183,7 +184,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -213,7 +214,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -242,7 +243,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -260,7 +261,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -290,7 +291,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -320,7 +321,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -352,7 +353,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -382,7 +383,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -411,19 +412,19 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 
 </details>
 
-### <a href=#Platform name="Platform">Platform</a>
+### <a href=#ProactiveEngagementConfigId name="ProactiveEngagementConfigId">ProactiveEngagementConfigId</a>
 
-The mobile platform used for the sumbission \(iOS or Android\)\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+The ID of proactive engagement entity  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The mobile platform used for the sumbission (iOS or Android).</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The ID of proactive engagement entity</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the Platform attribute are listed below.</summary>
+<summary>List of traits for the ProactiveEngagementConfigId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -432,10 +433,12 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The mobile platform used for the sumbission (iOS or Android).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The ID of proactive engagement entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -444,7 +447,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -475,7 +478,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
 The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -502,10 +505,41 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 
 </details>
 
+### <a href=#RecipientPhoneNumber name="RecipientPhoneNumber">RecipientPhoneNumber</a>
+
+The recipient's phone number\.  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The recipient's phone number.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RecipientPhoneNumber attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*privacy\.dataCategory\.customerOwned\.content\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The recipient's phone number.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
  Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -530,7 +564,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
@@ -555,7 +589,7 @@ First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version\. Used for updating the interaction\.  
-First included in: CustomerInsightsJourneys/PushNotificationSent \(this entity\)  
+First included in: CustomerInsightsJourneys/VoiceCallSent \(this entity\)  
 
 #### Properties
 
