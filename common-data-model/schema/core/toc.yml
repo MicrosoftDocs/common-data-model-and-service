@@ -410,6 +410,8 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
         - name: CustomerInsightsJourneys
           items:
+          - name: Summary 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/overview.md
           - name: ActionEventDropoff 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventDropoff.md
           - name: ActionEventInflow 
