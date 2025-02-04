@@ -465,7 +465,7 @@
           - name: CreateRecord 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CreateRecord.md
           - name: CustomBounced 
-            href: CustomBounced.md
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomBounced.md
           - name: CustomChannelResponse 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomChannelResponse.md
           - name: CustomDelivered 
