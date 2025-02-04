@@ -16,7 +16,7 @@ ms.author: lsuresh
 
 |Name|
 |---|
-|[CustomerInsightsJourneys](CustomerInsightsJourneys/overview.md)|
+|[CustomerInsightsJourneys](overview.md)|
 
 
 
