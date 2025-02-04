@@ -1,9 +1,5 @@
-- name: Summary
-  href: overview.md
 - name: CustomerInsightsJourneys
   items:
-  - name: Summary
-    href: overview.md
   - name: ActionEventDropoff 
     href: ActionEventDropoff.md
   - name: ActionEventInflow 
