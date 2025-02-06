@@ -3,10 +3,10 @@ title: overview of CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: CustomerInsightsJourneys is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: leeclontz
 ms.topic: article
 ms.date: 1/27/2025
-ms.author: cdmditeam
+ms.author: lsuresh
 ---
 
 # Overview of CustomerInsightsJourneys
