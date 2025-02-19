@@ -1,12 +1,12 @@
 ---
 title: WaterRiskIndex in Cloud for Sustainability water data model
-description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
-author: andreabichsel
+description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.Ex: - Low- Low-medium- Medium- Medium-high- High- Extremely-high
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Water risk index in Cloud for Sustainability water data model (WaterRiskIndex)

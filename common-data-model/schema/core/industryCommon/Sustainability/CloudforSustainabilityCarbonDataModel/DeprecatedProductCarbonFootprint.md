@@ -1,12 +1,12 @@
 ---
 title: DeprecatedProductCarbonFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The carbon footprint of a product and related data in accordance with the Pathfinder Framework.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # (Deprecated) Product carbon footprint in Cloud for Sustainability carbon data model(DeprecatedProductCarbonFootprint)
@@ -54,8 +54,8 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 |[sustainabilityproductcarbonfootprintId](#sustainabilityproductcarbonfootprintId)|Unique identifier for entity instances.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[statecode](#statecode)|Status of the (Deprecated) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[statuscode](#statuscode)|Reason for the status of the (Deprecated) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[statecode](#statecode)|Status of the (deprecated) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[statuscode](#statuscode)|Reason for the status of the (deprecated) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
@@ -74,21 +74,21 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 |[crosssectoralstandardsused2](#crosssectoralstandardsused2)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[crosssectoralstandardsused3](#crosssectoralstandardsused3)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[declaredunit](#declaredunit)|The unit of analysis of the product.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[dlucghgemissions](#dlucghgemissions)|Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0. |<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[dlucghgemissions](#dlucghgemissions)|Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[exemptedemissionsdescription](#exemptedemissionsdescription)|Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[exemptedemissionspercent](#exemptedemissionspercent)|The percentage of emissions excluded from PCF, expressed as a decimal number from 0.0 to 5, inclusive.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[fossilcarboncontent](#fossilcarboncontent)|The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[fossilcarboncontent](#fossilcarboncontent)|The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[fossilghgemissions](#fossilghgemissions)|The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[geographicaldqr](#geographicaldqr)|DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[geographycountry](#geographycountry)|If present, the value must conform to an ISO 3166-2 alpha-2 code.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[geographycountrysubdivision](#geographycountrysubdivision)|If present, an ISO 3166-2 subdivision code.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[geographyregionorsubregion](#geographyregionorsubregion)|If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[ilucghgemissions](#ilucghgemissions)|Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0. |<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[ilucghgemissions](#ilucghgemissions)|Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[landmanagementghgemissions](#landmanagementghgemissions)|GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[otherbiogenicghgemissions](#otherbiogenicghgemissions)|All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[packagingemissionsincluded](#packagingemissionsincluded)|A boolean flag indicating whether packaging emissions are included in the PCF.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[packagingghgemissions](#packagingghgemissions)|Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[pcfexcludingbiogenic](#pcfexcludingbiogenic)|The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[pcfexcludingbiogenic](#pcfexcludingbiogenic)|The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[pcfincludingbiogenic](#pcfincludingbiogenic)|The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[primarydatashare](#primarydatashare)|The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[productcarbonfootprintassurance](#productcarbonfootprintassurance)|Assurance information in accordance with the Pathfinder Framework.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
@@ -232,12 +232,12 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the (Deprecated) Sustainability product carbon footprint  
+Status of the (deprecated) Sustainability product carbon footprint  
 First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the (Deprecated) Sustainability product carbon footprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the (deprecated) Sustainability product carbon footprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -262,7 +262,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the (Deprecated) Sustainability product carbon footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the (deprecated) Sustainability product carbon footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -278,12 +278,12 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the (Deprecated) Sustainability product carbon footprint  
+Reason for the status of the (deprecated) Sustainability product carbon footprint  
 First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the (Deprecated) Sustainability product carbon footprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the (deprecated) Sustainability product carbon footprint</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -308,7 +308,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the (Deprecated) Sustainability product carbon footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the (deprecated) Sustainability product carbon footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1116,7 +1116,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md" target="_blank">/CloudforSustainabilitySharedDataModel/Unit.cdm.json/Unit</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1127,12 +1127,12 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 ### <a href=#dlucghgemissions name="dlucghgemissions">dlucghgemissions</a>
 
-Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.   
+Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.  
 First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>dLUC GHG emissions (kgCO2e)</td></tr><tr><td>description</td><td>Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0. </td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_dlucghgemissions</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>dLUC GHG emissions (kgCO2e)</td></tr><tr><td>description</td><td>Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_dlucghgemissions</td></tr></table>
 
 #### Traits
 
@@ -1146,7 +1146,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>dLUC GHG emissions (kgCO2e)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1261,12 +1261,12 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 ### <a href=#fossilcarboncontent name="fossilcarboncontent">fossilcarboncontent</a>
 
-The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
+The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
 First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fossil carbon content (kgCO2e)</td></tr><tr><td>description</td><td>The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. </td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_fossilcarboncontent</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fossil carbon content (kgCO2e)</td></tr><tr><td>description</td><td>The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_fossilcarboncontent</td></tr></table>
 
 #### Traits
 
@@ -1280,7 +1280,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fossil carbon content (kgCO2e)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1395,7 +1395,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geography country/region</td></tr><tr><td>description</td><td>If present, the value must conform to an ISO 3166-2 alpha-2 code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geography Country/region</td></tr><tr><td>description</td><td>If present, the value must conform to an ISO 3166-2 alpha-2 code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountry</td></tr></table>
 
 #### Traits
 
@@ -1416,7 +1416,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>If present, the value must conform to an ISO 3166-2 alpha-2 code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Geography country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Geography Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -1443,7 +1443,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geography country/region subdivision</td></tr><tr><td>description</td><td>If present, an ISO 3166-2 subdivision code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountrysubdivision</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geography Country/region subdivision</td></tr><tr><td>description</td><td>If present, an ISO 3166-2 subdivision code.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographycountrysubdivision</td></tr></table>
 
 #### Traits
 
@@ -1464,7 +1464,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>If present, an ISO 3166-2 subdivision code.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Geography country/region subdivision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Geography Country/region subdivision</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -1534,12 +1534,12 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 ### <a href=#ilucghgemissions name="ilucghgemissions">ilucghgemissions</a>
 
-Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.   
+Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.  
 First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>iLUC GHG emissions (kgCO2e)</td></tr><tr><td>description</td><td>Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0. </td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ilucghgemissions</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>iLUC GHG emissions (kgCO2e)</td></tr><tr><td>description</td><td>Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ilucghgemissions</td></tr></table>
 
 #### Traits
 
@@ -1553,7 +1553,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>iLUC GHG emissions (kgCO2e)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1742,12 +1742,12 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
 
 ### <a href=#pcfexcludingbiogenic name="pcfexcludingbiogenic">pcfexcludingbiogenic</a>
 
-The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
+The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
 First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>PCF excluding biogenic (kgCO2e)</td></tr><tr><td>description</td><td>The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. </td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_pcfexcludingbiogenic</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>PCF excluding biogenic (kgCO2e)</td></tr><tr><td>description</td><td>The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_pcfexcludingbiogenic</td></tr></table>
 
 #### Traits
 
@@ -1761,7 +1761,7 @@ First included in: Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFo
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>PCF excluding biogenic (kgCO2e)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

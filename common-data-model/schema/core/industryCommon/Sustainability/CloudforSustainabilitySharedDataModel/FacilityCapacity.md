@@ -1,12 +1,12 @@
 ---
 title: FacilityCapacity in Cloud for Sustainability shared data model
 description: Entity to capture the facility's capacity dimension and measure for a specified time period.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Facility capacity in Cloud for Sustainability shared data model (FacilityCapacity)
@@ -70,11 +70,12 @@ Entity to capture the facility's capacity dimension and measure for a specified 
 |[unit](#unit)|Unit of measure used to describe the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the facility capacity.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
 
 ### <a href=#facilitycapacityId name="facilitycapacityId">facilitycapacityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -122,7 +123,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -162,7 +163,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -202,7 +203,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the facility capacity  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -248,7 +249,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the facility capacity  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -297,7 +298,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -340,7 +341,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -377,7 +378,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -420,7 +421,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -463,7 +464,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#name name="name">name</a>
 
 Name of facility capacity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -511,7 +512,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#capacitydimension name="capacitydimension">capacitydimension</a>
 
 Lookup to the capacity dimension.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -556,7 +557,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#quantity name="quantity">quantity</a>
 
 Indicates the value of the capacity dimension for the specified period.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -599,7 +600,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility mapped to the the capacity dimension.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -644,7 +645,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#facilitytype name="facilitytype">facilitytype</a>
 
 Lookup to facility type that describes the facility capacity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -689,7 +690,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#periodenddate name="periodenddate">periodenddate</a>
 
 Indicates the end date and time for which the capacity quantity value applies.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -726,7 +727,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#periodstartdate name="periodstartdate">periodstartdate</a>
 
 Indicates the start date and time for which the capacity quantity value applies.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -763,7 +764,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#unit name="unit">unit</a>
 
 Unit of measure used to describe the capacity dimension.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -808,7 +809,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -856,7 +857,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -892,3 +893,48 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 *is.dataFormat.time*  
   *is.dataFormat.date*  
   </details>
+
+### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
+
+Unique identifier for the organizational unit associated with the facility capacity.  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit</td></tr><tr><td>description</td><td>Unique identifier for the organizational unit associated with the facility capacity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the organizationalunitid attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the organizational unit associated with the facility capacity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organizational unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.CDS.lookup*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

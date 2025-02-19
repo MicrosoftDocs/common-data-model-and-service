@@ -1,12 +1,12 @@
 ---
 title: ValueChainPartner in Cloud for Sustainability shared data model
 description: Entity for value chain partner or supplier.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Value Chain Partner in Cloud for Sustainability shared data model 
@@ -63,7 +63,7 @@ Entity for value chain partner or supplier.
 |[name](#name)|The name of the custom entity.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
 |[addresscity](#addresscity)|City associated with the value chain partner.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
 |[addresscountryisocode](#addresscountryisocode)|The three letter ISO code of the country/region.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
 |[addresscounty](#addresscounty)|County associated with the value chain partner address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
 |[addressstateprovince](#addressstateprovince)|State/province associated with the value chain partner address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
 |[addressstreet1](#addressstreet1)|Address line 1 of the street address.|<a href="ValueChainPartner.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ValueChainPartner</a>|
@@ -76,7 +76,7 @@ Entity for value chain partner or supplier.
 ### <a href=#valuechainpartnerId name="valuechainpartnerId">valuechainpartnerId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Value Chain Partner  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Value Chain Partner  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 City associated with the value chain partner.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -561,11 +561,11 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region (deprecated)</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region (deprecated)</td></tr><tr><td>description</td><td>The three letter ISO code of the country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
 
 #### Traits
 
@@ -586,7 +586,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The three letter ISO code of the country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"6"</td><td>integer</td><td></td></tr></table>
@@ -608,12 +608,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for country/region.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+Lookup field for Country/region.  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -633,10 +633,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -654,7 +654,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 County associated with the value chain partner address.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 State/province associated with the value chain partner address.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -750,7 +750,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 Address line 1 of the street address.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -798,7 +798,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Address line 2 of the street address.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -846,7 +846,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 Zip code or postal code associated with the address.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -894,7 +894,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#companyregistrationnumber name="companyregistrationnumber">companyregistrationnumber</a>
 
 Unique identifier that is related to the value chain partner.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -942,7 +942,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 
@@ -990,7 +990,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueCha
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity)  
+First included in: Sustainability/SustainabilityShared/ValueChainPartner (this entity)  
 
 #### Properties
 

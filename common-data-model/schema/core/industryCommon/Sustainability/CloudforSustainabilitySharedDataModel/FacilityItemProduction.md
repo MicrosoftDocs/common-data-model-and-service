@@ -1,17 +1,17 @@
 ---
 title: FacilityItemProduction in Cloud for Sustainability shared data model
-description: Entity used to record the production quantity of an item in a facility for a specified period. 
-author: andreabichsel
+description: Entity used to record the production quantity of an item in a facility for a specified period.
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Facility item production in Cloud for Sustainability shared data model (FacilityItemProduction)
 
-Entity used to record the production quantity of an item in a facility for a specified period.   
+Entity used to record the production quantity of an item in a facility for a specified period.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/FacilityItemProduction.cdm.json" target="_blank">GitHub</a>.  
 
@@ -31,7 +31,7 @@ Entity used to record the production quantity of an item in a facility for a spe
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/FacilityItemProduction.cdm.json<br>/FacilityItemProduction/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity used to record the production quantity of an item in a facility for a specified period. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity used to record the production quantity of an item in a facility for a specified period.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Facility item production</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -70,7 +70,7 @@ Entity used to record the production quantity of an item in a facility for a spe
 ### <a href=#facilityitemproductionId name="facilityitemproductionId">facilityitemproductionId</a>
 
 The unique identifier of the item production in a facility.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Indicates whether the data is actual, estimated, or metered.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#description name="description">description</a>
 
 Description  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#facility name="facility">facility</a>
 
 The facility that is producing the item.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 The item that is being produced in the facility.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#productionenddate name="productionenddate">productionenddate</a>
 
 The date on which the last unit of the item/finished product was produced.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#productionstartdate name="productionstartdate">productionstartdate</a>
 
 The date on which the first unit of the item/finished product was produced.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#quantityproduced name="quantityproduced">quantityproduced</a>
 
 The quantity of the item produced in the specified period.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -724,7 +724,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#unit name="unit">unit</a>
 
 The unit of measure for the quantity produced.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -769,7 +769,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
@@ -817,7 +817,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FacilityItemProduction (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityItemProduction (this entity)  
 
 #### Properties
 
