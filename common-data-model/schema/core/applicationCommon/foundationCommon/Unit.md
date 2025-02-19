@@ -1,6 +1,6 @@
 ---
 title: Unit in foundationCommon - Common Data Model | Microsoft Docs
-description: Unit of measure.
+description: Unit of measure in foundationCommon.
 author: llawwaii
 
 ms.reviewer: deonhe

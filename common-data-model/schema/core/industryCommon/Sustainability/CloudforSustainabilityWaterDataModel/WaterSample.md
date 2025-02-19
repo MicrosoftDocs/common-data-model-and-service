@@ -1,6 +1,6 @@
 ---
 title: WaterSample in Cloud for Sustainability water data model
-description: Stores the attributes of the water samples collected for testing water quality.
+description: WaterSample stores the attributes of the water samples collected for testing water quality.
 author: lsuresh
 ms.service: common-data-model
 ms.reviewer: leeclontz

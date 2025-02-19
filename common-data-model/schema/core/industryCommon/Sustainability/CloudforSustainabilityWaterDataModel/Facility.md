@@ -1,6 +1,6 @@
 ---
 title: Facility in Cloud for Sustainability water data model
-description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
+description: Base-level location to attribute activity data in the water data model. May contain multiple buildings and organizational units.
 author: lsuresh
 ms.service: common-data-model
 ms.reviewer: leeclontz

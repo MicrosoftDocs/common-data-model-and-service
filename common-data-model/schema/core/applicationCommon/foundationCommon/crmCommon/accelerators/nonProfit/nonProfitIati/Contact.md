@@ -1,6 +1,6 @@
 ---
 title: Contact in nonProfitIati - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague in nonProfitIati.
 author: llawwaii
 
 ms.reviewer: deonhe

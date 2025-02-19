@@ -1,6 +1,6 @@
 ---
 title: UnitGroup in foundationCommon - Common Data Model | Microsoft Docs
-description: Grouping of units.
+description: Grouping of units in UnitGroup of the foundationCommon.
 author: llawwaii
 
 ms.reviewer: deonhe

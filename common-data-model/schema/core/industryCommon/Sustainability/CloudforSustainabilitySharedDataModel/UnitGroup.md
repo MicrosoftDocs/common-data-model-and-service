@@ -1,6 +1,6 @@
 ---
 title: UnitGroup in Cloud for Sustainability shared data model
-description: Grouping of units.
+description: Grouping of units in UnitGroup.
 author: lsuresh
 ms.service: common-data-model
 ms.reviewer: leeclontz
