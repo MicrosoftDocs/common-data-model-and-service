@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 
 ms.date: 4/5/2023
-ms.author: cdmditeam
+ms.author: leeclontz
 ---
 
 # Account in FinancialServicesCommonDataModel

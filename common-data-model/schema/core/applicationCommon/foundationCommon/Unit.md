@@ -6,7 +6,7 @@ author: llawwaii
 ms.reviewer: deonhe
 ms.topic: reference
 ms.date: 8/7/2020
-ms.author: v-weiluoyie
+ms.author: leeclontz
 ---
 
 # Unit in foundationCommon
