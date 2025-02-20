@@ -1,6 +1,6 @@
 ---
 title: Account in RetailBankingCoreDataModel - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: Business that represents a customer or potential customer in the RetailBankingCoreDataModel. The company is billed in business transactions.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

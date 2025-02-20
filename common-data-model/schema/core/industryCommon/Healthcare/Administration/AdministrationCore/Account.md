@@ -1,6 +1,6 @@
 ---
 title: Account in AdministrationCore - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: Business that represents a customer or potential customer in AdministrationCore. The company that is billed in business transactions.
 author: matgos
 
 ms.reviewer: deonhe
