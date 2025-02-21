@@ -1,12 +1,12 @@
 ---
 title: Account in eventManagement - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: Business that represents a customer or potential customer in eventManagement. The company is billed in business transactions.
 author: llawwaii
 
 ms.reviewer: deonhe
 ms.topic: reference
 ms.date: 8/7/2020
-ms.author: weiluo
+ms.author: leeclontz
 ---
 
 # Account in eventManagement

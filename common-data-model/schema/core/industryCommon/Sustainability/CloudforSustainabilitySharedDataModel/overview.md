@@ -1,12 +1,12 @@
 ---
-title: overview of CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
-description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
-author: andreabichsel
+title: overview of Cloud for Sustainability Shared Data Model- Common Data Model | Microsoft Docs
+description: Cloud for Sustainability Shared Data Modelis a folder that contains standard entities related to the Common Data Model.
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: anbichse
-ms.topic: reference 
-ms.date: 09/25/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Overview of CloudforSustainabilitySharedDataModel
@@ -21,7 +21,7 @@ Cloud for Sustainability Shared Data Model CDM entity definitions
 |[AccountingMethod](AccountingMethod.md)|Approach or method to quantify and report the environmental footprint of an organization's activities, encompassing greenhouse gas emissions and broader sustainability factors.|
 |[AlternateResultBasis](AlternateResultBasis.md)|Primary reason used for generating alternate sustainability records, which is done by applying different methodologies, assumptions, or calculation models to the same underlying data set.|
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
-|[CountryRegion](CountryRegion.md)|Defines custom country/region codes.|
+|[CountryRegion](CountryRegion.md)|Defines custom Country/region codes.|
 |[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
 |[CustomDimensionMetadata](CustomDimensionMetadata.md)|Table holding information about all the custom dimensions available in Microsoft Sustainability Manager|
 |[DataSourceType](DataSourceType.md)|The different types of sources for energy data.|
@@ -59,6 +59,7 @@ Cloud for Sustainability Shared Data Model CDM entity definitions
 |[SustainabilityItemPackaging](SustainabilityItemPackaging.md)|Indicates whether the item is used for packaging when distributing a product.|
 |[SustainabilityItemSKU](SustainabilityItemSKU.md)|Entity for capturing data on items/SKU inventoried such as input material and finished goods.|
 |[SustainabilityModule](SustainabilityModule.md)|Entity used to classify the data definitions.|
+|[SustainabilityProductCategory](SustainabilityProductCategory.md)|Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.|
 |[Unit](Unit.md)|Unit of measure.|
 |[UnitGroup](UnitGroup.md)|Grouping of units.|
 |[ValueChainPartner](ValueChainPartner.md)|Entity for value chain partner or supplier.|

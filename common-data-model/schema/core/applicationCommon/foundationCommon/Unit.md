@@ -1,12 +1,12 @@
 ---
 title: Unit in foundationCommon - Common Data Model | Microsoft Docs
-description: Unit of measure.
+description: Unit of measure in foundationCommon.
 author: llawwaii
 
 ms.reviewer: deonhe
 ms.topic: reference
 ms.date: 8/7/2020
-ms.author: weiluo
+ms.author: leeclontz
 ---
 
 # Unit in foundationCommon

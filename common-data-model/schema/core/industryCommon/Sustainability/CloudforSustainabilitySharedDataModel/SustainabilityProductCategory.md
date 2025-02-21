@@ -1,6 +1,6 @@
 ---
-title: CircularityDesignPrinciple in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
-description: Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.
+title: SustainabilityProductCategory in Cloud for Sustainability shared data model
+description: Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.
 author: lsuresh
 ms.service: common-data-model
 ms.reviewer: leeclontz
@@ -9,11 +9,11 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Circularity design principle in Cloud for Sustainability waste data model(CircularityDesignPrinciple)
+# Sustainability product category in Cloud for Sustainability shared data model (SustainabilityProductCategory)
 
-Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.  
+Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +25,22 @@ Describes the circularity princple followed to produce the finished good such as
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/circularitydesignprincipleId](#circularitydesignprincipleId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityProductCategory/(resolvedAttributes)/sustainabilityproductcategoryId](#sustainabilityproductcategoryId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityProductCategory/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWasteDataModel<br>/CircularityDesignPrinciple.cdm.json<br>/CircularityDesignPrinciple/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/SustainabilityProductCategory.cdm.json<br>/SustainabilityProductCategory/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Circularity design principle</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sustainability product category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_circularitydesignprinciple"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproductcategory"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,34 +51,33 @@ Describes the circularity princple followed to produce the finished good such as
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[circularitydesignprincipleId](#circularitydesignprincipleId)|The unique identifier of the circularity design principle.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[statecode](#statecode)|Status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[statuscode](#statuscode)|Reason for the status of the Circularity design principle|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[name](#name)|The name of the circularity principle applied.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[description](#description)|Optional description of the principles followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[followscircularitydesignprinciples](#followscircularitydesignprinciples)|Indicates whether any of the circularity design principles were followed in producing the finished good.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[sustainabilityitemsku](#sustainabilityitemsku)|The item/finished good for which the circularity principle was followed.|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="CircularityDesignPrinciple.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple</a>|
+|[sustainabilityproductcategoryId](#sustainabilityproductcategoryId)|The unique identifier of the product category.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[statecode](#statecode)|Status of the Sustainability product category|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[statuscode](#statuscode)|Reason for the status of the Sustainability product category|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[name](#name)|The name of the product category, such as abrasives, castings, instruments, or accessories.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
+|[parentsustainabilityproductcategory](#parentsustainabilityproductcategory)|Caegory that supercedes this category.|<a href="SustainabilityProductCategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityProductCategory</a>|
 
-### <a href=#circularitydesignprincipleId name="circularitydesignprincipleId">circularitydesignprincipleId</a>
+### <a href=#sustainabilityproductcategoryId name="sustainabilityproductcategoryId">sustainabilityproductcategoryId</a>
 
-The unique identifier of the circularity design principle.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+The unique identifier of the product category.  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Circularity design principle id</td></tr><tr><td>description</td><td>The unique identifier of the circularity design principle.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_circularitydesignprincipleid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sustainability product category id</td></tr><tr><td>description</td><td>The unique identifier of the product category.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_sustainabilityproductcategoryid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the circularitydesignprincipleId attribute are listed below.</summary>
+<summary>List of traits for the sustainabilityproductcategoryId attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -90,19 +89,19 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 *is.dataFormat.guid*  
   *means.identity.entityId*  
   *is.identifiedBy*  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/circularitydesignprincipleId](#circularitydesignprincipleId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityProductCategory/(resolvedAttributes)/sustainabilityproductcategoryId](#sustainabilityproductcategoryId)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unique identifier of the circularity design principle.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unique identifier of the product category.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Circularity design principle id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sustainability product category id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_circularitydesignprincipleid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityproductcategoryid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -117,7 +116,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
@@ -157,7 +156,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
@@ -196,12 +195,12 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Circularity design principle  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+Status of the Sustainability product category  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Circularity design principle</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Sustainability product category</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -220,13 +219,13 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *means.entityState*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CircularityDesignPrinciple/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityProductCategory/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Circularity design principle</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Sustainability product category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -242,12 +241,12 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Circularity design principle  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+Reason for the status of the Sustainability product category  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Circularity design principle</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Sustainability product category</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -272,7 +271,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Circularity design principle</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Sustainability product category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -292,7 +291,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
@@ -335,7 +334,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
@@ -372,7 +371,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
@@ -415,7 +414,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
@@ -457,12 +456,12 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 
 ### <a href=#name name="name">name</a>
 
-The name of the circularity principle applied.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+The name of the product category, such as abrasives, castings, instruments, or accessories.  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the circularity principle applied.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the product category, such as abrasives, castings, instruments, or accessories.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -480,13 +479,13 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the circularity principle applied.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the product category, such as abrasives, castings, instruments, or accessories.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"200"</td><td>integer</td><td></td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
@@ -505,12 +504,12 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 
 ### <a href=#description name="description">description</a>
 
-Optional description of the principles followed.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+Optional description that provides more details about the attribute.  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description of the principles followed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides more details about the attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -528,7 +527,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional description of the principles followed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional description that provides more details about the attribute.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -551,105 +550,14 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
 
 </details>
 
-### <a href=#followscircularitydesignprinciples name="followscircularitydesignprinciples">followscircularitydesignprinciples</a>
-
-Indicates whether any of the circularity design principles were followed in producing the finished good.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Follows circularity design principles</td></tr><tr><td>description</td><td>Indicates whether any of the circularity design principles were followed in producing the finished good.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_followscircularitydesignprinciples</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>192350000</td></tr><tr><td>en</td><td>No</td><td>192350001</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the followscircularitydesignprinciples attribute are listed below.</summary>
-
-*is.dataFormat.integer*  
-  *is.dataFormat.signed*  
-  indicates the capability to represent values less than zero.  
-
-*is.dataFormat.numeric*  
-  *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>192350000</td></tr><tr><td>en</td><td>No</td><td>192350001</td></tr></table></td><td>any</td><td></td></tr></table>
-
-*is.constrainedList*  
-  the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-*is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether any of the circularity design principles were followed in producing the finished good.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Follows circularity design principles</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_followscircularitydesignprinciples"</td><td>string</td><td></td></tr></table>
-
-*is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
-
-*is.dataFormat.integer*  
-  </details>
-
-### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
-
-The item/finished good for which the circularity principle was followed.  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item</td></tr><tr><td>description</td><td>The item/finished good for which the circularity principle was followed.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the sustainabilityitemsku attribute are listed below.</summary>
-
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.dataFormat.guid*  
-  *means.identity.entityId*  
-  *is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The item/finished good for which the circularity principle was followed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.CDS.lookup*  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-*is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/SustainabilityItemSKU.md" target="_blank">/SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../CloudforSustainabilitySharedDataModel/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-*is.dataFormat.guid*  
-  *is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
-Optional field for origin correlation id  
-First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple (this entity)  
+Optional field to store origin correlation id  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>Optional field for origin correlation id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>Optional field to store origin correlation id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -667,7 +575,7 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field for origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field to store origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -682,9 +590,54 @@ First included in: Sustainability/SustainabilityWaste/CircularityDesignPrinciple
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#parentsustainabilityproductcategory name="parentsustainabilityproductcategory">parentsustainabilityproductcategory</a>
+
+Caegory that supercedes this category.  
+First included in: Sustainability/SustainabilityShared/SustainabilityProductCategory (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent category</td></tr><tr><td>description</td><td>Caegory that supercedes this category.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the parentsustainabilityproductcategory attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Caegory that supercedes this category.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parent category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.CDS.lookup*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="SustainabilityProductCategory.md" target="_blank">SustainabilityProductCategory.cdm.json/SustainabilityProductCategory</a></td><td><a href="SustainabilityProductCategory.md#sustainabilityproductcategoryId" target="_blank">sustainabilityproductcategoryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
   *is.dataFormat.array*  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 

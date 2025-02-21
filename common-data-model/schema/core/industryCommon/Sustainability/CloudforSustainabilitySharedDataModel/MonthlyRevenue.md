@@ -1,12 +1,12 @@
 ---
 title: MonthlyRevenue in Cloud for Sustainability shared data model
 description: Captures revenue of an organizational unit by year and month in the company currency.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Monthly revenue in Cloud for Sustainability shared data model (MonthlyRevenue)
@@ -62,6 +62,7 @@ Captures revenue of an organizational unit by year and month in the company curr
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
 |[year](#year)|The year associated to the monthly revenue defined for a business unit.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
 |[amount](#amount)|Revenue amount for a defined year, month, and currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
 |[amount_Base](#amount_Base)|Value of the Revenue in base currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
 |[month](#month)|The month associated to the revenue defined for a business unit.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
@@ -70,7 +71,7 @@ Captures revenue of an organizational unit by year and month in the company curr
 ### <a href=#organizationalunitrevenueId name="organizationalunitrevenueId">organizationalunitrevenueId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -118,7 +119,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -158,7 +159,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -198,7 +199,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Monthly Revenue  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -244,7 +245,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Monthly Revenue  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -293,7 +294,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -336,7 +337,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -373,7 +374,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -416,7 +417,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -459,7 +460,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#year name="year">year</a>
 
 The year associated to the monthly revenue defined for a business unit.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -507,7 +508,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#amount name="amount">amount</a>
 
 Revenue amount for a defined year, month, and currency.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -545,10 +546,53 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 
 </details>
 
+### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
+
+Exchange rate for the currency associated with the entity with respect to the base currency.  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0.0000000001</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
+
+*is.dataFormat.numeric.shaped*  
+  for setting the exact precision and scale of numeric values  
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange rate</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0.0000000001"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"exchangerate"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.numeric.shaped*  
+  for setting the exact precision and scale of numeric values  
+
+</details>
+
 ### <a href=#amount_Base name="amount_Base">amount_Base</a>
 
 Value of the Revenue in base currency.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -589,7 +633,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#month name="month">month</a>
 
 The month associated to the revenue defined for a business unit.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -635,7 +679,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -683,7 +727,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyR
 ### <a href=#sustainabilityorganizationalunit name="sustainabilityorganizationalunit">sustainabilityorganizationalunit</a>
 
 Unique identifier for the organizational unit associated with the monthly revenue.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 

@@ -1,12 +1,12 @@
 ---
 title: Contact in nonProfitVolunteers - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague in nonProfitVolunteers.
 author: llawwaii
 
 ms.reviewer: deonhe
 ms.topic: reference
 ms.date: 8/7/2020
-ms.author: weiluo
+ms.author: leeclontz
 ---
 
 # Contact in nonProfitVolunteers
