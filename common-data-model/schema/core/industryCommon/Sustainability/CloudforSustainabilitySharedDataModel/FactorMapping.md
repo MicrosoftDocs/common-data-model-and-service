@@ -1,12 +1,12 @@
 ---
 title: FactorMapping in Cloud for Sustainability shared data model
 description: Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Factor mapping in Cloud for Sustainability shared data model (FactorMapping)
@@ -78,7 +78,7 @@ Entity which connects reference data to a specific emission factor or estimation
 ### <a href=#emissionlookupId name="emissionlookupId">emissionlookupId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Factor Mapping  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -252,7 +252,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Factor Mapping  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -344,7 +344,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#calculationlibraryid name="calculationlibraryid">calculationlibraryid</a>
 
 Factor library to which the lookup belongs.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -608,7 +608,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#factorid name="factorid">factorid</a>
 
 Unique identifier of the factor associated with the factor mapping.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#factoridType name="factoridType">factoridType</a>
 
 Unique identifier of the factor associated with the factor mapping.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -686,7 +686,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedata4id name="referencedata4id">referencedata4id</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -725,7 +725,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedata4idType name="referencedata4idType">referencedata4idType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -764,7 +764,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedataid name="referencedataid">referencedataid</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -803,7 +803,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedataidType name="referencedataidType">referencedataidType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -842,7 +842,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedata3id name="referencedata3id">referencedata3id</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -881,7 +881,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedata3idType name="referencedata3idType">referencedata3idType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -920,7 +920,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedata2id name="referencedata2id">referencedata2id</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -959,7 +959,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#referencedata2idType name="referencedata2idType">referencedata2idType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -998,7 +998,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMa
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 

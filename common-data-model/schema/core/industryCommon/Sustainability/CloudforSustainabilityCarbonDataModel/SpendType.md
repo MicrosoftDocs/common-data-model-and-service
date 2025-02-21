@@ -1,12 +1,12 @@
 ---
 title: SpendType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Spend type in Cloud for Sustainability carbon data model(SpendType)

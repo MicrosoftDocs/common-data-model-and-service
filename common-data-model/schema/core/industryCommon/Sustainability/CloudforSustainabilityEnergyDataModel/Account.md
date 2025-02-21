@@ -1,12 +1,12 @@
 ---
 title: Account in Cloud for Sustainability energy data model
-description: Business that represents a customer or potential customer.
-author: andreabichsel
+description: Business that represents a customer or potential customer in the energy data model. The company is billed in business transactions.
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Account in Cloud for Sustainability energy data model 
@@ -135,7 +135,7 @@ First included in: Sustainability/SustainabilityEnergy/Account (this entity)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/EnergyProviderType.md" target="_blank">/CloudforSustainabilitySharedDataModel/EnergyProviderType.cdm.json/EnergyProviderType</a></td><td><a href="../CloudforSustainabilitySharedDataModel/EnergyProviderType.md#energyprovidertypeId" target="_blank">energyprovidertypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/EnergyProviderType.md" target="_blank">/SustainabilityShared/EnergyProviderType.cdm.json/EnergyProviderType</a></td><td><a href="../CloudforSustainabilitySharedDataModel/EnergyProviderType.md#energyprovidertypeId" target="_blank">energyprovidertypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  

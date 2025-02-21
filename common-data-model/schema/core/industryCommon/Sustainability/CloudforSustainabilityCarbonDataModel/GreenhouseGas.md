@@ -1,12 +1,12 @@
 ---
 title: GreenhouseGas in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for greenhouse gases.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
 # Greenhouse gas in Cloud for Sustainability carbon data model(GreenhouseGas)
