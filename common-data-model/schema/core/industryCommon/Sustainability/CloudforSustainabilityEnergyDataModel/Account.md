@@ -9,6 +9,8 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
+# Account details in Cloud for Sustainability energy data model (Account)
+
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityEnergyDataModel/Account.cdm.json" target="_blank">GitHub</a>.  
