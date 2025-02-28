@@ -3181,6 +3181,80 @@
             href: industryCommon/Sustainability/CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate.md
           - name: UtilityType
             href: industryCommon/Sustainability/CloudforSustainabilityEnergyDataModel/UtilityType.md
+        - name: External ESG Reporting Data Model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/overview.md
+          - name: ApprovalPolicy 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ApprovalPolicy.md
+          - name: ApprovalPolicyApprover 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ApprovalPolicyApprover.md
+          - name: ApprovalRecord 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ApprovalRecord.md
+          - name: ApprovalRecordDetails 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ApprovalRecordDetails.md
+          - name: Assessment 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Assessment.md
+          - name: AssessmentRequirement 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/AssessmentRequirement.md
+          - name: AssessmentRequirementExecution 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/AssessmentRequirementExecution.md
+          - name: Concept 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Concept.md
+          - name: ConceptAnnexure 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ConceptAnnexure.md
+          - name: ConceptGroup 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ConceptGroup.md
+          - name: ConceptLink 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ConceptLink.md
+          - name: ConceptsPage 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ConceptsPage.md
+          - name: Dimension 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Dimension.md
+          - name: DimensionLink 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/DimensionLink.md
+          - name: DimensionMember 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/DimensionMember.md
+          - name: DimensionReference 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/DimensionReference.md
+          - name: Document 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Document.md
+          - name: ESGAssessmentFilling 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ESGAssessmentFilling.md
+          - name: ESGDimensions 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ESGDimensions.md
+          - name: ESGFactExtraction 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ESGFactExtraction.md
+          - name: Esgnotification 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Esgnotification.md
+          - name: Evidence 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Evidence.md
+          - name: ExportJob 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/ExportJob.md
+          - name: Fact 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Fact.md
+          - name: FactLink 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/FactLink.md
+          - name: Files 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Files.md
+          - name: FlattenedReport 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/FlattenedReport.md
+          - name: General 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/General.md
+          - name: InstantPeriod 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/InstantPeriod.md
+          - name: OrganizationalProfile 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/OrganizationalProfile.md
+          - name: RangePeriod 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/RangePeriod.md
+          - name: Records 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Records.md
+          - name: Settings 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Settings.md
+          - name: Standard 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/Standard.md
+          - name: StandardRequirement 
+            href: industryCommon/Sustainability/ExternalESGReportingDataModel/StandardRequirement.md
         - name: Shared data model
           items:
           - name: Summary
