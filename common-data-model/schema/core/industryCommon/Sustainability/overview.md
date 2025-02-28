@@ -23,6 +23,7 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |---|
 |[Cloud for Sustainability Carbon Data Model](CloudforSustainabilityCarbonDataModel/overview.md)|
 |[Cloud for Sustainability Energy Data Model](CloudforSustainabilityEnergyDataModel/overview.md)|
+|[Cloud for Sustainability External ESG Reporting Data Model](ExternalESGReportingDataModel/overview.md)|
 |[Cloud for Sustainability Shared Data Model](CloudforSustainabilitySharedDataModel/overview.md)|
 |[Cloud for Sustainability Waste Data Model](CloudforSustainabilityWasteDataModel/overview.md)|
 |[Cloud for Sustainability Water Data Model](CloudforSustainabilityWaterDataModel/overview.md)|
