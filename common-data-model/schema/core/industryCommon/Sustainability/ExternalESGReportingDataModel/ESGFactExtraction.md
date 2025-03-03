@@ -1,6 +1,6 @@
 ---
 title: ESGFactExtraction in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
-description: 
+description: Learn about traits and attributes in SG Fact Extraction in External ESG Reporting Data Model.
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -11,8 +11,7 @@ ms.author: lsuresh
 
 # ESG Fact Extraction in External ESG Reporting Data Model
 
-  
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ESGFactExtraction.cdm.json" target="_blank">GitHub</a>.  
+Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ESGFactExtraction.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
