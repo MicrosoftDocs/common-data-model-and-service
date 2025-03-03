@@ -1,6 +1,6 @@
 ---
 title: OrganizationalProfile in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
-description: The base information of the organization, for which the solution is built.
+description: Learn about traits and attributes in External ESG Reporting Data Model(OrganizationalProfile).
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -13,7 +13,7 @@ ms.author: lsuresh
 
 The base information of the organization, for which the solution is built.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/OrganizationalProfile.cdm.json" target="_blank">GitHub</a>.  
+Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/OrganizationalProfile.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
