@@ -1,6 +1,6 @@
 ---
-title: ExportJob in External ESG Reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in Export job in External ESG Reporting data model(ExportJob).
+title: ExportJob in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in Export job in Cloud for Sustainability External ESG Reporting data model(ExportJob).
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Export job in External ESG Reporting data model(ExportJob)
+# Export job in Cloud for Sustainability External ESG Reporting data model(ExportJob)
 
 Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ExportJob.cdm.json" target="_blank">GitHub</a>.  
 

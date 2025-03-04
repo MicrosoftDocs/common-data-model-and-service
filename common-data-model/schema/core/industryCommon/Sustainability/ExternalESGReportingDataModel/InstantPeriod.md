@@ -1,5 +1,5 @@
 ---
-title: InstantPeriod in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: InstantPeriod in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific instant period
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Instant Period in External ESG Reporting data model
+# Instant Period in Cloud for Sustainability External ESG Reporting data model
 
 Captures information for a specific instant period  
   

@@ -1,5 +1,5 @@
 ---
-title: ApprovalRecord in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: ApprovalRecord in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific approval record
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Approval Record in External ESG Reporting data model
+# Approval Record in Cloud for Sustainability External ESG Reporting data model
 
 Captures information for a specific approval record  
   

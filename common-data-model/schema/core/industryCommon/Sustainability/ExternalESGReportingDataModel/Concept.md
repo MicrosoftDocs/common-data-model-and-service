@@ -1,5 +1,5 @@
 ---
-title: Concept in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: Concept in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific concept
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Concept in External ESG Reporting data model
+# Concept in Cloud for Sustainability External ESG Reporting data model
 
 Captures information for a specific concept  
   

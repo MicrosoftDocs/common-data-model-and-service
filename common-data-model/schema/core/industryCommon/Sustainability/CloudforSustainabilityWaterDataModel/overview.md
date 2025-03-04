@@ -9,9 +9,9 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Overview of CloudforSustainabilityWaterDataModel
+# Overview of Cloud for Sustainability water data model
 
-Cloud for Sustainability Water Data Model CDM entity definitions  
+Cloud for Sustainability water data model CDM entity definitions  
 
 ## Entities
 

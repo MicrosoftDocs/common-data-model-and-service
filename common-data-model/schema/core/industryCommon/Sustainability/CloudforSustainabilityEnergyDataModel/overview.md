@@ -9,9 +9,9 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Overview of CloudforSustainabilityEnergyDataModel
+# Overview of Cloud for Sustainability energy data model
 
-Cloud for Sustainability Energy Data Model CDM entity definitions  
+Cloud for Sustainability energy data model CDM entity definitions  
 
 ## Entities
 

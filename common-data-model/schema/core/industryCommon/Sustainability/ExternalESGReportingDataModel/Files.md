@@ -1,6 +1,6 @@
 ---
-title: Files in External ESG Reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in files in External ESG Reporting data model.
+title: Files in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in files in Cloud for Sustainability External ESG Reporting data model.
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Files in External ESG Reporting data model
+# Files in Cloud for Sustainability External ESG Reporting data model
 
 Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/Files.cdm.json" target="_blank">GitHub</a>.  
 

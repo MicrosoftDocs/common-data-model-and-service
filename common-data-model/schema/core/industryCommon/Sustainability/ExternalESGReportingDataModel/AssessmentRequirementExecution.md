@@ -1,5 +1,5 @@
 ---
-title: AssessmentRequirementExecution in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: AssessmentRequirementExecution in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: (INTERNAL USE ONLY)
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Assessment Requirement Execution in External ESG Reporting data model
+# Assessment Requirement Execution in Cloud for Sustainability External ESG Reporting data model
 
 (INTERNAL USE ONLY)  
   

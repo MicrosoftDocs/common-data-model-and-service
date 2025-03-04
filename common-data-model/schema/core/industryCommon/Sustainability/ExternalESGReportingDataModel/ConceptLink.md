@@ -1,5 +1,5 @@
 ---
-title: ConceptLink in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: ConceptLink in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific concept link
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Concept link in External ESG Reporting data model(ConceptLink)
+# Concept link in Cloud for Sustainability External ESG Reporting data model(ConceptLink)
 
 Captures information for a specific concept link  
   

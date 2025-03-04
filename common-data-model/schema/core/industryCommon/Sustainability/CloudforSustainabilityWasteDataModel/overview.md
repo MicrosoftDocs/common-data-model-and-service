@@ -9,9 +9,9 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Overview of CloudforSustainabilityWasteDataModel
+# Overview of Cloud for Sustainability waste data model
 
-Cloud for Sustainability Waste Data Model CDM entity definitions  
+Cloud for Sustainability waste data model CDM entity definitions  
 
 ## Entities
 

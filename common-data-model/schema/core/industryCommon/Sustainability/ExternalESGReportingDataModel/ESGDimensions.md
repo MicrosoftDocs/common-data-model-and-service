@@ -1,6 +1,6 @@
 ---
-title: ESGDimensions in External ESG Reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in ESGDimensions in External ESG Reporting data model.
+title: ESGDimensions in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in ESGDimensions in Cloud for Sustainability External ESG Reporting data model.
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# ESGDimensions in External ESG Reporting data model
+# ESGDimensions in Cloud for Sustainability External ESG Reporting data model
 
 Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ESGDimensions.cdm.json" target="_blank">GitHub</a>.  
 

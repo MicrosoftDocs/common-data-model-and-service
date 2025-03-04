@@ -1,5 +1,5 @@
 ---
-title: AssessmentRequirement in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: AssessmentRequirement in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific assessment requirement
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Assessment Requirement in External ESG Reporting data model
+# Assessment Requirement in Cloud for Sustainability External ESG Reporting data model
 
 Captures information for a specific assessment requirement  
   

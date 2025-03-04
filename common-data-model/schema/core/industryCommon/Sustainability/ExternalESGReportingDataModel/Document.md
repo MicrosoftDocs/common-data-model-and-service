@@ -1,5 +1,5 @@
 ---
-title: Document in External ESG Reporting data model - Common Data Model | Microsoft Docs
+title: Document in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific document
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Document in External ESG Reporting data model
+# Document in Cloud for Sustainability External ESG Reporting data model
 
 Captures information for a specific document  
   

@@ -1,6 +1,6 @@
 ---
-title: OrganizationalProfile in External ESG Reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in External ESG Reporting data model(OrganizationalProfile).
+title: OrganizationalProfile in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in Cloud for Sustainability External ESG Reporting data model(OrganizationalProfile).
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Organizational profile in External ESG Reporting data model(OrganizationalProfile)
+# Organizational profile in Cloud for Sustainability External ESG Reporting data model(OrganizationalProfile)
 
 The base information of the organization, for which the solution is built.  
   

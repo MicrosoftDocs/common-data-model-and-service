@@ -1,6 +1,6 @@
 ---
-title: FlattenedReport in External ESG Reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in External ESG Reporting data model(FlattenedReport).
+title: FlattenedReport in Cloud for Sustainability External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in Cloud for Sustainability External ESG Reporting data model(FlattenedReport).
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Flattened report in External ESG Reporting data model(FlattenedReport)
+# Flattened report in Cloud for Sustainability External ESG Reporting data model(FlattenedReport)
 
 Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/FlattenedReport.cdm.json" target="_blank">GitHub</a>.  
 
