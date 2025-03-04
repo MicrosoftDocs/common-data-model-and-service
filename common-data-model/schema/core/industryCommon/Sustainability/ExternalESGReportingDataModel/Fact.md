@@ -1,5 +1,5 @@
 ---
-title: Fact in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: Fact in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific fact
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Fact in External ESG Reporting Data Model
+# Fact in External ESG Reporting data model
 
 Captures information for a specific fact  
   

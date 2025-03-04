@@ -1,5 +1,5 @@
 ---
-title: overview of External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: overview of External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: ExternalESGReportingDataModel is a folder that contains standard entities related to the Common Data Model.
 author: leeclontz
 ms.service: common-data-model
@@ -9,9 +9,9 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Overview of External ESG Reporting Data Model
+# Overview of External ESG Reporting data model
 
-External ESG Reporting Data Model CDM entity definitions  
+External ESG Reporting data model CDM entity definitions  
 
 ## Entities
 

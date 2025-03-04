@@ -3181,7 +3181,7 @@
             href: industryCommon/Sustainability/CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate.md
           - name: UtilityType
             href: industryCommon/Sustainability/CloudforSustainabilityEnergyDataModel/UtilityType.md
-        - name: External ESG Reporting Data Model
+        - name: External ESG Reporting data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/ExternalESGReportingDataModel/overview.md

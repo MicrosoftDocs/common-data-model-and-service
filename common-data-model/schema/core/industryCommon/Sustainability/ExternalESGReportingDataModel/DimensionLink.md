@@ -1,5 +1,5 @@
 ---
-title: DimensionLink in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: DimensionLink in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Entity that links dimension member with a requirement or a fact
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Dimension link in External ESG Reporting Data Model(DimensionLink)
+# Dimension link in External ESG Reporting data model(DimensionLink)
 
 Entity that links dimension member with a requirement or a fact  
   

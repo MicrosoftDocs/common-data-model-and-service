@@ -1,5 +1,5 @@
 ---
-title: Dimension in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: Dimension in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific dimension
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Dimension in External ESG Reporting Data Model
+# Dimension in External ESG Reporting data model
 
 Captures information for a specific dimension  
   

@@ -1,5 +1,5 @@
 ---
-title: ApprovalPolicy in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: ApprovalPolicy in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific approval policy.
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Approval policy in External ESG Reporting Data Model(ApprovalPolicy)
+# Approval policy in External ESG Reporting data model(ApprovalPolicy)
 
 Captures information for a specific approval policy.  
   

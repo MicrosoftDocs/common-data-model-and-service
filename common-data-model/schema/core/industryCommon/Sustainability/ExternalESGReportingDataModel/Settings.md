@@ -1,5 +1,5 @@
 ---
-title: Settings in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: Settings in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Table that contains form and data for app settings
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Settings in External ESG Reporting Data Model
+# Settings in External ESG Reporting data model
 
 Table that contains form and data for app settings  
   

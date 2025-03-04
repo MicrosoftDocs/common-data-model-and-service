@@ -1,5 +1,5 @@
 ---
-title: General in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: General in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: ESG Reporting settings
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# General in External ESG Reporting Data Model
+# General in External ESG Reporting data model
 
 ESG Reporting settings  
   

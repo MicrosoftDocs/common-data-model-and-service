@@ -21,12 +21,12 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 
 |Name|
 |---|
-|[Cloud for Sustainability Carbon Data Model](CloudforSustainabilityCarbonDataModel/overview.md)|
-|[Cloud for Sustainability Energy Data Model](CloudforSustainabilityEnergyDataModel/overview.md)|
-|[Cloud for Sustainability External ESG Reporting Data Model](ExternalESGReportingDataModel/overview.md)|
-|[Cloud for Sustainability Shared Data Model](CloudforSustainabilitySharedDataModel/overview.md)|
-|[Cloud for Sustainability Waste Data Model](CloudforSustainabilityWasteDataModel/overview.md)|
-|[Cloud for Sustainability Water Data Model](CloudforSustainabilityWaterDataModel/overview.md)|
+|[Cloud for Sustainability carbon data model](CloudforSustainabilityCarbonDataModel/overview.md)|
+|[Cloud for Sustainability eEnergy data model](CloudforSustainabilityEnergyDataModel/overview.md)|
+|[Cloud for Sustainability External ESG Reporting data model](ExternalESGReportingDataModel/overview.md)|
+|[Cloud for Sustainability shared data model](CloudforSustainabilitySharedDataModel/overview.md)|
+|[Cloud for Sustainability waste data model](CloudforSustainabilityWasteDataModel/overview.md)|
+|[Cloud for Sustainability water data model](CloudforSustainabilityWaterDataModel/overview.md)|
 
 
 

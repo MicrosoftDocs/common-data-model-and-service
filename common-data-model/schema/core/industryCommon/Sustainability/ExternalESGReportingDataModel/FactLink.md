@@ -1,5 +1,5 @@
 ---
-title: FactLink in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
+title: FactLink in External ESG Reporting data model - Common Data Model | Microsoft Docs
 description: Captures information for a specific assessment requirement fact
 author: leeclontz
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Fact link in External ESG Reporting Data Model(FactLink)
+# Fact link in External ESG Reporting data model(FactLink)
 
 Captures information for a specific assessment requirement fact  
   

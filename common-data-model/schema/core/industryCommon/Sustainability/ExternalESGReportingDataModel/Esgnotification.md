@@ -1,6 +1,6 @@
 ---
-title: Esgnotification in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in esgnotification in External ESG Reporting Data Model(Esgnotification).
+title: Esgnotification in External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in esgnotification in External ESG Reporting data model(Esgnotification).
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# The esgnotification in External ESG Reporting Data Model(Esgnotification)
+# The esgnotification in External ESG Reporting data model(Esgnotification)
 
 Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/Esgnotification.cdm.json" target="_blank">GitHub</a>.  
 

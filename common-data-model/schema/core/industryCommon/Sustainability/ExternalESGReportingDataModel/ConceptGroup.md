@@ -1,6 +1,6 @@
 ---
-title: ConceptGroup in External ESG Reporting Data Model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in External ESG Reporting Data Model(ConceptGroup).
+title: ConceptGroup in External ESG Reporting data model - Common Data Model | Microsoft Docs
+description: Learn about traits and attributes in External ESG Reporting data model(ConceptGroup).
 author: leeclontz
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 02/28/2025
 ms.author: lsuresh
 ---
 
-# Concept group in External ESG Reporting Data Model(ConceptGroup)
+# Concept group in External ESG Reporting data model(ConceptGroup)
 
 Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptGroup.cdm.json" target="_blank">GitHub</a>.  
 
