@@ -9,9 +9,9 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Overview of CloudforSustainabilitySharedDataModel
+# Overview of Cloud for Sustainability shared data mdel
 
-Cloud for Sustainability Shared Data Model CDM entity definitions  
+Cloud for Sustainability shared data model CDM entity definitions  
 
 ## Entities
 
