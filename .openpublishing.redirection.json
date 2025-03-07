@@ -1576,6 +1576,251 @@
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityWater/overview.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/cloudforsustainabilitywaterdatamodel/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/account",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/address",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Award.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/award",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/AwardVersion.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/awardversion",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/BenefitRecipient.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/benefitrecipient",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Budget.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/budget",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/contact",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlan.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/creditplan",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlanRecipient.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/creditplanrecipient",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/deliveryframework",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignatedCredit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/designatedcredit",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Designation.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/designation",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignationPlan.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/designationplan",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Disbursement.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/disbursement",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DisbursementDistribution.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/disbursementdistribution",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Docket.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/docket",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DonorCommitment.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/donorcommitment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Education.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/education",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/EmploymentHistory.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/employmenthistory",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/indicator",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValue.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/indicatorvalue",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValueUsage.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/indicatorvalueusage",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Membership.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/membership",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/MembershipCategory.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/membershipcategory",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Need.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/need",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Objective.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/objective",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/OfacMatch.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/ofacmatch",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentAsset.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/paymentasset",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentMethod.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/paymentmethod",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentProcessor.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/paymentprocessor",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentSchedule.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/paymentschedule",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/plannedgiving",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Preference.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/preference",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItem.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/programitem",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItemRelationship.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/programitemrelationship",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Recommendation.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/recommendation",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Report.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Request.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/request",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ResourceCatalog.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/resourcecatalog",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Result.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/result",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Review.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/review",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Salutation.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/salutation",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Stakeholder.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/stakeholder",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChange.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/theoryofchange",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChangeRelationship.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/theoryofchangerelationship",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Transaction.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/transaction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItem.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/workitem",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItemAction.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/nonprofit/nonprofitcore/workitemaction",
+      "redirect_document_id": true
     }
     
   ]
