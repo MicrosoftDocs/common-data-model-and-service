@@ -1525,7 +1525,7 @@
             href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.md
           - name: TestType 
             href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
-     - name: Solutions
+    - name: Solutions
       items: 
       - name: Microsoft Cloud for Financial Services
         items:
