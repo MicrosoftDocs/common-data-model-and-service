@@ -15,16 +15,6 @@ Container for campaign activities and responses, sales literature, products, and
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign](accelerators/nonProfit/nonProfitForSales/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign.cdm.json/Campaign")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Campaign](accelerators/nonProfit/nonProfitIati/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Campaign.cdm.json/Campaign")  
-</details>
-
 ## Traits
 
 <details>
