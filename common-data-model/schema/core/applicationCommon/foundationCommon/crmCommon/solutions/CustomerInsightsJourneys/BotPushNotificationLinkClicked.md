@@ -1,16 +1,17 @@
 ---
 title: BotPushNotificationLinkClicked in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
-description: undefined
+description: Logged when a bot clicks a push notification link.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 3/12/2025
+ms.author: cdmditeam
 ---
 
 # BotPushNotificationLinkClicked in CustomerInsightsJourneys
 
+Logged when a bot clicks a push notification link\.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/BotPushNotificationLinkClicked.cdm.json" target="_blank">GitHub</a>.  
 
@@ -22,6 +23,9 @@ ms.author: lsuresh
 
 **is.CDM.entityVersion**  
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Logged when a bot clicks a push notification link.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -52,7 +56,8 @@ ms.author: lsuresh
 |[Platform](#Platform)|The mobile platform used for the sumbission \(iOS or Android\)\.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
+|[PushNotificationId](#PushNotificationId)|Unique identifier of the Push notification entity|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[TargetUrl](#TargetUrl)|Represents the actual URL that a user clicked, including any personalized elements\. It shows the specific webpage or destination the user was directed to after clicking\.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
 |[UserAgent](#UserAgent)|User agent|<a href="BotPushNotificationLinkClicked.md" target="_blank">CustomerInsightsJourneys/BotPushNotificationLinkClicked</a>|
@@ -112,7 +117,7 @@ First included in: CustomerInsightsJourneys/BotPushNotificationLinkClicked \(thi
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../applicationCommon/BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../../applicationCommon/BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../core/applicationCommon/BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Business unit.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -660,9 +665,39 @@ First included in: CustomerInsightsJourneys/BotPushNotificationLinkClicked \(thi
 
 </details>
 
+### <a href=#PushNotificationId name="PushNotificationId">PushNotificationId</a>
+
+Unique identifier of the Push notification entity  
+First included in: CustomerInsightsJourneys/BotPushNotificationLinkClicked \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Unique identifier of the Push notification entity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the PushNotificationId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Push notification entity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/BotPushNotificationLinkClicked \(this entity\)  
 
 #### Properties

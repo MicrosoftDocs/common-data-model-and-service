@@ -1,6 +1,6 @@
 ---
-title: EmailBlockedMissingContactData in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
-description: Triggered when a contact was deleted or there is a missing security access
+title: EventRegistrationCreatedFromWaitlist in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
+description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,11 +9,10 @@ ms.date: 3/12/2025
 ms.author: cdmditeam
 ---
 
-# EmailBlockedMissingContactData in CustomerInsightsJourneys
+# EventRegistrationCreatedFromWaitlist in CustomerInsightsJourneys
 
-Triggered when a contact was deleted or there is a missing security access  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/EmailBlockedMissingContactData.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -24,9 +23,6 @@ Triggered when a contact was deleted or there is a missing security access
 **is.CDM.entityVersion**  
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Triggered when a contact was deleted or there is a missing security access</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
 
@@ -36,44 +32,34 @@ Triggered when a contact was deleted or there is a missing security access
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[AccountId](#AccountId)|Unique identifier of the Account\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[ActivityExpiryTime](#ActivityExpiryTime)|Activity expiry time|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[ActivityId](#ActivityId)|Activity ID|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[ActivityTypeId](#ActivityTypeId)|Activity type ID|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[BlockedReason](#BlockedReason)|Indicates the reason for email block\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[Category](#Category)|Category|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[ContactId](#ContactId)|Unique identifier of the Contact\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[Details](#Details)|Contains additional information regarding the reason of block\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[EmailAddressUsed](#EmailAddressUsed)|The profile's email address\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[IsSmartScheduled](#IsSmartScheduled)||<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[JourneyActionId](#JourneyActionId)|GUID of the journey action step associated with this event\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[JourneyRunId](#JourneyRunId)|Flow run ID of the Power Automate run instance associated with this event\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[MessageId](#MessageId)|Message ID|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[MessageVariationIndexes](#MessageVariationIndexes)||<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[MessageVariationName](#MessageVariationName)||<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[Missingdata](#Missingdata)|Indicates the exact missing data of a contact\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[SchedulerId](#SchedulerId)||<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
+|[AccountId](#AccountId)|Unique identifier of the Account\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[BindingId](#BindingId)||<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[BusinessUnitId](#BusinessUnitId)|Unique identifier of the Business unit\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[ContactId](#ContactId)|Unique identifier of the Contact\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[EventId](#EventId)|Event ID|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[EventRegistrationId](#EventRegistrationId)|Event registration ID|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[IdempotencyId](#IdempotencyId)|Idempotency ID defines uniqueness of an analytics event\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[InteractionType](#InteractionType)|Type of the interaction\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)|Internal marketing interaction Id\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[JourneyActionId](#JourneyActionId)|GUID of the journey action step associated with this event\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[JourneyRunId](#JourneyRunId)|Flow run ID of the Power Automate run instance associated with this event\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[MessageId](#MessageId)|Message ID|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[MessageTemplateVersion](#MessageTemplateVersion)|Message template version|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[OrganizationId](#OrganizationId)|Organization Id\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[SourceEntityId](#SourceEntityId)|Source entity ID|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[SourceEntityName](#SourceEntityName)|Source entity name|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
+|[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="EventRegistrationCreatedFromWaitlist.md" target="_blank">CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist</a>|
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
 Unique identifier of the Account\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -107,44 +93,18 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#ActivityExpiryTime name="ActivityExpiryTime">ActivityExpiryTime</a>
+### <a href=#BindingId name="BindingId">BindingId</a>
 
-Activity expiry time  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Activity expiry time</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the ActivityExpiryTime attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.date\*\*  
-  \*\*means\.measurement\.date\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*means\.measurement\.time\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity expiry time</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.time\*\*  
-  \*\*is\.dataFormat\.date\*\*  
-  </details>
-
-### <a href=#ActivityId name="ActivityId">ActivityId</a>
-
-Activity ID  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Activity ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ActivityId attribute are listed below.</summary>
+<summary>List of traits for the BindingId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -152,76 +112,6 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../core/applicationCommon/Activity.md" target="_blank">/core/applicationCommon/Activity.cdm.json/Activity</a></td><td><a href="../core/applicationCommon/Activity.md#activityId" target="_blank">activityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#ActivityTypeId name="ActivityTypeId">ActivityTypeId</a>
-
-Activity type ID  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Activity type ID</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ActivityTypeId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity type ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
-
-Indicates the reason for email block\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Indicates the reason for email block.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the BlockedReason attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*privacy\.dataCategory\.customerOwned\.content\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the reason for email block.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
@@ -232,7 +122,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 Unique identifier of the Business unit\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -265,40 +155,10 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#Category name="Category">Category</a>
-
-Category  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Category</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Category attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
 Unique identifier of the Contact\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -332,7 +192,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
  Unique identifier of the Customer journey  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -361,19 +221,19 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
+### <a href=#EventId name="EventId">EventId</a>
 
-Customer journey iteration ID  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+Event ID  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Customer journey iteration ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Event ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
+<summary>List of traits for the EventId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -383,12 +243,8 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -397,19 +253,19 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#Details name="Details">Details</a>
+### <a href=#EventRegistrationId name="EventRegistrationId">EventRegistrationId</a>
 
-Contains additional information regarding the reason of block\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+Event registration ID  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Contains additional information regarding the reason of block.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Event registration ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the Details attribute are listed below.</summary>
+<summary>List of traits for the EventRegistrationId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -418,42 +274,12 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*privacy\.dataCategory\.customerOwned\.content\*\*  
+\*\*is\.dataFormat\.guid\*\*  
   \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contains additional information regarding the reason of block.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event registration ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
-
-The profile's email address\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>The profile's email address.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the EmailAddressUsed attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*privacy\.dataCategory\.customerOwned\.content\*\*  
-  \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The profile's email address.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -462,7 +288,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 Idempotency ID defines uniqueness of an analytics event\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -492,7 +318,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 Type of the interaction\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -522,7 +348,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
 Internal marketing interaction Id\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -549,26 +375,9 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
-
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>boolean</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the IsSmartScheduled attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.boolean\*\*  
-  \*\*is\.dataFormat\.boolean\*\*  
-  </details>
-
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -586,7 +395,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 GUID of the journey action step associated with this event\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -616,7 +425,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 Flow run ID of the Power Automate run instance associated with this event\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -646,7 +455,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
 Message ID  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -678,7 +487,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#MessageTemplateVersion name="MessageTemplateVersion">MessageTemplateVersion</a>
 
 Message template version  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -705,92 +514,10 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
-
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
-
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#Missingdata name="Missingdata">Missingdata</a>
-
-Indicates the exact missing data of a contact\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Indicates the exact missing data of a contact.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Missingdata attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the exact missing data of a contact.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
 Organization Id\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -822,7 +549,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
 Unique identifier of the profile\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -853,7 +580,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
 The profile type \(Contact, Lead or CI Profile\)  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -880,18 +607,19 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 </details>
 
-### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
+### <a href=#SourceEntityId name="SourceEntityId">SourceEntityId</a>
 
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+Source entity ID  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Source entity ID</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the SchedulerId attribute are listed below.</summary>
+<summary>List of traits for the SourceEntityId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -901,26 +629,29 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Source entity ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#SendingId name="SendingId">SendingId</a>
+### <a href=#SourceEntityName name="SourceEntityName">SourceEntityName</a>
 
-Indicates the journey iteration ID\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+Source entity name  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Indicates the journey iteration ID.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Source entity name</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the SendingId attribute are listed below.</summary>
+<summary>List of traits for the SourceEntityName attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -930,7 +661,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the journey iteration ID.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Source entity name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
@@ -940,8 +671,8 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -966,7 +697,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
 Indicates the exact date and time when the interaction was emitted\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
@@ -988,40 +719,10 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
   \*\*is\.dataFormat\.date\*\*  
   </details>
 
-### <a href=#UsageType name="UsageType">UsageType</a>
-
-Indicates if it's a test send, journey or trigger based\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>description</td><td>Indicates if it's a test send, journey or trigger based.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the UsageType attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates if it's a test send, journey or trigger based.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#Version name="Version">Version</a>
 
 Interaction version\. Used for updating the interaction\.  
-First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
+First included in: CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist \(this entity\)  
 
 #### Properties
 
