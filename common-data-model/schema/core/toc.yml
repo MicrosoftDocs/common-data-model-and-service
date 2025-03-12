@@ -2672,109 +2672,109 @@
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
       - name: Microsoft Cloud for Nonprofit
+        items:
+        - name: Summary
+          href: industryCommon/Nonprofit/overview.md
+        - name: nonProfitCore
           items:
           - name: Summary
-            href: industryCommon/Nonprofit/overview.md
-          - name: nonProfitCore
-            items:
-            - name: Summary
-              href: industryCommon/Nonprofit/nonProfitCore/overview.md
-            - name: Account 
-              href: industryCommon/Nonprofit/nonProfitCore/Account.md
-            - name: Address 
-              href: industryCommon/Nonprofit/nonProfitCore/Address.md
-            - name: Award 
-              href: industryCommon/Nonprofit/nonProfitCore/Award.md
-            - name: AwardVersion 
-              href: industryCommon/Nonprofit/nonProfitCore/AwardVersion.md
-            - name: BenefitRecipient 
-              href: industryCommon/Nonprofit/nonProfitCore/BenefitRecipient.md
-            - name: Budget 
-              href: industryCommon/Nonprofit/nonProfitCore/Budget.md
-            - name: Contact 
-              href: industryCommon/Nonprofit/nonProfitCore/Contact.md
-            - name: CreditPlan 
-              href: industryCommon/Nonprofit/nonProfitCore/CreditPlan.md
-            - name: CreditPlanRecipient 
-              href: industryCommon/Nonprofit/nonProfitCore/CreditPlanRecipient.md
-            - name: DeliveryFramework 
-              href: industryCommon/Nonprofit/nonProfitCore/DeliveryFramework.md
-            - name: DesignatedCredit 
-              href: industryCommon/Nonprofit/nonProfitCore/DesignatedCredit.md
-            - name: Designation 
-              href: industryCommon/Nonprofit/nonProfitCore/Designation.md
-            - name: DesignationPlan 
-              href: industryCommon/Nonprofit/nonProfitCore/DesignationPlan.md
-            - name: Disbursement 
-              href: industryCommon/Nonprofit/nonProfitCore/Disbursement.md
-            - name: DisbursementDistribution 
-              href: industryCommon/Nonprofit/nonProfitCore/DisbursementDistribution.md
-            - name: Docket 
-              href: industryCommon/Nonprofit/nonProfitCore/Docket.md
-            - name: DonorCommitment 
-              href: industryCommon/Nonprofit/nonProfitCore/DonorCommitment.md
-            - name: Education 
-              href: industryCommon/Nonprofit/nonProfitCore/Education.md
-            - name: EmploymentHistory 
-              href: industryCommon/Nonprofit/nonProfitCore/EmploymentHistory.md
-            - name: Indicator 
-              href: industryCommon/Nonprofit/nonProfitCore/Indicator.md
-            - name: IndicatorValue 
-              href: industryCommon/Nonprofit/nonProfitCore/IndicatorValue.md
-            - name: IndicatorValueUsage 
-              href: industryCommon/Nonprofit/nonProfitCore/IndicatorValueUsage.md
-            - name: Membership 
-              href: industryCommon/Nonprofit/nonProfitCore/Membership.md
-            - name: MembershipCategory 
-              href: industryCommon/Nonprofit/nonProfitCore/MembershipCategory.md
-            - name: Need 
-              href: industryCommon/Nonprofit/nonProfitCore/Need.md
-            - name: Objective 
-              href: industryCommon/Nonprofit/nonProfitCore/Objective.md
-            - name: OfacMatch 
-              href: industryCommon/Nonprofit/nonProfitCore/OfacMatch.md
-            - name: PaymentAsset 
-              href: industryCommon/Nonprofit/nonProfitCore/PaymentAsset.md
-            - name: PaymentMethod 
-              href: industryCommon/Nonprofit/nonProfitCore/PaymentMethod.md
-            - name: PaymentProcessor 
-              href: industryCommon/Nonprofit/nonProfitCore/PaymentProcessor.md
-            - name: PaymentSchedule 
-              href: industryCommon/Nonprofit/nonProfitCore/PaymentSchedule.md
-            - name: PlannedGiving 
-              href: industryCommon/Nonprofit/nonProfitCore/PlannedGiving.md
-            - name: Preference 
-              href: industryCommon/Nonprofit/nonProfitCore/Preference.md
-            - name: ProgramItem 
-              href: industryCommon/Nonprofit/nonProfitCore/ProgramItem.md
-            - name: ProgramItemRelationship 
-              href: industryCommon/Nonprofit/nonProfitCore/ProgramItemRelationship.md
-            - name: Recommendation 
-              href: industryCommon/Nonprofit/nonProfitCore/Recommendation.md
-            - name: Report 
-              href: industryCommon/Nonprofit/nonProfitCore/Report.md
-            - name: Request 
-              href: industryCommon/Nonprofit/nonProfitCore/Request.md
-            - name: ResourceCatalog 
-              href: industryCommon/Nonprofit/nonProfitCore/ResourceCatalog.md
-            - name: Result 
-              href: industryCommon/Nonprofit/nonProfitCore/Result.md
-            - name: Review 
-              href: industryCommon/Nonprofit/nonProfitCore/Review.md
-            - name: Salutation 
-              href: industryCommon/Nonprofit/nonProfitCore/Salutation.md
-            - name: Stakeholder 
-              href: industryCommon/Nonprofit/nonProfitCore/Stakeholder.md
-            - name: TheoryOfChange 
-              href: industryCommon/Nonprofit/nonProfitCore/TheoryOfChange.md
-            - name: TheoryOfChangeRelationship 
-              href: industryCommon/Nonprofit/nonProfitCore/TheoryOfChangeRelationship.md
-            - name: Transaction 
-              href: industryCommon/Nonprofit/nonProfitCore/Transaction.md
-            - name: WorkItem 
-              href: industryCommon/Nonprofit/nonProfitCore/WorkItem.md
-            - name: WorkItemAction 
-              href: industryCommon/Nonprofit/nonProfitCore/WorkItemAction.md
+            href: industryCommon/Nonprofit/nonProfitCore/overview.md
+          - name: Account 
+            href: industryCommon/Nonprofit/nonProfitCore/Account.md
+          - name: Address 
+            href: industryCommon/Nonprofit/nonProfitCore/Address.md
+          - name: Award 
+            href: industryCommon/Nonprofit/nonProfitCore/Award.md
+          - name: AwardVersion 
+            href: industryCommon/Nonprofit/nonProfitCore/AwardVersion.md
+          - name: BenefitRecipient 
+            href: industryCommon/Nonprofit/nonProfitCore/BenefitRecipient.md
+          - name: Budget 
+            href: industryCommon/Nonprofit/nonProfitCore/Budget.md
+          - name: Contact 
+            href: industryCommon/Nonprofit/nonProfitCore/Contact.md
+          - name: CreditPlan 
+            href: industryCommon/Nonprofit/nonProfitCore/CreditPlan.md
+          - name: CreditPlanRecipient 
+            href: industryCommon/Nonprofit/nonProfitCore/CreditPlanRecipient.md
+          - name: DeliveryFramework 
+            href: industryCommon/Nonprofit/nonProfitCore/DeliveryFramework.md
+          - name: DesignatedCredit 
+            href: industryCommon/Nonprofit/nonProfitCore/DesignatedCredit.md
+          - name: Designation 
+            href: industryCommon/Nonprofit/nonProfitCore/Designation.md
+          - name: DesignationPlan 
+            href: industryCommon/Nonprofit/nonProfitCore/DesignationPlan.md
+          - name: Disbursement 
+            href: industryCommon/Nonprofit/nonProfitCore/Disbursement.md
+          - name: DisbursementDistribution 
+            href: industryCommon/Nonprofit/nonProfitCore/DisbursementDistribution.md
+          - name: Docket 
+            href: industryCommon/Nonprofit/nonProfitCore/Docket.md
+          - name: DonorCommitment 
+            href: industryCommon/Nonprofit/nonProfitCore/DonorCommitment.md
+          - name: Education 
+            href: industryCommon/Nonprofit/nonProfitCore/Education.md
+          - name: EmploymentHistory 
+            href: industryCommon/Nonprofit/nonProfitCore/EmploymentHistory.md
+          - name: Indicator 
+            href: industryCommon/Nonprofit/nonProfitCore/Indicator.md
+          - name: IndicatorValue 
+            href: industryCommon/Nonprofit/nonProfitCore/IndicatorValue.md
+          - name: IndicatorValueUsage 
+            href: industryCommon/Nonprofit/nonProfitCore/IndicatorValueUsage.md
+          - name: Membership 
+            href: industryCommon/Nonprofit/nonProfitCore/Membership.md
+          - name: MembershipCategory 
+            href: industryCommon/Nonprofit/nonProfitCore/MembershipCategory.md
+          - name: Need 
+            href: industryCommon/Nonprofit/nonProfitCore/Need.md
+          - name: Objective 
+            href: industryCommon/Nonprofit/nonProfitCore/Objective.md
+          - name: OfacMatch 
+            href: industryCommon/Nonprofit/nonProfitCore/OfacMatch.md
+          - name: PaymentAsset 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentAsset.md
+          - name: PaymentMethod 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentMethod.md
+          - name: PaymentProcessor 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentProcessor.md
+          - name: PaymentSchedule 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentSchedule.md
+          - name: PlannedGiving 
+            href: industryCommon/Nonprofit/nonProfitCore/PlannedGiving.md
+          - name: Preference 
+            href: industryCommon/Nonprofit/nonProfitCore/Preference.md
+          - name: ProgramItem 
+            href: industryCommon/Nonprofit/nonProfitCore/ProgramItem.md
+          - name: ProgramItemRelationship 
+            href: industryCommon/Nonprofit/nonProfitCore/ProgramItemRelationship.md
+          - name: Recommendation 
+            href: industryCommon/Nonprofit/nonProfitCore/Recommendation.md
+          - name: Report 
+            href: industryCommon/Nonprofit/nonProfitCore/Report.md
+          - name: Request 
+            href: industryCommon/Nonprofit/nonProfitCore/Request.md
+          - name: ResourceCatalog 
+            href: industryCommon/Nonprofit/nonProfitCore/ResourceCatalog.md
+          - name: Result 
+            href: industryCommon/Nonprofit/nonProfitCore/Result.md
+          - name: Review 
+            href: industryCommon/Nonprofit/nonProfitCore/Review.md
+          - name: Salutation 
+            href: industryCommon/Nonprofit/nonProfitCore/Salutation.md
+          - name: Stakeholder 
+            href: industryCommon/Nonprofit/nonProfitCore/Stakeholder.md
+          - name: TheoryOfChange 
+            href: industryCommon/Nonprofit/nonProfitCore/TheoryOfChange.md
+          - name: TheoryOfChangeRelationship 
+            href: industryCommon/Nonprofit/nonProfitCore/TheoryOfChangeRelationship.md
+          - name: Transaction 
+            href: industryCommon/Nonprofit/nonProfitCore/Transaction.md
+          - name: WorkItem 
+            href: industryCommon/Nonprofit/nonProfitCore/WorkItem.md
+          - name: WorkItemAction 
+            href: industryCommon/Nonprofit/nonProfitCore/WorkItemAction.md
       - name: Microsoft Cloud for Retail
         items:
         - name: Summary
