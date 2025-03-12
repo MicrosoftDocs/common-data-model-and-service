@@ -15,15 +15,6 @@ The assessment of a Request made by an internal staff member (or team) or an ext
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Review.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Review](../nonProfitForSales/Review.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Review.cdm.json/Review")  
-</details>
-
 ## Traits
 
 <details>

@@ -15,15 +15,6 @@ Donor commitments represent the actual or prospective agreement between a donor 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DonorCommitment.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DonorCommitment](../nonProfitForSales/DonorCommitment.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DonorCommitment.cdm.json/DonorCommitment")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DonorCommitment](../nonProfitIati/DonorCommitment.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DonorCommitment.cdm.json/DonorCommitment")  
-</details>
 
 ## Traits
 

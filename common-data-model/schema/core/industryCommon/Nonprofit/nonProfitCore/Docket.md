@@ -15,15 +15,6 @@ A Docket is used to group inquiries (LOIs) and/or requests with a specific grant
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Docket.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Docket](../nonProfitIati/Docket.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Docket.cdm.json/Docket")  
-</details>
-
 ## Traits
 
 <details>

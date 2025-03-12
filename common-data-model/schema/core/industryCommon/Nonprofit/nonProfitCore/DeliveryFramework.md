@@ -15,16 +15,6 @@ Delivery Framework represents a management unit of work defined by the organizat
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework](../nonProfitMeasurement/DeliveryFramework.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework.cdm.json/DeliveryFramework")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework](../nonProfitIati/DeliveryFramework.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework.cdm.json/DeliveryFramework")  
-</details>
-
 ## Traits
 
 <details>

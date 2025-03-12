@@ -15,14 +15,6 @@ Payment Method is a placeholder entity for customizations that may be supported 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentMethod.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentMethod](../nonProfitIati/PaymentMethod.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentMethod.cdm.json/PaymentMethod")  
-</details>
 
 ## Traits
 

@@ -15,14 +15,6 @@ A gift transaction can be a one-time payment or a recurring payment (ie, monthly
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentSchedule.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentSchedule](../nonProfitIati/PaymentSchedule.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentSchedule.cdm.json/PaymentSchedule")  
-</details>
 
 ## Traits
 

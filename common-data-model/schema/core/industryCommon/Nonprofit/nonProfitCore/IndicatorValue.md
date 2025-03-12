@@ -15,15 +15,6 @@ An Indicator Value is a quantitative or qualitative value of measurement of an I
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValue.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValue](../nonProfitIati/IndicatorValue.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValue.cdm.json/IndicatorValue")  
-</details>
-
 ## Traits
 
 <details>

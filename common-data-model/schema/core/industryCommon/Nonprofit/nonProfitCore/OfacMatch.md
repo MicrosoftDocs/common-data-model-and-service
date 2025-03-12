@@ -15,15 +15,6 @@ OFAC Match is a placeholder entity for tracking Office of Foreign Assets Control
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/OfacMatch.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/OfacMatch](../nonProfitForSales/OfacMatch.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/OfacMatch.cdm.json/OfacMatch")  
-</details>
-
 ## Traits
 
 <details>

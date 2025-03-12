@@ -15,16 +15,6 @@ A Result is a container that represents the changes in the context in which an o
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Result.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Result](../nonProfitMeasurement/Result.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Result.cdm.json/Result")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Result](../nonProfitIati/Result.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Result.cdm.json/Result")  
-</details>
-
 ## Traits
 
 <details>

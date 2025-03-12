@@ -1525,281 +1525,7 @@
             href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.md
           - name: TestType 
             href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
-      - name: nonProfit
-        items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/overview.md
-        - name: nonProfitCore
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/overview.md
-          - name: Account 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.md
-          - name: Address 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.md
-          - name: Award 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Award.md
-          - name: AwardVersion 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/AwardVersion.md
-          - name: BenefitRecipient 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/BenefitRecipient.md
-          - name: Budget 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Budget.md
-          - name: Contact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.md
-          - name: CreditPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlan.md
-          - name: CreditPlanRecipient 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlanRecipient.md
-          - name: DeliveryFramework 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework.md
-          - name: DesignatedCredit 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignatedCredit.md
-          - name: Designation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Designation.md
-          - name: DesignationPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignationPlan.md
-          - name: Disbursement 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Disbursement.md
-          - name: DisbursementDistribution 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DisbursementDistribution.md
-          - name: Docket 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Docket.md
-          - name: DonorCommitment 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DonorCommitment.md
-          - name: Education 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Education.md
-          - name: EmploymentHistory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/EmploymentHistory.md
-          - name: Indicator 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator.md
-          - name: IndicatorValue 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValue.md
-          - name: IndicatorValueUsage 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValueUsage.md
-          - name: Membership 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Membership.md
-          - name: MembershipCategory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/MembershipCategory.md
-          - name: Need 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Need.md
-          - name: Objective 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Objective.md
-          - name: OfacMatch 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/OfacMatch.md
-          - name: PaymentAsset 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentAsset.md
-          - name: PaymentMethod 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentMethod.md
-          - name: PaymentProcessor 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentProcessor.md
-          - name: PaymentSchedule 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentSchedule.md
-          - name: PlannedGiving 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.md
-          - name: Preference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Preference.md
-          - name: ProgramItem 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItem.md
-          - name: ProgramItemRelationship 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItemRelationship.md
-          - name: Recommendation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Recommendation.md
-          - name: Report 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Report.md
-          - name: Request 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Request.md
-          - name: ResourceCatalog 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ResourceCatalog.md
-          - name: Result 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Result.md
-          - name: Review 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Review.md
-          - name: Salutation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Salutation.md
-          - name: Stakeholder 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Stakeholder.md
-          - name: TheoryOfChange 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChange.md
-          - name: TheoryOfChangeRelationship 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChangeRelationship.md
-          - name: Transaction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Transaction.md
-          - name: WorkItem 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItem.md
-          - name: WorkItemAction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItemAction.md
-        - name: nonProfitForSales
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/overview.md
-          - name: Campaign 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign.md
-          - name: CreditPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/CreditPlan.md
-          - name: DesignationPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DesignationPlan.md
-          - name: DonorCommitment 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DonorCommitment.md
-          - name: Lead 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead.md
-          - name: OfacMatch 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/OfacMatch.md
-          - name: Opportunity 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity.md
-          - name: PlannedGiving 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving.md
-          - name: Preference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Preference.md
-          - name: Recommendation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Recommendation.md
-          - name: Report 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Report.md
-          - name: Request 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Request.md
-          - name: Review 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Review.md
-          - name: Transaction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Transaction.md
-        - name: nonProfitIati
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/overview.md
-          - name: Account 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.md
-          - name: AidType 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/AidType.md
-          - name: Award 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Award.md
-          - name: Budget 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Budget.md
-          - name: Campaign 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Campaign.md
-          - name: Condition 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Condition.md
-          - name: Contact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Contact.md
-          - name: CrsOtherFlag 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/CrsOtherFlag.md
-          - name: DeliveryFramework 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework.md
-          - name: DeliveryFrameworkContact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFrameworkContact.md
-          - name: DeliveryFrameworkDescription 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFrameworkDescription.md
-          - name: Designation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Designation.md
-          - name: DesignationPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DesignationPlan.md
-          - name: Dimension 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Dimension.md
-          - name: Disbursement 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Disbursement.md
-          - name: DisbursementDistribution 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DisbursementDistribution.md
-          - name: Docket 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Docket.md
-          - name: DocumentCategory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentCategory.md
-          - name: DocumentCountry 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentCountry.md
-          - name: DocumentLanguage 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentLanguage.md
-          - name: DocumentLink 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentLink.md
-          - name: DonorCommitment 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DonorCommitment.md
-          - name: Expenditure 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Expenditure.md
-          - name: FssForecast 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/FssForecast.md
-          - name: HumanitarianScope 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/HumanitarianScope.md
-          - name: IatiFileGeneration 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IatiFileGeneration.md
-          - name: Identifier 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Identifier.md
-          - name: Indicator 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Indicator.md
-          - name: IndicatorReference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorReference.md
-          - name: IndicatorValue 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValue.md
-          - name: IndicatorValueLocation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValueLocation.md
-          - name: Location 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Location.md
-          - name: Membership 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Membership.md
-          - name: MembershipCategory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/MembershipCategory.md
-          - name: NarrativeTranslation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NarrativeTranslation.md
-          - name: NonEmbeddedCodelist 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelist.md
-          - name: NonEmbeddedCodelistVocabulary 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelistVocabulary.md
-          - name: Objective 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Objective.md
-          - name: Opportunity 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity.md
-          - name: ParticipatingOrganization 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/ParticipatingOrganization.md
-          - name: PaymentMethod 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentMethod.md
-          - name: PaymentSchedule 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentSchedule.md
-          - name: PlannedGiving 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving.md
-          - name: PolicyMarker 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PolicyMarker.md
-          - name: RecipientCountry 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/RecipientCountry.md
-          - name: RecipientRegion 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/RecipientRegion.md
-          - name: Request 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Request.md
-          - name: Result 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Result.md
-          - name: ResultReference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/ResultReference.md
-          - name: Sector 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Sector.md
-          - name: Tag 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Tag.md
-          - name: Transaction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Transaction.md
-          - name: Website 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Website.md
-        - name: nonProfitMeasurement
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/overview.md
-          - name: DeliveryFramework 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework.md
-          - name: Indicator 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Indicator.md
-          - name: MeasurementItem 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItem.md
-          - name: MeasurementItemRelationship 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItemRelationship.md
-          - name: MeasurementItemUsage 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItemUsage.md
-          - name: Result 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Result.md
-        - name: nonProfitVolunteers
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/overview.md
-          - name: Account 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Account.md
-          - name: Contact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Contact.md
-          - name: Project 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Project.md
-          - name: Schedule 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Schedule.md
-    - name: Solutions
+     - name: Solutions
       items: 
       - name: Microsoft Cloud for Financial Services
         items:
@@ -2945,6 +2671,110 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
+      - name: Microsoft Cloud for Nonprofit
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/overview.md
+          - name: nonProfitCore
+            items:
+            - name: Summary
+              href: industryCommon/nonProfit/nonProfitCore/overview.md
+            - name: Account 
+              href: industryCommon/nonProfit/nonProfitCore/Account.md
+            - name: Address 
+              href: industryCommon/nonProfit/nonProfitCore/Address.md
+            - name: Award 
+              href: industryCommon/nonProfit/nonProfitCore/Award.md
+            - name: AwardVersion 
+              href: industryCommon/nonProfit/nonProfitCore/AwardVersion.md
+            - name: BenefitRecipient 
+              href: industryCommon/nonProfit/nonProfitCore/BenefitRecipient.md
+            - name: Budget 
+              href: industryCommon/nonProfit/nonProfitCore/Budget.md
+            - name: Contact 
+              href: industryCommon/nonProfit/nonProfitCore/Contact.md
+            - name: CreditPlan 
+              href: industryCommon/nonProfit/nonProfitCore/CreditPlan.md
+            - name: CreditPlanRecipient 
+              href: industryCommon/nonProfit/nonProfitCore/CreditPlanRecipient.md
+            - name: DeliveryFramework 
+              href: industryCommon/nonProfit/nonProfitCore/DeliveryFramework.md
+            - name: DesignatedCredit 
+              href: industryCommon/nonProfit/nonProfitCore/DesignatedCredit.md
+            - name: Designation 
+              href: industryCommon/nonProfit/nonProfitCore/Designation.md
+            - name: DesignationPlan 
+              href: industryCommon/nonProfit/nonProfitCore/DesignationPlan.md
+            - name: Disbursement 
+              href: industryCommon/nonProfit/nonProfitCore/Disbursement.md
+            - name: DisbursementDistribution 
+              href: industryCommon/nonProfit/nonProfitCore/DisbursementDistribution.md
+            - name: Docket 
+              href: industryCommon/nonProfit/nonProfitCore/Docket.md
+            - name: DonorCommitment 
+              href: industryCommon/nonProfit/nonProfitCore/DonorCommitment.md
+            - name: Education 
+              href: industryCommon/nonProfit/nonProfitCore/Education.md
+            - name: EmploymentHistory 
+              href: industryCommon/nonProfit/nonProfitCore/EmploymentHistory.md
+            - name: Indicator 
+              href: industryCommon/nonProfit/nonProfitCore/Indicator.md
+            - name: IndicatorValue 
+              href: industryCommon/nonProfit/nonProfitCore/IndicatorValue.md
+            - name: IndicatorValueUsage 
+              href: industryCommon/nonProfit/nonProfitCore/IndicatorValueUsage.md
+            - name: Membership 
+              href: industryCommon/nonProfit/nonProfitCore/Membership.md
+            - name: MembershipCategory 
+              href: industryCommon/nonProfit/nonProfitCore/MembershipCategory.md
+            - name: Need 
+              href: industryCommon/nonProfit/nonProfitCore/Need.md
+            - name: Objective 
+              href: industryCommon/nonProfit/nonProfitCore/Objective.md
+            - name: OfacMatch 
+              href: industryCommon/nonProfit/nonProfitCore/OfacMatch.md
+            - name: PaymentAsset 
+              href: industryCommon/nonProfit/nonProfitCore/PaymentAsset.md
+            - name: PaymentMethod 
+              href: industryCommon/nonProfit/nonProfitCore/PaymentMethod.md
+            - name: PaymentProcessor 
+              href: industryCommon/nonProfit/nonProfitCore/PaymentProcessor.md
+            - name: PaymentSchedule 
+              href: industryCommon/nonProfit/nonProfitCore/PaymentSchedule.md
+            - name: PlannedGiving 
+              href: industryCommon/nonProfit/nonProfitCore/PlannedGiving.md
+            - name: Preference 
+              href: industryCommon/nonProfit/nonProfitCore/Preference.md
+            - name: ProgramItem 
+              href: industryCommon/nonProfit/nonProfitCore/ProgramItem.md
+            - name: ProgramItemRelationship 
+              href: industryCommon/nonProfit/nonProfitCore/ProgramItemRelationship.md
+            - name: Recommendation 
+              href: industryCommon/nonProfit/nonProfitCore/Recommendation.md
+            - name: Report 
+              href: industryCommon/nonProfit/nonProfitCore/Report.md
+            - name: Request 
+              href: industryCommon/nonProfit/nonProfitCore/Request.md
+            - name: ResourceCatalog 
+              href: industryCommon/nonProfit/nonProfitCore/ResourceCatalog.md
+            - name: Result 
+              href: industryCommon/nonProfit/nonProfitCore/Result.md
+            - name: Review 
+              href: industryCommon/nonProfit/nonProfitCore/Review.md
+            - name: Salutation 
+              href: industryCommon/nonProfit/nonProfitCore/Salutation.md
+            - name: Stakeholder 
+              href: industryCommon/nonProfit/nonProfitCore/Stakeholder.md
+            - name: TheoryOfChange 
+              href: industryCommon/nonProfit/nonProfitCore/TheoryOfChange.md
+            - name: TheoryOfChangeRelationship 
+              href: industryCommon/nonProfit/nonProfitCore/TheoryOfChangeRelationship.md
+            - name: Transaction 
+              href: industryCommon/nonProfit/nonProfitCore/Transaction.md
+            - name: WorkItem 
+              href: industryCommon/nonProfit/nonProfitCore/WorkItem.md
+            - name: WorkItemAction 
+              href: industryCommon/nonProfit/nonProfitCore/WorkItemAction.md
       - name: Microsoft Cloud for Retail
         items:
         - name: Summary

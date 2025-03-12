@@ -15,16 +15,6 @@ Requests represent a request from an individual or institution for funding or su
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Request.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Request](../nonProfitForSales/Request.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Request.cdm.json/Request")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Request](../nonProfitIati/Request.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Request.cdm.json/Request")  
-</details>
-
 ## Traits
 
 <details>

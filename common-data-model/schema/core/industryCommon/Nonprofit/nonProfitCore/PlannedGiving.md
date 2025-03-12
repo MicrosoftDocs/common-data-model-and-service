@@ -15,16 +15,6 @@ A planned gift is a gift made during a donor's lifetime or at the time of their 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving](../nonProfitForSales/PlannedGiving.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving.cdm.json/PlannedGiving")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving](../nonProfitIati/PlannedGiving.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving.cdm.json/PlannedGiving")  
-</details>
-
 ## Traits
 
 <details>

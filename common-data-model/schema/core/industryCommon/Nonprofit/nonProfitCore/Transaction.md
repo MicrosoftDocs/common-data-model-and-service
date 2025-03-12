@@ -15,16 +15,6 @@ Transactions (also referred to as donations) represent payments from a constitue
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Transaction.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Transaction](../nonProfitForSales/Transaction.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Transaction.cdm.json/Transaction")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Transaction](../nonProfitIati/Transaction.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Transaction.cdm.json/Transaction")  
-</details>
-
 ## Traits
 
 <details>
