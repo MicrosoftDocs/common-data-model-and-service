@@ -1,6 +1,6 @@
 ---
 title: overview of nonProfitCore - Common Data Model | Microsoft Docs
-description: nonProfitCore is a folder that contains standard entities related to the Common Data Model.
+description: nonProfitCore contains standard entities related to the Common Data Model.
 author: llawwaii
 
 ms.reviewer: mirao
@@ -11,7 +11,7 @@ ms.author: leeclontz
 
 # Overview of nonProfitCore
 
-CDM standard entities for 'nonProfitCore'  
+This section provides information about the Common Data Model for Nonprofits entities. The Common Data Model for Nonprofits enables nonprofit and development organizations to gain cross-organization, cross-solution insights from their data using a collection of commonly used entities and attributes across constituent management, fundraising, awards, program delivery, and impact tracking. Based on the Common Data Model for Nonprofits, Microsoft Cloud for Nonprofit offers a comprehensive set of solutions for the nonprofit industry that brings together capabilities of Microsoft Dynamics 365, Power Platform, Microsoft 365, and Microsoft Azure.
 
 ## Entities
 
