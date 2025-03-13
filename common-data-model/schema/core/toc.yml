@@ -1263,7 +1263,7 @@
 - name: industryCommon 
   items:
     - name: Summary
-    href: industryCommon/overview.md
+      href: industryCommon/overview.md
     - name: Accelerators
       items:
       - name: Summary
