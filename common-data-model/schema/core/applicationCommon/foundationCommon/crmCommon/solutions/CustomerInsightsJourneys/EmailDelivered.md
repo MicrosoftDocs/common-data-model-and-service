@@ -3,10 +3,10 @@ title: EmailDelivered in CustomerInsightsJourneys - Common Data Model | Microsof
 description: Indicates that an email was successfully delivered.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: article
+ms.reviewer: leeclontz
+ms.topic: reference
 ms.date: 3/12/2025
-ms.author: cdmditeam
+ms.author: lsuresh
 ---
 
 # EmailDelivered in CustomerInsightsJourneys

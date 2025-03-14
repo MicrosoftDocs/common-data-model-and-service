@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -46,7 +46,7 @@ ms.author: lsuresh
 |[OrganizationId](#OrganizationId)|Organization Id\.|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="CustomerJourneyIterationStarted.md" target="_blank">CustomerInsightsJourneys/CustomerJourneyIterationStarted</a>|
 
@@ -274,7 +274,7 @@ First included in: CustomerInsightsJourneys/CustomerJourneyIterationStarted \(th
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../marketing/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../marketing/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -508,7 +508,7 @@ First included in: CustomerInsightsJourneys/CustomerJourneyIterationStarted \(th
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/CustomerJourneyIterationStarted \(this entity\)  
 
 #### Properties
