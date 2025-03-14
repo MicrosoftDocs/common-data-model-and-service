@@ -1,16 +1,17 @@
 ---
 title: FormVisited in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
-description: undefined
+description: Generated when a contact or lead visits a tracked form page.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
 # FormVisited in CustomerInsightsJourneys
 
+Generated when a contact or lead visits a tracked form page\.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/FormVisited.cdm.json" target="_blank">GitHub</a>.  
 
@@ -22,6 +23,9 @@ ms.author: lsuresh
 
 **is.CDM.entityVersion**  
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Generated when a contact or lead visits a tracked form page.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -73,7 +77,7 @@ ms.author: lsuresh
 |[SessionId](#SessionId)|Session ID|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
 |[SourceEntityId](#SourceEntityId)|Source entity ID|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
 |[SourceEntityName](#SourceEntityName)|Source entity name|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
 |[State](#State)|State|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
 |[UsageType](#UsageType)|Usage type|<a href="FormVisited.md" target="_blank">CustomerInsightsJourneys/FormVisited</a>|
@@ -1336,7 +1340,7 @@ First included in: CustomerInsightsJourneys/FormVisited \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/FormVisited \(this entity\)  
 
 #### Properties
