@@ -46,7 +46,7 @@ ms.author: lsuresh
 |[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
 |[SelectedActionVersion](#SelectedActionVersion)|Selected action version|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="ExperimentationDistribution.md" target="_blank">CustomerInsightsJourneys/ExperimentationDistribution</a>|
 
@@ -472,7 +472,7 @@ First included in: CustomerInsightsJourneys/ExperimentationDistribution \(this e
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/ExperimentationDistribution \(this entity\)  
 
 #### Properties

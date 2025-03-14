@@ -104,13 +104,13 @@ ms.author: lsuresh
 |[FormsProSurveyOpened](FormsProSurveyOpened.md)||
 |[FormsProSurveyQuestionAnswered](FormsProSurveyQuestionAnswered.md)||
 |[FormsProSurveySubmitted](FormsProSurveySubmitted.md)||
-|[FormSubmissionConfirmed](FormSubmissionConfirmed.md)|Generated when the double opt\x2din is confirmed\.|
-|[FormSubmissionExpired](FormSubmissionExpired.md)|Generated when the double opt\x2din expires after 28 days since the form submission\.|
+|[FormSubmissionConfirmed](FormSubmissionConfirmed.md)|Generated when the double opt-in is confirmed\.|
+|[FormSubmissionExpired](FormSubmissionExpired.md)|Generated when the double opt-in expires after 28 days since the form submission\.|
 |[FormSubmitted](FormSubmitted.md)|Generated when a marketing or event registration form is submitted\.|
 |[FormVisited](FormVisited.md)|Generated when a contact or lead visits a tracked form page\.|
 |[GoalEvent](GoalEvent.md)|Logged when a customer meets the goal for the journey|
 |[InvalidRecipientAddress](InvalidRecipientAddress.md)|Logged when an email is blocked due to invalid recipient address\.|
-|[InvalidReplyToAddress](InvalidReplyToAddress.md)|Logged when an email is blocked due to invalid Reply\x2dTo address\.|
+|[InvalidReplyToAddress](InvalidReplyToAddress.md)|Logged when an email is blocked due to invalid Reply-To address\.|
 |[InvalidSenderAddress](InvalidSenderAddress.md)|Logged when an email is blocked due to invalid sender address\.|
 |[JourneyEventCancelledByActionFailure](JourneyEventCancelledByActionFailure.md)|Logged when a journey instance is terminated by a failure in a journey step|
 |[JourneyEventCancelledByExitEvent](JourneyEventCancelledByExitEvent.md)|Logged when a journey instance is terminated when a customer qualifies for an exit criteria|
