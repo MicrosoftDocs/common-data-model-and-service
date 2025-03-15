@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -69,7 +69,7 @@ ms.author: lsuresh
 |[SearchPhrase](#SearchPhrase)|Search phrase|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
 |[SessionId](#SessionId)|Session ID|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
 |[State](#State)|State|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
 |[UsageType](#UsageType)|Usage type|<a href="ConfirmationRequest.md" target="_blank">CustomerInsightsJourneys/ConfirmationRequest</a>|
@@ -1221,7 +1221,7 @@ First included in: CustomerInsightsJourneys/ConfirmationRequest \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/ConfirmationRequest \(this entity\)  
 
 #### Properties

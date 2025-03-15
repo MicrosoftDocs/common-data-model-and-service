@@ -410,8 +410,6 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
         - name: CustomerInsightsJourneys
           items:
-          - name: Summary 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/overview.md
           - name: ActionEventDropoff 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventDropoff.md
           - name: ActionEventInflow 
@@ -574,6 +572,10 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistration.md
           - name: EventRegistrationCanceled 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistrationCanceled.md
+          - name: EventRegistrationCreatedFromWaitlist 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist.md
+          - name: EventRegistrationWaitlisted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistrationWaitlisted.md
           - name: ExperimentationDistribution 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ExperimentationDistribution.md
           - name: ExperimentationGoal 
@@ -662,6 +664,10 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SegmentUnsubscribed.md
           - name: SessionRegistrationCanceled 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SessionRegistrationCanceled.md
+          - name: SessionRegistrationCreatedFromWaitlist 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SessionRegistrationCreatedFromWaitlist.md
+          - name: SessionRegistrationWaitlisted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SessionRegistrationWaitlisted.md
           - name: SmsBounced 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsBounced.md
           - name: SmsDelivered 

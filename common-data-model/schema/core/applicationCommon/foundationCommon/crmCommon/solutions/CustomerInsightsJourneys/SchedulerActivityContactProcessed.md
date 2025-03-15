@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -47,7 +47,7 @@ ms.author: lsuresh
 |[Path](#Path)|Path|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
 |[ProfileId](#ProfileId)|Unique identifier of the profile\.|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
 |[WorkflowId](#WorkflowId)|Outbound Marketing Workflow ID|<a href="SchedulerActivityContactProcessed.md" target="_blank">CustomerInsightsJourneys/SchedulerActivityContactProcessed</a>|
@@ -540,7 +540,7 @@ First included in: CustomerInsightsJourneys/SchedulerActivityContactProcessed \(
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/SchedulerActivityContactProcessed \(this entity\)  
 
 #### Properties

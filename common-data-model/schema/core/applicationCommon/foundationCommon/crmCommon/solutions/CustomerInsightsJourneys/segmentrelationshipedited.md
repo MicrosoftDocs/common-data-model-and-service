@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -66,7 +66,7 @@ ms.author: lsuresh
 |[SegmentId](#SegmentId)|Unique identifier of the segment\.|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
 |[SessionId](#SessionId)|Session ID|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
 |[State](#State)|State|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
 |[UsageType](#UsageType)|Usage type|<a href="SegmentRelationshipEdited.md" target="_blank">CustomerInsightsJourneys/SegmentRelationshipEdited</a>|
@@ -1115,7 +1115,7 @@ First included in: CustomerInsightsJourneys/SegmentRelationshipEdited \(this ent
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/SegmentRelationshipEdited \(this entity\)  
 
 #### Properties
