@@ -63,7 +63,7 @@ Logged when an email is blocked due to other reasons\.
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
 |[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based\.|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="EmailBlockedOtherReason.md" target="_blank">CustomerInsightsJourneys/EmailBlockedOtherReason</a>|
@@ -878,7 +878,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedOtherReason \(this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/EmailBlockedOtherReason \(this entity\)  
 
 #### Properties
