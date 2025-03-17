@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -52,7 +52,7 @@ ms.author: lsuresh
 |[ReasonDetail](#ReasonDetail)|Provides additional information about the status of this event\.|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
 |[SegmentId](#SegmentId)|For segment based journeys, the GUID of the segment for this journey\.|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
 |[SegmentName](#SegmentName)|Segment name|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="JourneyEventExited.md" target="_blank">CustomerInsightsJourneys/JourneyEventExited</a>|
 
@@ -660,7 +660,7 @@ First included in: CustomerInsightsJourneys/JourneyEventExited \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/JourneyEventExited \(this entity\)  
 
 #### Properties

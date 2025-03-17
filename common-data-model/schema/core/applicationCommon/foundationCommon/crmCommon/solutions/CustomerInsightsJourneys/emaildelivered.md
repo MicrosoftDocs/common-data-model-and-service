@@ -1,16 +1,17 @@
 ---
 title: EmailDelivered in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
-description: undefined
+description: Indicates that an email was successfully delivered.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
 # EmailDelivered in CustomerInsightsJourneys
 
+Indicates that an email was successfully delivered\.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/EmailDelivered.cdm.json" target="_blank">GitHub</a>.  
 
@@ -22,6 +23,9 @@ ms.author: lsuresh
 
 **is.CDM.entityVersion**  
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates that an email was successfully delivered.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -41,7 +45,7 @@ ms.author: lsuresh
 |[ContactId](#ContactId)|Unique identifier of the Contact\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[CustomerJourneyId](#CustomerJourneyId)| Unique identifier of the Customer journey|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[CustomerJourneyIterationId](#CustomerJourneyIterationId)|Customer journey iteration ID|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
-|[DeliveredCount](#DeliveredCount)|Updated when an email messages gets bounced\. '1' for a delivered interaction, '\x2d1' for a bounce|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
+|[DeliveredCount](#DeliveredCount)|Updated when an email messages gets bounced\. '1' for a delivered interaction, '-1' for a bounce|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[Details](#Details)|Additional details|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[EmailAddressUsed](#EmailAddressUsed)|The profile's email address\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[EmailDomain](#EmailDomain)|Indicates the 'From' domain\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
@@ -64,7 +68,7 @@ ms.author: lsuresh
 |[Reason](#Reason)|Remote bounce reason|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="EmailDelivered.md" target="_blank">CustomerInsightsJourneys/EmailDelivered</a>|
@@ -364,7 +368,7 @@ First included in: CustomerInsightsJourneys/EmailDelivered \(this entity\)
 
 ### <a href=#DeliveredCount name="DeliveredCount">DeliveredCount</a>
 
-Updated when an email messages gets bounced\. '1' for a delivered interaction, '\x2d1' for a bounce  
+Updated when an email messages gets bounced\. '1' for a delivered interaction, '-1' for a bounce  
 First included in: CustomerInsightsJourneys/EmailDelivered \(this entity\)  
 
 #### Properties
@@ -1028,7 +1032,7 @@ First included in: CustomerInsightsJourneys/EmailDelivered \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/EmailDelivered \(this entity\)  
 
 #### Properties

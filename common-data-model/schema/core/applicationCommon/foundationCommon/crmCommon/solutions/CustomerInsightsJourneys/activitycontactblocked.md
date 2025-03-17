@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -52,7 +52,7 @@ ms.author: lsuresh
 |[Reason](#Reason)|Provides additional information about the status of this event\.|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
 |[SchedulerId](#SchedulerId)||<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
 |[UsageType](#UsageType)|Usage type|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="ActivityContactBlocked.md" target="_blank">CustomerInsightsJourneys/ActivityContactBlocked</a>|
@@ -683,7 +683,7 @@ First included in: CustomerInsightsJourneys/ActivityContactBlocked \(this entity
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/ActivityContactBlocked \(this entity\)  
 
 #### Properties

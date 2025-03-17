@@ -4,8 +4,8 @@ description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: leeclontz
-ms.topic: reference 
-ms.date: 1/27/2025
+ms.topic: reference
+ms.date: 3/12/2025
 ms.author: lsuresh
 ---
 
@@ -52,7 +52,7 @@ ms.author: lsuresh
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
 |[Reason](#Reason)|Indicates detailed reason for the create record event|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
 |[RecordId](#RecordId)|Record ID|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="CreateRecord.md" target="_blank">CustomerInsightsJourneys/CreateRecord</a>|
 
@@ -660,7 +660,7 @@ First included in: CustomerInsightsJourneys/CreateRecord \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/CreateRecord \(this entity\)  
 
 #### Properties
