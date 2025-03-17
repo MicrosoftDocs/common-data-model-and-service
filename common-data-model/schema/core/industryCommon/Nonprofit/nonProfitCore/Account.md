@@ -1,35 +1,19 @@
 ---
-title: Account in applicationCommon - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in applicationCommon.
+title: Account in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in Cloud for Nonprofit core data model.
 author: llawwaii
 
-ms.reviewer: deonhe
+ms.reviewer: mirao
 ms.topic: reference
-ms.date: 8/7/2020
-ms.author: weiluo
+ms.date: 3/7/2025
+ms.author: leeclontz
 ---
 
-# Account in applicationCommon
+# Account in Cloud for Nonprofit core data model
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Account.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/Account](foundationCommon/Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/Account](foundationCommon/crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Account](foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
-- [/industryCommon/nonProfit/nonProfitCore/Account](../industryCommon/Nonprofit/nonProfitCore/Account.md "/core/industryCommon/nonProfit/nonProfitCore/Account.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account](foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account](foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/solutions/portals/Account](foundationCommon/crmCommon/solutions/portals/Account.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json/Account")  
-</details>
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -38,10 +22,10 @@ Business that represents a customer or potential customer. The company that is b
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in Common Data Model entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/Account.cdm.json/Account<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/Account.cdm.json/Account<br>/hasAttributes/attributesAddedAtThisScope</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitCore<br>/Account.cdm.json/Account/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Account/(resolvedAttributes)/accountId](#accountId)</td><td>attribute</td><td></td></tr></table>
@@ -56,7 +40,7 @@ Business that represents a customer or potential customer. The company that is b
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Business that represents a customer or potential customer. The company that is billed in business transactions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in Microsoft Dataverse.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"Account"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"Account"</td><td>string</td><td></td></tr></table>
 
 </details>
 
@@ -64,176 +48,223 @@ Business that represents a customer or potential customer. The company that is b
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[ownerId](#ownerId)|Owner Id|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[versionNumber](#versionNumber)|Version Number|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountCategoryCode_display](#accountCategoryCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[customerSizeCode](#customerSizeCode)|Select the size category or range of the account for segmentation and reporting purposes.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[customerSizeCode_display](#customerSizeCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the account and your organization.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[customerTypeCode_display](#customerTypeCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountRatingCode](#accountRatingCode)|Select a rating to indicate the value of the customer account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountRatingCode_display](#accountRatingCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[industryCode](#industryCode)|Select the account's primary industry for use in marketing segmentation and demographic analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[industryCode_display](#industryCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[territoryCode](#territoryCode)|Select a region or territory for the account for use in segmentation and analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[territoryCode_display](#territoryCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountClassificationCode](#accountClassificationCode)|Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountClassificationCode_display](#accountClassificationCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[businessTypeCode](#businessTypeCode)|Select the legal designation or other business type of the account for contracts or reporting purposes.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[businessTypeCode_display](#businessTypeCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[traversedPath](#traversedPath)|For internal use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[primaryContactId](#primaryContactId)|Choose the primary contact for the account to provide quick access to contact details.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[participatesInWorkflow](#participatesInWorkflow)|For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[name](#name)|Type the company or business name.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[accountNumber](#accountNumber)|Type an ID number or code for the account to quickly search and identify the account in system views.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[revenue](#revenue)|Type the annual revenue for the account, used as an indicator in financial performance analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[numberOfEmployees](#numberOfEmployees)|Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[description](#description)|Type additional information to describe the account, such as an excerpt from the company's website.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[SIC](#SIC)|Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[ownershipCode](#ownershipCode)|Select the account's ownership structure, such as public or private.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[ownershipCode_display](#ownershipCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[marketCap](#marketCap)|Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[sharesOutstanding](#sharesOutstanding)|Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[tickerSymbol](#tickerSymbol)|Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[stockExchange](#stockExchange)|Type the stock exchange at which the account is listed to track their stock and financial performance of the company.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[webSiteUrl](#webSiteUrl)|Type the account's website URL to get quick details about the company profile.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the account's FTP site to enable users to access data and share documents.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[EMailAddress1](#EMailAddress1)|Type the primary email address for the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotPhone](#doNotPhone)|Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotFax](#doNotFax)|Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[telephone1](#telephone1)|Type the main phone number for this account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotEMail](#doNotEMail)|Select whether the account allows direct email sent from Microsoft Dynamics 365.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[telephone2](#telephone2)|Type a second phone number for this account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[fax](#fax)|Type the fax number for the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[telephone3](#telephone3)|Type a third phone number for this account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotPostalMail](#doNotPostalMail)|Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotBulkEMail](#doNotBulkEMail)|Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[creditLimit](#creditLimit)|Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[creditOnHold](#creditOnHold)|Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[parentAccountId](#parentAccountId)|Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[aging30](#aging30)|For system use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[stateCode](#stateCode)|Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[stateCode_display](#stateCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[aging60](#aging60)|For system use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[statusCode](#statusCode)|Select the account's status.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[statusCode_display](#statusCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[aging90](#aging90)|For system use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Line2](#address1Line2)|Type the second line of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Line3](#address1Line3)|Type the third line of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1County](#address1County)|Type the county for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Country](#address1Country)|Type the country or region for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address1Composite](#address1Composite)|Shows the complete address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2AddressId](#address2AddressId)|Unique identifier for address 1.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Line2](#address2Line2)|Type the second line of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Line3](#address2Line3)|Type the third line of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2County](#address2County)|Type the county for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Country](#address2Country)|Type the country or region for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[address2Composite](#address2Composite)|Shows the complete address.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredSystemUserId](#preferredSystemUserId)|Choose the preferred service representative for reference when you schedule service activities for the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[merged](#merged)|Shows whether the account has been merged with another account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[doNotSendMM](#doNotSendMM)|Select whether the account accepts marketing materials, such as brochures or catalogs.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[masterId](#masterId)|Shows the master account that the account was merged with.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the account was last included in a marketing campaign or quick campaign.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[creditLimitBase](#creditLimitBase)|Shows the credit limit converted to the system's default base currency for reporting purposes.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[aging30Base](#aging30Base)|The base currency equivalent of the aging 30 field.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[revenueBase](#revenueBase)|Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[aging90Base](#aging90Base)|The base currency equivalent of the aging 90 field.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[marketCapBase](#marketCapBase)|Shows the market capitalization converted to the system's default base currency.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[aging60Base](#aging60Base)|The base currency equivalent of the aging 60 field.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[yomiName](#yomiName)|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[stageId](#stageId)|Shows the ID of the stage.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[processId](#processId)|Shows the ID of the process.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[entityImageId](#entityImageId)|For internal use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to account record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[primarySatoriId](#primarySatoriId)|Primary Satori ID for Account|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[primaryTwitterId](#primaryTwitterId)|Primary Twitter ID for Account|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Account record.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
-|[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="Account.md" target="_blank">applicationCommon/Account</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountCategoryCode_display](#accountCategoryCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[customerSizeCode](#customerSizeCode)|Select the size category or range of the account for segmentation and reporting purposes.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[customerSizeCode_display](#customerSizeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the account and your organization.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[customerTypeCode_display](#customerTypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountRatingCode](#accountRatingCode)|Select a rating to indicate the value of the customer account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountRatingCode_display](#accountRatingCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[industryCode](#industryCode)|Select the account's primary industry for use in marketing segmentation and demographic analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[industryCode_display](#industryCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[territoryCode](#territoryCode)|Select a region or territory for the account for use in segmentation and analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[territoryCode_display](#territoryCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountClassificationCode](#accountClassificationCode)|Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountClassificationCode_display](#accountClassificationCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[businessTypeCode](#businessTypeCode)|Select the legal designation or other business type of the account for contracts or reporting purposes.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[businessTypeCode_display](#businessTypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[primaryContactId](#primaryContactId)|Choose the primary contact for the account to provide quick access to contact details.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[participatesInWorkflow](#participatesInWorkflow)|For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[name](#name)|Type the company or business name.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountNumber](#accountNumber)|Type an ID number or code for the account to quickly search and identify the account in system views.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[revenue](#revenue)|Type the annual revenue for the account, used as an indicator in financial performance analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[numberOfEmployees](#numberOfEmployees)|Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[description](#description)|Type additional information to describe the account, such as an excerpt from the company's website.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[SIC](#SIC)|Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[ownershipCode](#ownershipCode)|Select the account's ownership structure, such as public or private.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[ownershipCode_display](#ownershipCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[marketCap](#marketCap)|Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[sharesOutstanding](#sharesOutstanding)|Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[tickerSymbol](#tickerSymbol)|Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[stockExchange](#stockExchange)|Type the stock exchange at which the account is listed to track their stock and financial performance of the company.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[webSiteUrl](#webSiteUrl)|Type the account's website URL to get quick details about the company profile.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the account's FTP site to enable users to access data and share documents.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[EMailAddress1](#EMailAddress1)|Type the primary email address for the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotPhone](#doNotPhone)|Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotFax](#doNotFax)|Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[telephone1](#telephone1)|Type the main phone number for this account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotEMail](#doNotEMail)|Select whether the account allows direct email sent from Microsoft Dynamics 365.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[telephone2](#telephone2)|Type a second phone number for this account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[fax](#fax)|Type the fax number for the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[telephone3](#telephone3)|Type a third phone number for this account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotPostalMail](#doNotPostalMail)|Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotBulkEMail](#doNotBulkEMail)|Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[creditLimit](#creditLimit)|Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[creditOnHold](#creditOnHold)|Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[parentAccountId](#parentAccountId)|Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[aging30](#aging30)|For system use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[stateCode](#stateCode)|Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[stateCode_display](#stateCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[aging60](#aging60)|For system use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[statusCode](#statusCode)|Select the account's status.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[statusCode_display](#statusCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[aging90](#aging90)|For system use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Line2](#address1Line2)|Type the second line of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Line3](#address1Line3)|Type the third line of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1County](#address1County)|Type the county for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Country](#address1Country)|Type the country or region for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Composite](#address1Composite)|Shows the complete address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1EndDate](#address1EndDate)|Effective end date of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1IsUspsValidated](#address1IsUspsValidated)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1IsValidated](#address1IsValidated)|Indicates the address has been validated.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Region](#address1Region)|Indicates the region of the world that the address is located.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Region_display](#address1Region_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalEndDay](#address1SeasonalEndDay)|Annual end day (of month) of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalEndDay_display](#address1SeasonalEndDay_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalEndMonth](#address1SeasonalEndMonth)|Annual end month of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalEndMonth_display](#address1SeasonalEndMonth_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalStartDay](#address1SeasonalStartDay)|Annual start day (of month) of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalStartDay_display](#address1SeasonalStartDay_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalStartMonth](#address1SeasonalStartMonth)|Annual start month of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1SeasonalStartMonth_display](#address1SeasonalStartMonth_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1StartDate](#address1StartDate)|Effective start date of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone1TypeCode](#address1Telephone1TypeCode)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone1TypeCode_display](#address1Telephone1TypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone2TypeCode](#address1Telephone2TypeCode)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone2TypeCode_display](#address1Telephone2TypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone3TypeCode](#address1Telephone3TypeCode)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address1Telephone3TypeCode_display](#address1Telephone3TypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address 1.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Line2](#address2Line2)|Type the second line of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Line3](#address2Line3)|Type the third line of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2County](#address2County)|Type the county for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Country](#address2Country)|Type the country or region for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Composite](#address2Composite)|Shows the complete address.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2EndDate](#address2EndDate)|Effective end date of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2IsUspsValidated](#address2IsUspsValidated)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2IsValidated](#address2IsValidated)|Indicates the address has been validated.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Region](#address2Region)|Indicates the region of the world that the address is located.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Region_display](#address2Region_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalEndDay](#address2SeasonalEndDay)|Annual end day (of month) of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalEndDay_display](#address2SeasonalEndDay_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalEndMonth](#address2SeasonalEndMonth)|Annual end month of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalEndMonth_display](#address2SeasonalEndMonth_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalStartDay](#address2SeasonalStartDay)|Annual start day (of month) of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalStartDay_display](#address2SeasonalStartDay_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalStartMonth](#address2SeasonalStartMonth)|Annual start month of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2SeasonalStartMonth_display](#address2SeasonalStartMonth_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2StartDate](#address2StartDate)|Effective start date of the address and related contact info|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone1TypeCode](#address2Telephone1TypeCode)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone1TypeCode_display](#address2Telephone1TypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone2TypeCode](#address2Telephone2TypeCode)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone2TypeCode_display](#address2Telephone2TypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone3TypeCode](#address2Telephone3TypeCode)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[address2Telephone3TypeCode_display](#address2Telephone3TypeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredSystemUserId](#preferredSystemUserId)|Choose the preferred service representative for reference when you schedule service activities for the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[merged](#merged)|Shows whether the account has been merged with another account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[doNotSendMM](#doNotSendMM)|Select whether the account accepts marketing materials, such as brochures or catalogs.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[masterId](#masterId)|Shows the master account that the account was merged with.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the account was last included in a marketing campaign or quick campaign.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[creditLimitBase](#creditLimitBase)|Shows the credit limit converted to the system's default base currency for reporting purposes.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[aging30Base](#aging30Base)|The base currency equivalent of the aging 30 field.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[revenueBase](#revenueBase)|Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[aging90Base](#aging90Base)|The base currency equivalent of the aging 90 field.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[marketCapBase](#marketCapBase)|Shows the market capitalization converted to the system's default base currency.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[aging60Base](#aging60Base)|The base currency equivalent of the aging 60 field.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[yomiName](#yomiName)|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to account record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[primarySatoriId](#primarySatoriId)|Primary Satori ID for Account|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[primaryTwitterId](#primaryTwitterId)|Primary Twitter ID for Account|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Account record.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountType](#accountType)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[accountType_display](#accountType_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[acquisitionDate](#acquisitionDate)|Manually populated date indicating when the Account was aquired.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[acquisitionSource](#acquisitionSource)|Manually populated field Indicating the lead source for acquiring this Account.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[acquisitionSource_display](#acquisitionSource_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[primaryConstituentType](#primaryConstituentType)|Subcategory of primary Constituency type rolls up to this field.|<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
+|[primaryConstituentType_display](#primaryConstituentType_display)||<a href="Account.md" target="_blank">nonProfitCore/Account</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -273,12 +304,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
-First included in: applicationCommon/Account (this entity)  
+Unique identifier of the user who created the record.  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -306,10 +337,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -325,7 +356,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -365,12 +396,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
-First included in: applicationCommon/Account (this entity)  
+Unique identifier of the user who modified the record.  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -398,10 +429,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -416,12 +447,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
-First included in: applicationCommon/Account (this entity)  
+Unique identifier of the delegate user who created the record.  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -449,10 +480,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -467,12 +498,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/Account (this entity)  
+Unique identifier of the delegate user who modified the record.  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -500,10 +531,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -519,7 +550,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -559,12 +590,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/Account (this entity)  
+Sequence number of the import that created this record.  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -579,7 +610,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -596,7 +627,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -628,7 +659,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../applicationCommon/Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../applicationCommon/Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"ownerid"</td><td>string</td><td></td></tr></table>
@@ -644,7 +675,7 @@ contains a User or Team ID
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -665,7 +696,7 @@ First included in: applicationCommon/Account (this entity)
 a string value is the name of a CDM entity.  
 
 **is.requiredAtLevel**  
-The requirement level for setting values into this attribute in Microsoft Dataverse or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -690,7 +721,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -722,7 +753,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../applicationCommon/BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -737,12 +768,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
-Unique identifier for the user that owns the record.  
-First included in: applicationCommon/Account (this entity)  
+Unique identifier of the user that owns the activity.  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -770,10 +801,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning User</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the user that owns the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -789,7 +820,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -821,7 +852,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../applicationCommon/Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -837,7 +868,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -876,7 +907,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -915,7 +946,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -954,7 +985,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -996,7 +1027,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountCategoryCode name="accountCategoryCode">accountCategoryCode</a>
 
 Select a category to indicate whether the customer account is standard or preferred.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1037,7 +1068,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountCategoryCode_display name="accountCategoryCode_display">accountCategoryCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1063,7 +1094,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#customerSizeCode name="customerSizeCode">customerSizeCode</a>
 
 Select the size category or range of the account for segmentation and reporting purposes.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1104,7 +1135,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerSizeCode_display name="customerSizeCode_display">customerSizeCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1130,7 +1161,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#preferredContactMethodCode name="preferredContactMethodCode">preferredContactMethodCode</a>
 
 Select the preferred method of contact.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1171,7 +1202,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredContactMethodCode_display name="preferredContactMethodCode_display">preferredContactMethodCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1197,7 +1228,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#customerTypeCode name="customerTypeCode">customerTypeCode</a>
 
 Select the category that best describes the relationship between the account and your organization.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1238,7 +1269,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerTypeCode_display name="customerTypeCode_display">customerTypeCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1264,7 +1295,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#accountRatingCode name="accountRatingCode">accountRatingCode</a>
 
 Select a rating to indicate the value of the customer account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1305,7 +1336,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountRatingCode_display name="accountRatingCode_display">accountRatingCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1331,7 +1362,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#industryCode name="industryCode">industryCode</a>
 
 Select the account's primary industry for use in marketing segmentation and demographic analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1372,7 +1403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#industryCode_display name="industryCode_display">industryCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1398,7 +1429,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#territoryCode name="territoryCode">territoryCode</a>
 
 Select a region or territory for the account for use in segmentation and analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1439,7 +1470,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#territoryCode_display name="territoryCode_display">territoryCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1465,7 +1496,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#accountClassificationCode name="accountClassificationCode">accountClassificationCode</a>
 
 Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1506,7 +1537,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountClassificationCode_display name="accountClassificationCode_display">accountClassificationCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1532,7 +1563,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#businessTypeCode name="businessTypeCode">businessTypeCode</a>
 
 Select the legal designation or other business type of the account for contracts or reporting purposes.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1573,7 +1604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#businessTypeCode_display name="businessTypeCode_display">businessTypeCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1599,7 +1630,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1641,7 +1672,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1682,7 +1713,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1708,7 +1739,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1749,7 +1780,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1775,7 +1806,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#primaryContactId name="primaryContactId">primaryContactId</a>
 
 Choose the primary contact for the account to provide quick access to contact details.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1804,7 +1835,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the primary contact for the account to provide quick access to contact details.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -1823,7 +1854,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#participatesInWorkflow name="participatesInWorkflow">participatesInWorkflow</a>
 
 For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1859,7 +1890,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 Type the company or business name.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1902,7 +1933,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accountNumber name="accountNumber">accountNumber</a>
 
 Type an ID number or code for the account to quickly search and identify the account in system views.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1944,7 +1975,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenue name="revenue">revenue</a>
 
 Type the annual revenue for the account, used as an indicator in financial performance analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -1988,7 +2019,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#numberOfEmployees name="numberOfEmployees">numberOfEmployees</a>
 
 Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2027,7 +2058,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the account, such as an excerpt from the company's website.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2069,7 +2100,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SIC name="SIC">SIC</a>
 
 Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2111,7 +2142,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownershipCode name="ownershipCode">ownershipCode</a>
 
 Select the account's ownership structure, such as public or private.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2152,7 +2183,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ownershipCode_display name="ownershipCode_display">ownershipCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2178,7 +2209,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#marketCap name="marketCap">marketCap</a>
 
 Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2222,7 +2253,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#sharesOutstanding name="sharesOutstanding">sharesOutstanding</a>
 
 Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2261,7 +2292,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#tickerSymbol name="tickerSymbol">tickerSymbol</a>
 
 Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2304,7 +2335,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stockExchange name="stockExchange">stockExchange</a>
 
 Type the stock exchange at which the account is listed to track their stock and financial performance of the company.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2346,7 +2377,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Type the account's website URL to get quick details about the company profile.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2389,7 +2420,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ftpSiteUrl name="ftpSiteUrl">ftpSiteUrl</a>
 
 Type the URL for the account's FTP site to enable users to access data and share documents.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2432,7 +2463,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress1 name="EMailAddress1">EMailAddress1</a>
 
 Type the primary email address for the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2475,7 +2506,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress2 name="EMailAddress2">EMailAddress2</a>
 
 Type the secondary email address for the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2518,7 +2549,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress3 name="EMailAddress3">EMailAddress3</a>
 
 Type an alternate email address for the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2561,7 +2592,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2597,7 +2628,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2633,7 +2664,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Type the main phone number for this account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2676,7 +2707,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Select whether the account allows direct email sent from Microsoft Dynamics 365.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2712,7 +2743,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Type a second phone number for this account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2755,7 +2786,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Type the fax number for the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2797,7 +2828,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Type a third phone number for this account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2840,7 +2871,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2876,7 +2907,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkEMail name="doNotBulkEMail">doNotBulkEMail</a>
 
 Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2912,7 +2943,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkPostalMail name="doNotBulkPostalMail">doNotBulkPostalMail</a>
 
 Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2948,7 +2979,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -2992,7 +3023,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#creditOnHold name="creditOnHold">creditOnHold</a>
 
 Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3028,7 +3059,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentAccountId name="parentAccountId">parentAccountId</a>
 
 Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3057,7 +3088,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -3076,7 +3107,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#aging30 name="aging30">aging30</a>
 
 For system use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3120,7 +3151,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3161,7 +3192,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3187,7 +3218,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#aging60 name="aging60">aging60</a>
 
 For system use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3231,7 +3262,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the account's status.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3275,7 +3306,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3301,7 +3332,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#aging90 name="aging90">aging90</a>
 
 For system use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3345,7 +3376,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address 1.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3387,7 +3418,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3428,7 +3459,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3454,7 +3485,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3497,7 +3528,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PrimaryContactName name="address1PrimaryContactName">address1PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3540,7 +3571,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3583,7 +3614,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3626,7 +3657,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3669,7 +3700,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3712,7 +3743,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3755,7 +3786,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3798,7 +3829,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3841,7 +3872,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3883,7 +3914,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3926,7 +3957,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -3969,7 +4000,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1FreightTermsCode name="address1FreightTermsCode">address1FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4010,7 +4041,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1FreightTermsCode_display name="address1FreightTermsCode_display">address1FreightTermsCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4036,7 +4067,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4078,7 +4109,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4120,7 +4151,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4163,7 +4194,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4205,7 +4236,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4246,7 +4277,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4272,7 +4303,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4315,7 +4346,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4358,7 +4389,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4401,7 +4432,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4441,10 +4472,658 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 **is.dataFormat.array**  
 </details>
 
+### <a href=#address1EndDate name="address1EndDate">address1EndDate</a>
+
+Effective end date of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End Date</td></tr><tr><td>description</td><td>Effective end date of the address and related contact info</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_enddate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1EndDate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_enddate"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>End Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective end date of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#address1IsUspsValidated name="address1IsUspsValidated">address1IsUspsValidated</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>USPS Validated</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isuspsvalidated</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1IsUspsValidated attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_isuspsvalidated"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>USPS Validated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.boolean**  
+</details>
+
+### <a href=#address1IsValidated name="address1IsValidated">address1IsValidated</a>
+
+Indicates the address has been validated.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Validated</td></tr><tr><td>description</td><td>Indicates the address has been validated.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isvalidated</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1IsValidated attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_isvalidated"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Validated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the address has been validated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.boolean**  
+</details>
+
+### <a href=#address1Region name="address1Region">address1Region</a>
+
+Indicates the region of the world that the address is located.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Region</td></tr><tr><td>description</td><td>Indicates the region of the world that the address is located.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_region</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Region</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Region attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Region</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_region"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the region of the world that the address is located.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1Region_display name="address1Region_display">address1Region_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Region_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"region"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1SeasonalEndDay name="address1SeasonalEndDay">address1SeasonalEndDay</a>
+
+Annual end day (of month) of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal End Day</td></tr><tr><td>description</td><td>Annual end day (of month) of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalendday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalEndDay attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalendday"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal End Day</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual end day (of month) of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1SeasonalEndDay_display name="address1SeasonalEndDay_display">address1SeasonalEndDay_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalEndDay_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalEndDay"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1SeasonalEndMonth name="address1SeasonalEndMonth">address1SeasonalEndMonth</a>
+
+Annual end month of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal End Month</td></tr><tr><td>description</td><td>Annual end month of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalendmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalEndMonth attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalendmonth"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal End Month</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual end month of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1SeasonalEndMonth_display name="address1SeasonalEndMonth_display">address1SeasonalEndMonth_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalEndMonth_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalEndMonth"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1SeasonalStartDay name="address1SeasonalStartDay">address1SeasonalStartDay</a>
+
+Annual start day (of month) of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal Start Day</td></tr><tr><td>description</td><td>Annual start day (of month) of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalstartday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalStartDay attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalstartday"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal Start Day</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual start day (of month) of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1SeasonalStartDay_display name="address1SeasonalStartDay_display">address1SeasonalStartDay_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalStartDay_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalStartDay"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1SeasonalStartMonth name="address1SeasonalStartMonth">address1SeasonalStartMonth</a>
+
+Annual start month of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal Start Month</td></tr><tr><td>description</td><td>Annual start month of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalstartmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalStartMonth attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalstartmonth"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal Start Month</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual start month of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1SeasonalStartMonth_display name="address1SeasonalStartMonth_display">address1SeasonalStartMonth_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1SeasonalStartMonth_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalStartMonth"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1StartDate name="address1StartDate">address1StartDate</a>
+
+Effective start date of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>Effective start date of the address and related contact info</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_startdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1StartDate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_startdate"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective start date of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#address1Telephone1TypeCode name="address1Telephone1TypeCode">address1Telephone1TypeCode</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Telephone 1 Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_telephone1typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Telephone1TypeCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_telephone1typecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Telephone 1 Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1Telephone1TypeCode_display name="address1Telephone1TypeCode_display">address1Telephone1TypeCode_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Telephone1TypeCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"telephone1TypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1Telephone2TypeCode name="address1Telephone2TypeCode">address1Telephone2TypeCode</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Telephone 2 Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_telephone2typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Telephone2TypeCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_telephone2typecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Telephone 2 Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1Telephone2TypeCode_display name="address1Telephone2TypeCode_display">address1Telephone2TypeCode_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Telephone2TypeCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"telephone2TypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address1Telephone3TypeCode name="address1Telephone3TypeCode">address1Telephone3TypeCode</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Telephone 3 Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_telephone3typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Telephone3TypeCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_telephone3typecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Telephone 3 Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address1Telephone3TypeCode_display name="address1Telephone3TypeCode_display">address1Telephone3TypeCode_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address1Telephone3TypeCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"telephone3TypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address 1.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4486,7 +5165,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4527,7 +5206,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4553,7 +5232,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4596,7 +5275,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PrimaryContactName name="address2PrimaryContactName">address2PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4639,7 +5318,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4682,7 +5361,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4725,7 +5404,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4768,7 +5447,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4811,7 +5490,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4854,7 +5533,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4897,7 +5576,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4940,7 +5619,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -4982,7 +5661,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5025,7 +5704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5068,7 +5747,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2FreightTermsCode name="address2FreightTermsCode">address2FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5109,7 +5788,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2FreightTermsCode_display name="address2FreightTermsCode_display">address2FreightTermsCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5135,7 +5814,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5177,7 +5856,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5219,7 +5898,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5262,7 +5941,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5304,7 +5983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5345,7 +6024,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5371,7 +6050,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5414,7 +6093,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5457,7 +6136,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5500,7 +6179,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5540,10 +6219,658 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 **is.dataFormat.array**  
 </details>
 
+### <a href=#address2EndDate name="address2EndDate">address2EndDate</a>
+
+Effective end date of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End Date</td></tr><tr><td>description</td><td>Effective end date of the address and related contact info</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_enddate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2EndDate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_enddate"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>End Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective end date of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#address2IsUspsValidated name="address2IsUspsValidated">address2IsUspsValidated</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>USPS Validated</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isuspsvalidated</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2IsUspsValidated attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_isuspsvalidated"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>USPS Validated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.boolean**  
+</details>
+
+### <a href=#address2IsValidated name="address2IsValidated">address2IsValidated</a>
+
+Indicates the address has been validated.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Validated</td></tr><tr><td>description</td><td>Indicates the address has been validated.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isvalidated</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2IsValidated attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_isvalidated"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Validated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the address has been validated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.boolean**  
+</details>
+
+### <a href=#address2Region name="address2Region">address2Region</a>
+
+Indicates the region of the world that the address is located.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Region</td></tr><tr><td>description</td><td>Indicates the region of the world that the address is located.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_region</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Region</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Region attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Region</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_region"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the region of the world that the address is located.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2Region_display name="address2Region_display">address2Region_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Region_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"region"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2SeasonalEndDay name="address2SeasonalEndDay">address2SeasonalEndDay</a>
+
+Annual end day (of month) of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal End Day</td></tr><tr><td>description</td><td>Annual end day (of month) of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalendday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalEndDay attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalendday"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal End Day</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual end day (of month) of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2SeasonalEndDay_display name="address2SeasonalEndDay_display">address2SeasonalEndDay_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalEndDay_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalEndDay"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2SeasonalEndMonth name="address2SeasonalEndMonth">address2SeasonalEndMonth</a>
+
+Annual end month of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal End Month</td></tr><tr><td>description</td><td>Annual end month of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalendmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalEndMonth attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalendmonth"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal End Month</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual end month of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2SeasonalEndMonth_display name="address2SeasonalEndMonth_display">address2SeasonalEndMonth_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalEndMonth_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalEndMonth"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2SeasonalStartDay name="address2SeasonalStartDay">address2SeasonalStartDay</a>
+
+Annual start day (of month) of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal Start Day</td></tr><tr><td>description</td><td>Annual start day (of month) of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalstartday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalStartDay attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalstartday"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal Start Day</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual start day (of month) of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2SeasonalStartDay_display name="address2SeasonalStartDay_display">address2SeasonalStartDay_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalStartDay_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalStartDay"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2SeasonalStartMonth name="address2SeasonalStartMonth">address2SeasonalStartMonth</a>
+
+Annual start month of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Seasonal Start Month</td></tr><tr><td>description</td><td>Annual start month of the address and related contact info</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_seasonalstartmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalStartMonth attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_seasonalstartmonth"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Seasonal Start Month</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Annual start month of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2SeasonalStartMonth_display name="address2SeasonalStartMonth_display">address2SeasonalStartMonth_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2SeasonalStartMonth_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"seasonalStartMonth"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2StartDate name="address2StartDate">address2StartDate</a>
+
+Effective start date of the address and related contact info  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>Effective start date of the address and related contact info</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_startdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2StartDate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_startdate"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective start date of the address and related contact info</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#address2Telephone1TypeCode name="address2Telephone1TypeCode">address2Telephone1TypeCode</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Telephone 1 Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_telephone1typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Telephone1TypeCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_telephone1typecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Telephone 1 Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2Telephone1TypeCode_display name="address2Telephone1TypeCode_display">address2Telephone1TypeCode_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Telephone1TypeCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"telephone1TypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2Telephone2TypeCode name="address2Telephone2TypeCode">address2Telephone2TypeCode</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Telephone 2 Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_telephone2typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Telephone2TypeCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_telephone2typecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Telephone 2 Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2Telephone2TypeCode_display name="address2Telephone2TypeCode_display">address2Telephone2TypeCode_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Telephone2TypeCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"telephone2TypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#address2Telephone3TypeCode name="address2Telephone3TypeCode">address2Telephone3TypeCode</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Telephone 3 Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_telephone3typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Telephone3TypeCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>100000000</td></tr><tr><td>en</td><td>Office</td><td>100000001</td></tr><tr><td>en</td><td>Mobile</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_telephone3typecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Telephone 3 Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#address2Telephone3TypeCode_display name="address2Telephone3TypeCode_display">address2Telephone3TypeCode_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the address2Telephone3TypeCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"telephone3TypeCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#preferredAppointmentDayCode name="preferredAppointmentDayCode">preferredAppointmentDayCode</a>
 
 Select the preferred day of the week for service appointments.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5584,7 +6911,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentDayCode_display name="preferredAppointmentDayCode_display">preferredAppointmentDayCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5610,7 +6937,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#preferredSystemUserId name="preferredSystemUserId">preferredSystemUserId</a>
 
 Choose the preferred service representative for reference when you schedule service activities for the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5639,7 +6966,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the preferred service representative for reference when you schedule service activities for the account.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -5658,7 +6985,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#preferredAppointmentTimeCode name="preferredAppointmentTimeCode">preferredAppointmentTimeCode</a>
 
 Select the preferred time of day for service appointments.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5699,7 +7026,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentTimeCode_display name="preferredAppointmentTimeCode_display">preferredAppointmentTimeCode_display</a>
 
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5725,7 +7052,7 @@ First included in: applicationCommon/Account (this entity)
 ### <a href=#merged name="merged">merged</a>
 
 Shows whether the account has been merged with another account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5761,7 +7088,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotSendMM name="doNotSendMM">doNotSendMM</a>
 
 Select whether the account accepts marketing materials, such as brochures or catalogs.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5797,7 +7124,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterId name="masterId">masterId</a>
 
 Shows the master account that the account was merged with.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5826,7 +7153,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the master account that the account was merged with.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -5845,7 +7172,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastUsedInCampaign name="lastUsedInCampaign">lastUsedInCampaign</a>
 
 Shows the date when the account was last included in a marketing campaign or quick campaign.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5885,7 +7212,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5928,7 +7255,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -5957,7 +7284,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../applicationCommon/Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -5976,7 +7303,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#creditLimitBase name="creditLimitBase">creditLimitBase</a>
 
 Shows the credit limit converted to the system's default base currency for reporting purposes.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6023,7 +7350,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#aging30Base name="aging30Base">aging30Base</a>
 
 The base currency equivalent of the aging 30 field.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6070,7 +7397,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#revenueBase name="revenueBase">revenueBase</a>
 
 Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6117,7 +7444,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#aging90Base name="aging90Base">aging90Base</a>
 
 The base currency equivalent of the aging 90 field.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6164,7 +7491,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#marketCapBase name="marketCapBase">marketCapBase</a>
 
 Shows the market capitalization converted to the system's default base currency.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6211,7 +7538,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#aging60Base name="aging60Base">aging60Base</a>
 
 The base currency equivalent of the aging 60 field.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6258,7 +7585,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#yomiName name="yomiName">yomiName</a>
 
 Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6302,7 +7629,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6343,7 +7670,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6384,7 +7711,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6425,7 +7752,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSpentByMeOnEmailAndMeetings name="timeSpentByMeOnEmailAndMeetings">timeSpentByMeOnEmailAndMeetings</a>
 
 Total time spent for emails (read and write) and meetings by me in relation to account record.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6468,7 +7795,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6513,7 +7840,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6558,7 +7885,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#primarySatoriId name="primarySatoriId">primarySatoriId</a>
 
 Primary Satori ID for Account  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6600,7 +7927,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryTwitterId name="primaryTwitterId">primaryTwitterId</a>
 
 Primary Twitter ID for Account  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6642,7 +7969,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Account record.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6671,7 +7998,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the service level agreement (SLA) that you want to apply to the Account record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../applicationCommon/SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -6690,7 +8017,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6719,7 +8046,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last SLA that was applied to this case. This field is for internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../applicationCommon/SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -6738,7 +8065,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6777,7 +8104,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6817,7 +8144,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followEmail name="followEmail">followEmail</a>
 
 Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6853,7 +8180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#marketingOnly name="marketingOnly">marketingOnly</a>
 
 Whether is only for marketing  
-First included in: applicationCommon/Account (this entity)  
+First included in: nonProfitCore/Account (this entity)  
 
 #### Properties
 
@@ -6884,4 +8211,232 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"247"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
+</details>
+
+### <a href=#accountType name="accountType">accountType</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_accounttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the accountType attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Household</td><td>844060000</td></tr><tr><td>en</td><td>Organization</td><td>844060001</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_accounttype"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Account Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#accountType_display name="accountType_display">accountType_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the accountType_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"accountType"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#acquisitionDate name="acquisitionDate">acquisitionDate</a>
+
+Manually populated date indicating when the Account was aquired.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Acquisition Date</td></tr><tr><td>description</td><td>Manually populated date indicating when the Account was aquired.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_acquisitiondate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the acquisitionDate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_acquisitiondate"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Acquisition Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated date indicating when the Account was aquired.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
+</details>
+
+### <a href=#acquisitionSource name="acquisitionSource">acquisitionSource</a>
+
+Manually populated field Indicating the lead source for acquiring this Account.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Acquisition Source</td></tr><tr><td>description</td><td>Manually populated field Indicating the lead source for acquiring this Account.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_acquisitionsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>CommChannel</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the acquisitionSource attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>CommChannel</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_acquisitionsource"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Acquisition Source</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated field Indicating the lead source for acquiring this Account.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#acquisitionSource_display name="acquisitionSource_display">acquisitionSource_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the acquisitionSource_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"acquisitionSource"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#primaryConstituentType name="primaryConstituentType">primaryConstituentType</a>
+
+Subcategory of primary Constituency type rolls up to this field.  
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Constituent Type</td></tr><tr><td>description</td><td>Subcategory of primary Constituency type rolls up to this field.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_primaryconstituenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ConstituentTypeOption</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the primaryConstituentType attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ConstituentTypeOption</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_primaryconstituenttype"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Primary Constituent Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subcategory of primary Constituency type rolls up to this field.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#primaryConstituentType_display name="primaryConstituentType_display">primaryConstituentType_display</a>
+
+First included in: nonProfitCore/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the primaryConstituentType_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"primaryConstituentType"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>

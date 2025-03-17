@@ -1,35 +1,19 @@
 ---
-title: Contact in applicationCommon - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague. Contact in applicationCommon.
+title: Contact in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague in Cloud for Nonprofit core data model.
 author: llawwaii
 
-ms.reviewer: deonhe
+ms.reviewer: mirao
 ms.topic: reference
-ms.date: 8/7/2020
-ms.author: weiluo
+ms.date: 3/7/2025
+ms.author: leeclontz
 ---
 
-# Contact in applicationCommon
+# Contact in Cloud for Nonprofit core data model
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Contact.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/foundationCommon/Contact](foundationCommon/Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/Contact](foundationCommon/crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact](foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact](../industryCommon/Nonprofit/nonProfitCore/Contact.md "/core/industryCommon/nonProfit/nonProfitCore/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/projectCommon/Contact](foundationCommon/crmCommon/projectCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/solutions/marketing/Contact](foundationCommon/crmCommon/solutions/marketing/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/solutions/portals/Contact](foundationCommon/crmCommon/solutions/portals/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Contact.cdm.json/Contact")  
-</details>
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -38,10 +22,10 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/Contact.cdm.json/Contact<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/Contact.cdm.json/Contact<br>/hasAttributes/attributesAddedAtThisScope</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitCore<br>/Contact.cdm.json/Contact/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Contact/(resolvedAttributes)/contactId](#contactId)</td><td>attribute</td><td></td></tr></table>
@@ -64,225 +48,240 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ownerId](#ownerId)|Owner Id|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[versionNumber](#versionNumber)|Version Number|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[customerSizeCode](#customerSizeCode)|Select the size of the contact's company for segmentation and reporting purposes.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[customerSizeCode_display](#customerSizeCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the contact and your organization.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[customerTypeCode_display](#customerTypeCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[leadSourceCode](#leadSourceCode)|Select the primary marketing source that directed the contact to your organization.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[leadSourceCode_display](#leadSourceCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[accountId](#accountId)|Unique identifier of the account with which the contact is associated.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[participatesInWorkflow](#participatesInWorkflow)|Shows whether the contact participates in workflow rules.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[isBackofficeCustomer](#isBackofficeCustomer)|Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[salutation](#salutation)|Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[jobTitle](#jobTitle)|Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[firstName](#firstName)|Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[department](#department)|Type the department or business unit where the contact works in the parent company or business.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[nickName](#nickName)|Type the contact's nickname.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[middleName](#middleName)|Type the contact's middle name or initial to make sure the contact is addressed correctly.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[lastName](#lastName)|Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[suffix](#suffix)|Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[fullName](#fullName)|Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[yomiMiddleName](#yomiMiddleName)|Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[anniversary](#anniversary)|Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[birthDate](#birthDate)|Enter the contact's birthday for use in customer gift programs or other communications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[governmentId](#governmentId)|Type the passport number or other government ID for the contact for use in documents or reports.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[yomiFullName](#yomiFullName)|Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[description](#description)|Type additional information to describe the contact, such as an excerpt from the company's website.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[employeeId](#employeeId)|Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[genderCode](#genderCode)|Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[genderCode_display](#genderCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[annualIncome](#annualIncome)|Type the contact's annual income for use in profiling and financial analysis.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[hasChildrenCode](#hasChildrenCode)|Select whether the contact has any children for reference in follow-up phone calls and other communications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[hasChildrenCode_display](#hasChildrenCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[educationCode](#educationCode)|Select the contact's highest level of education for use in segmentation and analysis.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[educationCode_display](#educationCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[webSiteUrl](#webSiteUrl)|Type the contact's professional or personal website or blog URL.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[familyStatusCode](#familyStatusCode)|Select the marital status of the contact for reference in follow-up phone calls and other communications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[familyStatusCode_display](#familyStatusCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the contact's FTP site to enable users to access data and share documents.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[EMailAddress1](#EMailAddress1)|Type the primary email address for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[spousesName](#spousesName)|Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[assistantName](#assistantName)|Type the name of the contact's assistant.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[assistantPhone](#assistantPhone)|Type the phone number for the contact's assistant.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotPhone](#doNotPhone)|Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[managerName](#managerName)|Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[managerPhone](#managerPhone)|Type the phone number for the contact's manager.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotFax](#doNotFax)|Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotEMail](#doNotEMail)|Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotPostalMail](#doNotPostalMail)|Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotBulkEMail](#doNotBulkEMail)|Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[accountRoleCode](#accountRoleCode)|Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[accountRoleCode_display](#accountRoleCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[territoryCode](#territoryCode)|Select a region or territory for the contact for use in segmentation and analysis.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[territoryCode_display](#territoryCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[creditLimit](#creditLimit)|Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[creditOnHold](#creditOnHold)|Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[numberOfChildren](#numberOfChildren)|Type the number of children the contact has for reference in follow-up phone calls and other communications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[childrensNames](#childrensNames)|Type the names of the contact's children for reference in communications and client programs.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[mobilePhone](#mobilePhone)|Type the mobile phone number for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[pager](#pager)|Type the pager number for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[telephone1](#telephone1)|Type the main phone number for this contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[telephone2](#telephone2)|Type a second phone number for this contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[telephone3](#telephone3)|Type a third phone number for this contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[fax](#fax)|Type the fax number for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[aging30](#aging30)|For system use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[stateCode](#stateCode)|Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[stateCode_display](#stateCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[aging60](#aging60)|For system use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[statusCode](#statusCode)|Select the contact's status.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[statusCode_display](#statusCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[aging90](#aging90)|For system use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[parentContactId](#parentContactId)|Unique identifier of the parent contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1AddressId](#address1AddressId)|Unique identifier for address n.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Line2](#address1Line2)|Type the second line of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Line3](#address1Line3)|Type the third line of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1County](#address1County)|Type the county for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Country](#address1Country)|Type the country or region for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address1Composite](#address1Composite)|Shows the complete address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2AddressId](#address2AddressId)|Unique identifier for address n.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Line2](#address2Line2)|Type the second line of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Line3](#address2Line3)|Type the third line of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2County](#address2County)|Type the county for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Country](#address2Country)|Type the country or region for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address2Composite](#address2Composite)|Shows the complete address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3AddressId](#address3AddressId)|Unique identifier for address n.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3AddressTypeCode](#address3AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3AddressTypeCode_display](#address3AddressTypeCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Name](#address3Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3PrimaryContactName](#address3PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Line1](#address3Line1)|Type the first line of the customer's address to help identify the location.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Line2](#address3Line2)|Type the second line of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Line3](#address3Line3)|Type the third line of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3City](#address3City)|Type the city for the customer's address to help identify the location.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3StateOrProvince](#address3StateOrProvince)|Type the state or province of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3County](#address3County)|Type the county for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Country](#address3Country)|Type the country or region for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3PostOfficeBox](#address3PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3PostalCode](#address3PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3UTCOffset](#address3UTCOffset)|Select the time zone for the address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3FreightTermsCode](#address3FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3FreightTermsCode_display](#address3FreightTermsCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3UPSZone](#address3UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Latitude](#address3Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Telephone1](#address3Telephone1)|Type the primary phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Longitude](#address3Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3ShippingMethodCode](#address3ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3ShippingMethodCode_display](#address3ShippingMethodCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Telephone2](#address3Telephone2)|Type a second phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Telephone3](#address3Telephone3)|Type a third phone number for the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Fax](#address3Fax)|Type the fax number associated with the customer's address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[address3Composite](#address3Composite)|Shows the complete address.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredSystemUserId](#preferredSystemUserId)|Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[masterId](#masterId)|Unique identifier of the master contact for merge.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[doNotSendMM](#doNotSendMM)|Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[parentCustomerId](#parentCustomerId)|Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[parentCustomerIdType](#parentCustomerIdType)|The type of parent customer, either Account or Contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[merged](#merged)|Shows whether the account has been merged with a master contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[externalUserIdentifier](#externalUserIdentifier)|Identifier for an external user.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the contact was last included in a marketing campaign or quick campaign.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[annualIncomeBase](#annualIncomeBase)|Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[creditLimitBase](#creditLimitBase)|Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[aging60Base](#aging60Base)|Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[aging90Base](#aging90Base)|Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[aging30Base](#aging30Base)|Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[stageId](#stageId)|Shows the ID of the stage.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[processId](#processId)|Shows the ID of the process.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[entityImageId](#entityImageId)|For internal use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[traversedPath](#traversedPath)|For internal use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Contact record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the contact record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[business2](#business2)|Type a second business phone number for this contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[callback](#callback)|Type a callback phone number for this contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[company](#company)|Type the company phone of the contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[home2](#home2)|Type a second home phone number for this contact.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
-|[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[customerSizeCode](#customerSizeCode)|Select the size of the contact's company for segmentation and reporting purposes.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[customerSizeCode_display](#customerSizeCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[customerTypeCode](#customerTypeCode)|Type of person’s relationship with the bank. This field must be set by the system through different processes such as customer enrollment, data migration, or complaints and opportunity capture.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[customerTypeCode_display](#customerTypeCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[leadSourceCode](#leadSourceCode)|Select the primary marketing source that directed the contact to your organization.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[leadSourceCode_display](#leadSourceCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the contact is associated.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[participatesInWorkflow](#participatesInWorkflow)|Shows whether the contact participates in workflow rules.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[isBackofficeCustomer](#isBackofficeCustomer)|Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[salutation](#salutation)|Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[jobTitle](#jobTitle)|Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[firstName](#firstName)|Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[department](#department)|Type the department or business unit where the contact works in the parent company or business.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[nickName](#nickName)|Type the contact's nickname.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[middleName](#middleName)|Type the contact's middle name or initial to make sure the contact is addressed correctly.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[lastName](#lastName)|Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[suffix](#suffix)|Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[fullName](#fullName)|Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[yomiMiddleName](#yomiMiddleName)|Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[anniversary](#anniversary)|Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[birthDate](#birthDate)|The person’s date of birth as per the identification document.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[governmentId](#governmentId)|Type the passport number or other government ID for the contact for use in documents or reports.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[yomiFullName](#yomiFullName)|Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[description](#description)|Type additional information to describe the contact, such as an excerpt from the company's website.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[employeeId](#employeeId)|Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[genderCode](#genderCode)|Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[genderCode_display](#genderCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[annualIncome](#annualIncome)|Type the contact's annual income for use in profiling and financial analysis.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[hasChildrenCode](#hasChildrenCode)|Select whether the contact has any children for reference in follow-up phone calls and other communications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[hasChildrenCode_display](#hasChildrenCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[educationCode](#educationCode)|Select the contact's highest level of education for use in segmentation and analysis.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[educationCode_display](#educationCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[webSiteUrl](#webSiteUrl)|Type the contact's professional or personal website or blog URL.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[familyStatusCode](#familyStatusCode)|Select the marital status of the contact for reference in follow-up phone calls and other communications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[familyStatusCode_display](#familyStatusCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the contact's FTP site to enable users to access data and share documents.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[EMailAddress1](#EMailAddress1)|Type the primary email address for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[spousesName](#spousesName)|Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[assistantName](#assistantName)|Type the name of the contact's assistant.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[assistantPhone](#assistantPhone)|Type the phone number for the contact's assistant.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotPhone](#doNotPhone)|Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[managerName](#managerName)|Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[managerPhone](#managerPhone)|Type the phone number for the contact's manager.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotFax](#doNotFax)|Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotEMail](#doNotEMail)|Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotPostalMail](#doNotPostalMail)|Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotBulkEMail](#doNotBulkEMail)|Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[accountRoleCode](#accountRoleCode)|Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[accountRoleCode_display](#accountRoleCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[territoryCode](#territoryCode)|Select a region or territory for the contact for use in segmentation and analysis.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[territoryCode_display](#territoryCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[creditLimit](#creditLimit)|Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[creditOnHold](#creditOnHold)|Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[numberOfChildren](#numberOfChildren)|Type the number of children the contact has for reference in follow-up phone calls and other communications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[childrensNames](#childrensNames)|Type the names of the contact's children for reference in communications and client programs.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[mobilePhone](#mobilePhone)|Type the mobile phone number for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[pager](#pager)|Type the pager number for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[telephone1](#telephone1)|Type the main phone number for this contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[telephone2](#telephone2)|Type a second phone number for this contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[telephone3](#telephone3)|Type a third phone number for this contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[fax](#fax)|Type the fax number for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[aging30](#aging30)|For system use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[stateCode](#stateCode)|Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[stateCode_display](#stateCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[aging60](#aging60)|For system use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[statusCode](#statusCode)|Select the contact's status.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[statusCode_display](#statusCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[aging90](#aging90)|For system use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[parentContactId](#parentContactId)|Unique identifier of the parent contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address n.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Line2](#address1Line2)|Type the second line of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Line3](#address1Line3)|Type the third line of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1County](#address1County)|Type the county for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Country](#address1Country)|Type the country or region for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address1Composite](#address1Composite)|Shows the complete address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address n.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Line2](#address2Line2)|Type the second line of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Line3](#address2Line3)|Type the third line of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2County](#address2County)|Type the county for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Country](#address2Country)|Type the country or region for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address2Composite](#address2Composite)|Shows the complete address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3AddressId](#address3AddressId)|Unique identifier for address n.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3AddressTypeCode](#address3AddressTypeCode)|Select the address type, such as primary or billing.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3AddressTypeCode_display](#address3AddressTypeCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Name](#address3Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3PrimaryContactName](#address3PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Line1](#address3Line1)|Type the first line of the customer's address to help identify the location.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Line2](#address3Line2)|Type the second line of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Line3](#address3Line3)|Type the third line of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3City](#address3City)|Type the city for the customer's address to help identify the location.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3StateOrProvince](#address3StateOrProvince)|Type the state or province of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3County](#address3County)|Type the county for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Country](#address3Country)|Type the country or region for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3PostOfficeBox](#address3PostOfficeBox)|Type the post office box number of the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3PostalCode](#address3PostalCode)|Type the ZIP Code or postal code for the address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3UTCOffset](#address3UTCOffset)|Select the time zone for the address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3FreightTermsCode](#address3FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3FreightTermsCode_display](#address3FreightTermsCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3UPSZone](#address3UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Latitude](#address3Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Telephone1](#address3Telephone1)|Type the primary phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Longitude](#address3Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3ShippingMethodCode](#address3ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3ShippingMethodCode_display](#address3ShippingMethodCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Telephone2](#address3Telephone2)|Type a second phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Telephone3](#address3Telephone3)|Type a third phone number for the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Fax](#address3Fax)|Type the fax number associated with the customer's address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[address3Composite](#address3Composite)|Shows the complete address.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredSystemUserId](#preferredSystemUserId)|Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[masterId](#masterId)|Unique identifier of the master contact for merge.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[doNotSendMM](#doNotSendMM)|Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[parentCustomerId](#parentCustomerId)|Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[parentCustomerIdType](#parentCustomerIdType)|The type of parent customer, either Account or Contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[merged](#merged)|Shows whether the account has been merged with a master contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[externalUserIdentifier](#externalUserIdentifier)|Identifier for an external user.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the contact was last included in a marketing campaign or quick campaign.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[annualIncomeBase](#annualIncomeBase)|Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[creditLimitBase](#creditLimitBase)|Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[aging60Base](#aging60Base)|Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[aging90Base](#aging90Base)|Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[aging30Base](#aging30Base)|Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Contact record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the contact record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[business2](#business2)|Type a second business phone number for this contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[callback](#callback)|Type a callback phone number for this contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[company](#company)|Type the company phone of the contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[home2](#home2)|Type a second home phone number for this contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[age](#age)|Age auto calculated via formula using Birthdate.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[anonymous](#anonymous)|Indicates if the contact is anonymous|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[birthDay](#birthDay)|Manually populated contact birth day.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[birthDay_display](#birthDay_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[birthMonth](#birthMonth)|Manually populated Contact birth month.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[birthMonth_display](#birthMonth_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[birthYear](#birthYear)|Manually populated Contact birth year.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[contactAccountNumber](#contactAccountNumber)|F&O unique id used for mapping.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[deceased](#deceased)|Indicates the Contact is deceased|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[ethnicity](#ethnicity)|Manually populated field indicating Ethnicity of a Contact.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[ethnicity_display](#ethnicity_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[maidenName](#maidenName)|Manually populated field indicating Contact's Maiden name.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[primaryConstituentType](#primaryConstituentType)|Subcategory of primary Constituency type rolls up to this field.|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[primaryConstituentType_display](#primaryConstituentType_display)||<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
+|[reportsToId](#reportsToId)|Reports To|<a href="Contact.md" target="_blank">nonProfitCore/Contact</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -322,12 +321,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
-First included in: applicationCommon/Contact (this entity)  
+Unique identifier of the user who created the record.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -355,10 +354,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -374,7 +373,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -414,12 +413,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
-First included in: applicationCommon/Contact (this entity)  
+Unique identifier of the user who modified the record.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -447,10 +446,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -465,12 +464,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
-First included in: applicationCommon/Contact (this entity)  
+Unique identifier of the delegate user who created the record.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -498,10 +497,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -516,12 +515,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
-First included in: applicationCommon/Contact (this entity)  
+Unique identifier of the delegate user who modified the record.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -549,10 +548,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -568,7 +567,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -608,12 +607,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Unique identifier of the data import or data migration that created this record.  
-First included in: applicationCommon/Contact (this entity)  
+Sequence number of the import that created this record.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -628,7 +627,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -645,7 +644,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -677,7 +676,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../applicationCommon/Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../applicationCommon/Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"ownerid"</td><td>string</td><td></td></tr></table>
@@ -693,7 +692,7 @@ contains a User or Team ID
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -739,7 +738,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -771,7 +770,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/BusinessUnit.md" target="_blank">/core/applicationCommon/BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../applicationCommon/BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -787,7 +786,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -822,7 +821,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -838,7 +837,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -870,7 +869,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../applicationCommon/Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -886,7 +885,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -925,7 +924,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -964,7 +963,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1003,7 +1002,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1045,7 +1044,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerSizeCode name="customerSizeCode">customerSizeCode</a>
 
 Select the size of the contact's company for segmentation and reporting purposes.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1086,7 +1085,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerSizeCode_display name="customerSizeCode_display">customerSizeCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1111,12 +1110,12 @@ First included in: applicationCommon/Contact (this entity)
 
 ### <a href=#customerTypeCode name="customerTypeCode">customerTypeCode</a>
 
-Select the category that best describes the relationship between the contact and your organization.  
-First included in: applicationCommon/Contact (this entity)  
+Type of person’s relationship with the bank. This field must be set by the system through different processes such as customer enrollment, data migration, or complaints and opportunity capture.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Relationship Type</td></tr><tr><td>description</td><td>Select the category that best describes the relationship between the contact and your organization.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customertypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Relationship Type</td></tr><tr><td>description</td><td>Type of person’s relationship with the bank. This field must be set by the system through different processes such as customer enrollment, data migration, or complaints and opportunity capture.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customertypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1137,7 +1136,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Relationship Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select the category that best describes the relationship between the contact and your organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select the category that best describes the relationship between the contact and your organization.</td></tr><tr><td>en</td><td>Type of person’s relationship with the bank. This field must be set by the system through different processes such as customer enrollment, data migration, or complaints and opportunity capture.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -1153,7 +1152,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerTypeCode_display name="customerTypeCode_display">customerTypeCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1179,7 +1178,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#preferredContactMethodCode name="preferredContactMethodCode">preferredContactMethodCode</a>
 
 Select the preferred method of contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1220,7 +1219,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredContactMethodCode_display name="preferredContactMethodCode_display">preferredContactMethodCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1246,7 +1245,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#leadSourceCode name="leadSourceCode">leadSourceCode</a>
 
 Select the primary marketing source that directed the contact to your organization.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1287,7 +1286,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#leadSourceCode_display name="leadSourceCode_display">leadSourceCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1313,7 +1312,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#paymentTermsCode name="paymentTermsCode">paymentTermsCode</a>
 
 Select the payment terms to indicate when the customer needs to pay the total amount.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1354,7 +1353,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#paymentTermsCode_display name="paymentTermsCode_display">paymentTermsCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1380,7 +1379,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#shippingMethodCode name="shippingMethodCode">shippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1421,7 +1420,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#shippingMethodCode_display name="shippingMethodCode_display">shippingMethodCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1447,7 +1446,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the contact is associated.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1492,7 +1491,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#participatesInWorkflow name="participatesInWorkflow">participatesInWorkflow</a>
 
 Shows whether the contact participates in workflow rules.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1528,7 +1527,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isBackofficeCustomer name="isBackofficeCustomer">isBackofficeCustomer</a>
 
 Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1564,7 +1563,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#salutation name="salutation">salutation</a>
 
 Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1606,7 +1605,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#jobTitle name="jobTitle">jobTitle</a>
 
 Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1648,7 +1647,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#firstName name="firstName">firstName</a>
 
 Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1693,7 +1692,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#department name="department">department</a>
 
 Type the department or business unit where the contact works in the parent company or business.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1735,7 +1734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#nickName name="nickName">nickName</a>
 
 Type the contact's nickname.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1778,7 +1777,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#middleName name="middleName">middleName</a>
 
 Type the contact's middle name or initial to make sure the contact is addressed correctly.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1821,7 +1820,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastName name="lastName">lastName</a>
 
 Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1866,7 +1865,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#suffix name="suffix">suffix</a>
 
 Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1908,7 +1907,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFirstName name="yomiFirstName">yomiFirstName</a>
 
 Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1954,7 +1953,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fullName name="fullName">fullName</a>
 
 Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -1997,7 +1996,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiMiddleName name="yomiMiddleName">yomiMiddleName</a>
 
 Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2041,7 +2040,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiLastName name="yomiLastName">yomiLastName</a>
 
 Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2087,7 +2086,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#anniversary name="anniversary">anniversary</a>
 
 Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2126,12 +2125,12 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#birthDate name="birthDate">birthDate</a>
 
-Enter the contact's birthday for use in customer gift programs or other communications.  
-First included in: applicationCommon/Contact (this entity)  
+The person’s date of birth as per the identification document.  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birthday</td></tr><tr><td>description</td><td>Enter the contact's birthday for use in customer gift programs or other communications.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>birthdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birthday</td></tr><tr><td>description</td><td>The person’s date of birth as per the identification document.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>birthdate</td></tr></table>
 
 #### Traits
 
@@ -2149,7 +2148,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Birthday</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enter the contact's birthday for use in customer gift programs or other communications.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enter the contact's birthday for use in customer gift programs or other communications.</td></tr><tr><td>en</td><td>The person’s date of birth as per the identification document.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -2167,7 +2166,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#governmentId name="governmentId">governmentId</a>
 
 Type the passport number or other government ID for the contact for use in documents or reports.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2210,7 +2209,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#yomiFullName name="yomiFullName">yomiFullName</a>
 
 Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2254,7 +2253,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the contact, such as an excerpt from the company's website.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2296,7 +2295,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#employeeId name="employeeId">employeeId</a>
 
 Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2338,7 +2337,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#genderCode name="genderCode">genderCode</a>
 
 Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2379,7 +2378,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#genderCode_display name="genderCode_display">genderCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2405,7 +2404,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#annualIncome name="annualIncome">annualIncome</a>
 
 Type the contact's annual income for use in profiling and financial analysis.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2449,7 +2448,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#hasChildrenCode name="hasChildrenCode">hasChildrenCode</a>
 
 Select whether the contact has any children for reference in follow-up phone calls and other communications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2490,7 +2489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#hasChildrenCode_display name="hasChildrenCode_display">hasChildrenCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2516,7 +2515,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#educationCode name="educationCode">educationCode</a>
 
 Select the contact's highest level of education for use in segmentation and analysis.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2557,7 +2556,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#educationCode_display name="educationCode_display">educationCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2583,7 +2582,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#webSiteUrl name="webSiteUrl">webSiteUrl</a>
 
 Type the contact's professional or personal website or blog URL.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2626,7 +2625,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#familyStatusCode name="familyStatusCode">familyStatusCode</a>
 
 Select the marital status of the contact for reference in follow-up phone calls and other communications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2667,7 +2666,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#familyStatusCode_display name="familyStatusCode_display">familyStatusCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2693,7 +2692,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#ftpSiteUrl name="ftpSiteUrl">ftpSiteUrl</a>
 
 Type the URL for the contact's FTP site to enable users to access data and share documents.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2736,7 +2735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress1 name="EMailAddress1">EMailAddress1</a>
 
 Type the primary email address for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2779,7 +2778,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#spousesName name="spousesName">spousesName</a>
 
 Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2822,7 +2821,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#assistantName name="assistantName">assistantName</a>
 
 Type the name of the contact's assistant.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2865,7 +2864,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress2 name="EMailAddress2">EMailAddress2</a>
 
 Type the secondary email address for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2908,7 +2907,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#assistantPhone name="assistantPhone">assistantPhone</a>
 
 Type the phone number for the contact's assistant.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2951,7 +2950,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#EMailAddress3 name="EMailAddress3">EMailAddress3</a>
 
 Type an alternate email address for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -2994,7 +2993,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3030,7 +3029,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#managerName name="managerName">managerName</a>
 
 Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3073,7 +3072,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managerPhone name="managerPhone">managerPhone</a>
 
 Type the phone number for the contact's manager.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3116,7 +3115,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3152,7 +3151,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3188,7 +3187,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3224,7 +3223,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkEMail name="doNotBulkEMail">doNotBulkEMail</a>
 
 Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3260,7 +3259,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotBulkPostalMail name="doNotBulkPostalMail">doNotBulkPostalMail</a>
 
 Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3296,7 +3295,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountRoleCode name="accountRoleCode">accountRoleCode</a>
 
 Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3337,7 +3336,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountRoleCode_display name="accountRoleCode_display">accountRoleCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3363,7 +3362,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#territoryCode name="territoryCode">territoryCode</a>
 
 Select a region or territory for the contact for use in segmentation and analysis.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3404,7 +3403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#territoryCode_display name="territoryCode_display">territoryCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3430,7 +3429,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3474,7 +3473,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#creditOnHold name="creditOnHold">creditOnHold</a>
 
 Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3510,7 +3509,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberOfChildren name="numberOfChildren">numberOfChildren</a>
 
 Type the number of children the contact has for reference in follow-up phone calls and other communications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3549,7 +3548,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#childrensNames name="childrensNames">childrensNames</a>
 
 Type the names of the contact's children for reference in communications and client programs.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3592,7 +3591,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mobilePhone name="mobilePhone">mobilePhone</a>
 
 Type the mobile phone number for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3635,7 +3634,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#pager name="pager">pager</a>
 
 Type the pager number for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3677,7 +3676,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Type the main phone number for this contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3720,7 +3719,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Type a second phone number for this contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3763,7 +3762,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Type a third phone number for this contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3806,7 +3805,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fax name="fax">fax</a>
 
 Type the fax number for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3848,7 +3847,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#aging30 name="aging30">aging30</a>
 
 For system use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3892,7 +3891,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3933,7 +3932,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -3959,7 +3958,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#aging60 name="aging60">aging60</a>
 
 For system use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4003,7 +4002,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the contact's status.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4047,7 +4046,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4073,7 +4072,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#aging90 name="aging90">aging90</a>
 
 For system use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4117,7 +4116,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#parentContactId name="parentContactId">parentContactId</a>
 
 Unique identifier of the parent contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4162,7 +4161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1AddressId name="address1AddressId">address1AddressId</a>
 
 Unique identifier for address n.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4204,7 +4203,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#address1AddressTypeCode name="address1AddressTypeCode">address1AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4245,7 +4244,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1AddressTypeCode_display name="address1AddressTypeCode_display">address1AddressTypeCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4271,7 +4270,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address1Name name="address1Name">address1Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4314,7 +4313,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PrimaryContactName name="address1PrimaryContactName">address1PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4357,7 +4356,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line1 name="address1Line1">address1Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4400,7 +4399,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line2 name="address1Line2">address1Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4443,7 +4442,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Line3 name="address1Line3">address1Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4486,7 +4485,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1City name="address1City">address1City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4529,7 +4528,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1StateOrProvince name="address1StateOrProvince">address1StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4572,7 +4571,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1County name="address1County">address1County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4615,7 +4614,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Country name="address1Country">address1Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4658,7 +4657,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostOfficeBox name="address1PostOfficeBox">address1PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4700,7 +4699,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1PostalCode name="address1PostalCode">address1PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4743,7 +4742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1UTCOffset name="address1UTCOffset">address1UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4786,7 +4785,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1FreightTermsCode name="address1FreightTermsCode">address1FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4827,7 +4826,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1FreightTermsCode_display name="address1FreightTermsCode_display">address1FreightTermsCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4853,7 +4852,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address1UPSZone name="address1UPSZone">address1UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4895,7 +4894,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Latitude name="address1Latitude">address1Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4937,7 +4936,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone1 name="address1Telephone1">address1Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -4980,7 +4979,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Longitude name="address1Longitude">address1Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5022,7 +5021,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1ShippingMethodCode name="address1ShippingMethodCode">address1ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5063,7 +5062,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address1ShippingMethodCode_display name="address1ShippingMethodCode_display">address1ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5089,7 +5088,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address1Telephone2 name="address1Telephone2">address1Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5132,7 +5131,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Telephone3 name="address1Telephone3">address1Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5175,7 +5174,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Fax name="address1Fax">address1Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5218,7 +5217,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address1Composite name="address1Composite">address1Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5261,7 +5260,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2AddressId name="address2AddressId">address2AddressId</a>
 
 Unique identifier for address n.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5303,7 +5302,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#address2AddressTypeCode name="address2AddressTypeCode">address2AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5344,7 +5343,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2AddressTypeCode_display name="address2AddressTypeCode_display">address2AddressTypeCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5370,7 +5369,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address2Name name="address2Name">address2Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5413,7 +5412,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PrimaryContactName name="address2PrimaryContactName">address2PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5456,7 +5455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line1 name="address2Line1">address2Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5499,7 +5498,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line2 name="address2Line2">address2Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5542,7 +5541,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Line3 name="address2Line3">address2Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5585,7 +5584,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2City name="address2City">address2City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5628,7 +5627,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2StateOrProvince name="address2StateOrProvince">address2StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5671,7 +5670,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2County name="address2County">address2County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5714,7 +5713,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Country name="address2Country">address2Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5757,7 +5756,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostOfficeBox name="address2PostOfficeBox">address2PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5799,7 +5798,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2PostalCode name="address2PostalCode">address2PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5842,7 +5841,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2UTCOffset name="address2UTCOffset">address2UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5885,7 +5884,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2FreightTermsCode name="address2FreightTermsCode">address2FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5926,7 +5925,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2FreightTermsCode_display name="address2FreightTermsCode_display">address2FreightTermsCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5952,7 +5951,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address2UPSZone name="address2UPSZone">address2UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -5994,7 +5993,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Latitude name="address2Latitude">address2Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6036,7 +6035,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone1 name="address2Telephone1">address2Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6079,7 +6078,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Longitude name="address2Longitude">address2Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6121,7 +6120,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2ShippingMethodCode name="address2ShippingMethodCode">address2ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6162,7 +6161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address2ShippingMethodCode_display name="address2ShippingMethodCode_display">address2ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6188,7 +6187,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address2Telephone2 name="address2Telephone2">address2Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6231,7 +6230,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Telephone3 name="address2Telephone3">address2Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6274,7 +6273,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Fax name="address2Fax">address2Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6317,7 +6316,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address2Composite name="address2Composite">address2Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6360,7 +6359,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3AddressId name="address3AddressId">address3AddressId</a>
 
 Unique identifier for address n.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6402,7 +6401,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#address3AddressTypeCode name="address3AddressTypeCode">address3AddressTypeCode</a>
 
 Select the address type, such as primary or billing.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6443,7 +6442,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address3AddressTypeCode_display name="address3AddressTypeCode_display">address3AddressTypeCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6469,7 +6468,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address3Name name="address3Name">address3Name</a>
 
 Type a descriptive name for the customer's address, such as Corporate Headquarters.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6512,7 +6511,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3PrimaryContactName name="address3PrimaryContactName">address3PrimaryContactName</a>
 
 Type the name of the primary contact person for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6555,7 +6554,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Line1 name="address3Line1">address3Line1</a>
 
 Type the first line of the customer's address to help identify the location.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6598,7 +6597,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Line2 name="address3Line2">address3Line2</a>
 
 Type the second line of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6641,7 +6640,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Line3 name="address3Line3">address3Line3</a>
 
 Type the third line of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6684,7 +6683,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3City name="address3City">address3City</a>
 
 Type the city for the customer's address to help identify the location.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6727,7 +6726,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3StateOrProvince name="address3StateOrProvince">address3StateOrProvince</a>
 
 Type the state or province of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6770,7 +6769,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3County name="address3County">address3County</a>
 
 Type the county for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6813,7 +6812,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Country name="address3Country">address3Country</a>
 
 Type the country or region for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6856,7 +6855,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3PostOfficeBox name="address3PostOfficeBox">address3PostOfficeBox</a>
 
 Type the post office box number of the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6898,7 +6897,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3PostalCode name="address3PostalCode">address3PostalCode</a>
 
 Type the ZIP Code or postal code for the address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6941,7 +6940,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3UTCOffset name="address3UTCOffset">address3UTCOffset</a>
 
 Select the time zone for the address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -6984,7 +6983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3FreightTermsCode name="address3FreightTermsCode">address3FreightTermsCode</a>
 
 Select the freight terms to make sure shipping charges are processed correctly.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7025,7 +7024,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address3FreightTermsCode_display name="address3FreightTermsCode_display">address3FreightTermsCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7051,7 +7050,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address3UPSZone name="address3UPSZone">address3UPSZone</a>
 
 Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7093,7 +7092,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Latitude name="address3Latitude">address3Latitude</a>
 
 Type the latitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7135,7 +7134,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Telephone1 name="address3Telephone1">address3Telephone1</a>
 
 Type the primary phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7178,7 +7177,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Longitude name="address3Longitude">address3Longitude</a>
 
 Type the longitude value for the customer's address, for use in mapping and other applications.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7220,7 +7219,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3ShippingMethodCode name="address3ShippingMethodCode">address3ShippingMethodCode</a>
 
 Select a shipping method for deliveries sent to this address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7261,7 +7260,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#address3ShippingMethodCode_display name="address3ShippingMethodCode_display">address3ShippingMethodCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7287,7 +7286,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#address3Telephone2 name="address3Telephone2">address3Telephone2</a>
 
 Type a second phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7330,7 +7329,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Telephone3 name="address3Telephone3">address3Telephone3</a>
 
 Type a third phone number for the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7373,7 +7372,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Fax name="address3Fax">address3Fax</a>
 
 Type the fax number associated with the customer's address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7416,7 +7415,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#address3Composite name="address3Composite">address3Composite</a>
 
 Shows the complete address.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7459,7 +7458,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#preferredSystemUserId name="preferredSystemUserId">preferredSystemUserId</a>
 
 Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7488,7 +7487,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../applicationCommon/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -7507,7 +7506,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterId name="masterId">masterId</a>
 
 Unique identifier of the master contact for merge.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7536,7 +7535,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the master contact for merge.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -7555,7 +7554,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#preferredAppointmentDayCode name="preferredAppointmentDayCode">preferredAppointmentDayCode</a>
 
 Select the preferred day of the week for service appointments.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7596,7 +7595,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentDayCode_display name="preferredAppointmentDayCode_display">preferredAppointmentDayCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7622,7 +7621,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#preferredAppointmentTimeCode name="preferredAppointmentTimeCode">preferredAppointmentTimeCode</a>
 
 Select the preferred time of day for service appointments.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7663,7 +7662,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#preferredAppointmentTimeCode_display name="preferredAppointmentTimeCode_display">preferredAppointmentTimeCode_display</a>
 
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7689,7 +7688,7 @@ First included in: applicationCommon/Contact (this entity)
 ### <a href=#doNotSendMM name="doNotSendMM">doNotSendMM</a>
 
 Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7725,7 +7724,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#parentCustomerId name="parentCustomerId">parentCustomerId</a>
 
 Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7754,7 +7753,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="Account.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -7776,7 +7775,7 @@ contains an Account or Contact ID
 ### <a href=#parentCustomerIdType name="parentCustomerIdType">parentCustomerIdType</a>
 
 The type of parent customer, either Account or Contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7819,7 +7818,7 @@ contains an Account or Contact ID
 ### <a href=#merged name="merged">merged</a>
 
 Shows whether the account has been merged with a master contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7855,7 +7854,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalUserIdentifier name="externalUserIdentifier">externalUserIdentifier</a>
 
 Identifier for an external user.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7897,7 +7896,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastUsedInCampaign name="lastUsedInCampaign">lastUsedInCampaign</a>
 
 Shows the date when the contact was last included in a marketing campaign or quick campaign.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7937,7 +7936,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -7966,7 +7965,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../../applicationCommon/Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -7985,7 +7984,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8028,7 +8027,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#annualIncomeBase name="annualIncomeBase">annualIncomeBase</a>
 
 Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8075,7 +8074,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#creditLimitBase name="creditLimitBase">creditLimitBase</a>
 
 Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8122,7 +8121,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#aging60Base name="aging60Base">aging60Base</a>
 
 Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8169,7 +8168,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#aging90Base name="aging90Base">aging90Base</a>
 
 Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8216,7 +8215,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#aging30Base name="aging30Base">aging30Base</a>
 
 Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8263,7 +8262,7 @@ for setting the exact precision and scale of numeric values
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the ID of the stage.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8304,7 +8303,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the ID of the process.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8345,7 +8344,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
 For internal use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8386,7 +8385,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8428,7 +8427,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Contact record.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8457,7 +8456,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the service level agreement (SLA) that you want to apply to the Contact record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../applicationCommon/SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -8476,7 +8475,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8505,7 +8504,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last SLA that was applied to this case. This field is for internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../applicationCommon/SLA.md" target="_blank">/core/applicationCommon/SLA.cdm.json/SLA</a></td><td><a href="../../../applicationCommon/SLA.md#SLAId" target="_blank">SLAId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -8524,7 +8523,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8563,7 +8562,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8603,7 +8602,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followEmail name="followEmail">followEmail</a>
 
 Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8639,7 +8638,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeSpentByMeOnEmailAndMeetings name="timeSpentByMeOnEmailAndMeetings">timeSpentByMeOnEmailAndMeetings</a>
 
 Total time spent for emails (read and write) and meetings by me in relation to the contact record.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8682,7 +8681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#business2 name="business2">business2</a>
 
 Type a second business phone number for this contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8725,7 +8724,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#callback name="callback">callback</a>
 
 Type a callback phone number for this contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8768,7 +8767,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#company name="company">company</a>
 
 Type the company phone of the contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8811,7 +8810,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#home2 name="home2">home2</a>
 
 Type a second home phone number for this contact.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8854,7 +8853,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8899,7 +8898,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8944,7 +8943,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#marketingOnly name="marketingOnly">marketingOnly</a>
 
 Whether is only for marketing  
-First included in: applicationCommon/Contact (this entity)  
+First included in: nonProfitCore/Contact (this entity)  
 
 #### Properties
 
@@ -8975,4 +8974,522 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"306"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.boolean**  
+</details>
+
+### <a href=#age name="age">age</a>
+
+Age auto calculated via formula using Birthdate.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Age</td></tr><tr><td>description</td><td>Age auto calculated via formula using Birthdate.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_age</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the age attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_age"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Age</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Age auto calculated via formula using Birthdate.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#anonymous name="anonymous">anonymous</a>
+
+Indicates if the contact is anonymous  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anonymous?</td></tr><tr><td>description</td><td>Indicates if the contact is anonymous</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anonymous</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the anonymous attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_anonymous"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Anonymous?</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates if the contact is anonymous</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.boolean**  
+</details>
+
+### <a href=#birthDay name="birthDay">birthDay</a>
+
+Manually populated contact birth day.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birth Day</td></tr><tr><td>description</td><td>Manually populated contact birth day.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_birthday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the birthDay attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>DaysOfMonth</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_birthday"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Birth Day</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated contact birth day.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#birthDay_display name="birthDay_display">birthDay_display</a>
+
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the birthDay_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"birthDay"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#birthMonth name="birthMonth">birthMonth</a>
+
+Manually populated Contact birth month.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birth Month</td></tr><tr><td>description</td><td>Manually populated Contact birth month.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_birthmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the birthMonth attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>MonthNames</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_birthmonth"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Birth Month</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated Contact birth month.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#birthMonth_display name="birthMonth_display">birthMonth_display</a>
+
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the birthMonth_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"birthMonth"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#birthYear name="birthYear">birthYear</a>
+
+Manually populated Contact birth year.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birth Year</td></tr><tr><td>description</td><td>Manually populated Contact birth year.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_birthyear</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the birthYear attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_birthyear"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Birth Year</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated Contact birth year.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#contactAccountNumber name="contactAccountNumber">contactAccountNumber</a>
+
+F&O unique id used for mapping.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact Account Number</td></tr><tr><td>description</td><td>F&O unique id used for mapping.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>25</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_contactaccountnumber</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the contactAccountNumber attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_contactaccountnumber"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"25"</td><td>integer</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact Account Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>F&O unique id used for mapping.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#deceased name="deceased">deceased</a>
+
+Indicates the Contact is deceased  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased?</td></tr><tr><td>description</td><td>Indicates the Contact is deceased</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceased</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the deceased attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_deceased"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Deceased?</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the Contact is deceased</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.boolean**  
+</details>
+
+### <a href=#ethnicity name="ethnicity">ethnicity</a>
+
+Manually populated field indicating Ethnicity of a Contact.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ethnicity</td></tr><tr><td>description</td><td>Manually populated field indicating Ethnicity of a Contact.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_ethnicity</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ethnicity</td><td>100000000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ethnicity attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ethnicity</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_ethnicity"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ethnicity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated field indicating Ethnicity of a Contact.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#ethnicity_display name="ethnicity_display">ethnicity_display</a>
+
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ethnicity_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"ethnicity"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#maidenName name="maidenName">maidenName</a>
+
+Manually populated field indicating Contact's Maiden name.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maiden Name</td></tr><tr><td>description</td><td>Manually populated field indicating Contact's Maiden name.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_maidenname</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the maidenName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.identity.name**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_maidenname"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maiden Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manually populated field indicating Contact's Maiden name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#primaryConstituentType name="primaryConstituentType">primaryConstituentType</a>
+
+Subcategory of primary Constituency type rolls up to this field.  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Constituent Type</td></tr><tr><td>description</td><td>Subcategory of primary Constituency type rolls up to this field.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_primaryconstituenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advocate</td><td>844060005</td></tr><tr><td>en</td><td>Beneficiary</td><td>844060003</td></tr><tr><td>en</td><td>Board Member</td><td>844060002</td></tr><tr><td>en</td><td>Donor</td><td>100000000</td></tr><tr><td>en</td><td>Member</td><td>844060004</td></tr><tr><td>en</td><td>Partner</td><td>844060001</td></tr><tr><td>en</td><td>Volunteer</td><td>844060000</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the primaryConstituentType attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advocate</td><td>844060005</td></tr><tr><td>en</td><td>Beneficiary</td><td>844060003</td></tr><tr><td>en</td><td>Board Member</td><td>844060002</td></tr><tr><td>en</td><td>Donor</td><td>100000000</td></tr><tr><td>en</td><td>Member</td><td>844060004</td></tr><tr><td>en</td><td>Partner</td><td>844060001</td></tr><tr><td>en</td><td>Volunteer</td><td>844060000</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_primaryconstituenttype"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Primary Constituent Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subcategory of primary Constituency type rolls up to this field.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#primaryConstituentType_display name="primaryConstituentType_display">primaryConstituentType_display</a>
+
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the primaryConstituentType_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"primaryConstituentType"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#reportsToId name="reportsToId">reportsToId</a>
+
+Reports To  
+First included in: nonProfitCore/Contact (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reports To</td></tr><tr><td>description</td><td>Reports To</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_reportstoid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the reportsToId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reports To</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reports To</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/industrycommon/nonprofit/nonprofitcore/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_reportstoid"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
