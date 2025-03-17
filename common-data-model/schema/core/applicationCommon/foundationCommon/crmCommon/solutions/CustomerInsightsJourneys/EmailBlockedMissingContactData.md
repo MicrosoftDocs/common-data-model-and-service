@@ -65,7 +65,7 @@ Triggered when a contact was deleted or there is a missing security access
 |[ProfileType](#ProfileType)|The profile type \(Contact, Lead or CI Profile\)|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
 |[SchedulerId](#SchedulerId)||<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
 |[SendingId](#SendingId)|Indicates the journey iteration ID\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
-|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
+|[SourceSystem](#SourceSystem)| Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
 |[Timestamp](#Timestamp)|Indicates the exact date and time when the interaction was emitted\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
 |[UsageType](#UsageType)|Indicates if it's a test send, journey or trigger based\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
 |[Version](#Version)|Interaction version\. Used for updating the interaction\.|<a href="EmailBlockedMissingContactData.md" target="_blank">CustomerInsightsJourneys/EmailBlockedMissingContactData</a>|
@@ -385,7 +385,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../marketing/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../marketing/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md" target="_blank">/Marketing/MarketingSolution/CustomerJourneyIteration.cdm.json</a></td><td><a href="../Marketing/MarketingSolution/CustomerJourneyIteration.md#customerJourneyIterationId" target="_blank">customerJourneyIterationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -940,7 +940,7 @@ First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
- Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real-time journeys \(RTJ\)\.  
+ Refers to the source system that generated the interaction\. Outbound marketing \(OBM\) is represented by value 1\. Any other value than 1 represents Real\x2dtime journeys \(RTJ\)\.  
 First included in: CustomerInsightsJourneys/EmailBlockedMissingContactData \(this entity\)  
 
 #### Properties
