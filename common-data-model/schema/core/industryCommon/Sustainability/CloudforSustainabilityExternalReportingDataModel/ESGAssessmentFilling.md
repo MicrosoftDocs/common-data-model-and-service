@@ -1,17 +1,18 @@
 ---
-title: ESGAssessmentFilling in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in ESG Assessment Filling in Cloud for Sustainability external reporting data model.
-author: leeclontz
+title: ESGAssessmentFilling in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+description: 
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: lsuresh
-ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# ESG Assessment Filling in Cloud for Sustainability external reporting data model
+# ESG Assessment Filling in ExternalESGReportingDataModel
 
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ESGAssessmentFilling.cdm.json" target="_blank">GitHub</a>.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ESGAssessmentFilling.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 

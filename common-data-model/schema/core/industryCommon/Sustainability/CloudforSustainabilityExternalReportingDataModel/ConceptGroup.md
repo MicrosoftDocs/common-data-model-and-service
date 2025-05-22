@@ -1,17 +1,18 @@
 ---
-title: ConceptGroup in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in Cloud for Sustainability external reporting data model(ConceptGroup).
-author: leeclontz
+title: ConceptGroup in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+description: 
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: lsuresh
-ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# Concept group in Cloud for Sustainability external reporting data model(ConceptGroup)
+# Concept group in ExternalESGReportingDataModel(ConceptGroup)
 
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptGroup.cdm.json" target="_blank">GitHub</a>.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptGroup.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 

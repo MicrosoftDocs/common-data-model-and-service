@@ -1,15 +1,15 @@
 ---
-title: General in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: General in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
 description: ESG Reporting settings
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: lsuresh
-ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# General in Cloud for Sustainability external reporting data model
+# General in ExternalESGReportingDataModel
 
 ESG Reporting settings  
   

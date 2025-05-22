@@ -1,17 +1,18 @@
 ---
-title: ConceptsPage in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in Cloud for Sustainability external reporting data model(ConceptsPage).
-author: leeclontz
+title: ConceptsPage in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+description: 
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: lsuresh
-ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# Concepts page in Cloud for Sustainability external reporting data model(ConceptsPage)
+# Concepts page in ExternalESGReportingDataModel(ConceptsPage)
 
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptsPage.cdm.json" target="_blank">GitHub</a>.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptsPage.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 

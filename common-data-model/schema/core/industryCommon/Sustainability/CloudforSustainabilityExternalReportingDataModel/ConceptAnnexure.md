@@ -1,18 +1,18 @@
 ---
-title: ConceptAnnexure in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes of in Cloud for Sustainability external reporting data model(ConceptAnnexure).
-author: leeclontz
+title: ConceptAnnexure in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+description: 
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: lsuresh
-ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# Concept annexure in Cloud for Sustainability external reporting data model(ConceptAnnexure)
+# Concept annexure in ExternalESGReportingDataModel(ConceptAnnexure)
 
-
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptAnnexure.cdm.json" target="_blank">GitHub</a>.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/ConceptAnnexure.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 

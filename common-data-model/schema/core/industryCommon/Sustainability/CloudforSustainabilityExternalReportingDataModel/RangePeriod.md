@@ -1,15 +1,15 @@
 ---
-title: RangePeriod in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: RangePeriod in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
 description: Captures information for a specific range period
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: lsuresh
-ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# Range Period in Cloud for Sustainability external reporting data model
+# Range Period in ExternalESGReportingDataModel
 
 Captures information for a specific range period  
   
