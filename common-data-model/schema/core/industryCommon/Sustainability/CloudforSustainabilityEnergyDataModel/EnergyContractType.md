@@ -1,12 +1,12 @@
 ---
 title: EnergyContractType in Cloud for Sustainability energy data model
 description: Various types of documented method/approach to source energy.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
 # Energy contract type in Cloud for Sustainability energy data model (EnergyContractType)

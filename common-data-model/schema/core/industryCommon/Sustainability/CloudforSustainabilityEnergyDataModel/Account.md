@@ -1,15 +1,15 @@
 ---
 title: Account in Cloud for Sustainability energy data model
-description: Business that represents a customer or potential customer in the energy data model. The company is billed in business transactions.
-author: lsuresh
+description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# Account details in Cloud for Sustainability energy data model (Account)
+# Account in Cloud for Sustainability energy data model 
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   
@@ -45,12 +45,12 @@ Business that represents a customer or potential customer. The company that is b
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[energyprovidertype](#energyprovidertype)|Type of provider for the purchased energy.<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/Account</a>|
+|[energyprovidertype](#energyprovidertype)|Type of provider for the purchased energy.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/Account</a>|
 
 ### <a href=#energyprovidertype name="energyprovidertype">energyprovidertype</a>
 
 Type of provider for the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account \(this entity\)  
+First included in: Sustainability/SustainabilityEnergy/Account (this entity)  
 
 #### Properties
 
@@ -61,33 +61,33 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account
 <details>
 <summary>List of traits for the energyprovidertype attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+*is.localized.describedAs*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of provider for the purchased energy.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+*is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Energy provider type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.lookup\*\*  
+*is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/EnergyProviderType.md" target="_blank">/Sustainability/CloudforSustainabilitySharedDataModel/EnergyProviderType.cdm.json/EnergyProviderType</a></td><td><a href="../CloudforSustainabilitySharedDataModel/EnergyProviderType.md#energyprovidertypeId" target="_blank">energyprovidertypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/EnergyProviderType.md" target="_blank">/SustainabilityShared/EnergyProviderType.cdm.json/EnergyProviderType</a></td><td><a href="../SustainabilityShared/EnergyProviderType.md#energyprovidertypeId" target="_blank">energyprovidertypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

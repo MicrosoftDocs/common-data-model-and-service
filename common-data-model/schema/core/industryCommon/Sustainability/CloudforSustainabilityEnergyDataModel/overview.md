@@ -1,17 +1,17 @@
 ---
-title: overview of Cloud for Sustainability Energy Data Model- Common Data Model | Microsoft Docs
-description: Cloud for Sustainability Energy Data Modelis a folder that contains standard entities related to the Common Data Model.
-author: lsuresh
+title: overview of CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
+description: CloudforSustainabilityEnergyDataModel is a folder that contains standard entities related to the Common Data Model.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
-# Overview of Cloud for Sustainability energy data model
+# Overview of CloudforSustainabilityEnergyDataModel
 
-Cloud for Sustainability energy data model CDM entity definitions  
+Cloud for Sustainability Energy Data Model CDM entity definitions  
 
 ## Entities
 
