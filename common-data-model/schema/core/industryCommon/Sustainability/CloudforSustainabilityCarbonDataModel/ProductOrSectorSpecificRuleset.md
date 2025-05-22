@@ -4,7 +4,7 @@ description: A set of product- or sector-specific rules published by a specific 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
-ms.topic: article
+ms.topic: reference
 ms.date: 05/22/2025
 ms.author: leeclontz
 ---

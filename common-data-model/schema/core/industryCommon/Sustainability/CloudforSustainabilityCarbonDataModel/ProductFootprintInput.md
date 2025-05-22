@@ -4,7 +4,7 @@ description: Itemization of a computed product footprint
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
-ms.topic: article
+ms.topic: reference
 ms.date: 05/22/2025
 ms.author: leeclontz
 ---

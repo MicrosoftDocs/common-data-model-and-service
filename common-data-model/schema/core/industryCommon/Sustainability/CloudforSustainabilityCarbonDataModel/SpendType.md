@@ -4,7 +4,7 @@ description: Entity that represents a spend type, as defined in the reporting co
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
-ms.topic: article
+ms.topic: reference
 ms.date: 05/22/2025
 ms.author: leeclontz
 ---
