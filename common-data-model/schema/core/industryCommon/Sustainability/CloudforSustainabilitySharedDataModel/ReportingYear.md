@@ -1,12 +1,12 @@
 ---
 title: ReportingYear in Cloud for Sustainability shared data model
 description: Entity which lists reporting years created in the system.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
 # Reporting year in Cloud for Sustainability shared data model (ReportingYear)

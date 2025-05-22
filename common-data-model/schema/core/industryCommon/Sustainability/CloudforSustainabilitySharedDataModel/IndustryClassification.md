@@ -1,12 +1,12 @@
 ---
 title: IndustryClassification in Cloud for Sustainability shared data model
 description: Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
 # Industry classification in Cloud for Sustainability shared data model (IndustryClassification)

@@ -1,12 +1,12 @@
 ---
 title: IndustrialProcessType in Cloud for Sustainability shared data model
 description: Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
 # Industrial process type in Cloud for Sustainability shared data model (IndustrialProcessType)

@@ -1,12 +1,12 @@
 ---
 title: ProductCategory in Cloud for Sustainability shared data model
 description: Represents category of a product. Can be associated with a parent product category. It is used in reports.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
-ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.reviewer: deonhe
+ms.topic: article
+ms.date:2025
+ms.author: cdmditeam
 ---
 
 # Product category in Cloud for Sustainability shared data model (ProductCategory)
