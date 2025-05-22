@@ -3,10 +3,10 @@ title: DimensionLink in ExternalESGReportingDataModel - Common Data Model | Micr
 description: Entity that links dimension member with a requirement or a fact
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Dimension link in ExternalESGReportingDataModel(DimensionLink)

@@ -3,10 +3,10 @@ title: PurchasedGoodAndService in Cloud for Sustainability carbon data model - C
 description: Entity for purchased goods and services.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Purchased good and service in Cloud for Sustainability carbon data model(PurchasedGoodAndService)

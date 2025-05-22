@@ -3,10 +3,10 @@ title: General in ExternalESGReportingDataModel - Common Data Model | Microsoft 
 description: ESG Reporting settings
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # General in ExternalESGReportingDataModel

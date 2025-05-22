@@ -3,10 +3,10 @@ title: GeographicArea in Cloud for Sustainability shared data model
 description: Definition or categorization of a given area on earth
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Geographic Area in Cloud for Sustainability shared data model 

@@ -3,10 +3,10 @@ title: SustainabilityProductCategory in Cloud for Sustainability shared data mod
 description: Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Sustainability product category in Cloud for Sustainability shared data model (SustainabilityProductCategory)

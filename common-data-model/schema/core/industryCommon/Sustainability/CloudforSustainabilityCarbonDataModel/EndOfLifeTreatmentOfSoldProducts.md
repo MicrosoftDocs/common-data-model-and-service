@@ -3,10 +3,10 @@ title: EndOfLifeTreatmentOfSoldProducts in Cloud for Sustainability carbon data 
 description: Entity for end for life treatment of sold products
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # End-of-life treatment of sold products in Cloud for Sustainability carbon data model(EndOfLifeTreatmentOfSoldProducts)

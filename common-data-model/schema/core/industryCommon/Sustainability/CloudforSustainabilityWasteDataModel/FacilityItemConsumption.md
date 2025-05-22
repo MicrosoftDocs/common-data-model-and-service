@@ -3,10 +3,10 @@ title: FacilityItemConsumption in Cloud for Sustainability waste data model - Co
 description: Entity used to record the quantity of an item consumed in a facility for a specified period.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Facility item consumption in Cloud for Sustainability waste data model(FacilityItemConsumption)

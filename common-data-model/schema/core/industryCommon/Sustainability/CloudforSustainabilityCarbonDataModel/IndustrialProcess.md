@@ -3,10 +3,10 @@ title: IndustrialProcess in Cloud for Sustainability carbon data model - Common 
 description: Emissions source for scope 1 emissions relating to industrial processes.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Industrial process in Cloud for Sustainability carbon data model(IndustrialProcess)

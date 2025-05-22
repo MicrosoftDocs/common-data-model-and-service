@@ -3,10 +3,10 @@ title: ConceptAnnexure in ExternalESGReportingDataModel - Common Data Model | Mi
 description: 
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Concept annexure in ExternalESGReportingDataModel(ConceptAnnexure)

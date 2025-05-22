@@ -3,10 +3,10 @@ title: Assessment in ExternalESGReportingDataModel - Common Data Model | Microso
 description: Captures information for a specific assessment
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Assessment in ExternalESGReportingDataModel

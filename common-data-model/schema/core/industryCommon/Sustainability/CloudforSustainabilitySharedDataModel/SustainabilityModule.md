@@ -3,10 +3,10 @@ title: SustainabilityModule in Cloud for Sustainability shared data model
 description: Entity used to classify the data definitions.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Sustainability module in Cloud for Sustainability shared data model (SustainabilityModule)

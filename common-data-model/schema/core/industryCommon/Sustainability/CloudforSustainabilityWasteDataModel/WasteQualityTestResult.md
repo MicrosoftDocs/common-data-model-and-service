@@ -3,10 +3,10 @@ title: WasteQualityTestResult in Cloud for Sustainability waste data model - Com
 description: Stores information on the result of the tests for tracking chemical/contaminant levels.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: lsuresh
 ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Waste quality test result in Cloud for Sustainability waste data model(WasteQualityTestResult)
