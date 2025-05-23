@@ -1,6 +1,6 @@
 ---
 title: ExecutionPlan in Activities - Common Data Model | Microsoft Docs
-description: Execution plan
+description: ExecutionPlan in Activities - Common Data Model | Microsoft Docs
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
