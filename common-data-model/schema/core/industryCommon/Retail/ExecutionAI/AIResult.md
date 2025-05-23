@@ -1,6 +1,6 @@
 ---
 title: AIResult in ExecutionAI - Common Data Model | Microsoft Docs
-description: 
+description: AIResult in ExecutionAI - Common Data Model | Microsoft Docs
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

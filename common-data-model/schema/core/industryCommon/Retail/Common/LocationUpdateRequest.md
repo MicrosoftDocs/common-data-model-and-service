@@ -1,6 +1,6 @@
 ---
 title: LocationUpdateRequest in Common - Common Data Model | Microsoft Docs
-description: 
+description: LocationUpdateRequest in Common - Common Data Model | Microsoft Docs
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
