@@ -1,6 +1,6 @@
 ---
 title: DeprecatedValueChainPartner in Cloud for Sustainability shared data model
-description: Entity for value chain partner or supplier.
+description: Entity for value chain partner or supplier(deprecated).
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh

@@ -1,6 +1,6 @@
 ---
 title: OrganizationalProfile in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
-description: The base information of the organization, for which the solution is built.
+description: The base information of the organization in ExternalESGReportingDataModel, for which the solution is built.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh

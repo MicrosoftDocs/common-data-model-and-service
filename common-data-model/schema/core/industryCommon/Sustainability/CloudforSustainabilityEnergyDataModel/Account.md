@@ -1,6 +1,6 @@
 ---
 title: Account in Cloud for Sustainability energy data model
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: Business that represents a customer or potential customer. The company that is billed in business transactions in Cloud for Sustainability energy data model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
