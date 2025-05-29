@@ -1,15 +1,15 @@
 ---
-title: Settings in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: Settings in ExternalESGReportingDataModel 
 description: Table that contains form and data for app settings
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Settings in Cloud for Sustainability external reporting data model
+# Settings in ExternalESGReportingDataModel
 
 Table that contains form and data for app settings  
   
@@ -61,6 +61,7 @@ Table that contains form and data for app settings
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Settings.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Settings</a>|
 |[name](#name)||<a href="Settings.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Settings</a>|
 |[isgenerativeaiforfactsenabled](#isgenerativeaiforfactsenabled)|Setting that determines if generative AI feature is enabled|<a href="Settings.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Settings</a>|
+|[esgsampledataflowtrigger](#esgsampledataflowtrigger)|This flag is used to trigger the Sample Data Flow Deletion|<a href="Settings.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Settings</a>|
 
 ### <a href=#esgreportingappsettingId name="esgreportingappsettingId">esgreportingappsettingId</a>
 
@@ -487,6 +488,42 @@ First included in: Sustainability\\ExternalESGReportingDataModel/Settings (this 
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.boolean*  
+  </details>
+
+### <a href=#esgsampledataflowtrigger name="esgsampledataflowtrigger">esgsampledataflowtrigger</a>
+
+This flag is used to trigger the Sample Data Flow Deletion  
+First included in: Sustainability\\ExternalESGReportingDataModel/Settings (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sample Data Flow Trigger</td></tr><tr><td>description</td><td>This flag is used to trigger the Sample Data Flow Deletion</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_esgsampledataflowtrigger</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the esgsampledataflowtrigger attribute are listed below.</summary>
+
+*is.dataFormat.boolean*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>This flag is used to trigger the Sample Data Flow Deletion</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sample Data Flow Trigger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_esgsampledataflowtrigger"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"46"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.boolean*  
   </details>

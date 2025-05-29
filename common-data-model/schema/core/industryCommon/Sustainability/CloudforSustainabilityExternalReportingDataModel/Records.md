@@ -1,17 +1,18 @@
 ---
-title: Records in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in records in Cloud for Sustainability external reporting data model.
-author: leeclontz
+title: Records in ExternalESGReportingDataModel 
+description: Records in ExternalESGReportingDataModel 
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Records in Cloud for Sustainability external reporting data model
+# Records in ExternalESGReportingDataModel
 
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/Records.cdm.json" target="_blank">GitHub</a>.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/Records.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 

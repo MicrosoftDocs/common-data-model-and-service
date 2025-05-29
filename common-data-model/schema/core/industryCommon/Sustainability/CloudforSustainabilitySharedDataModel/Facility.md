@@ -1,12 +1,12 @@
 ---
 title: Facility in Cloud for Sustainability shared data model
-description: Base-level location to attribute activity data in the shared data model. May contain multiple buildings and organizational units.
-author: lsuresh
+description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Facility in Cloud for Sustainability shared data model 

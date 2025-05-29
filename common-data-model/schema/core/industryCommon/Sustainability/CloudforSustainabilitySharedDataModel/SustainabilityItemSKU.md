@@ -1,12 +1,12 @@
 ---
 title: SustainabilityItemSKU in Cloud for Sustainability shared data model
 description: Entity for capturing data on items/SKU inventoried such as input material and finished goods.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Sustainability item SKU in Cloud for Sustainability shared data model (SustainabilityItemSKU)
@@ -77,6 +77,7 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
 |[weightunit](#weightunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 
 ### <a href=#sustainabilityitemskuId name="sustainabilityitemskuId">sustainabilityitemskuId</a>
 
@@ -1228,3 +1229,48 @@ First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (th
 *is.dataFormat.time*  
   *is.dataFormat.date*  
   </details>
+
+### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
+
+Lookup field for Country/region.  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the countryregioncode attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.CDS.lookup*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

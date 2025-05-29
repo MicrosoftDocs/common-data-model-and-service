@@ -1,17 +1,18 @@
 ---
-title: DimensionReference in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in Dimension Reference in Cloud for Sustainability external reporting data model.
-author: leeclontz
+title: DimensionReference in ExternalESGReportingDataModel 
+description: 
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Dimension Reference in Cloud for Sustainability external reporting data model
+# Dimension Reference in ExternalESGReportingDataModel
 
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/DimensionReference.cdm.json" target="_blank">GitHub</a>.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/DimensionReference.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -54,13 +55,13 @@ Latest version of the JSON entity definition is available on <a href="https://gi
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[statecode](#statecode)|Status of the msdyn_esgdimensionreference|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[statuscode](#statuscode)|Reason for the status of the msdyn_esgdimensionreference|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[name](#name)||<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[dimensiontype](#dimensiontype)||<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 |[artifact](#artifact)||<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
+|[dimensionid](#dimensionid)||<a href="DimensionReference.md" target="_blank">Sustainability\ExternalESGReportingDataModel/DimensionReference</a>|
 
 ### <a href=#esgdimensionreferenceId name="esgdimensionreferenceId">esgdimensionreferenceId</a>
 
@@ -285,49 +286,6 @@ First included in: Sustainability\\ExternalESGReportingDataModel/DimensionRefere
 *is.dataFormat.integer*  
   </details>
 
-### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
-
-Sequence number of the import that created this record.  
-First included in: Sustainability\\ExternalESGReportingDataModel/DimensionReference (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
-
-*is.dataFormat.integer*  
-  *is.dataFormat.signed*  
-  indicates the capability to represent values less than zero.  
-
-*is.dataFormat.numeric*  
-  *is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-*is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-*is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
-
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
-
-*is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"30"</td><td>integer</td><td></td></tr></table>
-
-*is.dataFormat.integer*  
-  </details>
-
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
@@ -538,7 +496,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/DimensionRefere
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_dimensiontype"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.integer*  
   </details>
@@ -579,6 +537,50 @@ First included in: Sustainability\\ExternalESGReportingDataModel/DimensionRefere
 
 *is.linkedEntity.identifier*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Concept.md" target="_blank">Concept.cdm.json/Concept</a></td><td><a href="Concept.md#conceptId" target="_blank">conceptId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#dimensionid name="dimensionid">dimensionid</a>
+
+First included in: Sustainability\\ExternalESGReportingDataModel/DimensionReference (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Dimension</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the dimensionid attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Dimension</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.CDS.lookup*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Dimension.md" target="_blank">Dimension.cdm.json/Dimension</a></td><td><a href="Dimension.md#esgdimensionId" target="_blank">esgdimensionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  

@@ -1,15 +1,15 @@
 ---
-title: Concept in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: Concept in ExternalESGReportingDataModel 
 description: Captures information for a specific concept
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Concept in Cloud for Sustainability external reporting data model
+# Concept in ExternalESGReportingDataModel
 
 Captures information for a specific concept  
   
@@ -803,7 +803,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/Concept (this e
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_source</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System</td><td>502640000</td></tr><tr><td>en</td><td>User</td><td>502640001</td></tr><tr><td>en</td><td>Copilot generated</td><td>502640002</td></tr><tr><td>en</td><td>Demo data</td><td>502640003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_source</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default</td><td>502640000</td></tr><tr><td>en</td><td>Custom</td><td>502640001</td></tr><tr><td>en</td><td>Required for Copilot</td><td>502640002</td></tr><tr><td>en</td><td>Demo</td><td>502640003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -816,7 +816,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/Concept (this e
 
 *is.dataFormat.numeric*  
   *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>System</td><td>502640000</td></tr><tr><td>en</td><td>User</td><td>502640001</td></tr><tr><td>en</td><td>Copilot generated</td><td>502640002</td></tr><tr><td>en</td><td>Demo data</td><td>502640003</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default</td><td>502640000</td></tr><tr><td>en</td><td>Custom</td><td>502640001</td></tr><tr><td>en</td><td>Required for Copilot</td><td>502640002</td></tr><tr><td>en</td><td>Demo</td><td>502640003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 *is.constrainedList*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
