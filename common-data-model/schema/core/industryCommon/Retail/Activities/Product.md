@@ -1,6 +1,6 @@
 ---
 title: Product in Activities - Common Data Model | Microsoft Docs
-description: Information about products and their pricing information - Product in Activities
+description: Information about products and their pricing information.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

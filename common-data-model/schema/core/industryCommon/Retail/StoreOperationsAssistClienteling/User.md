@@ -1,6 +1,6 @@
 ---
 title: User in StoreOperationsAssistClienteling - Common Data Model | Microsoft Docs
-description: Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database - User in StoreOperationsAssistClienteling.
+description: Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

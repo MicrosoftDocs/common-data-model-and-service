@@ -1,6 +1,6 @@
 ---
 title: Contact in StoreOperationsAssistClienteling - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague - Contact in StoreOperationsAssistClienteling.
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

@@ -1,6 +1,6 @@
 ---
 title: OrderProduct in StoreOperationsAssistClienteling - Common Data Model | Microsoft Docs
-description: Line item in a sales order - OrderProduct in StoreOperationsAssistClienteling.
+description: Line item in a sales order.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

@@ -1,6 +1,6 @@
 ---
 title: ExecutionPlan in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: ExecutionPlan in StoreOperationsAssistCommon
+description: Execution plan
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

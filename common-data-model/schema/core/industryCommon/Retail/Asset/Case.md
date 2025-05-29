@@ -1,6 +1,6 @@
 ---
 title: Case in Asset - Common Data Model | Microsoft Docs
-description: Service request case associated with a contract
+description: Service request case associated with a contract.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

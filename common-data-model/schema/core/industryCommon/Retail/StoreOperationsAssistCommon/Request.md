@@ -1,6 +1,6 @@
 ---
 title: Request in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: Request in StoreOperationsAssistCommon
+description:
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

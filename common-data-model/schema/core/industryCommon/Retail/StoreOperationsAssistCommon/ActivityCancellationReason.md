@@ -1,6 +1,6 @@
 ---
 title: ActivityCancellationReason in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: ActivityCancellationReason in StoreOperationsAssistCommon
+description:
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
