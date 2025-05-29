@@ -1,5 +1,5 @@
 ---
-title: DimensionMember in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: DimensionMember in ExternalESGReportingDataModel 
 description: Captures information for a specific dimension member
 author: cdm-publisher
 ms.service: common-data-model

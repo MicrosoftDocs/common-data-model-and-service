@@ -1,5 +1,5 @@
 ---
-title: ProductFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: ProductFootprint in Cloud for Sustainability carbon data model 
 description: The carbon footprint of a product with values in accordance with the Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model

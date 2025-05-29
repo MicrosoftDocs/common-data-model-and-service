@@ -1,5 +1,5 @@
 ---
-title: ConceptGroup in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: ConceptGroup in ExternalESGReportingDataModel 
 description: 
 author: cdm-publisher
 ms.service: common-data-model

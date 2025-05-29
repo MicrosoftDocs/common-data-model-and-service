@@ -1,5 +1,5 @@
 ---
-title: RangePeriod in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: RangePeriod in ExternalESGReportingDataModel 
 description: Captures information for a specific range period
 author: cdm-publisher
 ms.service: common-data-model

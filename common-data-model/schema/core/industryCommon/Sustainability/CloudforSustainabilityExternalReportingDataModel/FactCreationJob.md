@@ -1,5 +1,5 @@
 ---
-title: FactCreationJob in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: FactCreationJob in ExternalESGReportingDataModel 
 description: 
 author: cdm-publisher
 ms.service: common-data-model

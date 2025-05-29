@@ -1,5 +1,5 @@
 ---
-title: Document in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Document in ExternalESGReportingDataModel 
 description: Captures information for a specific document
 author: cdm-publisher
 ms.service: common-data-model

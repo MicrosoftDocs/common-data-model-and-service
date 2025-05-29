@@ -1,5 +1,5 @@
 ---
-title: DimensionReference in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: DimensionReference in ExternalESGReportingDataModel 
 description: 
 author: cdm-publisher
 ms.service: common-data-model

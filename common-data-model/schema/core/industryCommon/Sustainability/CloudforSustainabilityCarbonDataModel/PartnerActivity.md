@@ -1,5 +1,5 @@
 ---
-title: PartnerActivity in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: PartnerActivity in Cloud for Sustainability carbon data model 
 description: Table that holds activities from external sources
 author: cdm-publisher
 ms.service: common-data-model

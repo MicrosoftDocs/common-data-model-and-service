@@ -1,5 +1,5 @@
 ---
-title: CapitalGood in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: CapitalGood in Cloud for Sustainability carbon data model 
 description: Purchased entity that depreciates over time.
 author: cdm-publisher
 ms.service: common-data-model

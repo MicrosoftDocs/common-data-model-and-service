@@ -1,5 +1,5 @@
 ---
-title: Concept in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Concept in ExternalESGReportingDataModel 
 description: Captures information for a specific concept
 author: cdm-publisher
 ms.service: common-data-model

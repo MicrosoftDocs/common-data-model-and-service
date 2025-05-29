@@ -1,5 +1,5 @@
 ---
-title: DimensionLink in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: DimensionLink in ExternalESGReportingDataModel 
 description: Entity that links dimension member with a requirement or a fact
 author: cdm-publisher
 ms.service: common-data-model

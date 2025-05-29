@@ -1,5 +1,5 @@
 ---
-title: FactLink in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: FactLink in ExternalESGReportingDataModel 
 description: Captures information for a specific assessment requirement fact
 author: cdm-publisher
 ms.service: common-data-model

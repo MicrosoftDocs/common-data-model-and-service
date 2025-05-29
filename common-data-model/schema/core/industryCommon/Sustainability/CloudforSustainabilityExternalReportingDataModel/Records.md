@@ -1,6 +1,6 @@
 ---
-title: Records in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
-description: Records in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Records in ExternalESGReportingDataModel 
+description: Records in ExternalESGReportingDataModel 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh

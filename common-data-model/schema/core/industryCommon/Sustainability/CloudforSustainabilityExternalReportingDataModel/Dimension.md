@@ -1,6 +1,6 @@
 ---
-title: Dimension in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
-description: Dimension in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Dimension in ExternalESGReportingDataModel 
+description: Dimension in ExternalESGReportingDataModel 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh

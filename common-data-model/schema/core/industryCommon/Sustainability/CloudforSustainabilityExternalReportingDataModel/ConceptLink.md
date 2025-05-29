@@ -1,5 +1,5 @@
 ---
-title: ConceptLink in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: ConceptLink in ExternalESGReportingDataModel 
 description: Captures information for a specific concept link
 author: cdm-publisher
 ms.service: common-data-model

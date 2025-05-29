@@ -1,5 +1,5 @@
 ---
-title: Esgnotification in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Esgnotification in ExternalESGReportingDataModel 
 description: 
 author: cdm-publisher
 ms.service: common-data-model

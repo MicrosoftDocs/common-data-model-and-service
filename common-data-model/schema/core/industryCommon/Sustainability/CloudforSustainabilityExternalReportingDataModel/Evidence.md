@@ -1,5 +1,5 @@
 ---
-title: Evidence in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Evidence in ExternalESGReportingDataModel 
 description: Captures information for a specific evidence
 author: cdm-publisher
 ms.service: common-data-model

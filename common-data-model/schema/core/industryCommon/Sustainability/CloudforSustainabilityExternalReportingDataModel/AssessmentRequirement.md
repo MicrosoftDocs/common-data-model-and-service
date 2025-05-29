@@ -1,5 +1,5 @@
 ---
-title: AssessmentRequirement in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: AssessmentRequirement in ExternalESGReportingDataModel 
 description: Captures information for a specific assessment requirement
 author: cdm-publisher
 ms.service: common-data-model

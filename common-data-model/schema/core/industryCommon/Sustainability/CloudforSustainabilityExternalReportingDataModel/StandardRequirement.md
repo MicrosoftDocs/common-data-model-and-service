@@ -1,5 +1,5 @@
 ---
-title: StandardRequirement in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: StandardRequirement in ExternalESGReportingDataModel 
 description: Captures information for a specific standard requirements
 author: cdm-publisher
 ms.service: common-data-model

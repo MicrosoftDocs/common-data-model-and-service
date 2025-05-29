@@ -1,5 +1,5 @@
 ---
-title: Settings in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Settings in ExternalESGReportingDataModel 
 description: Table that contains form and data for app settings
 author: cdm-publisher
 ms.service: common-data-model

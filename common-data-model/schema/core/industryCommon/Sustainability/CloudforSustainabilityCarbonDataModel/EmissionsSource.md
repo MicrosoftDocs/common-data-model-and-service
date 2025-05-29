@@ -1,5 +1,5 @@
 ---
-title: EmissionsSource in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: EmissionsSource in Cloud for Sustainability carbon data model 
 description: Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
 author: cdm-publisher
 ms.service: common-data-model

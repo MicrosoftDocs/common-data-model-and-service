@@ -1,5 +1,5 @@
 ---
-title: ProductFootprintInput in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: ProductFootprintInput in Cloud for Sustainability carbon data model 
 description: Itemization of a computed product footprint
 author: cdm-publisher
 ms.service: common-data-model

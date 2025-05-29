@@ -1,5 +1,5 @@
 ---
-title: ApprovalPolicy in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: ApprovalPolicy in ExternalESGReportingDataModel 
 description: Captures information for a specific approval policy.
 author: cdm-publisher
 ms.service: common-data-model

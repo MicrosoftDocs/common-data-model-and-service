@@ -1,5 +1,5 @@
 ---
-title: AssessmentRequirementExecution in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: AssessmentRequirementExecution in ExternalESGReportingDataModel 
 description: (INTERNAL USE ONLY)
 author: cdm-publisher
 ms.service: common-data-model

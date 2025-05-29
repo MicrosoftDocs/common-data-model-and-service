@@ -1,5 +1,5 @@
 ---
-title: PurchasedEnergy in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: PurchasedEnergy in Cloud for Sustainability carbon data model 
 description: Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.
 author: cdm-publisher
 ms.service: common-data-model

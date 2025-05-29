@@ -1,5 +1,5 @@
 ---
-title: FactCreationExecution in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: FactCreationExecution in ExternalESGReportingDataModel 
 description: 
 author: cdm-publisher
 ms.service: common-data-model

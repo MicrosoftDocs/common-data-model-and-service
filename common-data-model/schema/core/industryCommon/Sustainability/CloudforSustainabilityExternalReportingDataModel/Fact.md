@@ -1,5 +1,5 @@
 ---
-title: Fact in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Fact in ExternalESGReportingDataModel 
 description: Captures information for a specific fact
 author: cdm-publisher
 ms.service: common-data-model

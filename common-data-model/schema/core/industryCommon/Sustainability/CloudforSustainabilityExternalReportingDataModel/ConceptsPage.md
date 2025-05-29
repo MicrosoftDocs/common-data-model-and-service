@@ -1,6 +1,6 @@
 ---
-title: ConceptsPage in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
-description: ConceptsPage in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: ConceptsPage in ExternalESGReportingDataModel 
+description: ConceptsPage in ExternalESGReportingDataModel 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh

@@ -1,5 +1,5 @@
 ---
-title: StationaryCombustion in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: StationaryCombustion in Cloud for Sustainability carbon data model 
 description: Combustion that occurs in a fixed asset, such as a boiler or furnace.
 author: cdm-publisher
 ms.service: common-data-model

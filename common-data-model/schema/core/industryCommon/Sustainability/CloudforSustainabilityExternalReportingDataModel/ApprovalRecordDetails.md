@@ -1,5 +1,5 @@
 ---
-title: ApprovalRecordDetails in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: ApprovalRecordDetails in ExternalESGReportingDataModel 
 description: Captures information for a specific approval record details
 author: cdm-publisher
 ms.service: common-data-model

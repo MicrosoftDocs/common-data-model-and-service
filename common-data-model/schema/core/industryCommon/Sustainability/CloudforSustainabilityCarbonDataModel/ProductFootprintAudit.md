@@ -1,5 +1,5 @@
 ---
-title: ProductFootprintAudit in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: ProductFootprintAudit in Cloud for Sustainability carbon data model 
 description: Assurance contains the assurance in conformance with Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model

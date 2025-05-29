@@ -1,5 +1,5 @@
 ---
-title: Standard in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Standard in ExternalESGReportingDataModel 
 description: Captures information for a specific standard
 author: cdm-publisher
 ms.service: common-data-model

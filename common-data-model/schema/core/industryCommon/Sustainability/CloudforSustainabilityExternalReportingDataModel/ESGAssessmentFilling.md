@@ -1,6 +1,6 @@
 ---
-title: ESGAssessmentFilling in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
-description:  ESGAssessmentFilling in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: ESGAssessmentFilling in ExternalESGReportingDataModel 
+description:  ESGAssessmentFilling in ExternalESGReportingDataModel 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
