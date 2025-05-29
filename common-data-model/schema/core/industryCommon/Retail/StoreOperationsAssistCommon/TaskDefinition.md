@@ -1,6 +1,6 @@
 ---
 title: TaskDefinition in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: TaskDefinition in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
+description: TaskDefinition in StoreOperationsAssistCommon
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

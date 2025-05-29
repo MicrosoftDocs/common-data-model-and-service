@@ -1,6 +1,6 @@
 ---
 title: AIRunStep in ExecutionAI - Common Data Model | Microsoft Docs
-description: AIRunStep in ExecutionAI - Common Data Model | Microsoft Docs
+description: AIRunStep in ExecutionAI
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

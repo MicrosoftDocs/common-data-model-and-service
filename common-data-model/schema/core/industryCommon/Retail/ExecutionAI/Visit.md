@@ -1,6 +1,6 @@
 ---
 title: Visit in ExecutionAI - Common Data Model | Microsoft Docs
-description: Visit in ExecutionAI - Common Data Model | Microsoft Docs
+description: Visit in ExecutionAI
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

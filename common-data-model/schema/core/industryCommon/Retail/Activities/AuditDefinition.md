@@ -1,6 +1,6 @@
 ---
 title: AuditDefinition in Activities - Common Data Model | Microsoft Docs
-description: AuditDefinition in Activities - Common Data Model | Microsoft Docs
+description: AuditDefinition in Activities
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

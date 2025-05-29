@@ -1,6 +1,6 @@
 ---
 title: SurveyDefinition in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: SurveyDefinition in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
+description: SurveyDefinition in StoreOperationsAssistCommon
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

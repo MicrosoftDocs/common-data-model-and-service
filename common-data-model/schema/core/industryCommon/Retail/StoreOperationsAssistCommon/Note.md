@@ -1,6 +1,6 @@
 ---
 title: Note in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: Note that is attached to one or more objects, including other notes- Note in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs.
+description: Note that is attached to one or more objects, including other notes.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

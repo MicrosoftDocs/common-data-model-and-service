@@ -1,6 +1,6 @@
 ---
 title: Task in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: Generic activity representing work needed to be done - Task in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs.
+description: Generic activity representing work needed to be done
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

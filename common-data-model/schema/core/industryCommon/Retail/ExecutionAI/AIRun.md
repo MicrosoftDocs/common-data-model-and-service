@@ -1,7 +1,6 @@
 ---
 title: AIRun in ExecutionAI - Common Data Model | Microsoft Docs
-description: AIRun in ExecutionAI - Common Data Model | Microsoft Docs
-author: cdm-publisher
+description: AIRun in ExecutionAI
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 

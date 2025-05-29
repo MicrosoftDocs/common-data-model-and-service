@@ -1,6 +1,6 @@
 ---
 title: Visit in Asset - Common Data Model | Microsoft Docs
-description: Visit in Asset - Common Data Model | Microsoft Docs
+description: Visit in Asset
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

@@ -1,6 +1,6 @@
 ---
 title: AuditDefinition in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
-description: AuditDefinition in StoreOperationsAssistCommon - Common Data Model | Microsoft Docs
+description: AuditDefinition in StoreOperationsAssistCommon
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
