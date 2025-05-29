@@ -53,7 +53,7 @@ Cloud for Sustainability Shared Data Model CDM entity definitions
 |[ProductSustainability](ProductSustainability.md)|A product that can be associated with a product carbon footprint.|
 |[ReportingPeriod](ReportingPeriod.md)|Entity used to track reporting periods created for each reporting year.|
 |[ReportingYear](ReportingYear.md)|Entity which lists reporting years created in the system.|
-|[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|
+|[Subindustry](Subindustry.md)|Child-level of the industry classification, which contains an ID and name.|
 |[SustainabilityDataDefinition](SustainabilityDataDefinition.md)|Entity used to define the data definitions for entities across Carbon, Waste and Water.|
 |[SustainabilityDataDefinitionSubcategory](SustainabilityDataDefinitionSubcategory.md)|Stores data definition subcategories and help links|
 |[SustainabilityItemCategorySKU](SustainabilityItemCategorySKU.md)|The category of the item such as abrasives, castings or accessories|

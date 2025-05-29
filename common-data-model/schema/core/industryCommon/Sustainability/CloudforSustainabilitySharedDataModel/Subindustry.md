@@ -1,6 +1,6 @@
 ---
 title: Subindustry in Cloud for Sustainability shared data model
-description: Child-level of the industry classisfication, which contains an ID and name.
+description: Child-level of the industry classification, which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -11,7 +11,7 @@ ms.author: leeclontz
 
 # Subindustry in Cloud for Sustainability shared data model 
 
-Child-level of the industry classisfication, which contains an ID and name.  
+Child-level of the industry classification, which contains an ID and name.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/Subindustry.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,7 +34,7 @@ Child-level of the industry classisfication, which contains an ID and name.
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/Subindustry.cdm.json/Subindustry/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Child-level of the industry classisfication, which contains an ID and name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Child-level of the industry classification, which contains an ID and name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subindustry</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
