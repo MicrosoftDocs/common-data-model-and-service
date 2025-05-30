@@ -2792,22 +2792,36 @@
           items:
           - name: Summary
             href: industryCommon/Retail/Activities/overview.md
+          - name: AuditDefinition 
+            href: industryCommon/Retail/Activities/AuditDefinition.md
           - name: AuditResponse 
             href: industryCommon/Retail/Activities/AuditResponse.md
+          - name: ExecutionActivity
+            href: industryCommon/Retail/Activities/ExecutionActivity.md
+          - name: ExecutionActivityDefinition 
+            href: industryCommon/Retail/Activities/ExecutionActivityDefinition.md  
           - name: ExecutionActivityItem 
             href: industryCommon/Retail/Activities/ExecutionActivityItem.md
+          - name: ExecutionPlan
+            href: industryCommon/Retail/Activities/ExecutionPlan.md  
           - name: OutletZone 
             href: industryCommon/Retail/Activities/OutletZone.md
+          - name: Product
+            href: industryCommon/Retail/Activities/Product.md  
           - name: QuestionType 
             href: industryCommon/Retail/Activities/QuestionType.md
           - name: SOSDefinition 
             href: industryCommon/Retail/Activities/SOSDefinition.md
           - name: SOSResponse 
             href: industryCommon/Retail/Activities/SOSResponse.md
+          - name: SurveyDefinition
+            href: industryCommon/Retail/Activities/SurveyDefinition.md  
           - name: SurveyResponse 
             href: industryCommon/Retail/Activities/SurveyResponse.md
           - name: TargetGroup 
             href: industryCommon/Retail/Activities/TargetGroup.md
+          - name: TaskDefinition
+            href: industryCommon/Retail/Activities/TaskDefinition.md  
           - name: TaskResponse 
             href: industryCommon/Retail/Activities/TaskResponse.md
           - name: VisitActivity 
@@ -2864,12 +2878,12 @@
             href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedCategoryInsight.md
           - name: CustomerDerivedOrderInsight 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedOrderInsight.md
-          - name: LanguageOfPreference 
-            href: industryCommon/Retail/StoreOperationsAssistClienteling/LanguageOfPreference.md
           - name: LoyaltyAccount 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccount.md
           - name: LoyaltyAccountCreditHistory 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccountCreditHistory.md
+          - name: LoyaltyCard
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyCard.md  
           - name: LoyaltyProgram 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyProgram.md
           - name: OrderProduct 
@@ -2878,8 +2892,6 @@
             href: industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointment.md
           - name: RetailAppointmentType 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointmentType.md
-          - name: RewardCreditHistory 
-            href: industryCommon/Retail/StoreOperationsAssistClienteling/RewardCreditHistory.md
           - name: Team 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/Team.md
           - name: User 
