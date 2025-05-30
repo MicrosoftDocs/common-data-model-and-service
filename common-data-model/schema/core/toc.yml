@@ -2978,6 +2978,8 @@
             href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprint.md
           - name: ProductFootprintAudit
             href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprintAudit.md
+          - name: ProductFootprintInput
+            href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprintInput.md
           - name: ProductFootprintRuleMapping
             href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping.md
           - name: ProductOrSectorSpecificRuleset
@@ -3072,6 +3074,10 @@
             href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ExportJob.md
           - name: Fact 
             href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Fact.md
+          - name: FactCreationExecution 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FactCreationExecution.md
+          - name: FactCreationJob 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FactCreationJob.md
           - name: FactLink 
             href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FactLink.md
           - name: Files 
@@ -3112,6 +3118,8 @@
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType.md
           - name: DeprecatedProductIdentifier
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier.md
+          - name: DeprecatedValueChainPartner
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedValueChainPartner.md
           - name: EmissionFactor 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/EmissionFactor.md
           - name: EnergyProviderType
@@ -3182,8 +3190,6 @@
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/Unit.md
           - name: UnitGroup 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/UnitGroup.md
-          - name: ValueChainPartner 
-            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner.md
         - name: Waste data model
           items:
           - name: Summary

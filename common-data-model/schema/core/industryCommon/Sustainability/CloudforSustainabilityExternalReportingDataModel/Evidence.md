@@ -1,15 +1,15 @@
 ---
-title: Evidence in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: Evidence in ExternalESGReportingDataModel 
 description: Captures information for a specific evidence
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Evidence in Cloud for Sustainability external reporting data model
+# Evidence in ExternalESGReportingDataModel
 
 Captures information for a specific evidence  
   

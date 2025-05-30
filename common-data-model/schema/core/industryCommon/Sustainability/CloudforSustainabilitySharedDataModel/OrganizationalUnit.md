@@ -1,12 +1,12 @@
 ---
 title: OrganizationalUnit in Cloud for Sustainability shared data model
 description: A structural division of a company or organization.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Organizational unit in Cloud for Sustainability shared data model (OrganizationalUnit)

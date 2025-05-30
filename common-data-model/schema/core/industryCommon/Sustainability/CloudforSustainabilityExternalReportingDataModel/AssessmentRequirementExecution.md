@@ -1,15 +1,15 @@
 ---
-title: AssessmentRequirementExecution in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: AssessmentRequirementExecution in ExternalESGReportingDataModel 
 description: (INTERNAL USE ONLY)
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Assessment Requirement Execution in Cloud for Sustainability external reporting data model
+# Assessment Requirement Execution in ExternalESGReportingDataModel
 
 (INTERNAL USE ONLY)  
   

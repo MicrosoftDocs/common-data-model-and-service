@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: reference 
 ms.date: 3/6/2024
-ms.author: anbichse
+ms.author: leeclontz
 ---
 
 # SOS Response in Activities

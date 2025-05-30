@@ -1,12 +1,12 @@
 ---
 title: DeprecatedProductIdentifier in Cloud for Sustainability shared data model
 description: Uniquely identifies a product.
-author: lsuresh
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # (Deprecated) Product identifier in Cloud for Sustainability shared data model (DeprecatedProductIdentifier)

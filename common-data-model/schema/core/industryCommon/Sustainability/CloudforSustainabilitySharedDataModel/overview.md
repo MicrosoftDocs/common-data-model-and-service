@@ -1,17 +1,17 @@
 ---
-title: overview of Cloud for Sustainability Shared Data Model- Common Data Model | Microsoft Docs
-description: Cloud for Sustainability Shared Data Modelis a folder that contains standard entities related to the Common Data Model.
-author: lsuresh
+title: overview of CloudforSustainabilitySharedDataModel 
+description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Overview of Cloud for Sustainability shared data mdel
+# Overview of CloudforSustainabilitySharedDataModel
 
-Cloud for Sustainability shared data model CDM entity definitions  
+Cloud for Sustainability Shared Data Model CDM entity definitions  
 
 ## Entities
 
@@ -26,6 +26,7 @@ Cloud for Sustainability shared data model CDM entity definitions
 |[CustomDimensionMetadata](CustomDimensionMetadata.md)|Table holding information about all the custom dimensions available in Microsoft Sustainability Manager|
 |[DataSourceType](DataSourceType.md)|The different types of sources for energy data.|
 |[DeprecatedProductIdentifier](DeprecatedProductIdentifier.md)|Uniquely identifies a product.|
+|[DeprecatedValueChainPartner](DeprecatedValueChainPartner.md)|Entity for value chain partner or supplier.|
 |[EmissionFactor](EmissionFactor.md)|Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.|
 |[EnergyProviderType](EnergyProviderType.md)|Categories or classifications of companies or entities that supply energy, such as electricity or gas.|
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
@@ -52,7 +53,7 @@ Cloud for Sustainability shared data model CDM entity definitions
 |[ProductSustainability](ProductSustainability.md)|A product that can be associated with a product carbon footprint.|
 |[ReportingPeriod](ReportingPeriod.md)|Entity used to track reporting periods created for each reporting year.|
 |[ReportingYear](ReportingYear.md)|Entity which lists reporting years created in the system.|
-|[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|
+|[Subindustry](Subindustry.md)|Child-level of the industry classification, which contains an ID and name.|
 |[SustainabilityDataDefinition](SustainabilityDataDefinition.md)|Entity used to define the data definitions for entities across Carbon, Waste and Water.|
 |[SustainabilityDataDefinitionSubcategory](SustainabilityDataDefinitionSubcategory.md)|Stores data definition subcategories and help links|
 |[SustainabilityItemCategorySKU](SustainabilityItemCategorySKU.md)|The category of the item such as abrasives, castings or accessories|
@@ -62,4 +63,3 @@ Cloud for Sustainability shared data model CDM entity definitions
 |[SustainabilityProductCategory](SustainabilityProductCategory.md)|Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.|
 |[Unit](Unit.md)|Unit of measure.|
 |[UnitGroup](UnitGroup.md)|Grouping of units.|
-|[ValueChainPartner](ValueChainPartner.md)|Entity for value chain partner or supplier.|
