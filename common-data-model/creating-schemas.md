@@ -7,6 +7,7 @@ ms.reviewer: v-iap
 ms.topic: reference 
 ms.date: 06/24/2020
 ms.author: kvivek
+ms.custom: sfi-image-nochange
 ---
 
 # Create schema documents for the Common Data Model
