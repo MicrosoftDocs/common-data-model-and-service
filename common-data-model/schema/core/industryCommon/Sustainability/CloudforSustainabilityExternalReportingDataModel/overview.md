@@ -1,17 +1,17 @@
 ---
-title: overview of Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
+title: overview of ExternalESGReportingDataModel 
 description: ExternalESGReportingDataModel is a folder that contains standard entities related to the Common Data Model.
-author: leeclontz
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Overview of Cloud for Sustainability external reporting data model
+# Overview of ExternalESGReportingDataModel
 
-Cloud for Sustainability external reporting data model CDM entity definitions  
+External ESG Reporting Data Model CDM entity definitions  
 
 ## Entities
 
@@ -29,7 +29,7 @@ Cloud for Sustainability external reporting data model CDM entity definitions
 |[ConceptGroup](ConceptGroup.md)||
 |[ConceptLink](ConceptLink.md)|Captures information for a specific concept link|
 |[ConceptsPage](ConceptsPage.md)||
-|[Dimension](Dimension.md)|Captures information for a specific dimension|
+|[Dimension](Dimension.md)||
 |[DimensionLink](DimensionLink.md)|Entity that links dimension member with a requirement or a fact|
 |[DimensionMember](DimensionMember.md)|Captures information for a specific dimension member|
 |[DimensionReference](DimensionReference.md)||
@@ -41,6 +41,8 @@ Cloud for Sustainability external reporting data model CDM entity definitions
 |[Evidence](Evidence.md)|Captures information for a specific evidence|
 |[ExportJob](ExportJob.md)||
 |[Fact](Fact.md)|Captures information for a specific fact|
+|[FactCreationExecution](FactCreationExecution.md)||
+|[FactCreationJob](FactCreationJob.md)||
 |[FactLink](FactLink.md)|Captures information for a specific assessment requirement fact|
 |[Files](Files.md)||
 |[FlattenedReport](FlattenedReport.md)||

@@ -1,12 +1,12 @@
 ---
-title: Assessment in ExternalESGReportingDataModel - Common Data Model | Microsoft Docs
+title: Assessment in ExternalESGReportingDataModel 
 description: Captures information for a specific assessment
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 08/15/2025
+ms.author: leeclontz
 ---
 
 # Assessment in ExternalESGReportingDataModel

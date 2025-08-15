@@ -6,6 +6,7 @@ ms.reviewer: anbichse
 ms.topic: reference 
 ms.date: 01/09/2023
 ms.author: mafrisci
+ms.custom: sfi-image-nochange
 ---
 
 # The Manifest object

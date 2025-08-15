@@ -1,12 +1,12 @@
 ---
-title: PurchasedEnergy in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
-description: Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement in the carbon data model.
-author: lsuresh
+title: PurchasedEnergy in Cloud for Sustainability carbon data model 
+description: Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Purchased energy in Cloud for Sustainability carbon data model(PurchasedEnergy)
@@ -75,7 +75,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |[leasedassetcategory](#leasedassetcategory)|Indicator of classification of category. An empty value means this activity is in scope 2.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[meternumber](#meternumber)|Field representing meter number for purchased energy entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[meterid](#meterid)|Field representing meter for purchased energy entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
+|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase. The field is auto-calculated and cannot be edited manually.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[quantity](#quantity)|Generic quantity field associated with activity entities.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
@@ -475,7 +475,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/CountryRegion.md" target="_blank">/SustainabilityShared/CountryRegion.cdm.json/CountryRegion</a></td><td><a href="../CloudforSustainabilitySharedDataModel/CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/CountryRegion.md" target="_blank">/SustainabilityShared/CountryRegion.cdm.json/CountryRegion</a></td><td><a href="../SustainabilityShared/CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -520,7 +520,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Account.md" target="_blank">/SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Account.md" target="_blank">/SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="../SustainabilityShared/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -727,7 +727,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1059,7 +1059,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Facility.md" target="_blank">/SustainabilityShared/Facility.cdm.json/Facility</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Facility.md" target="_blank">/SustainabilityShared/Facility.cdm.json/Facility</a></td><td><a href="../SustainabilityShared/Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1104,7 +1104,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/FacilityUsageDetail.md" target="_blank">/SustainabilityShared/FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../CloudforSustainabilitySharedDataModel/FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/FacilityUsageDetail.md" target="_blank">/SustainabilityShared/FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../SustainabilityShared/FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1279,7 +1279,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Meter.md" target="_blank">/SustainabilityShared/Meter.cdm.json/Meter</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Meter.md#meterId" target="_blank">meterId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Meter.md" target="_blank">/SustainabilityShared/Meter.cdm.json/Meter</a></td><td><a href="../SustainabilityShared/Meter.md#meterId" target="_blank">meterId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1290,12 +1290,12 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
 
 ### <a href=#lifespaninyears name="lifespaninyears">lifespaninyears</a>
 
-The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.  
+The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase. The field is auto-calculated and cannot be edited manually.  
 First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lifespan (in years)</td></tr><tr><td>description</td><td>The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_lifespaninyears</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lifespan (in years)</td></tr><tr><td>description</td><td>The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase. The field is auto-calculated and cannot be edited manually.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_lifespaninyears</td></tr></table>
 
 #### Traits
 
@@ -1309,7 +1309,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase. The field is auto-calculated and cannot be edited manually.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lifespan (in years)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1367,7 +1367,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/OrganizationalUnit.md" target="_blank">/SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../CloudforSustainabilitySharedDataModel/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/OrganizationalUnit.md" target="_blank">/SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../SustainabilityShared/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1540,7 +1540,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1628,7 +1628,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../CloudforSustainabilitySharedDataModel/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1718,7 +1718,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/ValueChainPartner.md" target="_blank">/SustainabilityShared/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../CloudforSustainabilitySharedDataModel/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/DeprecatedValueChainPartner.md" target="_blank">/SustainabilityShared/DeprecatedValueChainPartner.cdm.json/DeprecatedValueChainPartner</a></td><td><a href="../CloudforSustainabilitySharedDataModel/DeprecatedValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1763,7 +1763,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/ProductSustainability.md" target="_blank">/SustainabilityShared/ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="../CloudforSustainabilitySharedDataModel/ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ProductSustainability.md" target="_blank">/SustainabilityShared/ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="../SustainabilityShared/ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1808,7 +1808,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/ProductSustainability.md" target="_blank">/SustainabilityShared/ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="../CloudforSustainabilitySharedDataModel/ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ProductSustainability.md" target="_blank">/SustainabilityShared/ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="../SustainabilityShared/ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1898,7 +1898,7 @@ First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this ent
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier.md" target="_blank">/SustainabilityShared/DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="../CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/DeprecatedProductIdentifier.md" target="_blank">/SustainabilityShared/DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="../SustainabilityShared/DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  

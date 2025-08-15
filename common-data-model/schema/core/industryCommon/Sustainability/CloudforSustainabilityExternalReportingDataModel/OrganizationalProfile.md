@@ -1,19 +1,19 @@
 ---
-title: OrganizationalProfile in Cloud for Sustainability external reporting data model - Common Data Model | Microsoft Docs
-description: Learn about traits and attributes in Cloud for Sustainability external reporting data model(OrganizationalProfile).
-author: leeclontz
+title: OrganizationalProfile in ExternalESGReportingDataModel 
+description: The base information of the organization in ExternalESGReportingDataModel, for which the solution is built.
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/28/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Organizational profile in Cloud for Sustainability external reporting data model(OrganizationalProfile)
+# Organizational profile in ExternalESGReportingDataModel(OrganizationalProfile)
 
 The base information of the organization, for which the solution is built.  
   
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/OrganizationalProfile.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/OrganizationalProfile.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 

@@ -1,5 +1,5 @@
 ---
-title: overview of Cloud for Sustainability Water Data Model- Common Data Model | Microsoft Docs
+title: overview of Cloud for Sustainability Water Data Model
 description: Cloud for Sustainability Water Data Modelis a folder that contains standard entities related to the Common Data Model.
 author: lsuresh
 ms.service: common-data-model

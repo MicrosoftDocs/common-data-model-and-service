@@ -1,12 +1,12 @@
 ---
 title: OrganizationalProfile in Cloud for Sustainability shared data model
-description: Learn about traits and attributes in the Cloud for Sustainability shared data model (OrganizationalProfile).
-author: lsuresh
+description: The base information of the organization in Cloud for Sustainability shared data model, for which the solution is built in the Shared data model.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: leeclontz
+ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 02/19/2025
-ms.author: lsuresh
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Organizational profile in Cloud for Sustainability shared data model (OrganizationalProfile)
