@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 05/22/2025
+ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
@@ -66,6 +66,7 @@ Entity for greenhouse gases.
 |[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="GreenhouseGas.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/GreenhouseGas</a>|
 |[gwpfactor](#gwpfactor)|Global warming potential factor.|<a href="GreenhouseGas.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/GreenhouseGas</a>|
 |[arversion](#arversion)|Assessment Report version being used for calculations|<a href="GreenhouseGas.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/GreenhouseGas</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="GreenhouseGas.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/GreenhouseGas</a>|
 
 ### <a href=#greenhousegasId name="greenhousegasId">greenhousegasId</a>
 
@@ -734,3 +735,51 @@ First included in: Sustainability/SustainabilityCarbon/GreenhouseGas (this entit
 
 *is.dataFormat.integer*  
   </details>
+
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
+
+An optional identifier to correlate record with data origin.  
+First included in: Sustainability/SustainabilityCarbon/GreenhouseGas (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>An optional identifier to correlate record with data origin.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An optional identifier to correlate record with data origin.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

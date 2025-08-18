@@ -3118,6 +3118,14 @@
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/overview.md
           - name: Account 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/Account.md
+          - name: ApprovalPolicy 
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalPolicy.md
+          - name: ApprovalPolicyApprover 
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalPolicyApprover.md
+          - name: ApprovalRecord 
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalRecord.md
+          - name: ApprovalRecordDetails   
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalRecordDetails.md
           - name: Contact 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/Contact.md
           - name: CountryRegion

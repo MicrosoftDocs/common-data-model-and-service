@@ -1,6 +1,6 @@
 ---
-title: AssessmentRequirement in ExternalESGReportingDataModel 
-description: Captures information for a specific assessment requirement
+title: ApprovalRecordDetails in Cloud for Sustainability shared data model
+description: Captures information for a specific approval record details
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,11 +9,11 @@ ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
-# Assessment Requirement in ExternalESGReportingDataModel
+# Approval Record Details in Cloud for Sustainability shared data model 
 
-Captures information for a specific assessment requirement  
+Captures information for a specific approval record details  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\ExternalESGReportingDataModel/AssessmentRequirement.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +25,22 @@ Captures information for a specific assessment requirement
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[AssessmentRequirement/(resolvedAttributes)/assessmentrequirementId](#assessmentrequirementId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ApprovalRecordDetails/(resolvedAttributes)/approvalrecorddetailsId](#approvalrecorddetailsId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[AssessmentRequirement/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ApprovalRecordDetails/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/ExternalESGReportingDataModel<br>/AssessmentRequirement.cdm.json<br>/AssessmentRequirement/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/ApprovalRecordDetails.cdm.json<br>/ApprovalRecordDetails/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Captures information for a specific assessment requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Captures information for a specific approval record details</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assessment Requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Record Details</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_assessmentrequirement"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_approvalrecorddetails"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,35 +51,35 @@ Captures information for a specific assessment requirement
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[assessmentrequirementId](#assessmentrequirementId)|Unique identifier for entity instances|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[statecode](#statecode)|Status of the Assessment Requirement|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[statuscode](#statuscode)|Reason for the status of the Assessment Requirement|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[name](#name)|Name|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[approvalpolicy](#approvalpolicy)|Approval policy|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[approvalrecord](#approvalrecord)|Approval Record|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[assessment](#assessment)|Assessment|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[requirementstatus](#requirementstatus)|Requirement status|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
-|[standardrequirement](#standardrequirement)|Standard requirement|<a href="AssessmentRequirement.md" target="_blank">Sustainability\ExternalESGReportingDataModel/AssessmentRequirement</a>|
+|[approvalrecorddetailsId](#approvalrecorddetailsId)|Unique identifier for entity instances|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[statecode](#statecode)|Status of the ApprovalRecordDetails|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[statuscode](#statuscode)|Reason for the status of the ApprovalRecordDetails|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[name](#name)|Name|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[approvalmessage](#approvalmessage)|Approval Message|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[approvalrecord](#approvalrecord)|Approval Record|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[approvalrecordsequence](#approvalrecordsequence)|Approval Record Sequence|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[approvalStatus](#approvalStatus)|Approval Status|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
+|[statuschangedon](#statuschangedon)|Date and time when the Approval Status was changed.|<a href="ApprovalRecordDetails.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ApprovalRecordDetails</a>|
 
-### <a href=#assessmentrequirementId name="assessmentrequirementId">assessmentrequirementId</a>
+### <a href=#approvalrecorddetailsId name="approvalrecorddetailsId">approvalrecorddetailsId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Assessment Requirement</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_assessmentrequirementid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ApprovalRecordDetails</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_approvalrecorddetailsid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the assessmentrequirementId attribute are listed below.</summary>
+<summary>List of traits for the approvalrecorddetailsId attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -91,7 +91,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 *is.dataFormat.guid*  
   *means.identity.entityId*  
   *is.identifiedBy*  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[AssessmentRequirement/(resolvedAttributes)/assessmentrequirementId](#assessmentrequirementId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ApprovalRecordDetails/(resolvedAttributes)/approvalrecorddetailsId](#approvalrecorddetailsId)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -100,10 +100,10 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assessment Requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ApprovalRecordDetails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_assessmentrequirementid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_approvalrecorddetailsid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -118,7 +118,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
@@ -197,12 +197,12 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Assessment Requirement  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+Status of the ApprovalRecordDetails  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Assessment Requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the ApprovalRecordDetails</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -221,13 +221,13 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *means.entityState*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[AssessmentRequirement/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ApprovalRecordDetails/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Assessment Requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the ApprovalRecordDetails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -243,12 +243,12 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Assessment Requirement  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+Reason for the status of the ApprovalRecordDetails  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Assessment Requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the ApprovalRecordDetails</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -273,7 +273,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Assessment Requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the ApprovalRecordDetails</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -293,7 +293,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
@@ -459,11 +459,11 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#name name="name">name</a>
 
 Name  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>850</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -487,7 +487,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"850"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
@@ -504,19 +504,19 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 
 </details>
 
-### <a href=#approvalpolicy name="approvalpolicy">approvalpolicy</a>
+### <a href=#approvalmessage name="approvalmessage">approvalmessage</a>
 
-Approval policy  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+Approval Message  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Approval policy</td></tr><tr><td>description</td><td>Approval policy</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Approval Message</td></tr><tr><td>description</td><td>Approval Message</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_approvalmessage</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the approvalpolicy attribute are listed below.</summary>
+<summary>List of traits for the approvalmessage attribute are listed below.</summary>
 
 *is.dataFormat.character*  
   *is.dataFormat.big*  
@@ -525,25 +525,28 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 *is.dataFormat.array*  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-*is.dataFormat.guid*  
-  *means.identity.entityId*  
-  *is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval policy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Message</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval policy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Message</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-*is.CDS.lookup*  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
 
-*is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilitySharedDataModel/ApprovalPolicy.md" target="_blank">/CloudforSustainabilitySharedDataModel/ApprovalPolicy.cdm.json/ApprovalPolicy</a></td><td><a href="../CloudforSustainabilitySharedDataModel/ApprovalPolicy.md#approvalpolicyId" target="_blank">approvalpolicyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+*is.nullable*  
+  The attribute value may be set to NULL.  
 
-*is.dataFormat.guid*  
-  *is.dataFormat.character*  
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_approvalmessage"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.character*  
   *is.dataFormat.array*  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -552,11 +555,11 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 ### <a href=#approvalrecord name="approvalrecord">approvalrecord</a>
 
 Approval Record  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Approval Record</td></tr><tr><td>description</td><td>Approval Record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_approvalrecord</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Approval Record</td></tr><tr><td>description</td><td>Approval Record</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -573,7 +576,7 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 *is.dataFormat.guid*  
   *means.identity.entityId*  
   *is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Record</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -584,14 +587,8 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-*is.nullable*  
-  The attribute value may be set to NULL.  
-
-*is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_approvalrecord"</td><td>string</td><td></td></tr></table>
-
-*is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="ApprovalRecord.md" target="_blank">ApprovalRecord.cdm.json/ApprovalRecord</a></td><td><a href="ApprovalRecord.md#approvalrecordId" target="_blank">approvalrecordId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -600,64 +597,62 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 
 </details>
 
-### <a href=#assessment name="assessment">assessment</a>
+### <a href=#approvalrecordsequence name="approvalrecordsequence">approvalrecordsequence</a>
 
-Assessment  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+Approval Record Sequence  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Assessment</td></tr><tr><td>description</td><td>Assessment</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Approval Record Sequence</td></tr><tr><td>description</td><td>Approval Record Sequence</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_approvalrecordsequence</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the assessment attribute are listed below.</summary>
+<summary>List of traits for the approvalrecordsequence attribute are listed below.</summary>
 
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+*is.dataFormat.integer*  
+  *is.dataFormat.signed*  
+  indicates the capability to represent values less than zero.  
 
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.dataFormat.guid*  
-  *means.identity.entityId*  
+*is.dataFormat.numeric*  
   *is.requiredAtLevel*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assessment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Record Sequence</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assessment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Record Sequence</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-*is.CDS.lookup*  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-*is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Assessment.md" target="_blank">Assessment.cdm.json/Assessment</a></td><td><a href="Assessment.md#assessmentId" target="_blank">assessmentId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+*is.nullable*  
+  The attribute value may be set to NULL.  
 
-*is.dataFormat.guid*  
-  *is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_approvalrecordsequence"</td><td>string</td><td></td></tr></table>
 
-</details>
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
 
-### <a href=#requirementstatus name="requirementstatus">requirementstatus</a>
+*is.dataFormat.integer*  
+  </details>
 
-Requirement status  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+### <a href=#approvalStatus name="approvalStatus">approvalStatus</a>
+
+Approval Status  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Requirement status</td></tr><tr><td>description</td><td>Requirement status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_requirementstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>419550000</td></tr><tr><td>en</td><td>Submitted for approval</td><td>419550001</td></tr><tr><td>en</td><td>Completed</td><td>419550002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Approval Status</td></tr><tr><td>description</td><td>Approval Status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_approvalstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending</td><td>419550000</td></tr><tr><td>en</td><td>Active</td><td>419550001</td></tr><tr><td>en</td><td>Approved</td><td>419550002</td></tr><tr><td>en</td><td>Rejected</td><td>419550003</td></tr><tr><td>en</td><td>Canceled</td><td>419550004</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the requirementstatus attribute are listed below.</summary>
+<summary>List of traits for the approvalStatus attribute are listed below.</summary>
 
 *is.dataFormat.integer*  
   *is.dataFormat.signed*  
@@ -665,25 +660,25 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 
 *is.dataFormat.numeric*  
   *does.haveDefault*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>419550000</td></tr><tr><td>en</td><td>Submitted for approval</td><td>419550001</td></tr><tr><td>en</td><td>Completed</td><td>419550002</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending</td><td>419550000</td></tr><tr><td>en</td><td>Active</td><td>419550001</td></tr><tr><td>en</td><td>Approved</td><td>419550002</td></tr><tr><td>en</td><td>Rejected</td><td>419550003</td></tr><tr><td>en</td><td>Canceled</td><td>419550004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 *is.constrainedList*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 *is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Requirement status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Requirement status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Approval Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
 
 *is.CDS.sourceNamed*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_requirementstatus"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_approvalstatus"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
@@ -691,47 +686,42 @@ First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequi
 *is.dataFormat.integer*  
   </details>
 
-### <a href=#standardrequirement name="standardrequirement">standardrequirement</a>
+### <a href=#statuschangedon name="statuschangedon">statuschangedon</a>
 
-Standard requirement  
-First included in: Sustainability\\ExternalESGReportingDataModel/AssessmentRequirement (this entity)  
+Date and time when the Approval Status was changed.  
+First included in: Sustainability/SustainabilityShared/ApprovalRecordDetails (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Standard requirement</td></tr><tr><td>description</td><td>Standard requirement</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Changed On</td></tr><tr><td>description</td><td>Date and time when the Approval Status was changed.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_statuschangedon</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the standardrequirement attribute are listed below.</summary>
+<summary>List of traits for the statuschangedon attribute are listed below.</summary>
 
-*is.dataFormat.character*  
-  *is.dataFormat.big*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-*is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-*is.dataFormat.guid*  
-  *means.identity.entityId*  
+*is.dataFormat.date*  
+  *means.measurement.date*  
+  *is.dataFormat.time*  
+  *means.measurement.time*  
   *is.requiredAtLevel*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Standard requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the Approval Status was changed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Standard requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Changed On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-*is.CDS.lookup*  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+*is.nullable*  
+  The attribute value may be set to NULL.  
 
-*is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="StandardRequirement.md" target="_blank">StandardRequirement.cdm.json/StandardRequirement</a></td><td><a href="StandardRequirement.md#standardrequirementId" target="_blank">standardrequirementId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_statuschangedon"</td><td>string</td><td></td></tr></table>
 
-*is.dataFormat.guid*  
-  *is.dataFormat.character*  
-  *is.dataFormat.array*  
-  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
-</details>
+*is.dataFormat.time*  
+  *is.dataFormat.date*  
+  </details>

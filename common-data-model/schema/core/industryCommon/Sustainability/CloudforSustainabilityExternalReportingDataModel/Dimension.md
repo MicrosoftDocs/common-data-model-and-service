@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 05/22/2025
+ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
@@ -61,6 +61,7 @@ ms.author: leeclontz
 |[name](#name)||<a href="Dimension.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Dimension</a>|
 |[referencedatadefinition](#referencedatadefinition)|Reference data definition|<a href="Dimension.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Dimension</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Dimension.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Dimension</a>|
+|[source](#source)||<a href="Dimension.md" target="_blank">Sustainability\ExternalESGReportingDataModel/Dimension</a>|
 
 ### <a href=#esgdimensionId name="esgdimensionId">esgdimensionId</a>
 
@@ -547,3 +548,48 @@ First included in: Sustainability\\ExternalESGReportingDataModel/Dimension (this
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
+
+### <a href=#source name="source">source</a>
+
+First included in: Sustainability\\ExternalESGReportingDataModel/Dimension (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_source</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default</td><td>502640000</td></tr><tr><td>en</td><td>Custom</td><td>502640001</td></tr><tr><td>en</td><td>Required for Copilot</td><td>502640002</td></tr><tr><td>en</td><td>Demo</td><td>502640003</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the source attribute are listed below.</summary>
+
+*is.dataFormat.integer*  
+  *is.dataFormat.signed*  
+  indicates the capability to represent values less than zero.  
+
+*is.dataFormat.numeric*  
+  *does.haveDefault*  
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default</td><td>502640000</td></tr><tr><td>en</td><td>Custom</td><td>502640001</td></tr><tr><td>en</td><td>Required for Copilot</td><td>502640002</td></tr><tr><td>en</td><td>Demo</td><td>502640003</td></tr></table></td><td>any</td><td></td></tr></table>
+
+*is.constrainedList*  
+  the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Source</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_source"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"46"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.integer*  
+  </details>

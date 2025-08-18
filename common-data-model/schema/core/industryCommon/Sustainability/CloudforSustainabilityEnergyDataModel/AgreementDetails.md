@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 05/22/2025
+ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
@@ -74,6 +74,7 @@ Binding agreement between the energy provider and the customer for the energy be
 |[quantityunit](#quantityunit)|Unit associated with the quantity field|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 |[settlementlocation](#settlementlocation)|Trading hub, pricing node, zone, or other location at which your project will settle financially.)|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 |[startdate](#startdate)|Start date of the power purchase agreement.|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 
 ### <a href=#agreementdetailsId name="agreementdetailsId">agreementdetailsId</a>
 
@@ -1096,6 +1097,46 @@ First included in: Sustainability/SustainabilityEnergy/AgreementDetails (this en
 
 *is.CDS.ordered*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.time*  
+  *is.dataFormat.date*  
+  </details>
+
+### <a href=#reportingdate name="reportingdate">reportingdate</a>
+
+Date used to parameterize reports.  
+First included in: Sustainability/SustainabilityEnergy/AgreementDetails (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting date</td></tr><tr><td>description</td><td>Date used to parameterize reports.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_reportingdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the reportingdate attribute are listed below.</summary>
+
+*is.dataFormat.date*  
+  *means.measurement.date*  
+  *is.dataFormat.time*  
+  *means.measurement.time*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date used to parameterize reports.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reporting date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingdate"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.time*  
   *is.dataFormat.date*  

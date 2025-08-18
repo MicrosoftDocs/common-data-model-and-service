@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
 ms.topic: reference
-ms.date: 05/22/2025
+ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
