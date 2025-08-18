@@ -3,10 +3,10 @@ title: ApprovalPolicy in Cloud for Sustainability shared data model
 description: Captures information for a specific approval policy.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: article
-ms.date:2025
-ms.author: cdmditeam
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 08/15/2025
+ms.author: leeclontz
 ---
 
 # Approval policy in Cloud for Sustainability shared data model (ApprovalPolicy)
