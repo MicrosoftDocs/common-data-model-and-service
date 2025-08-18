@@ -13,7 +13,7 @@ ms.author: leeclontz
 
 Itemization of a computed product footprint  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\SustainabilityShared/ProductFootprintInput.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,13 +25,13 @@ Itemization of a computed product footprint
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintInput/(resolvedAttributes)/origincorrelationid](#origincorrelationid)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintInput/(resolvedAttributes)/sustainabilityproductfootprintinputId](#sustainabilityproductfootprintinputId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintInput/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/SustainabilityShared<br>/ProductFootprintInput.cdm.json<br>/ProductFootprintInput/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/ProductFootprintInput.cdm.json<br>/ProductFootprintInput/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Itemization of a computed product footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -51,26 +51,26 @@ Itemization of a computed product footprint
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityproductfootprintinputId](#sustainabilityproductfootprintinputId)|Unique identifier for entity instances|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[statecode](#statecode)|Status of the Product footprint input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[statuscode](#statuscode)|Reason for the status of the Product footprint input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[name](#name)|The name of the custom entity.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[componentproductfootprint](#componentproductfootprint)|Product footprint used to calculate this input (pre-processing stage only)|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[emissionfactor](#emissionfactor)|Emission factor used to calculate this input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[calculationlibrary](#calculationlibrary)|Factor library used to calculate this input.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[kgco2e](#kgco2e)|Amount of carbon dioxide equivalent for this input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[productfootprint](#productfootprint)|Product footprint this input accrues to|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[productlifecyclestage](#productlifecyclestage)|Product lifecycle stage of this input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[quantityofcomponents](#quantityofcomponents)|Component quantity used to calculate this input (emissions-based only) e.g., total product quantity|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[quantityofitems](#quantityofitems)|Item quantity used to calculate this input (emissions-based only) e.g., total product quantity|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[quantityunit](#quantityunit)|The unit of measure used for the item quantity or component quantity on this input.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\SustainabilityShared/ProductFootprintInput</a>|
+|[sustainabilityproductfootprintinputId](#sustainabilityproductfootprintinputId)|Unique identifier for entity instances|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[statecode](#statecode)|Status of the Product footprint input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[statuscode](#statuscode)|Reason for the status of the Product footprint input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[name](#name)|The name of the custom entity.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[componentproductfootprint](#componentproductfootprint)|Product footprint used to calculate this input (pre-processing stage only)|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[emissionfactor](#emissionfactor)|Emission factor used to calculate this input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[calculationlibrary](#calculationlibrary)|Factor library used to calculate this input.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[kgco2e](#kgco2e)|Amount of carbon dioxide equivalent for this input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[productfootprint](#productfootprint)|Product footprint this input accrues to|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[productlifecyclestage](#productlifecyclestage)|Product lifecycle stage of this input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[quantityofcomponents](#quantityofcomponents)|Component quantity used to calculate this input (emissions-based only) e.g., total product quantity|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[quantityofitems](#quantityofitems)|Item quantity used to calculate this input (emissions-based only) e.g., total product quantity|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[quantityunit](#quantityunit)|The unit of measure used for the item quantity or component quantity on this input.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
