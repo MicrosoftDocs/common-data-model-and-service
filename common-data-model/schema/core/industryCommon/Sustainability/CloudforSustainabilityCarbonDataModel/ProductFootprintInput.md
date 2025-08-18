@@ -25,7 +25,7 @@ Itemization of a computed product footprint
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintInput/(resolvedAttributes)/sustainabilityproductfootprintinputId](#sustainabilityproductfootprintinputId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintInput/(resolvedAttributes)/origincorrelationid](#origincorrelationid)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintInput/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,7 +51,7 @@ Itemization of a computed product footprint
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilityproductfootprintinputId](#sustainabilityproductfootprintinputId)|Unique identifier for entity instances|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
 |[statecode](#statecode)|Status of the Product footprint input|<a href="ProductFootprintInput.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintInput</a>|
