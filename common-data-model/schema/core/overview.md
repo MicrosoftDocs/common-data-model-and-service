@@ -2,7 +2,6 @@
 title: overview of core - Common Data Model | Microsoft Docs
 description: core is a folder that contains standard entities related to the Common Data Model.
 author: llawwaii
-
 ms.reviewer: deonhe
 ms.topic: reference
 ms.date: 8/7/2020
