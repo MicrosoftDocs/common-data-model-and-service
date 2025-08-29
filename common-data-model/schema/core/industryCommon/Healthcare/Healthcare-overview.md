@@ -11,7 +11,7 @@ ms.author: matgos
 
 # Overview of  Microsoft Cloud for Healthcare entities
 
-This section provides the information for [Microsoft Cloud for Healthcare](/dynamics365/industry/healthcare/overview) entities.  Microsoft Cloud for Healthcare offers a comprehensive set of solutions for the healthcare market. Bringing together capabilities from Microsoft Dynamics 365, Microsoft 365, and Microsoft Azure, Microsoft Cloud for Healthcare expedites a healthcare organization’s ability to roll out solutions. Patients, providers, and care coordinators can perform daily duties in a modern yet familiar user-interface that provides robust functionality.
+This section provides the information for [Microsoft Cloud for Healthcare](/dynamics365/industry/healthcare/overview) entities.  Microsoft Cloud for Healthcare offers a comprehensive set of solutions for the healthcare market. Bringing together capabilities from Microsoft Dynamics 365, Microsoft 365, and Microsoft Azure, Microsoft Cloud for Healthcare expedites a healthcare organization’s ability to roll out solutions. Patients, providers, and care coordinators can perform daily duties in a modern yet familiar user-interface that provides robust functionality. You can also build your own healthcare applications using these modules and entities.
 
 For more information, see [Microsoft Cloud for Healthcare](/dynamics365/industry/healthcare/overview).
 
