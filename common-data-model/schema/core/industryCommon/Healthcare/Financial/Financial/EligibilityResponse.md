@@ -5,13 +5,12 @@ author: matgos
 
 ms.reviewer: deonhe
 ms.topic: reference
-ms.date: 1/7/2021
+ms.date: 09/12/2025
 ms.author: matgos
 ---
 
 # Eligibility Response in Financial
 
-  
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Financial/Financial/EligibilityResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
