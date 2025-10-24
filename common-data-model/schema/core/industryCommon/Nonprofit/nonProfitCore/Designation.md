@@ -1,5 +1,5 @@
 ---
-title: Designation in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Designation in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Designation in Cloud for Nonprofit core data model
+# Designation in Microsoft for Nonprofit core data model
 
 An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  
   

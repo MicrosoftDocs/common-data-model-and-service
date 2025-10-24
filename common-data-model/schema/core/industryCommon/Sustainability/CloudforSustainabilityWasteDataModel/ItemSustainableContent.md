@@ -1,5 +1,5 @@
 ---
-title: ItemSustainableContent in Cloud for Sustainability waste data model 
+title: ItemSustainableContent in Microsoft for Sustainability waste data model 
 description: Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Item sustainable content in Cloud for Sustainability waste data model(ItemSustainableContent)
+# Item sustainable content in Microsoft for Sustainability waste data model(ItemSustainableContent)
 
 Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.  
   

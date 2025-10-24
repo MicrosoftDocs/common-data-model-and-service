@@ -1,5 +1,5 @@
 ---
-title: TransportationAndDistribution in Cloud for Sustainability carbon data model 
+title: TransportationAndDistribution in Microsoft for Sustainability carbon data model 
 description: Upstream and downstream transportation and distribution activities.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Transportation and distribution in Cloud for Sustainability carbon data model(TransportationAndDistribution)
+# Transportation and distribution in Microsoft for Sustainability carbon data model(TransportationAndDistribution)
 
 Upstream and downstream transportation and distribution activities.  
   

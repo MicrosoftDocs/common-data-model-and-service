@@ -1,6 +1,6 @@
 ---
-title: OrganizationalProfile in Cloud for Sustainability shared data model
-description: The base information of the organization in Cloud for Sustainability shared data model, for which the solution is built in the Shared data model.
+title: OrganizationalProfile in Microsoft for Sustainability shared data model
+description: The base information of the organization in Microsoft for Sustainability shared data model, for which the solution is built in the Shared data model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: lsuresh
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Organizational profile in Cloud for Sustainability shared data model (OrganizationalProfile)
+# Organizational profile in Microsoft for Sustainability shared data model (OrganizationalProfile)
 
 The base information of the organization, for which the solution is built.  
   

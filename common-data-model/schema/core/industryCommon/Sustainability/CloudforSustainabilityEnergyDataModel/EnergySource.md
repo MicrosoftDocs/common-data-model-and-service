@@ -1,5 +1,5 @@
 ---
-title: EnergySource in Cloud for Sustainability energy data model
+title: EnergySource in Microsoft for Sustainability energy data model
 description: Medium or sources to generate energy.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Energy Source in Cloud for Sustainability energy data model 
+# Energy Source in Microsoft for Sustainability energy data model 
 
 Medium or sources to generate energy.  
   

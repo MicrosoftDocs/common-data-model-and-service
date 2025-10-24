@@ -1,6 +1,6 @@
 ---
-title: Overview of Microsoft Cloud for Healthcare entities - Common Data Model | Microsoft Docs
-description: Healthcare is a folder that contains standard entities related to  Microsoft Cloud for Healthcare entities which are defined using Common Data Model.
+title: Overview of Microsoft for Healthcare entities - Common Data Model | Microsoft Docs
+description: Healthcare is a folder that contains standard entities related to  Microsoft for Healthcare entities which are defined using Common Data Model.
 author: matgos
 
 ms.reviewer: deonhe
@@ -9,11 +9,11 @@ ms.date: 09/12/2025
 ms.author: matgos
 ---
 
-# Overview of  Microsoft Cloud for Healthcare entities
+# Overview of  Microsoft for Healthcare entities
 
-This section provides the information for [Microsoft Cloud for Healthcare](/dynamics365/industry/healthcare/overview) entities.  Microsoft Cloud for Healthcare offers a comprehensive set of solutions for the healthcare market. Bringing together capabilities from Microsoft Dynamics 365, Microsoft 365, and Microsoft Azure, Microsoft Cloud for Healthcare expedites a healthcare organization’s ability to roll out solutions. Patients, providers, and care coordinators can perform daily duties in a modern yet familiar user-interface that provides robust functionality. You can also build your own healthcare applications using these modules and entities.
+This section provides the information for [Microsoft for Healthcare](/dynamics365/industry/healthcare/overview) entities.  Microsoft for Healthcare offers a comprehensive set of solutions for the healthcare market. Bringing together capabilities from Microsoft Dynamics 365, Microsoft 365, and Microsoft Azure, Microsoft for Healthcare expedites a healthcare organization’s ability to roll out solutions. Patients, providers, and care coordinators can perform daily duties in a modern yet familiar user-interface that provides robust functionality. You can also build your own healthcare applications using these modules and entities.
 
-For more information, see [Microsoft Cloud for Healthcare](/dynamics365/industry/healthcare/overview).
+For more information, see [Microsoft for Healthcare](/dynamics365/industry/healthcare/overview).
 
 The modules and associated descriptions are aligned with the [HL7 FHIR (Release 4)](http://hl7.org/fhir/) standards.
 

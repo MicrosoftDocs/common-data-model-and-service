@@ -1,5 +1,5 @@
 ---
-title: Award in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Award in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: An Award represents the total amount of funding that has been agreed to be awarded to an individual or institution.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Award in Cloud for Nonprofit core data model
+# Award in Microsoft for Nonprofit core data model
 
 An Award represents the total amount of funding that has been agreed to be awarded to an individual or institution.  
   

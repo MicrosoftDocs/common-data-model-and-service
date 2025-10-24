@@ -1,5 +1,5 @@
 ---
-title: FacilityCapacity in Cloud for Sustainability shared data model
+title: FacilityCapacity in Microsoft for Sustainability shared data model
 description: Entity to capture the facility's capacity dimension and measure for a specified time period.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Facility capacity in Cloud for Sustainability shared data model (FacilityCapacity)
+# Facility capacity in Microsoft for Sustainability shared data model (FacilityCapacity)
 
 Entity to capture the facility's capacity dimension and measure for a specified time period.  
   

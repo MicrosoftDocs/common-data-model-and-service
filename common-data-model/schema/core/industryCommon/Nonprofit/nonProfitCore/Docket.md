@@ -1,5 +1,5 @@
 ---
-title: Docket in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Docket in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A Docket is used to group inquiries (LOIs) and/or requests with a specific grant/award cycle or date (usually a review/board meeting).
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Docket in Cloud for Nonprofit core data model
+# Docket in Microsoft for Nonprofit core data model
 
 A Docket is used to group inquiries (LOIs) and/or requests with a specific grant/award cycle or date (usually a review/board meeting).  
   

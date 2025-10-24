@@ -1,5 +1,5 @@
 ---
-title: Budget in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Budget in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A Budget represents the amount of funds that can be awarded for a particular delivery framework (i.e Program, Project, Initiative, Activity) for a defined period of time (i.e. fiscal year).
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Budget in Cloud for Nonprofit core data model
+# Budget in Microsoft for Nonprofit core data model
 
 A Budget represents the amount of funds that can be awarded for a particular delivery framework (i.e Program, Project, Initiative, Activity) for a defined period of time (i.e. fiscal year).  
   

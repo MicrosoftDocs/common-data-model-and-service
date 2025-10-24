@@ -1,5 +1,5 @@
 ---
-title: UtilityType in Cloud for Sustainability energy data model
+title: UtilityType in Microsoft for Sustainability energy data model
 description: Classification of energy entities such as electricity or gas.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Utility type in Cloud for Sustainability energy data model (UtilityType)
+# Utility type in Microsoft for Sustainability energy data model (UtilityType)
 
 Classification of energy entities such as electricity or gas.  
   

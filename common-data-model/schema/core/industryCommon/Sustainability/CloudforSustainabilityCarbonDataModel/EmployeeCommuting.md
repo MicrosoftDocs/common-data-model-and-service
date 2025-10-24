@@ -1,5 +1,5 @@
 ---
-title: EmployeeCommuting in Cloud for Sustainability carbon data model 
+title: EmployeeCommuting in Microsoft for Sustainability carbon data model 
 description: Entity for employee commuting data
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Employee Commuting in Cloud for Sustainability carbon data model
+# Employee Commuting in Microsoft for Sustainability carbon data model
 
 Entity for employee commuting data  
   

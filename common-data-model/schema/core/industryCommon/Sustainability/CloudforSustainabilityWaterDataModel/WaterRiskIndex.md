@@ -1,5 +1,5 @@
 ---
-title: WaterRiskIndex in Cloud for Sustainability water data model
+title: WaterRiskIndex in Microsoft for Sustainability water data model
 description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
 author: lsuresh
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Water risk index in Cloud for Sustainability water data model (WaterRiskIndex)
+# Water risk index in Microsoft for Sustainability water data model (WaterRiskIndex)
 
 The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
 

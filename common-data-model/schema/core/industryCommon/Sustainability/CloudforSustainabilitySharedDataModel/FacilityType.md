@@ -1,5 +1,5 @@
 ---
-title: FacilityType in Cloud for Sustainability shared data model
+title: FacilityType in Microsoft for Sustainability shared data model
 description: Entity used for classifying the type of facility, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Facility type in Cloud for Sustainability shared data model (FacilityType)
+# Facility type in Microsoft for Sustainability shared data model (FacilityType)
 
 Entity used for classifying the type of facility, as defined in the reporting company.  
   

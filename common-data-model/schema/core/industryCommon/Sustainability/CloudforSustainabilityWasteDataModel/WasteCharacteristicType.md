@@ -1,5 +1,5 @@
 ---
-title: WasteCharacteristicType in Cloud for Sustainability waste data model 
+title: WasteCharacteristicType in Microsoft for Sustainability waste data model 
 description: Stores all the different classifications for the waste quality characteristics.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Waste characteristic type in Cloud for Sustainability waste data model(WasteCharacteristicType)
+# Waste characteristic type in Microsoft for Sustainability waste data model(WasteCharacteristicType)
 
 Stores all the different classifications for the waste quality characteristics.  
   

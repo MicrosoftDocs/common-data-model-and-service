@@ -1,5 +1,5 @@
 ---
-title: Unit in Cloud for Sustainability shared data model
+title: Unit in Microsoft for Sustainability shared data model
 description: Unit of measure.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Unit in Cloud for Sustainability shared data model 
+# Unit in Microsoft for Sustainability shared data model 
 
 Unit of measure.  
   

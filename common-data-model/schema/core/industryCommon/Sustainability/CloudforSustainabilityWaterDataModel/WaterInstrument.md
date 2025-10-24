@@ -1,5 +1,5 @@
 ---
-title: WaterInstrument in Cloud for Sustainability water data model
+title: WaterInstrument in Microsoft for Sustainability water data model
 description: Stores the information related to the devices or instruments tracking water in the organization.
 author: lsuresh
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Water instrument in Cloud for Sustainability water data model (WaterInstrument)
+# Water instrument in Microsoft for Sustainability water data model (WaterInstrument)
 
 Stores the information related to the devices or instruments tracking water in the organization.  
   

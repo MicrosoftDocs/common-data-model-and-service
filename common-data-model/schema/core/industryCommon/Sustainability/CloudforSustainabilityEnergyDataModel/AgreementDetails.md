@@ -1,5 +1,5 @@
 ---
-title: AgreementDetails in Cloud for Sustainability energy data model
+title: AgreementDetails in Microsoft for Sustainability energy data model
 description: Binding agreement between the energy provider and the customer for the energy being sourced or procured.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
-# Agreement details in Cloud for Sustainability energy data model (AgreementDetails)
+# Agreement details in Microsoft for Sustainability energy data model (AgreementDetails)
 
 Binding agreement between the energy provider and the customer for the energy being sourced or procured.  
   

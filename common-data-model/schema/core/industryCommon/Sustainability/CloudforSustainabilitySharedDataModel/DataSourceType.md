@@ -1,5 +1,5 @@
 ---
-title: DataSourceType in Cloud for Sustainability shared data model
+title: DataSourceType in Microsoft for Sustainability shared data model
 description: The different types of sources for energy data.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Data source type in Cloud for Sustainability shared data model (DataSourceType)
+# Data source type in Microsoft for Sustainability shared data model (DataSourceType)
 
 The different types of sources for energy data.  
   

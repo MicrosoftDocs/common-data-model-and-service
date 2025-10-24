@@ -1,5 +1,5 @@
 ---
-title: DonorCommitment in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: DonorCommitment in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Donor commitments represent the actual or prospective agreement between a donor and an organization for the donor to make a gift to the organization.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Donor Commitment in Cloud for Nonprofit core data model
+# Donor Commitment in Microsoft for Nonprofit core data model
 
 Donor commitments represent the actual or prospective agreement between a donor and an organization for the donor to make a gift to the organization.  
   

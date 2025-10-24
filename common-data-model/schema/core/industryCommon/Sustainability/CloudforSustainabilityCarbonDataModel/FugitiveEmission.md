@@ -1,5 +1,5 @@
 ---
-title: FugitiveEmission in Cloud for Sustainability carbon data model 
+title: FugitiveEmission in Microsoft for Sustainability carbon data model 
 description: Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Fugitive emission in Cloud for Sustainability carbon data model(FugitiveEmission)
+# Fugitive emission in Microsoft for Sustainability carbon data model(FugitiveEmission)
 
 Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.  
   

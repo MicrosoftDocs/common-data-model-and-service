@@ -1,5 +1,5 @@
 ---
-title: PaymentAsset in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: PaymentAsset in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Payment Asset represents the assets associated with specific types of payments including, but not limited to, in-kind gifts, stocks and securities..
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Payment Asset in Cloud for Nonprofit core data model
+# Payment Asset in Microsoft for Nonprofit core data model
 
 Payment Asset represents the assets associated with specific types of payments including, but not limited to, in-kind gifts, stocks and securities..  
   

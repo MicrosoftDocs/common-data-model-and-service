@@ -1,5 +1,5 @@
 ---
-title: ProductFootprintInput in Cloud for Sustainability carbon data model 
+title: ProductFootprintInput in Microsoft for Sustainability carbon data model 
 description: Itemization of a computed product footprint
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
-# Product footprint input in Cloud for Sustainability carbon data model(ProductFootprintInput)
+# Product footprint input in Microsoft for Sustainability carbon data model(ProductFootprintInput)
 
 Itemization of a computed product footprint  
   

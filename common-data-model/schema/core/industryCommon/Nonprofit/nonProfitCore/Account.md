@@ -1,6 +1,6 @@
 ---
-title: Account in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in Cloud for Nonprofit core data model.
+title: Account in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
+description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in Microsoft for Nonprofit core data model.
 author: llawwaii
 
 ms.reviewer: mirao
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Account in Cloud for Nonprofit core data model
+# Account in Microsoft for Nonprofit core data model
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   

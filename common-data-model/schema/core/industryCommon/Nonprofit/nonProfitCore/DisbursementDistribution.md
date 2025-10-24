@@ -1,5 +1,5 @@
 ---
-title: DisbursementDistribution in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: DisbursementDistribution in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Disbursement Distribution represents the Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Disbursement Distribution in Cloud for Nonprofit core data model
+# Disbursement Distribution in Microsoft for Nonprofit core data model
 
 Disbursement Distribution represents the Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.  
   

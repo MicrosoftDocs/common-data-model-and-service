@@ -1,5 +1,5 @@
 ---
-title: Stakeholder in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Stakeholder in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A person or entity with an interest or concern in something.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Stakeholder in Cloud for Nonprofit core data model
+# Stakeholder in Microsoft for Nonprofit core data model
 
 A person or entity with an interest or concern in something.  
   

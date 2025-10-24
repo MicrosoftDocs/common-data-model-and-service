@@ -1,5 +1,5 @@
 ---
-title: AccountingMethod in Cloud for Sustainability shared data model
+title: AccountingMethod in Microsoft for Sustainability shared data model
 description: Approach or method to quantify and report the environmental footprint of an organization's activities, encompassing greenhouse gas emissions and broader sustainability factors.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Accounting method in Cloud for Sustainability shared data model (AccountingMethod)
+# Accounting method in Microsoft for Sustainability shared data model (AccountingMethod)
 
 Approach or method to quantify and report the environmental footprint of an organization's activities, encompassing greenhouse gas emissions and broader sustainability factors.  
   

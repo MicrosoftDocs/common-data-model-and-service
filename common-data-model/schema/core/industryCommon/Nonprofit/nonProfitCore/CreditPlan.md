@@ -1,5 +1,5 @@
 ---
-title: CreditPlan in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: CreditPlan in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Credit Plans control who will be credited with hard or soft credits after a payment clears.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Credit Plan in Cloud for Nonprofit core data model
+# Credit Plan in Microsoft for Nonprofit core data model
 
 Credit Plans control who will be credited with hard or soft credits after a payment clears.  
   

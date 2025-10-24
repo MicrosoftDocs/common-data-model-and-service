@@ -1,5 +1,5 @@
 ---
-title: UnitGroup in Cloud for Sustainability shared data model
+title: UnitGroup in Microsoft for Sustainability shared data model
 description: Grouping of units.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Unit group in Cloud for Sustainability shared data model (UnitGroup)
+# Unit group in Microsoft for Sustainability shared data model (UnitGroup)
 
 Grouping of units.  
   

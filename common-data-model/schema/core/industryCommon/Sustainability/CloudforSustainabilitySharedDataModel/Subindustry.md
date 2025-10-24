@@ -1,5 +1,5 @@
 ---
-title: Subindustry in Cloud for Sustainability shared data model
+title: Subindustry in Microsoft for Sustainability shared data model
 description: Child-level of the industry classification, which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Subindustry in Cloud for Sustainability shared data model 
+# Subindustry in Microsoft for Sustainability shared data model 
 
 Child-level of the industry classification, which contains an ID and name.  
   
