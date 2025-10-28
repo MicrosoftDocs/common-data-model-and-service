@@ -1,5 +1,5 @@
 ---
-title: WasteQualityTestResult in Cloud for Sustainability waste data model 
+title: WasteQualityTestResult in Microsoft for Sustainability waste data model 
 description: Stores information on the result of the tests for tracking chemical/contaminant levels.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Waste quality test result in Cloud for Sustainability waste data model(WasteQualityTestResult)
+# Waste quality test result in Microsoft for Sustainability waste data model(WasteQualityTestResult)
 
 Stores information on the result of the tests for tracking chemical/contaminant levels.  
   

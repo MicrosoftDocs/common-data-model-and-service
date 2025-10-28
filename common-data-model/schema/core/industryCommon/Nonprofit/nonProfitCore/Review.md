@@ -1,5 +1,5 @@
 ---
-title: Review in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Review in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: The assessment of a Request made by an internal staff member (or team) or an external third party individual or entity (i.e. Consultant) and all of the relevant information that needs to be tracked.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Review in Cloud for Nonprofit core data model
+# Review in Microsoft for Nonprofit core data model
 
 The assessment of a Request made by an internal staff member (or team) or an external third party individual or entity (i.e. Consultant) and all of the relevant information that needs to be tracked.  
   

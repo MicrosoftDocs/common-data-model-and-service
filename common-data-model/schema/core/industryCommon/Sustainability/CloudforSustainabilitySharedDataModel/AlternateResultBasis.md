@@ -1,5 +1,5 @@
 ---
-title: AlternateResultBasis in Cloud for Sustainability shared data model
+title: AlternateResultBasis in Microsoft for Sustainability shared data model
 description: Primary reason used for generating alternate sustainability records, which is done by applying different methodologies, assumptions, or calculation models to the same underlying data set.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Alternate result basis in Cloud for Sustainability shared data model (AlternateResultBasis)
+# Alternate result basis in Microsoft for Sustainability shared data model (AlternateResultBasis)
 
 Primary reason used for generating alternate sustainability records, which is done by applying different methodologies, assumptions, or calculation models to the same underlying data set.  
   

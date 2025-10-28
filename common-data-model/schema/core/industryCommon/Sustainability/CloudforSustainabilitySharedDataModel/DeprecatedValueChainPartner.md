@@ -1,5 +1,5 @@
 ---
-title: DeprecatedValueChainPartner in Cloud for Sustainability shared data model
+title: DeprecatedValueChainPartner in Microsoft for Sustainability shared data model
 description: Entity for value chain partner or supplier(deprecated).
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# (Deprecated) Value Chain Partner in Cloud for Sustainability shared data model (DeprecatedValueChainPartner)
+# (Deprecated) Value Chain Partner in Microsoft for Sustainability shared data model (DeprecatedValueChainPartner)
 
 Entity for value chain partner or supplier.  
   

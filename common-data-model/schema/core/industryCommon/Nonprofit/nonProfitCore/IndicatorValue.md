@@ -1,5 +1,5 @@
 ---
-title: IndicatorValue in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: IndicatorValue in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: An Indicator Value is a quantitative or qualitative value of measurement of an Indicator. Indicator Values may be but are not limited to baseline, target or actual values of measurement.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Indicator Value in Cloud for Nonprofit core data model
+# Indicator Value in Microsoft for Nonprofit core data model
 
 An Indicator Value is a quantitative or qualitative value of measurement of an Indicator. Indicator Values may be but are not limited to baseline, target or actual values of measurement.  
   

@@ -1,5 +1,5 @@
 ---
-title: ProgramItem in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: ProgramItem in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: This entity contains the information for a program items such as a assumptions, obligations, milestones, deliverables, decisions, or other items as needed.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Program Item in Cloud for Nonprofit core data model
+# Program Item in Microsoft for Nonprofit core data model
 
 This entity contains the information for a program items such as a assumptions, obligations, milestones, deliverables, decisions, or other items as needed.  
   

@@ -1,5 +1,5 @@
 ---
-title: Need in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Need in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A need that is discovered during the case. May or may not be resolved during the process of work.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Need in Cloud for Nonprofit core data model
+# Need in Microsoft for Nonprofit core data model
 
 A need that is discovered during the case. May or may not be resolved during the process of work.  
   

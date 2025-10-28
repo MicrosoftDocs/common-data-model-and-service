@@ -1,5 +1,5 @@
 ---
-title: Result in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Result in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A Result is a container that represents the changes in the context in which an organization operates..
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Result in Cloud for Nonprofit core data model
+# Result in Microsoft for Nonprofit core data model
 
 A Result is a container that represents the changes in the context in which an organization operates..  
   

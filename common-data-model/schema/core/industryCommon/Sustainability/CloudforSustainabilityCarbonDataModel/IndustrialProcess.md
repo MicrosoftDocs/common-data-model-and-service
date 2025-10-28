@@ -1,5 +1,5 @@
 ---
-title: IndustrialProcess in Cloud for Sustainability carbon data model 
+title: IndustrialProcess in Microsoft for Sustainability carbon data model 
 description: Emissions source for scope 1 emissions relating to industrial processes.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Industrial process in Cloud for Sustainability carbon data model(IndustrialProcess)
+# Industrial process in Microsoft for Sustainability carbon data model(IndustrialProcess)
 
 Emissions source for scope 1 emissions relating to industrial processes.  
   

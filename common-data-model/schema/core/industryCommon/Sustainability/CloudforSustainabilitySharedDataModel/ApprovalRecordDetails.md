@@ -1,5 +1,5 @@
 ---
-title: ApprovalRecordDetails in Cloud for Sustainability shared data model
+title: ApprovalRecordDetails in Microsoft for Sustainability shared data model
 description: Captures information for a specific approval record details
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
-# Approval Record Details in Cloud for Sustainability shared data model 
+# Approval Record Details in Microsoft for Sustainability shared data model 
 
 Captures information for a specific approval record details  
   

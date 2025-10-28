@@ -1,5 +1,5 @@
 ---
-title: TheoryOfChangeRelationship in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: TheoryOfChangeRelationship in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Records the details regarding the relationships of theory of change.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Theory of Change Relationship in Cloud for Nonprofit core data model(TheoryOfChangeRelationship)
+# Theory of Change Relationship in Microsoft for Nonprofit core data model(TheoryOfChangeRelationship)
 
 Records the details regarding the relationships of theory of change.  
   

@@ -1,5 +1,5 @@
 ---
-title: ProductCategory in Cloud for Sustainability shared data model
+title: ProductCategory in Microsoft for Sustainability shared data model
 description: Represents category of a product. Can be associated with a parent product category. It is used in reports.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Product category in Cloud for Sustainability shared data model (ProductCategory)
+# Product category in Microsoft for Sustainability shared data model (ProductCategory)
 
 Represents category of a product. Can be associated with a parent product category. It is used in reports.  
   

@@ -1,5 +1,5 @@
 ---
-title: Indicator in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Indicator in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Indicator in Cloud for Nonprofit core data model
+# Indicator in Microsoft for Nonprofit core data model
 
 An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.  
   

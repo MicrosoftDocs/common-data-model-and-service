@@ -1,5 +1,5 @@
 ---
-title: WorkItem in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: WorkItem in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A entity that tracks a logical unit of work or process of work.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Work Item in Cloud for Nonprofit core data model
+# Work Item in Microsoft for Nonprofit core data model
 
 A entity that tracks a logical unit of work or process of work.  
   

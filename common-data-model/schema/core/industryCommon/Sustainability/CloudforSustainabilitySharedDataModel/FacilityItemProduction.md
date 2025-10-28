@@ -1,5 +1,5 @@
 ---
-title: FacilityItemProduction in Cloud for Sustainability shared data model
+title: FacilityItemProduction in Microsoft for Sustainability shared data model
 description: Entity used to record the production quantity of an item in a facility for a specified period.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Facility item production in Cloud for Sustainability shared data model (FacilityItemProduction)
+# Facility item production in Microsoft for Sustainability shared data model (FacilityItemProduction)
 
 Entity used to record the production quantity of an item in a facility for a specified period.  
   

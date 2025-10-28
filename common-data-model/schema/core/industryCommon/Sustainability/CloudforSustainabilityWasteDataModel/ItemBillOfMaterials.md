@@ -1,5 +1,5 @@
 ---
-title: ItemBillOfMaterials in Cloud for Sustainability waste data model 
+title: ItemBillOfMaterials in Microsoft for Sustainability waste data model 
 description: Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Item bill of materials in Cloud for Sustainability waste data model(ItemBillOfMaterials)
+# Item bill of materials in Microsoft for Sustainability waste data model(ItemBillOfMaterials)
 
 Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.  
   

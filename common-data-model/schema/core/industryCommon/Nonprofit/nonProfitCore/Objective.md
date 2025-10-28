@@ -1,5 +1,5 @@
 ---
-title: Objective in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Objective in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: An Objective represents the organization's highest priorities, strategies and/or goals that guide investments (in the case of Requests and Awards) and program delivery.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Objective in Cloud for Nonprofit core data model
+# Objective in Microsoft for Nonprofit core data model
 
 An Objective represents the organization's highest priorities, strategies and/or goals that guide investments (in the case of Requests and Awards) and program delivery.  
   

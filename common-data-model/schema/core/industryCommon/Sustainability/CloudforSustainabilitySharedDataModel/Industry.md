@@ -1,5 +1,5 @@
 ---
-title: Industry in Cloud for Sustainability shared data model
+title: Industry in Microsoft for Sustainability shared data model
 description: Parent level of the industry classification which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Industry in Cloud for Sustainability shared data model 
+# Industry in Microsoft for Sustainability shared data model 
 
 Parent level of the industry classification which contains an ID and name.  
   

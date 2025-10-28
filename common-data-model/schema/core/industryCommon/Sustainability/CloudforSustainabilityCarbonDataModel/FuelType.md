@@ -1,5 +1,5 @@
 ---
-title: FuelType in Cloud for Sustainability carbon data model 
+title: FuelType in Microsoft for Sustainability carbon data model 
 description: List of fuels to be used during combustion, as needed for emissions factor selection.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Fuel type in Cloud for Sustainability carbon data model(FuelType)
+# Fuel type in Microsoft for Sustainability carbon data model(FuelType)
 
 List of fuels to be used during combustion, as needed for emissions factor selection.  
   

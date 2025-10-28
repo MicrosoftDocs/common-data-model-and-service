@@ -1,5 +1,5 @@
 ---
-title: ResourceCatalog in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: ResourceCatalog in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Catalog that contains beneficiaries that are not contacts/accounts.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Resource Catalog in Cloud for Nonprofit core data model
+# Resource Catalog in Microsoft for Nonprofit core data model
 
 Catalog that contains beneficiaries that are not contacts/accounts.  
   

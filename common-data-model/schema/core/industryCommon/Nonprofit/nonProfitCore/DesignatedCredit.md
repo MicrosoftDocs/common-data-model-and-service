@@ -1,5 +1,5 @@
 ---
-title: DesignatedCredit in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: DesignatedCredit in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A segment of a donation payment or in-kind gift that indicates the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Designated Credit in Cloud for Nonprofit core data model
+# Designated Credit in Microsoft for Nonprofit core data model
 
 A segment of a donation payment or in-kind gift that indicates the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.  
   

@@ -1,6 +1,6 @@
 ---
-title: Contact in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague in Cloud for Nonprofit core data model.
+title: Contact in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague in Microsoft for Nonprofit core data model.
 author: llawwaii
 
 ms.reviewer: mirao
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Contact in Cloud for Nonprofit core data model
+# Contact in Microsoft for Nonprofit core data model
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
