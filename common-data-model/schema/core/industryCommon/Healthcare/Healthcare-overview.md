@@ -1,12 +1,12 @@
 ---
 title: Overview of Microsoft for Healthcare entities - Common Data Model | Microsoft Docs
 description: Healthcare is a folder that contains standard entities related to  Microsoft for Healthcare entities which are defined using Common Data Model.
-author: matgos
+author: leeclontz
 
 ms.reviewer: deonhe
 ms.topic: reference
-ms.date: 09/12/2025
-ms.author: matgos
+ms.date: 10/28/2025
+ms.author: leeclontz
 ---
 
 # Overview of  Microsoft for Healthcare entities
