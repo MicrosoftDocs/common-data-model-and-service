@@ -1,5 +1,5 @@
 ---
-title: Transaction in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Transaction in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Transactions (also referred to as donations) represent payments from a constituent (i.e. donor, contact, account or organization) to the nonprofit.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Transaction in Cloud for Nonprofit core data model
+# Transaction in Microsoft for Nonprofit core data model
 
 Transactions (also referred to as donations) represent payments from a constituent (i.e. donor, contact, account or organization) to the nonprofit.  
   

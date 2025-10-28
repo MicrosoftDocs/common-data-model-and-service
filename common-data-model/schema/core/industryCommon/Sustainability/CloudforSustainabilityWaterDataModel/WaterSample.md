@@ -1,5 +1,5 @@
 ---
-title: WaterSample in Cloud for Sustainability water data model
+title: WaterSample in Microsoft for Sustainability water data model
 description: WaterSample stores the attributes of the water samples collected for testing water quality.
 author: lsuresh
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Water sample in Cloud for Sustainability water data model (WaterSample)
+# Water sample in Microsoft for Sustainability water data model (WaterSample)
 
 Stores the attributes of the water samples collected for testing water quality.  
   

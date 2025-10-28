@@ -1,5 +1,5 @@
 ---
-title: ProgramItemRelationship in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: ProgramItemRelationship in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Records the details regarding the relationships between program items.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Program Item Relationship in Cloud for Nonprofit core data model
+# Program Item Relationship in Microsoft for Nonprofit core data model
 
 Records the details regarding the relationships between program items.  
   

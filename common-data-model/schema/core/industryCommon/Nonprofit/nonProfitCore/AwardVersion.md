@@ -1,5 +1,5 @@
 ---
-title: AwardVersion in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: AwardVersion in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: An Award Version represents a point in time snapshot of the attributes of an Award.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Award Version in Cloud for Nonprofit core data model
+# Award Version in Microsoft for Nonprofit core data model
 
 An Award Version represents a point in time snapshot of the attributes of an Award.  
   

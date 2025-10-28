@@ -1,5 +1,5 @@
 ---
-title: DeliveryFramework in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: DeliveryFramework in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Delivery Framework represents a management unit of work defined by the organization or entity doing the work. In IATI, the Delivery Framework is an "Activity."
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Delivery Framework in Cloud for Nonprofit core data model
+# Delivery Framework in Microsoft for Nonprofit core data model
 
 Delivery Framework represents a management unit of work defined by the organization or entity doing the work. In IATI, the Delivery Framework is an “Activity.”  
   

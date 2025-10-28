@@ -1,5 +1,5 @@
 ---
-title: WaterSampleDeprecated in Cloud for Sustainability water data model
+title: WaterSampleDeprecated in Microsoft for Sustainability water data model
 description: WaterSampleDeprecated stores the attributes of the water samples collected for testing water quality.
 author: lsuresh
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Water sample (deprecated) in Cloud for Sustainability water data model (WaterSampleDeprecated)
+# Water sample (deprecated) in Microsoft for Sustainability water data model (WaterSampleDeprecated)
 
 Stores the attributes of the water samples collected for testing water quality.  
   

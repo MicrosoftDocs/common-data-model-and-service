@@ -1,5 +1,5 @@
 ---
-title: FacilityCapacityDimension in Cloud for Sustainability shared data model
+title: FacilityCapacityDimension in Microsoft for Sustainability shared data model
 description: The dimension of the facility based on which the water usage intensity factors are defined such as area.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Facility capacity dimension in Cloud for Sustainability shared data model (FacilityCapacityDimension)
+# Facility capacity dimension in Microsoft for Sustainability shared data model (FacilityCapacityDimension)
 
 The dimension of the facility based on which the water usage intensity factors are defined such as area.  
   

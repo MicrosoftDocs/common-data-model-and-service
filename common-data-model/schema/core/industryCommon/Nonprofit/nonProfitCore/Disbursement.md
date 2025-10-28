@@ -1,5 +1,5 @@
 ---
-title: Disbursement in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Disbursement in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Disbursement in Cloud for Nonprofit core data model
+# Disbursement in Microsoft for Nonprofit core data model
 
 A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget.  
   

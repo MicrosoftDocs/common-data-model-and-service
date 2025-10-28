@@ -1,5 +1,5 @@
 ---
-title: Preference in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Preference in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Preference represents an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Preference in Cloud for Nonprofit core data model
+# Preference in Microsoft for Nonprofit core data model
 
 Preference represents an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.  
   

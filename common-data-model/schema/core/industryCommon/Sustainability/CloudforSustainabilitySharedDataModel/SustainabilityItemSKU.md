@@ -1,5 +1,5 @@
 ---
-title: SustainabilityItemSKU in Cloud for Sustainability shared data model
+title: SustainabilityItemSKU in Microsoft for Sustainability shared data model
 description: Entity for capturing data on items/SKU inventoried such as input material and finished goods.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Sustainability item SKU in Cloud for Sustainability shared data model (SustainabilityItemSKU)
+# Sustainability item SKU in Microsoft for Sustainability shared data model (SustainabilityItemSKU)
 
 Entity for capturing data on items/SKU inventoried such as input material and finished goods.  
   

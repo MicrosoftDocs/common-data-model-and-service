@@ -1,5 +1,5 @@
 ---
-title: DesignationPlan in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: DesignationPlan in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Designation Plan in Cloud for Nonprofit core data model
+# Designation Plan in Microsoft for Nonprofit core data model
 
 A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.  
   

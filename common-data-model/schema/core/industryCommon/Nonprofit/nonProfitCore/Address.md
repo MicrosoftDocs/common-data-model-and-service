@@ -1,5 +1,5 @@
 ---
-title: Address in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Address in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Address and shipping information. Used to store additional addresses for an account or contact.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Address in Cloud for Nonprofit core data model
+# Address in Microsoft for Nonprofit core data model
 
 Address and shipping information. Used to store additional addresses for an account or contact.  
   

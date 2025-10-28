@@ -11,7 +11,7 @@ ms.author: leeclontz
 
 # Overview of CloudforSustainabilitySharedDataModel
 
-Cloud for Sustainability Shared Data Model CDM entity definitions  
+Microsoft for Sustainability Shared Data Model CDM entity definitions  
 
 ## Entities
 

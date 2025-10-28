@@ -1,5 +1,5 @@
 ---
-title: FacilityItemConsumption in Cloud for Sustainability waste data model 
+title: FacilityItemConsumption in Microsoft for Sustainability waste data model 
 description: Entity used to record the quantity of an item consumed in a facility for a specified period.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Facility item consumption in Cloud for Sustainability waste data model(FacilityItemConsumption)
+# Facility item consumption in Microsoft for Sustainability waste data model(FacilityItemConsumption)
 
 Entity used to record the quantity of an item consumed in a facility for a specified period.  
   

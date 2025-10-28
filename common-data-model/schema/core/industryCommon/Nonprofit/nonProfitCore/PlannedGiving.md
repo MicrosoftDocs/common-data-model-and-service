@@ -1,5 +1,5 @@
 ---
-title: PlannedGiving in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: PlannedGiving in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A planned gift is a gift made during a donor's lifetime or at the time of their death that involves their estate and/or tax planning.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Planned Giving in Cloud for Nonprofit core data model
+# Planned Giving in Microsoft for Nonprofit core data model
 
 A planned gift is a gift made during a donor's lifetime or at the time of their death that involves their estate and/or tax planning.  
   

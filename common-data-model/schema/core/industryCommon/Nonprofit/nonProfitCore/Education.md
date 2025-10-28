@@ -1,5 +1,5 @@
 ---
-title: Education in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Education in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Education references biographical information about the educational institutions a contact attended or is attending.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Education in Cloud for Nonprofit core data model
+# Education in Microsoft for Nonprofit core data model
 
 Education references biographical information about the educational institutions a contact attended or is attending.  
   

@@ -1,5 +1,5 @@
 ---
-title: Salutation in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Salutation in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: A Salutation represents the way a constituent wishes to be addressed, depending on the source, purpose and content of a of communication.  Salutations may or may not be auto-created by workflow.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Salutation in Cloud for Nonprofit core data model
+# Salutation in Microsoft for Nonprofit core data model
 
 A Salutation represents the way a constituent wishes to be addressed, depending on the source, purpose and content of a of communication.  Salutations may or may not be auto-created by workflow.  
   

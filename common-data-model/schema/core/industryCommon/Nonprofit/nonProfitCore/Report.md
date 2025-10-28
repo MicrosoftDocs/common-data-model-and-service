@@ -1,5 +1,5 @@
 ---
-title: Report in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Report in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Reports represent information submitted by an awardee to the awarding entity (i.e., a Foundation) or information submitted by an authorized awarding entity individual/entity about an awardee.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Report in Cloud for Nonprofit core data model
+# Report in Microsoft for Nonprofit core data model
 
 Reports represent information submitted by an awardee to the awarding entity (i.e., a Foundation) or information submitted by an authorized awarding entity individual/entity about an awardee.  
   

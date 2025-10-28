@@ -1,5 +1,5 @@
 ---
-title: BenefitRecipient in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: BenefitRecipient in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Benefit Recipient for contact, account and resource catalog.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Benefit Recipient in Cloud for Nonprofit core data model
+# Benefit Recipient in Microsoft for Nonprofit core data model
 
 Benefit Recipient for contact, account and resource catalog.  
   

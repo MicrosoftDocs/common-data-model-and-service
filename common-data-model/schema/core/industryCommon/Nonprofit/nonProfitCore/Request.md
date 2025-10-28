@@ -1,5 +1,5 @@
 ---
-title: Request in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Request in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Request in Cloud for Nonprofit core data model
+# Request in Microsoft for Nonprofit core data model
 
 Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.  
   

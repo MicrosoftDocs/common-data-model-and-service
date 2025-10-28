@@ -1,5 +1,5 @@
 ---
-title: ApprovalPolicyApprover in Cloud for Sustainability shared data model
+title: ApprovalPolicyApprover in Microsoft for Sustainability shared data model
 description: Captures information for a specific approval policy approver
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 08/15/2025
 ms.author: leeclontz
 ---
 
-# Approval Policy Approver in Cloud for Sustainability shared data model 
+# Approval Policy Approver in Microsoft for Sustainability shared data model 
 
 Captures information for a specific approval policy approver  
   

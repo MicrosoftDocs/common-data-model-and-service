@@ -1,5 +1,5 @@
 ---
-title: Material in Cloud for Sustainability shared data model
+title: Material in Microsoft for Sustainability shared data model
 description: Entity used for classifying the type of material, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Material in Cloud for Sustainability shared data model 
+# Material in Microsoft for Sustainability shared data model 
 
 Entity used for classifying the type of material, as defined in the reporting company.  
   

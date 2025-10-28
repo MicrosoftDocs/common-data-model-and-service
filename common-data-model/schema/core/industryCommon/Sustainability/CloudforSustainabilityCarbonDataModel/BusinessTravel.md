@@ -1,5 +1,5 @@
 ---
-title: BusinessTravel in Cloud for Sustainability carbon data model 
+title: BusinessTravel in Microsoft for Sustainability carbon data model 
 description: Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Business Travel in Cloud for Sustainability carbon data model
+# Business Travel in Microsoft for Sustainability carbon data model
 
 Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.  
   

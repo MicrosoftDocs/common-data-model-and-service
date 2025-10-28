@@ -11,7 +11,7 @@ ms.author: leeclontz
 
 # Overview of CloudforSustainabilityEnergyDataModel
 
-Cloud for Sustainability Energy Data Model CDM entity definitions  
+Microsoft for Sustainability Energy Data Model CDM entity definitions  
 
 ## Entities
 

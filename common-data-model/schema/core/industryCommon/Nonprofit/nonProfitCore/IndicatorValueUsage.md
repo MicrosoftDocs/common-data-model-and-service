@@ -1,5 +1,5 @@
 ---
-title: IndicatorValueUsage in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: IndicatorValueUsage in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Used to demonstrate a usage of a indicator value
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Indicator Value Usage in Cloud for Nonprofit core data model
+# Indicator Value Usage in Microsoft for Nonprofit core data model
 
 Used to demonstrate a usage of a indicator value  
   

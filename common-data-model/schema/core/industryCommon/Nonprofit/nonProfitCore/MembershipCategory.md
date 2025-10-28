@@ -1,5 +1,5 @@
 ---
-title: MembershipCategory in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: MembershipCategory in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Represents the types of membership associated to products.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Membership Category in Cloud for Nonprofit core data model
+# Membership Category in Microsoft for Nonprofit core data model
 
 Represents the types of membership associated to products.  
   

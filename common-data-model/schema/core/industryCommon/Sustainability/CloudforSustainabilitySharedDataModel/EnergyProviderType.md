@@ -1,5 +1,5 @@
 ---
-title: EnergyProviderType in Cloud for Sustainability shared data model
+title: EnergyProviderType in Microsoft for Sustainability shared data model
 description: Categories or classifications of companies or entities that supply energy, such as electricity or gas.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 05/22/2025
 ms.author: leeclontz
 ---
 
-# Energy provider type in Cloud for Sustainability shared data model (EnergyProviderType)
+# Energy provider type in Microsoft for Sustainability shared data model (EnergyProviderType)
 
 Categories or classifications of companies or entities that supply energy, such as electricity or gas.  
   

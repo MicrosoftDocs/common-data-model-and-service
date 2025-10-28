@@ -1,5 +1,5 @@
 ---
-title: PaymentMethod in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: PaymentMethod in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Payment Method is a placeholder entity for customizations that may be supported by an application.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Payment Method in Cloud for Nonprofit core data model
+# Payment Method in Microsoft for Nonprofit core data model
 
 Payment Method is a placeholder entity for customizations that may be supported by an application.  
   

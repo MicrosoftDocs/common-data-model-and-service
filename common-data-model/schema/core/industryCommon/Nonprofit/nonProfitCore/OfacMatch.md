@@ -1,5 +1,5 @@
 ---
-title: OfacMatch in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: OfacMatch in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: OFAC Match is a placeholder entity for tracking Office of Foreign Assets Control (OFAC) Specially Designated Naturals (SDN) searches and results.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# OFAC Match in Cloud for Nonprofit core data model(OfacMatch)
+# OFAC Match in Microsoft for Nonprofit core data model(OfacMatch)
 
 OFAC Match is a placeholder entity for tracking Office of Foreign Assets Control (OFAC) Specially Designated Naturals (SDN) searches and results.  
   

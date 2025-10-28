@@ -1,5 +1,5 @@
 ---
-title: WaterQualityTestResult in Cloud for Sustainability water data model
+title: WaterQualityTestResult in Microsoft for Sustainability water data model
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: lsuresh
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Water quality test result in Cloud for Sustainability water data model (WaterQualityTestResult)
+# Water quality test result in Microsoft for Sustainability water data model (WaterQualityTestResult)
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample.  
   

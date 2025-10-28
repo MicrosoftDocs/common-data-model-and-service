@@ -1,5 +1,5 @@
 ---
-title: EmploymentHistory in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: EmploymentHistory in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Employment History represents historical and/or current information about where a contact works, volunteers or serves in some capacity at an organization.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Employment History in Cloud for Nonprofit core data model
+# Employment History in Microsoft for Nonprofit core data model
 
 Employment History represents historical and/or current information about where a contact works, volunteers or serves in some capacity at an organization.  
   

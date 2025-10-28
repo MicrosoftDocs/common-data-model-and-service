@@ -1,5 +1,5 @@
 ---
-title: WorkItemAction in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: WorkItemAction in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: This entity contains the action that are taken to complete a work item. This can include information gathering, providing services, or any other action.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Work Item Action in Cloud for Nonprofit core data model
+# Work Item Action in Microsoft for Nonprofit core data model
 
 This entity contains the action that are taken to complete a work item. This can include information gathering, providing services, or any other action.  
   

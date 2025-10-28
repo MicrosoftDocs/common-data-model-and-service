@@ -1,5 +1,5 @@
 ---
-title: Recommendation in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: Recommendation in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: This is the mechanism through which Foundations provide recommendations back to a grant applicant.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Recommendation in Cloud for Nonprofit core data model
+# Recommendation in Microsoft for Nonprofit core data model
 
 This is the mechanism through which Foundations provide recommendations back to a grant applicant.  
   

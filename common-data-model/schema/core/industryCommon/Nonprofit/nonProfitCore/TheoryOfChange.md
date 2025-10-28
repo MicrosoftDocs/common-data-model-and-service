@@ -1,5 +1,5 @@
 ---
-title: TheoryOfChange in Cloud for Nonprofit core data model - Common Data Model | Microsoft Docs
+title: TheoryOfChange in Microsoft for Nonprofit core data model - Common Data Model | Microsoft Docs
 description: Theories of Change are hypotheses for achieving a desired social impact and are comprised of a sequence of cause-and-effect actions or occurrences.
 author: llawwaii
 
@@ -9,7 +9,7 @@ ms.date: 3/7/2025
 ms.author: leeclontz
 ---
 
-# Theory of Change in Cloud for Nonprofit core data model(TheoryOfChange)
+# Theory of Change in Microsoft for Nonprofit core data model(TheoryOfChange)
 
 Theories of Change are hypotheses for achieving a desired social impact and are comprised of a sequence of cause-and-effect actions or occurrences.  
   

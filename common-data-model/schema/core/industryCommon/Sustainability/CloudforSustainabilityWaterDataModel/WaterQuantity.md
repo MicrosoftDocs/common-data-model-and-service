@@ -1,5 +1,5 @@
 ---
-title: WaterQuantity in Cloud for Sustainability water data model
+title: WaterQuantity in Microsoft for Sustainability water data model
 description: Stores the actual quantity information from water transactions within the organization.
 author: lsuresh
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 02/19/2025
 ms.author: lsuresh
 ---
 
-# Water quantity in Cloud for Sustainability water data model (WaterQuantity)
+# Water quantity in Microsoft for Sustainability water data model (WaterQuantity)
 
 Stores the actual quantity information from water transactions within the organization.  
   
