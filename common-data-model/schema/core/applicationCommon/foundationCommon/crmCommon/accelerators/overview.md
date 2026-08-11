@@ -20,7 +20,6 @@ CDM Accelerators
 |[automotive](automotive/overview.md)|
 |[education](education/overview.md)|
 |[healthCare](healthCare/overview.md)|
-|[nonProfit](nonProfit/overview.md)|
 
 
 

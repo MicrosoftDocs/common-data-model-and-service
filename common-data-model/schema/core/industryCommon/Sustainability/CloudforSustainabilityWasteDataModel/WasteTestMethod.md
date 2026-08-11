@@ -1,15 +1,15 @@
 ---
-title: WasteTestMethod in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
+title: WasteTestMethod in Microsoft for Sustainability waste data model 
 description: Stores information on tests performed for the contaminant.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/2/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Waste test method in Cloud for Sustainability waste data model(WasteTestMethod)
+# Waste test method in Microsoft for Sustainability waste data model(WasteTestMethod)
 
 Stores information on tests performed for the contaminant.  
   
@@ -54,7 +54,7 @@ Stores information on tests performed for the contaminant.
 |[wastetestmethodId](#wastetestmethodId)|Unique identifier for entity instances.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
-|[statecode](#statecode)|Status of the |<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[statecode](#statecode)|Status of the|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[statuscode](#statuscode)|Status of the waste test method.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
@@ -200,12 +200,12 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the   
+Status of the  
 First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the </td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -230,7 +230,7 @@ First included in: Sustainability/SustainabilityWaste/WasteTestMethod (this enti
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

@@ -1,15 +1,15 @@
 ---
-title: SustainabilityItemSKU in Cloud for Sustainability shared data model
+title: SustainabilityItemSKU in Microsoft for Sustainability shared data model
 description: Entity for capturing data on items/SKU inventoried such as input material and finished goods.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Sustainability item SKU in Cloud for Sustainability shared data model (SustainabilityItemSKU)
+# Sustainability item SKU in Microsoft for Sustainability shared data model (SustainabilityItemSKU)
 
 Entity for capturing data on items/SKU inventoried such as input material and finished goods.  
   
@@ -77,11 +77,12 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
 |[weightunit](#weightunit)|The unit of measure used for the item volume.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 
 ### <a href=#sustainabilityitemskuId name="sustainabilityitemskuId">sustainabilityitemskuId</a>
 
 The unique identifier of the item in the undertaking’s upstream systems.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -129,7 +130,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -169,7 +170,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -209,7 +210,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Item  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -255,7 +256,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Item  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -304,7 +305,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -347,7 +348,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -384,7 +385,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -427,7 +428,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -470,7 +471,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#name name="name">name</a>
 
 The name of the item.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -518,7 +519,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#casnumber name="casnumber">casnumber</a>
 
 Chemical Abstracts Service  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -566,7 +567,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -614,7 +615,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#globaltradeitemnumber name="globaltradeitemnumber">globaltradeitemnumber</a>
 
 The Global Trade Item Number (GTIN).  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -662,7 +663,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#sustainabilityitemcategorysku name="sustainabilityitemcategorysku">sustainabilityitemcategorysku</a>
 
 The category of the item defined by the undertaking in its upstream systems.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -707,7 +708,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#itemtype name="itemtype">itemtype</a>
 
 The type of item such as input material, or finished good.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -753,7 +754,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#material name="material">material</a>
 
 The material the item is made of.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -798,7 +799,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
 Lookup to the sustainability product.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -843,7 +844,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
 Valid from date  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -883,7 +884,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the product will remain active. This date can be in the future.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -923,7 +924,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#valuechainpartner name="valuechainpartner">valuechainpartner</a>
 
 The supplier name that is supplying this item from the undertaking’s upstream systems.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -968,7 +969,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#volume name="volume">volume</a>
 
 Volume  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1011,7 +1012,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#volumeunit name="volumeunit">volumeunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1056,7 +1057,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#weight name="weight">weight</a>
 
 The weight of the item.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1099,7 +1100,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#weightunit name="weightunit">weightunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1144,7 +1145,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1192,7 +1193,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
 
 #### Properties
 
@@ -1228,3 +1229,48 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 *is.dataFormat.time*  
   *is.dataFormat.date*  
   </details>
+
+### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
+
+Lookup field for Country/region.  
+First included in: Sustainability/SustainabilityShared/SustainabilityItemSKU (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the countryregioncode attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.CDS.lookup*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

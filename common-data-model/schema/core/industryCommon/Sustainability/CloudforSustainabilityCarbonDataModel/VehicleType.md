@@ -1,15 +1,15 @@
 ---
-title: VehicleType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: VehicleType in Microsoft for Sustainability carbon data model 
 description: Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Vehicle type in Cloud for Sustainability carbon data model(VehicleType)
+# Vehicle type in Microsoft for Sustainability carbon data model(VehicleType)
 
 Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.  
   

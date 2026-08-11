@@ -1,17 +1,17 @@
 ---
-title: Subindustry in Cloud for Sustainability shared data model
-description: Child-level of the industry classisfication, which contains an ID and name.
-author: andreabichsel
+title: Subindustry in Microsoft for Sustainability shared data model
+description: Child-level of the industry classification, which contains an ID and name.
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Subindustry in Cloud for Sustainability shared data model 
+# Subindustry in Microsoft for Sustainability shared data model 
 
-Child-level of the industry classisfication, which contains an ID and name.  
+Child-level of the industry classification, which contains an ID and name.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilitySharedDataModel/Subindustry.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,7 +34,7 @@ Child-level of the industry classisfication, which contains an ID and name.
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/Subindustry.cdm.json/Subindustry/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Child-level of the industry classisfication, which contains an ID and name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Child-level of the industry classification, which contains an ID and name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subindustry</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -59,14 +59,14 @@ Child-level of the industry classisfication, which contains an ID and name.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
-|[name](#name)|Name of the subindustry classification. |<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
+|[name](#name)|Name of the subindustry classification.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
 |[industry](#industry)|The unique identifier that relates to the industry ID.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
 |[subindustrynum](#subindustrynum)|Contains the mapping to the subindustry classification code in the form of a range.|<a href="Subindustry.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Subindustry</a>|
 
 ### <a href=#subindustryId name="subindustryId">subindustryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Subindustry  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Subindustry  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -411,12 +411,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 
 ### <a href=#name name="name">name</a>
 
-Name of the subindustry classification.   
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+Name of the subindustry classification.  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of the subindustry classification. </td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of the subindustry classification.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -434,7 +434,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the subindustry classification. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the subindustry classification.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -460,7 +460,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#industry name="industry">industry</a>
 
 The unique identifier that relates to the industry ID.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindus
 ### <a href=#subindustrynum name="subindustrynum">subindustrynum</a>
 
 Contains the mapping to the subindustry classification code in the form of a range.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Subindustry (this entity)  
+First included in: Sustainability/SustainabilityShared/Subindustry (this entity)  
 
 #### Properties
 

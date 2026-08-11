@@ -1,15 +1,15 @@
 ---
-title: WaterQualityCharacteristicType in Cloud for Sustainability water data model
+title: WaterQualityCharacteristicType in Microsoft for Sustainability water data model
 description: Stores all the different classifications for the water quality characteristics.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
-# Water quality characteristic type in Cloud for Sustainability water data model (WaterQualityCharacteristicType)
+# Water quality characteristic type in Microsoft for Sustainability water data model (WaterQualityCharacteristicType)
 
 Stores all the different classifications for the water quality characteristics.  
   

@@ -1,17 +1,17 @@
 ---
-title: overview of CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: overview of CloudforSustainabilitySharedDataModel 
 description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
-ms.topic: reference 
-ms.date: 09/25/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Overview of CloudforSustainabilitySharedDataModel
 
-Cloud for Sustainability Shared Data Model CDM entity definitions  
+Microsoft for Sustainability Shared Data Model CDM entity definitions  
 
 ## Entities
 
@@ -21,11 +21,12 @@ Cloud for Sustainability Shared Data Model CDM entity definitions
 |[AccountingMethod](AccountingMethod.md)|Approach or method to quantify and report the environmental footprint of an organization's activities, encompassing greenhouse gas emissions and broader sustainability factors.|
 |[AlternateResultBasis](AlternateResultBasis.md)|Primary reason used for generating alternate sustainability records, which is done by applying different methodologies, assumptions, or calculation models to the same underlying data set.|
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
-|[CountryRegion](CountryRegion.md)|Defines custom country/region codes.|
+|[CountryRegion](CountryRegion.md)|Defines custom Country/region codes.|
 |[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
 |[CustomDimensionMetadata](CustomDimensionMetadata.md)|Table holding information about all the custom dimensions available in Microsoft Sustainability Manager|
 |[DataSourceType](DataSourceType.md)|The different types of sources for energy data.|
 |[DeprecatedProductIdentifier](DeprecatedProductIdentifier.md)|Uniquely identifies a product.|
+|[DeprecatedValueChainPartner](DeprecatedValueChainPartner.md)|Entity for value chain partner or supplier.|
 |[EmissionFactor](EmissionFactor.md)|Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.|
 |[EnergyProviderType](EnergyProviderType.md)|Categories or classifications of companies or entities that supply energy, such as electricity or gas.|
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
@@ -52,13 +53,13 @@ Cloud for Sustainability Shared Data Model CDM entity definitions
 |[ProductSustainability](ProductSustainability.md)|A product that can be associated with a product carbon footprint.|
 |[ReportingPeriod](ReportingPeriod.md)|Entity used to track reporting periods created for each reporting year.|
 |[ReportingYear](ReportingYear.md)|Entity which lists reporting years created in the system.|
-|[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|
+|[Subindustry](Subindustry.md)|Child-level of the industry classification, which contains an ID and name.|
 |[SustainabilityDataDefinition](SustainabilityDataDefinition.md)|Entity used to define the data definitions for entities across Carbon, Waste and Water.|
 |[SustainabilityDataDefinitionSubcategory](SustainabilityDataDefinitionSubcategory.md)|Stores data definition subcategories and help links|
 |[SustainabilityItemCategorySKU](SustainabilityItemCategorySKU.md)|The category of the item such as abrasives, castings or accessories|
 |[SustainabilityItemPackaging](SustainabilityItemPackaging.md)|Indicates whether the item is used for packaging when distributing a product.|
 |[SustainabilityItemSKU](SustainabilityItemSKU.md)|Entity for capturing data on items/SKU inventoried such as input material and finished goods.|
 |[SustainabilityModule](SustainabilityModule.md)|Entity used to classify the data definitions.|
+|[SustainabilityProductCategory](SustainabilityProductCategory.md)|Represents category of a sustainability product. Can be associated with a parent sustainability product category. It is used in reports.|
 |[Unit](Unit.md)|Unit of measure.|
 |[UnitGroup](UnitGroup.md)|Grouping of units.|
-|[ValueChainPartner](ValueChainPartner.md)|Entity for value chain partner or supplier.|

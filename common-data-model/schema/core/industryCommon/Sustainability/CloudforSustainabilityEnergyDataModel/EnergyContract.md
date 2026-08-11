@@ -1,15 +1,15 @@
 ---
-title: EnergyContract in Cloud for Sustainability energy data model
+title: EnergyContract in Microsoft for Sustainability energy data model
 description: Documented method/approach to source energy.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 08/15/2025
+ms.author: leeclontz
 ---
 
-# Energy contract in Cloud for Sustainability energy data model (EnergyContract)
+# Energy contract in Microsoft for Sustainability energy data model (EnergyContract)
 
 Documented method/approach to source energy.  
   
@@ -71,11 +71,14 @@ Documented method/approach to source energy.
 |[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
 |[geographicareaid](#geographicareaid)|Unique identifier for entity instances.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
 |[mastercontract](#mastercontract)|Parent contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[agreementdetails](#agreementdetails)|Binding agreement between the energy provider and the customer for the energy being sourced or procured. |<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
+|[agreementdetails](#agreementdetails)|Binding agreement between the energy provider and the customer for the energy being sourced or procured.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
+|[energycontracttype](#energycontracttype)|Lookup to energy contract type|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
 |[organizationalunit](#organizationalunit)|The organizational unit to be associated with the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
 |[startdate](#startdate)|Start date of the energy contract.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
 |[quantity](#quantity)|Generic quantity field associated with activity entities.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="EnergyContract.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContract</a>|
 
 ### <a href=#energycontractId name="energycontractId">energycontractId</a>
 
@@ -473,7 +476,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -497,7 +500,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
 *is.nullable*  
   The attribute value may be set to NULL.  
@@ -550,7 +553,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 *is.linkedEntity.identifier*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilityCarbonDataModel/ContractualInstrumentType.md" target="_blank">/CloudforSustainabilitySharedDataModel/ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="../CloudforSustainabilityCarbonDataModel/ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../CloudforSustainabilityCarbonDataModel/ContractualInstrumentType.md" target="_blank">/CloudforSustainabilityCarbonDataModel/ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="../CloudforSustainabilityCarbonDataModel/ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -954,14 +957,62 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
 
 </details>
 
-### <a href=#agreementdetails name="agreementdetails">agreementdetails</a>
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
-Binding agreement between the energy provider and the customer for the energy being sourced or procured.   
+An optional identifier to correlate record with data origin.  
 First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Agreement details</td></tr><tr><td>description</td><td>Binding agreement between the energy provider and the customer for the energy being sourced or procured. </td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>An optional identifier to correlate record with data origin.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An optional identifier to correlate record with data origin.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#agreementdetails name="agreementdetails">agreementdetails</a>
+
+Binding agreement between the energy provider and the customer for the energy being sourced or procured.  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Agreement details</td></tr><tr><td>description</td><td>Binding agreement between the energy provider and the customer for the energy being sourced or procured.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -981,7 +1032,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Binding agreement between the energy provider and the customer for the energy being sourced or procured. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Binding agreement between the energy provider and the customer for the energy being sourced or procured.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Agreement details</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -991,6 +1042,51 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
 
 *is.linkedEntity.identifier*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="AgreementDetails.md" target="_blank">AgreementDetails.cdm.json/AgreementDetails</a></td><td><a href="AgreementDetails.md#agreementdetailsId" target="_blank">agreementdetailsId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+*is.dataFormat.guid*  
+  *is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#energycontracttype name="energycontracttype">energycontracttype</a>
+
+Lookup to energy contract type  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Energy contract type</td></tr><tr><td>description</td><td>Lookup to energy contract type</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the energycontracttype attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.dataFormat.guid*  
+  *means.identity.entityId*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to energy contract type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Energy contract type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.CDS.lookup*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+*is.linkedEntity.identifier*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="EnergyContractType.md" target="_blank">EnergyContractType.cdm.json/EnergyContractType</a></td><td><a href="EnergyContractType.md#energycontracttypeId" target="_blank">energycontracttypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 *is.dataFormat.guid*  
   *is.dataFormat.character*  
@@ -1078,7 +1174,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_startdate"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.time*  
   *is.dataFormat.date*  
@@ -1120,7 +1216,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_quantity"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.numeric.shaped*  
   for setting the exact precision and scale of numeric values  
@@ -1129,12 +1225,12 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
 
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
-Unit associated with the quantity field   
+Unit associated with the quantity field  
 First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity unit</td></tr><tr><td>description</td><td>Unit associated with the quantity field </td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity unit</td></tr><tr><td>description</td><td>Unit associated with the quantity field</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -1154,7 +1250,7 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit associated with the quantity field </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit associated with the quantity field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1171,3 +1267,43 @@ First included in: Sustainability/SustainabilityEnergy/EnergyContract (this enti
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
+
+### <a href=#reportingdate name="reportingdate">reportingdate</a>
+
+Date used to parameterize reports.  
+First included in: Sustainability/SustainabilityEnergy/EnergyContract (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting date</td></tr><tr><td>description</td><td>Date used to parameterize reports.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_reportingdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the reportingdate attribute are listed below.</summary>
+
+*is.dataFormat.date*  
+  *means.measurement.date*  
+  *is.dataFormat.time*  
+  *means.measurement.time*  
+  *is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date used to parameterize reports.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reporting date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingdate"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.time*  
+  *is.dataFormat.date*  
+  </details>

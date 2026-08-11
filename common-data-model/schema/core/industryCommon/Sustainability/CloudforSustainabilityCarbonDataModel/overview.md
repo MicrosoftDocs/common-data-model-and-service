@@ -1,17 +1,17 @@
 ---
-title: overview of CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: overview of CloudforSustainabilityCarbonDataModel 
 description: CloudforSustainabilityCarbonDataModel is a folder that contains standard entities related to the Common Data Model.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
 # Overview of CloudforSustainabilityCarbonDataModel
 
-Cloud for Sustainability Carbon Data Model CDM entity definitions  
+Microsoft for Sustainability Carbon Data Model CDM entity definitions  
 
 ## Entities
 
@@ -39,6 +39,7 @@ Cloud for Sustainability Carbon Data Model CDM entity definitions
 |[PartnerEmission](PartnerEmission.md)|Emissions from external sources|
 |[ProductFootprint](ProductFootprint.md)|The carbon footprint of a product with values in accordance with the Pathfinder Framework.|
 |[ProductFootprintAudit](ProductFootprintAudit.md)|Assurance contains the assurance in conformance with Pathfinder Framework.|
+|[ProductFootprintInput](ProductFootprintInput.md)|Itemization of a computed product footprint|
 |[ProductFootprintRuleMapping](ProductFootprintRuleMapping.md)|Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.|
 |[ProductOrSectorSpecificRuleset](ProductOrSectorSpecificRuleset.md)|A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.|
 |[PurchasedEnergy](PurchasedEnergy.md)|Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.|

@@ -1,15 +1,15 @@
 ---
-title: Facility in Cloud for Sustainability water data model
-description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
-author: andreabichsel
+title: Facility in Microsoft for Sustainability water data model
+description: Base-level location to attribute activity data in the water data model. May contain multiple buildings and organizational units.
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
-# Facility in Cloud for Sustainability water data model 
+# Facility in Microsoft for Sustainability water data model 
 
 Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   

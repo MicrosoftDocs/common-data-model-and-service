@@ -1,15 +1,15 @@
 ---
-title: BusinessTravelType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: BusinessTravelType in Microsoft for Sustainability carbon data model 
 description: Entity used for classifying the type of business travel, as defined in the reporting company.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Business travel type in Cloud for Sustainability carbon data model(BusinessTravelType)
+# Business travel type in Microsoft for Sustainability carbon data model(BusinessTravelType)
 
 Entity used for classifying the type of business travel, as defined in the reporting company.  
   

@@ -1,15 +1,15 @@
 ---
-title: Facility in Cloud for Sustainability shared data model
+title: Facility in Microsoft for Sustainability shared data model
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Facility in Cloud for Sustainability shared data model 
+# Facility in Microsoft for Sustainability shared data model 
 
 Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   
@@ -63,7 +63,7 @@ Base-level location to attribute activity data. May contain multiple buildings a
 |[name](#name)|The name of the custom entity.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addresscity](#addresscity)|The city in which the facility resides.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addresscountryisocode](#addresscountryisocode)|The three-letter ISO code of the country or region.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addresscounty](#addresscounty)|The county or region in which the facility resides.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addressstateprovince](#addressstateprovince)|The state or province in which the facility resides.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
 |[addressstreet1](#addressstreet1)|The street address including the number and street name of the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Facility</a>|
@@ -77,7 +77,7 @@ Base-level location to attribute activity data. May contain multiple buildings a
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -125,7 +125,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -165,7 +165,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -205,7 +205,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the facility.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -251,7 +251,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -300,7 +300,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -423,7 +423,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -466,7 +466,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -514,7 +514,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 The city in which the facility resides.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -562,11 +562,11 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
 The three-letter ISO code of the country or region.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region (deprecated)</td></tr><tr><td>description</td><td>The three-letter ISO code of the country or region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region (deprecated)</td></tr><tr><td>description</td><td>The three-letter ISO code of the country or region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
 
 #### Traits
 
@@ -587,7 +587,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The three-letter ISO code of the country or region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"3"</td><td>integer</td><td></td></tr></table>
@@ -609,12 +609,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for country/region.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+Lookup field for Country/region.  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -634,10 +634,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -655,7 +655,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 The county or region in which the facility resides.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -703,7 +703,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 The state or province in which the facility resides.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -751,7 +751,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 The street address including the number and street name of the facility.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -799,7 +799,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Secondary street address information.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -847,7 +847,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 The ZIP or postal code in which the facility resides.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -895,7 +895,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#facilitytype name="facilitytype">facilitytype</a>
 
 Lookup to facility type that describes the facility.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -940,7 +940,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -983,7 +983,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 
@@ -1026,7 +1026,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityShared/Facility (this entity)  
 
 #### Properties
 

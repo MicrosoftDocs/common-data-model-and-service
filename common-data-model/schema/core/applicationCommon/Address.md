@@ -22,8 +22,8 @@ Address and shipping information. Used to store additional addresses for an acco
 </summary>
 
 - [/foundationCommon/crmCommon/accelerators/education/higherEducation/Address](foundationCommon/crmCommon/accelerators/education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
+- [/industryCommon/Nonprofit/nonProfitCore/Address](../industryCommon/Nonprofit/nonProfitCore/Address.md "/core/industryCommon/Nonprofit/nonProfitCore/Address.cdm.json/Address")  
 - [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json/Address")  
-- [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address](foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.cdm.json/Address")  
 </details>
 
 ## Traits

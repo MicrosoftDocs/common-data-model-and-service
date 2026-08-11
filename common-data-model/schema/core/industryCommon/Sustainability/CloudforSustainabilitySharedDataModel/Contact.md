@@ -1,15 +1,15 @@
 ---
-title: Contact in Cloud for Sustainability shared data model
+title: Contact in Microsoft for Sustainability shared data model
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Contact in Cloud for Sustainability shared data model 
+# Contact in Microsoft for Sustainability shared data model 
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
@@ -55,7 +55,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact 
 ### <a href=#sustainabilitycontactname name="sustainabilitycontactname">sustainabilitycontactname</a>
 
 Name  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -151,7 +151,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 

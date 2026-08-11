@@ -1,15 +1,15 @@
 ---
-title: SustainabilityDataDefinition in Cloud for Sustainability shared data model
+title: SustainabilityDataDefinition in Microsoft for Sustainability shared data model
 description: Entity used to define the data definitions for entities across Carbon, Waste and Water.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Sustainability data definition in Cloud for Sustainability shared data model (SustainabilityDataDefinition)
+# Sustainability data definition in Microsoft for Sustainability shared data model (SustainabilityDataDefinition)
 
 Entity used to define the data definitions for entities across Carbon, Waste and Water.  
   
@@ -63,6 +63,7 @@ Entity used to define the data definitions for entities across Carbon, Waste and
 |[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
 |[definitiondetailfieldname](#definitiondetailfieldname)|Definition detail field name|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
 |[description](#description)|Optional description that provides additional detail about the record.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
+|[localizeddescription](#localizeddescription)|Optional localized description that provides additional detail about the record.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
 |[duplicaterules](#duplicaterules)|Defines rules for detecting duplicate records during ingestion.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
 |[entitylogicalname](#entitylogicalname)|Logical name of entity described in the data definition.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
 |[isactive](#isactive)|Flag to identify the state of being active of the data.|<a href="SustainabilityDataDefinition.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition</a>|
@@ -75,7 +76,7 @@ Entity used to define the data definitions for entities across Carbon, Waste and
 ### <a href=#sustainabilitydatadefinitionId name="sustainabilitydatadefinitionId">sustainabilitydatadefinitionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -123,7 +124,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -163,7 +164,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -203,7 +204,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Sustainability Data Definition  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -249,7 +250,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Sustainability Data Definition  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -298,7 +299,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -335,7 +336,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -378,7 +379,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -421,7 +422,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#name name="name">name</a>
 
 The name of the data definition.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -469,7 +470,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#activitytypedatafield name="activitytypedatafield">activitytypedatafield</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -517,7 +518,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#definitiondetailfieldname name="definitiondetailfieldname">definitiondetailfieldname</a>
 
 Definition detail field name  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -565,7 +566,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -610,10 +611,58 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 
 </details>
 
+### <a href=#localizeddescription name="localizeddescription">localizeddescription</a>
+
+Optional localized description that provides additional detail about the record.  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Localized description</td></tr><tr><td>description</td><td>Optional localized description that provides additional detail about the record.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_localizeddescription</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the localizeddescription attribute are listed below.</summary>
+
+*is.dataFormat.character*  
+  *is.dataFormat.big*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+*is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+*is.requiredAtLevel*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+*is.localized.describedAs*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional localized description that provides additional detail about the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.localized.displayedAs*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Localized description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+*is.constrained*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+
+*is.nullable*  
+  The attribute value may be set to NULL.  
+
+*is.CDS.sourceNamed*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_localizeddescription"</td><td>string</td><td></td></tr></table>
+
+*is.CDS.ordered*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+
+*is.dataFormat.character*  
+  *is.dataFormat.array*  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#duplicaterules name="duplicaterules">duplicaterules</a>
 
 Defines rules for detecting duplicate records during ingestion.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -650,7 +699,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_duplicaterules"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -661,7 +710,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#entitylogicalname name="entitylogicalname">entitylogicalname</a>
 
 Logical name of entity described in the data definition.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -698,7 +747,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_entitylogicalname"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -709,7 +758,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#isactive name="isactive">isactive</a>
 
 Flag to identify the state of being active of the data.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -737,7 +786,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_isactive"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.boolean*  
   </details>
@@ -745,7 +794,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#module name="module">module</a>
 
 Module to which data definition belongs to.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -790,7 +839,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#queryviewid name="queryviewid">queryviewid</a>
 
 Id of the main view for this data definition.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -827,7 +876,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_queryviewid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"57"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -838,7 +887,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#requiredfieldrules name="requiredfieldrules">requiredfieldrules</a>
 
 List of fields to hide during ingestion.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -875,7 +924,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_requiredfieldrules"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"57"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"58"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -886,7 +935,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#uxviewid name="uxviewid">uxviewid</a>
 
 Unique identifier associated to the main view used by the UI.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 
@@ -923,7 +972,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_uxviewid"</td><td>string</td><td></td></tr></table>
 
 *is.CDS.ordered*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"58"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"59"</td><td>integer</td><td></td></tr></table>
 
 *is.dataFormat.character*  
   *is.dataFormat.array*  
@@ -934,7 +983,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Sustaina
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 Lookup value for data definition subcategory  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/SustainabilityDataDefinition (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinition (this entity)  
 
 #### Properties
 

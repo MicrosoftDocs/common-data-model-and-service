@@ -1,15 +1,15 @@
 ---
-title: WaterQualityAnalysis in Cloud for Sustainability water data model
+title: WaterQualityAnalysis in Microsoft for Sustainability water data model
 description: Describes the analysis performed to test a water sample for a certain characteristic.
-author: andreabichsel
+author: lsuresh
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: leeclontz
+ms.topic: reference
+ms.date: 02/19/2025
+ms.author: lsuresh
 ---
 
-# Water quality analysis in Cloud for Sustainability water data model (WaterQualityAnalysis)
+# Water quality analysis in Microsoft for Sustainability water data model (WaterQualityAnalysis)
 
 Describes the analysis performed to test a water sample for a certain characteristic.  
   

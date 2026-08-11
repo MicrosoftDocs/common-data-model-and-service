@@ -1,15 +1,15 @@
 ---
-title: ProductOrSectorSpecificRuleset in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: ProductOrSectorSpecificRuleset in Microsoft for Sustainability carbon data model 
 description: A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/1/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Product or sector specific ruleset in Cloud for Sustainability carbon data model(ProductOrSectorSpecificRuleset)
+# Product or sector specific ruleset in Microsoft for Sustainability carbon data model(ProductOrSectorSpecificRuleset)
 
 A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.  
   

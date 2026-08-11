@@ -1,15 +1,15 @@
 ---
-title: OrganizationalUnit in Cloud for Sustainability shared data model
+title: OrganizationalUnit in Microsoft for Sustainability shared data model
 description: A structural division of a company or organization.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Organizational unit in Cloud for Sustainability shared data model (OrganizationalUnit)
+# Organizational unit in Microsoft for Sustainability shared data model (OrganizationalUnit)
 
 A structural division of a company or organization.  
   
@@ -62,8 +62,8 @@ A structural division of a company or organization.
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
 |[name](#name)|The name of the custom entity.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
 |[addresscity](#addresscity)|The city in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
-|[addresscountryisocode](#addresscountryisocode)|country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[addresscountryisocode](#addresscountryisocode)|Country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for Country/region.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
 |[addresscounty](#addresscounty)|The county in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
 |[addressstateprovince](#addressstateprovince)|The state or province in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
 |[addressstreet1](#addressstreet1)|The street address, including the number and street name.|<a href="OrganizationalUnit.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalUnit</a>|
@@ -78,7 +78,7 @@ A structural division of a company or organization.
 ### <a href=#sustainabilityorganizationalunitId name="sustainabilityorganizationalunitId">sustainabilityorganizationalunitId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Reporting Organizational Unit  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -252,7 +252,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Reporting Organizational Unit  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -344,7 +344,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 The city in which the organizational unit is based.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -562,12 +562,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
-country/region.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+Country/region.  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region (deprecated)</td></tr><tr><td>description</td><td>country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region (deprecated)</td></tr><tr><td>description</td><td>Country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
 
 #### Traits
 
@@ -585,10 +585,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region (deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.constrained*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"3"</td><td>integer</td><td></td></tr></table>
@@ -610,12 +610,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
-Lookup field for country/region.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+Lookup field for Country/region.  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>country/region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/region</td></tr><tr><td>description</td><td>Lookup field for Country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -635,10 +635,10 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for Country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.CDS.lookup*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
@@ -656,7 +656,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 The county in which the organizational unit is based.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 The state or province in which the organizational unit is based.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 The street address, including the number and street name.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Secondary street address information.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 The zip or postal code in which the organization resides.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -896,7 +896,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -987,7 +987,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -1030,7 +1030,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#organizationalunittype name="organizationalunittype">organizationalunittype</a>
 
 The type of organization unit selected.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Organiza
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit (this entity)  
+First included in: Sustainability/SustainabilityShared/OrganizationalUnit (this entity)  
 
 #### Properties
 

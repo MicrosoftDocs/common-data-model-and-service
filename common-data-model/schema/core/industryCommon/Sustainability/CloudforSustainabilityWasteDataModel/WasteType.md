@@ -1,15 +1,15 @@
 ---
-title: WasteType in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
+title: WasteType in Microsoft for Sustainability waste data model 
 description: Stores information on the type of waste generated.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 8/2/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Waste type in Cloud for Sustainability waste data model(WasteType)
+# Waste type in Microsoft for Sustainability waste data model(WasteType)
 
 Stores information on the type of waste generated.  
   
@@ -62,7 +62,7 @@ Stores information on the type of waste generated.
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[name](#name)|The name of the custom entity.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[description](#description)|Optional description to give additional detail on the waste type.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
-|[ishazardous](#ishazardous)|Indicates whether the waste is hazardous or not. |<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[ishazardous](#ishazardous)|Indicates whether the waste is hazardous or not.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[isradioactive](#isradioactive)|Indicates whether the waste is radioactive in nature or not.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[wastecategory](#wastecategory)|Category of the waste such as industrial waste, municipal waste, consumer waste.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
@@ -555,12 +555,12 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
 
 ### <a href=#ishazardous name="ishazardous">ishazardous</a>
 
-Indicates whether the waste is hazardous or not.   
+Indicates whether the waste is hazardous or not.  
 First included in: Sustainability/SustainabilityWaste/WasteType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is hazardous</td></tr><tr><td>description</td><td>Indicates whether the waste is hazardous or not. </td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ishazardous</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is hazardous</td></tr><tr><td>description</td><td>Indicates whether the waste is hazardous or not.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ishazardous</td></tr></table>
 
 #### Traits
 
@@ -572,7 +572,7 @@ First included in: Sustainability/SustainabilityWaste/WasteType (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the waste is hazardous or not. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the waste is hazardous or not.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is hazardous</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

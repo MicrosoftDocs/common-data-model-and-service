@@ -410,210 +410,298 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
         - name: CustomerInsightsJourneys
           items:
-          - name: Summary
+          - name: Summary 
             href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/overview.md
-          - name: actionevent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/actionevent.md
-          - name: activitycontactblocked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblocked.md
-          - name: activitycontactblockedbusinessunit 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedbusinessunit.md
-          - name: activitycontactblockedconsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedconsent.md
-          - name: activitycontactblockedexternalconsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedexternalconsent.md
-          - name: activitycontactblockedsuppression 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedsuppression.md
-          - name: activitycontactdispatched 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactdispatched.md
-          - name: activitycontactexpired 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactexpired.md
-          - name: activitycontactprocessingfailed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactprocessingfailed.md
-          - name: confirmationrequest 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/confirmationrequest.md
-          - name: confirmationresponse 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/confirmationresponse.md
-          - name: contactdeleted 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/contactdeleted.md
-          - name: createcrmactivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/createcrmactivitycontactprocessed.md
-          - name: createcustomchannelactivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/createcustomchannelactivitycontactprocessed.md
-          - name: createleadactivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/createleadactivitycontactprocessed.md
-          - name: custombounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/custombounced.md
-          - name: customchannelresponse 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customchannelresponse.md
-          - name: customdelivered 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customdelivered.md
-          - name: customerjourneycontactrecordupdated 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customerjourneycontactrecordupdated.md
-          - name: customerjourneyiterationstarted 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customerjourneyiterationstarted.md
-          - name: customlinkclicked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customlinkclicked.md
-          - name: customnotsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customnotsent.md
-          - name: customsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customsent.md
-          - name: domainnotownedbyanyone 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/domainnotownedbyanyone.md
-          - name: domainownedbydifferentorganization 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/domainownedbydifferentorganization.md
-          - name: emailaddressoptedout 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailaddressoptedout.md
-          - name: emailblockbounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockbounced.md
-          - name: emailblocked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblocked.md
-          - name: emailblockedbyactivityexpiration 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedbyactivityexpiration.md
-          - name: emailblockedbyunsubscription 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedbyunsubscription.md
-          - name: emailblockedbyuser 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedbyuser.md
-          - name: emailblockedconsentnotgiven 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedconsentnotgiven.md
-          - name: emailblockedcontactabilitydonotemail 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedcontactabilitydonotemail.md
-          - name: emailblockeddomaindeliverability 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockeddomaindeliverability.md
-          - name: emailblockedduplicateaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedduplicateaddress.md
-          - name: emailblockedexternalconsentfailure 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedexternalconsentfailure.md
-          - name: emailblockedfrequencycapreached 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedfrequencycapreached.md
-          - name: emailblockedinactivecontact 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinactivecontact.md
-          - name: emailblockedinvalidrecipientaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinvalidrecipientaddress.md
-          - name: emailblockedinvalidreplytoaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinvalidreplytoaddress.md
-          - name: emailblockedinvalidsenderaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinvalidsenderaddress.md
-          - name: emailblockedmissingcontactdata 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedmissingcontactdata.md
-          - name: emailblockedmissingrelateddata 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedmissingrelateddata.md
-          - name: emailblockedotherreason 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedotherreason.md
-          - name: emailblockedtrialquotaexceeded 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedtrialquotaexceeded.md
-          - name: emailbouncecacheblocked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailbouncecacheblocked.md
-          - name: emailbounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailbounced.md
-          - name: emailccsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailccsent.md
-          - name: emailclicked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailclicked.md
-          - name: emailcontainsblacklistedlinks 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailcontainsblacklistedlinks.md
-          - name: emaildelivered 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emaildelivered.md
-          - name: emailfeedbackloop 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailfeedbackloop.md
-          - name: emailforwarded 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailforwarded.md
-          - name: emailhardbounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailhardbounced.md
-          - name: emailhardremotebounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailhardremotebounced.md
-          - name: emailopened 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailopened.md
-          - name: emailsendingfailed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsendingfailed.md
-          - name: emailsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsent.md
-          - name: emailsoftbounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsoftbounced.md
-          - name: emailsoftremotebounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsoftremotebounced.md
-          - name: emailsubscriptionsubmit 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsubscriptionsubmit.md
-          - name: entitydeleted 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/entitydeleted.md
-          - name: eventcheckin 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/eventcheckin.md
-          - name: eventregistration 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/eventregistration.md
-          - name: eventregistrationcanceled 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/eventregistrationcanceled.md
-          - name: formsprosurveyopened 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsprosurveyopened.md
-          - name: formsprosurveyquestionanswered 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsprosurveyquestionanswered.md
-          - name: formsprosurveysubmitted 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsprosurveysubmitted.md
-          - name: formsubmitted 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsubmitted.md
-          - name: formvisited 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formvisited.md
-          - name: invalidrecipientaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidrecipientaddress.md
-          - name: invalidreplytoaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidreplytoaddress.md
-          - name: invalidsenderaddress 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidsenderaddress.md
-          - name: leadscoreboost 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/leadscoreboost.md
-          - name: linkedinformsubmission 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/linkedinformsubmission.md
-          - name: missingdataaccessprivileges 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/missingdataaccessprivileges.md
-          - name: outofemailcredits 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/outofemailcredits.md
-          - name: passthroughactivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/passthroughactivitycontactprocessed.md
-          - name: pushnotificationlinkclicked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationlinkclicked.md
-          - name: pushnotificationnotsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationnotsent.md
-          - name: pushnotificationopened 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationopened.md
-          - name: pushnotificationsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationsent.md
-          - name: redirectlinkclicked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/redirectlinkclicked.md
-          - name: scheduleractivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/scheduleractivitycontactprocessed.md
-          - name: segmentmemberscountchanged 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentmemberscountchanged.md
-          - name: segmentrelationshipedited 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentrelationshipedited.md
-          - name: segmentsubscribed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentsubscribed.md
-          - name: segmentunsubscribed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentunsubscribed.md
-          - name: sessionregistrationcanceled 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/sessionregistrationcanceled.md
-          - name: smsbounced 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsbounced.md
-          - name: smsdelivered 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsdelivered.md
-          - name: smslinkclicked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smslinkclicked.md
-          - name: smsnotsent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsnotsent.md
-          - name: smsreceived 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsreceived.md
-          - name: smssent 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smssent.md
-          - name: splitteractivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/splitteractivitycontactprocessed.md
-          - name: surveyresponse 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/surveyresponse.md
-          - name: triggeractivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/triggeractivitycontactprocessed.md
-          - name: triggercrmworkflowactivitycontactprocessed 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/triggercrmworkflowactivitycontactprocessed.md
-          - name: websiteclicked 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/websiteclicked.md
-          - name: websitevisited 
-            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/websitevisited.md
+          - name: ActionEventDropoff 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventDropoff.md
+          - name: ActionEventInflow 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventInflow.md
+          - name: ActionEventPostponed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventPostponed.md
+          - name: ActionEventProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventProcessed.md
+          - name: ActionEventResumed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventResumed.md
+          - name: ActionEventSystemFailure 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActionEventSystemFailure.md
+          - name: ActivityContactBlocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactBlocked.md
+          - name: ActivityContactBlockedBusinessUnit 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactBlockedBusinessUnit.md
+          - name: ActivityContactBlockedConsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactBlockedConsent.md
+          - name: ActivityContactBlockedExternalConsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactBlockedExternalConsent.md
+          - name: ActivityContactBlockedSuppression 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactBlockedSuppression.md
+          - name: ActivityContactDispatched 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactDispatched.md
+          - name: ActivityContactExpired 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactExpired.md
+          - name: ActivityContactProcessingFailed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ActivityContactProcessingFailed.md
+          - name: BotCustomLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/BotCustomLinkClicked.md
+          - name: BotEmailLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/BotEmailLinkClicked.md
+          - name: BotPushNotificationLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/BotPushNotificationLinkClicked.md
+          - name: BotSmsLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/BotSmsLinkClicked.md
+          - name: ConfirmableFormSubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ConfirmableFormSubmitted.md
+          - name: ConfirmationRequest 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ConfirmationRequest.md
+          - name: ConfirmationResponse 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ConfirmationResponse.md
+          - name: ContactDeleted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ContactDeleted.md
+          - name: ConversionEventTouchPoint 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ConversionEventTouchPoint.md
+          - name: CreateCrmActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CreateCrmActivityContactProcessed.md
+          - name: CreateCustomChannelActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CreateCustomChannelActivityContactProcessed.md
+          - name: CreateLeadActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CreateLeadActivityContactProcessed.md
+          - name: CreateRecord 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CreateRecord.md
+          - name: CustomBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomBounced.md
+          - name: CustomChannelResponse 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomChannelResponse.md
+          - name: CustomDelivered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomDelivered.md
+          - name: CustomLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomLinkClicked.md
+          - name: CustomNotSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomNotSent.md
+          - name: CustomReceived 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomReceived.md
+          - name: CustomSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomSent.md
+          - name: CustomerJourneyContactRecordUpdated 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomerJourneyContactRecordUpdated.md
+          - name: CustomerJourneyIterationStarted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomerJourneyIterationStarted.md
+          - name: CustomerVoiceQuestionResponseSubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomerVoiceQuestionResponseSubmitted.md
+          - name: CustomerVoiceSuveyResponseSubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/CustomerVoiceSuveyResponseSubmitted.md
+          - name: DomainNotOwnedByAnyone 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/DomainNotOwnedByAnyone.md
+          - name: DomainOwnedByDifferentOrganization 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/DomainOwnedByDifferentOrganization.md
+          - name: EmailAddressOptedOut 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailAddressOptedOut.md
+          - name: EmailBlockBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockBounced.md
+          - name: EmailBlocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlocked.md
+          - name: EmailBlockedByActivityExpiration 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedByActivityExpiration.md
+          - name: EmailBlockedByUnsubscription 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedByUnsubscription.md
+          - name: EmailBlockedByUser 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedByUser.md
+          - name: EmailBlockedConsentNotGiven 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedConsentNotGiven.md
+          - name: EmailBlockedContactabilityDoNotEmail 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedContactabilityDoNotEmail.md
+          - name: EmailBlockedDomainDeliverability 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedDomainDeliverability.md
+          - name: EmailBlockedDuplicateAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedDuplicateAddress.md
+          - name: EmailBlockedExternalConsentFailure 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedExternalConsentFailure.md
+          - name: EmailBlockedFrequencyCapReached 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedFrequencyCapReached.md
+          - name: EmailBlockedInactiveContact 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedInactiveContact.md
+          - name: EmailBlockedInvalidRecipientAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedInvalidRecipientAddress.md
+          - name: EmailBlockedInvalidReplyToAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedInvalidReplyToAddress.md
+          - name: EmailBlockedInvalidSenderAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedInvalidSenderAddress.md
+          - name: EmailBlockedMissingContactData 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedMissingContactData.md
+          - name: EmailBlockedMissingRelatedData 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedMissingRelatedData.md
+          - name: EmailBlockedOtherReason 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedOtherReason.md
+          - name: EmailBlockedSuspension 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedSuspension.md
+          - name: EmailBlockedTrialQuotaExceeded 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBlockedTrialQuotaExceeded.md
+          - name: EmailBounceCacheBlocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBounceCacheBlocked.md
+          - name: EmailBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailBounced.md
+          - name: EmailCcSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailCcSent.md
+          - name: EmailClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailClicked.md
+          - name: EmailContainsBlacklistedLinks 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailContainsBlacklistedLinks.md
+          - name: EmailDelivered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailDelivered.md
+          - name: EmailFeedbackLoop 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailFeedbackLoop.md
+          - name: EmailForwarded 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailForwarded.md
+          - name: EmailHardBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailHardBounced.md
+          - name: EmailHardRemoteBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailHardRemoteBounced.md
+          - name: EmailOpened 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailOpened.md
+          - name: EmailSendingFailed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailSendingFailed.md
+          - name: EmailSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailSent.md
+          - name: EmailSoftBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailSoftBounced.md
+          - name: EmailSoftRemoteBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailSoftRemoteBounced.md
+          - name: EmailSubscriptionSubmit 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EmailSubscriptionSubmit.md
+          - name: EntityDeleted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EntityDeleted.md
+          - name: EventCheckIn 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventCheckIn.md
+          - name: EventRegistration 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistration.md
+          - name: EventRegistrationCanceled 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistrationCanceled.md
+          - name: EventRegistrationCreatedFromWaitlist 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistrationCreatedFromWaitlist.md
+          - name: EventRegistrationWaitlisted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/EventRegistrationWaitlisted.md
+          - name: ExperimentationDistribution 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ExperimentationDistribution.md
+          - name: ExperimentationGoal 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/ExperimentationGoal.md
+          - name: FormSubmissionConfirmed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormSubmissionConfirmed.md
+          - name: FormSubmissionExpired 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormSubmissionExpired.md
+          - name: FormSubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormSubmitted.md
+          - name: FormVisited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormVisited.md
+          - name: FormsProSurveyOpened 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormsProSurveyOpened.md
+          - name: FormsProSurveyQuestionAnswered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormsProSurveyQuestionAnswered.md
+          - name: FormsProSurveySubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/FormsProSurveySubmitted.md
+          - name: GoalEvent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/GoalEvent.md
+          - name: InvalidRecipientAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/InvalidRecipientAddress.md
+          - name: InvalidReplyToAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/InvalidReplyToAddress.md
+          - name: InvalidSenderAddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/InvalidSenderAddress.md
+          - name: JourneyEventCancelledByActionFailure 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventCancelledByActionFailure.md
+          - name: JourneyEventCancelledByExitEvent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventCancelledByExitEvent.md
+          - name: JourneyEventCancelledByJourneyStopped 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventCancelledByJourneyStopped.md
+          - name: JourneyEventCancelledBySupressionSegment 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventCancelledBySupressionSegment.md
+          - name: JourneyEventCompleted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventCompleted.md
+          - name: JourneyEventEntryProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventEntryProcessed.md
+          - name: JourneyEventEntrySystemFailure 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventEntrySystemFailure.md
+          - name: JourneyEventExited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventExited.md
+          - name: JourneyEventInflow 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventInflow.md
+          - name: JourneyEventInprogress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventInprogress.md
+          - name: JourneyEventPreEntryDropoff 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventPreEntryDropoff.md
+          - name: JourneyEventProfileResolvedWithRetry 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventProfileResolvedWithRetry.md
+          - name: JourneyEventProfileUnresolved 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventProfileUnresolved.md
+          - name: JourneyEventUndefined 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/JourneyEventUndefined.md
+          - name: LeadScoreBoost 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/LeadScoreBoost.md
+          - name: LinkedInFormSubmission 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/LinkedInFormSubmission.md
+          - name: MissingDataAccessPrivileges 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/MissingDataAccessPrivileges.md
+          - name: OptimizationFeedback 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/OptimizationFeedback.md
+          - name: OutOfEmailCredits 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/OutOfEmailCredits.md
+          - name: PassThroughActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/PassThroughActivityContactProcessed.md
+          - name: PushNotificationLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/PushNotificationLinkClicked.md
+          - name: PushNotificationNotSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/PushNotificationNotSent.md
+          - name: PushNotificationOpened 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/PushNotificationOpened.md
+          - name: PushNotificationSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/PushNotificationSent.md
+          - name: RedirectLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/RedirectLinkClicked.md
+          - name: SchedulerActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SchedulerActivityContactProcessed.md
+          - name: SegmentMembersCountChanged 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SegmentMembersCountChanged.md
+          - name: SegmentRelationshipEdited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SegmentRelationshipEdited.md
+          - name: SegmentSubscribed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SegmentSubscribed.md
+          - name: SegmentUnsubscribed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SegmentUnsubscribed.md
+          - name: SessionRegistrationCanceled 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SessionRegistrationCanceled.md
+          - name: SessionRegistrationCreatedFromWaitlist 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SessionRegistrationCreatedFromWaitlist.md
+          - name: SessionRegistrationWaitlisted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SessionRegistrationWaitlisted.md
+          - name: SmsBounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsBounced.md
+          - name: SmsDelivered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsDelivered.md
+          - name: SmsLinkClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsLinkClicked.md
+          - name: SmsNotSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsNotSent.md
+          - name: SmsReceived 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsReceived.md
+          - name: SmsSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SmsSent.md
+          - name: SplitterActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SplitterActivityContactProcessed.md
+          - name: SurveyResponse 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/SurveyResponse.md
+          - name: TriggerActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/TriggerActivityContactProcessed.md
+          - name: TriggerCrmWorkflowActivityContactProcessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/TriggerCrmWorkflowActivityContactProcessed.md
+          - name: VoiceCallAttempted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/VoiceCallAttempted.md
+          - name: VoiceCallBlocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/VoiceCallBlocked.md
+          - name: VoiceCallNotAttempted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/VoiceCallNotAttempted.md
+          - name: VoiceCallSent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/VoiceCallSent.md
+          - name: WebsiteClicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/WebsiteClicked.md
+          - name: WebsiteVisited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/WebsiteVisited.md
         - name: marketing
           items:
           - name: Summary
@@ -1180,9 +1268,10 @@
     href: applicationCommon/Territory.md
   - name: User 
     href: applicationCommon/User.md
-- name: industryCommon
-  href: industrycommon/overview.md  
+- name: industryCommon 
   items:
+    - name: Summary
+      href: industryCommon/overview.md
     - name: Accelerators
       items:
       - name: Summary
@@ -1445,280 +1534,6 @@
             href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.md
           - name: TestType 
             href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
-      - name: nonProfit
-        items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/overview.md
-        - name: nonProfitCore
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/overview.md
-          - name: Account 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.md
-          - name: Address 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Address.md
-          - name: Award 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Award.md
-          - name: AwardVersion 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/AwardVersion.md
-          - name: BenefitRecipient 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/BenefitRecipient.md
-          - name: Budget 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Budget.md
-          - name: Contact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.md
-          - name: CreditPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlan.md
-          - name: CreditPlanRecipient 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/CreditPlanRecipient.md
-          - name: DeliveryFramework 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DeliveryFramework.md
-          - name: DesignatedCredit 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignatedCredit.md
-          - name: Designation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Designation.md
-          - name: DesignationPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DesignationPlan.md
-          - name: Disbursement 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Disbursement.md
-          - name: DisbursementDistribution 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DisbursementDistribution.md
-          - name: Docket 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Docket.md
-          - name: DonorCommitment 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/DonorCommitment.md
-          - name: Education 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Education.md
-          - name: EmploymentHistory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/EmploymentHistory.md
-          - name: Indicator 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator.md
-          - name: IndicatorValue 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValue.md
-          - name: IndicatorValueUsage 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValueUsage.md
-          - name: Membership 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Membership.md
-          - name: MembershipCategory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/MembershipCategory.md
-          - name: Need 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Need.md
-          - name: Objective 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Objective.md
-          - name: OfacMatch 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/OfacMatch.md
-          - name: PaymentAsset 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentAsset.md
-          - name: PaymentMethod 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentMethod.md
-          - name: PaymentProcessor 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentProcessor.md
-          - name: PaymentSchedule 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PaymentSchedule.md
-          - name: PlannedGiving 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.md
-          - name: Preference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Preference.md
-          - name: ProgramItem 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItem.md
-          - name: ProgramItemRelationship 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItemRelationship.md
-          - name: Recommendation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Recommendation.md
-          - name: Report 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Report.md
-          - name: Request 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Request.md
-          - name: ResourceCatalog 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ResourceCatalog.md
-          - name: Result 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Result.md
-          - name: Review 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Review.md
-          - name: Salutation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Salutation.md
-          - name: Stakeholder 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Stakeholder.md
-          - name: TheoryOfChange 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChange.md
-          - name: TheoryOfChangeRelationship 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChangeRelationship.md
-          - name: Transaction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Transaction.md
-          - name: WorkItem 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItem.md
-          - name: WorkItemAction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItemAction.md
-        - name: nonProfitForSales
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/overview.md
-          - name: Campaign 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign.md
-          - name: CreditPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/CreditPlan.md
-          - name: DesignationPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DesignationPlan.md
-          - name: DonorCommitment 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/DonorCommitment.md
-          - name: Lead 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead.md
-          - name: OfacMatch 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/OfacMatch.md
-          - name: Opportunity 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity.md
-          - name: PlannedGiving 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/PlannedGiving.md
-          - name: Preference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Preference.md
-          - name: Recommendation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Recommendation.md
-          - name: Report 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Report.md
-          - name: Request 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Request.md
-          - name: Review 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Review.md
-          - name: Transaction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Transaction.md
-        - name: nonProfitIati
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/overview.md
-          - name: Account 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.md
-          - name: AidType 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/AidType.md
-          - name: Award 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Award.md
-          - name: Budget 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Budget.md
-          - name: Campaign 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Campaign.md
-          - name: Condition 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Condition.md
-          - name: Contact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Contact.md
-          - name: CrsOtherFlag 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/CrsOtherFlag.md
-          - name: DeliveryFramework 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework.md
-          - name: DeliveryFrameworkContact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFrameworkContact.md
-          - name: DeliveryFrameworkDescription 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFrameworkDescription.md
-          - name: Designation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Designation.md
-          - name: DesignationPlan 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DesignationPlan.md
-          - name: Dimension 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Dimension.md
-          - name: Disbursement 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Disbursement.md
-          - name: DisbursementDistribution 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DisbursementDistribution.md
-          - name: Docket 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Docket.md
-          - name: DocumentCategory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentCategory.md
-          - name: DocumentCountry 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentCountry.md
-          - name: DocumentLanguage 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentLanguage.md
-          - name: DocumentLink 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DocumentLink.md
-          - name: DonorCommitment 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DonorCommitment.md
-          - name: Expenditure 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Expenditure.md
-          - name: FssForecast 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/FssForecast.md
-          - name: HumanitarianScope 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/HumanitarianScope.md
-          - name: IatiFileGeneration 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IatiFileGeneration.md
-          - name: Identifier 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Identifier.md
-          - name: Indicator 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Indicator.md
-          - name: IndicatorReference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorReference.md
-          - name: IndicatorValue 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValue.md
-          - name: IndicatorValueLocation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/IndicatorValueLocation.md
-          - name: Location 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Location.md
-          - name: Membership 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Membership.md
-          - name: MembershipCategory 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/MembershipCategory.md
-          - name: NarrativeTranslation 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NarrativeTranslation.md
-          - name: NonEmbeddedCodelist 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelist.md
-          - name: NonEmbeddedCodelistVocabulary 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/NonEmbeddedCodelistVocabulary.md
-          - name: Objective 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Objective.md
-          - name: Opportunity 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity.md
-          - name: ParticipatingOrganization 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/ParticipatingOrganization.md
-          - name: PaymentMethod 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentMethod.md
-          - name: PaymentSchedule 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PaymentSchedule.md
-          - name: PlannedGiving 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PlannedGiving.md
-          - name: PolicyMarker 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/PolicyMarker.md
-          - name: RecipientCountry 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/RecipientCountry.md
-          - name: RecipientRegion 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/RecipientRegion.md
-          - name: Request 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Request.md
-          - name: Result 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Result.md
-          - name: ResultReference 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/ResultReference.md
-          - name: Sector 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Sector.md
-          - name: Tag 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Tag.md
-          - name: Transaction 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Transaction.md
-          - name: Website 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Website.md
-        - name: nonProfitMeasurement
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/overview.md
-          - name: DeliveryFramework 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework.md
-          - name: Indicator 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Indicator.md
-          - name: MeasurementItem 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItem.md
-          - name: MeasurementItemRelationship 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItemRelationship.md
-          - name: MeasurementItemUsage 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/MeasurementItemUsage.md
-          - name: Result 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Result.md
-        - name: nonProfitVolunteers
-          items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/overview.md
-          - name: Account 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Account.md
-          - name: Contact 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Contact.md
-          - name: Project 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Project.md
-          - name: Schedule 
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Schedule.md
     - name: Solutions
       items: 
       - name: Microsoft Cloud for Financial Services
@@ -2865,6 +2680,110 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
+      - name: Microsoft Cloud for Nonprofit
+        items:
+        - name: Summary
+          href: industryCommon/Nonprofit/overview.md
+        - name: nonProfitCore
+          items:
+          - name: Summary
+            href: industryCommon/Nonprofit/nonProfitCore/overview.md
+          - name: Account 
+            href: industryCommon/Nonprofit/nonProfitCore/Account.md
+          - name: Address 
+            href: industryCommon/Nonprofit/nonProfitCore/Address.md
+          - name: Award 
+            href: industryCommon/Nonprofit/nonProfitCore/Award.md
+          - name: AwardVersion 
+            href: industryCommon/Nonprofit/nonProfitCore/AwardVersion.md
+          - name: BenefitRecipient 
+            href: industryCommon/Nonprofit/nonProfitCore/BenefitRecipient.md
+          - name: Budget 
+            href: industryCommon/Nonprofit/nonProfitCore/Budget.md
+          - name: Contact 
+            href: industryCommon/Nonprofit/nonProfitCore/Contact.md
+          - name: CreditPlan 
+            href: industryCommon/Nonprofit/nonProfitCore/CreditPlan.md
+          - name: CreditPlanRecipient 
+            href: industryCommon/Nonprofit/nonProfitCore/CreditPlanRecipient.md
+          - name: DeliveryFramework 
+            href: industryCommon/Nonprofit/nonProfitCore/DeliveryFramework.md
+          - name: DesignatedCredit 
+            href: industryCommon/Nonprofit/nonProfitCore/DesignatedCredit.md
+          - name: Designation 
+            href: industryCommon/Nonprofit/nonProfitCore/Designation.md
+          - name: DesignationPlan 
+            href: industryCommon/Nonprofit/nonProfitCore/DesignationPlan.md
+          - name: Disbursement 
+            href: industryCommon/Nonprofit/nonProfitCore/Disbursement.md
+          - name: DisbursementDistribution 
+            href: industryCommon/Nonprofit/nonProfitCore/DisbursementDistribution.md
+          - name: Docket 
+            href: industryCommon/Nonprofit/nonProfitCore/Docket.md
+          - name: DonorCommitment 
+            href: industryCommon/Nonprofit/nonProfitCore/DonorCommitment.md
+          - name: Education 
+            href: industryCommon/Nonprofit/nonProfitCore/Education.md
+          - name: EmploymentHistory 
+            href: industryCommon/Nonprofit/nonProfitCore/EmploymentHistory.md
+          - name: Indicator 
+            href: industryCommon/Nonprofit/nonProfitCore/Indicator.md
+          - name: IndicatorValue 
+            href: industryCommon/Nonprofit/nonProfitCore/IndicatorValue.md
+          - name: IndicatorValueUsage 
+            href: industryCommon/Nonprofit/nonProfitCore/IndicatorValueUsage.md
+          - name: Membership 
+            href: industryCommon/Nonprofit/nonProfitCore/Membership.md
+          - name: MembershipCategory 
+            href: industryCommon/Nonprofit/nonProfitCore/MembershipCategory.md
+          - name: Need 
+            href: industryCommon/Nonprofit/nonProfitCore/Need.md
+          - name: Objective 
+            href: industryCommon/Nonprofit/nonProfitCore/Objective.md
+          - name: OfacMatch 
+            href: industryCommon/Nonprofit/nonProfitCore/OfacMatch.md
+          - name: PaymentAsset 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentAsset.md
+          - name: PaymentMethod 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentMethod.md
+          - name: PaymentProcessor 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentProcessor.md
+          - name: PaymentSchedule 
+            href: industryCommon/Nonprofit/nonProfitCore/PaymentSchedule.md
+          - name: PlannedGiving 
+            href: industryCommon/Nonprofit/nonProfitCore/PlannedGiving.md
+          - name: Preference 
+            href: industryCommon/Nonprofit/nonProfitCore/Preference.md
+          - name: ProgramItem 
+            href: industryCommon/Nonprofit/nonProfitCore/ProgramItem.md
+          - name: ProgramItemRelationship 
+            href: industryCommon/Nonprofit/nonProfitCore/ProgramItemRelationship.md
+          - name: Recommendation 
+            href: industryCommon/Nonprofit/nonProfitCore/Recommendation.md
+          - name: Report 
+            href: industryCommon/Nonprofit/nonProfitCore/Report.md
+          - name: Request 
+            href: industryCommon/Nonprofit/nonProfitCore/Request.md
+          - name: ResourceCatalog 
+            href: industryCommon/Nonprofit/nonProfitCore/ResourceCatalog.md
+          - name: Result 
+            href: industryCommon/Nonprofit/nonProfitCore/Result.md
+          - name: Review 
+            href: industryCommon/Nonprofit/nonProfitCore/Review.md
+          - name: Salutation 
+            href: industryCommon/Nonprofit/nonProfitCore/Salutation.md
+          - name: Stakeholder 
+            href: industryCommon/Nonprofit/nonProfitCore/Stakeholder.md
+          - name: TheoryOfChange 
+            href: industryCommon/Nonprofit/nonProfitCore/TheoryOfChange.md
+          - name: TheoryOfChangeRelationship 
+            href: industryCommon/Nonprofit/nonProfitCore/TheoryOfChangeRelationship.md
+          - name: Transaction 
+            href: industryCommon/Nonprofit/nonProfitCore/Transaction.md
+          - name: WorkItem 
+            href: industryCommon/Nonprofit/nonProfitCore/WorkItem.md
+          - name: WorkItemAction 
+            href: industryCommon/Nonprofit/nonProfitCore/WorkItemAction.md
       - name: Microsoft Cloud for Retail
         items:
         - name: Summary
@@ -2873,22 +2792,36 @@
           items:
           - name: Summary
             href: industryCommon/Retail/Activities/overview.md
+          - name: AuditDefinition 
+            href: industryCommon/Retail/Activities/AuditDefinition.md
           - name: AuditResponse 
             href: industryCommon/Retail/Activities/AuditResponse.md
+          - name: ExecutionActivity
+            href: industryCommon/Retail/Activities/ExecutionActivity.md
+          - name: ExecutionActivityDefinition 
+            href: industryCommon/Retail/Activities/ExecutionActivityDefinition.md  
           - name: ExecutionActivityItem 
             href: industryCommon/Retail/Activities/ExecutionActivityItem.md
+          - name: ExecutionPlan
+            href: industryCommon/Retail/Activities/ExecutionPlan.md  
           - name: OutletZone 
             href: industryCommon/Retail/Activities/OutletZone.md
+          - name: Product
+            href: industryCommon/Retail/Activities/Product.md  
           - name: QuestionType 
             href: industryCommon/Retail/Activities/QuestionType.md
           - name: SOSDefinition 
             href: industryCommon/Retail/Activities/SOSDefinition.md
           - name: SOSResponse 
             href: industryCommon/Retail/Activities/SOSResponse.md
+          - name: SurveyDefinition
+            href: industryCommon/Retail/Activities/SurveyDefinition.md  
           - name: SurveyResponse 
             href: industryCommon/Retail/Activities/SurveyResponse.md
           - name: TargetGroup 
             href: industryCommon/Retail/Activities/TargetGroup.md
+          - name: TaskDefinition
+            href: industryCommon/Retail/Activities/TaskDefinition.md  
           - name: TaskResponse 
             href: industryCommon/Retail/Activities/TaskResponse.md
           - name: VisitActivity 
@@ -2945,12 +2878,12 @@
             href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedCategoryInsight.md
           - name: CustomerDerivedOrderInsight 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedOrderInsight.md
-          - name: LanguageOfPreference 
-            href: industryCommon/Retail/StoreOperationsAssistClienteling/LanguageOfPreference.md
           - name: LoyaltyAccount 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccount.md
           - name: LoyaltyAccountCreditHistory 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccountCreditHistory.md
+          - name: LoyaltyCard
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyCard.md  
           - name: LoyaltyProgram 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyProgram.md
           - name: OrderProduct 
@@ -2959,8 +2892,6 @@
             href: industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointment.md
           - name: RetailAppointmentType 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointmentType.md
-          - name: RewardCreditHistory 
-            href: industryCommon/Retail/StoreOperationsAssistClienteling/RewardCreditHistory.md
           - name: Team 
             href: industryCommon/Retail/StoreOperationsAssistClienteling/Team.md
           - name: User 
@@ -3059,6 +2990,8 @@
             href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprint.md
           - name: ProductFootprintAudit
             href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprintAudit.md
+          - name: ProductFootprintInput
+            href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprintInput.md
           - name: ProductFootprintRuleMapping
             href: industryCommon/Sustainability/CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping.md
           - name: ProductOrSectorSpecificRuleset
@@ -3101,12 +3034,98 @@
             href: industryCommon/Sustainability/CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate.md
           - name: UtilityType
             href: industryCommon/Sustainability/CloudforSustainabilityEnergyDataModel/UtilityType.md
+        - name: External reporting data model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/overview.md
+          - name: ApprovalPolicy 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ApprovalPolicy.md
+          - name: ApprovalPolicyApprover 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ApprovalPolicyApprover.md
+          - name: ApprovalRecord 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ApprovalRecord.md
+          - name: ApprovalRecordDetails 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ApprovalRecordDetails.md
+          - name: Assessment 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Assessment.md
+          - name: AssessmentRequirement 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/AssessmentRequirement.md
+          - name: AssessmentRequirementExecution 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/AssessmentRequirementExecution.md
+          - name: Concept 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Concept.md
+          - name: ConceptAnnexure 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ConceptAnnexure.md
+          - name: ConceptGroup 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ConceptGroup.md
+          - name: ConceptLink 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ConceptLink.md
+          - name: ConceptsPage 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ConceptsPage.md
+          - name: Dimension 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Dimension.md
+          - name: DimensionLink 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/DimensionLink.md
+          - name: DimensionMember 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/DimensionMember.md
+          - name: DimensionReference 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/DimensionReference.md
+          - name: Document 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Document.md
+          - name: ESGAssessmentFilling 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ESGAssessmentFilling.md
+          - name: ESGDimensions 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ESGDimensions.md
+          - name: ESGFactExtraction 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ESGFactExtraction.md
+          - name: Esgnotification 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Esgnotification.md
+          - name: Evidence 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Evidence.md
+          - name: ExportJob 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/ExportJob.md
+          - name: Fact 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Fact.md
+          - name: FactCreationExecution 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FactCreationExecution.md
+          - name: FactCreationJob 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FactCreationJob.md
+          - name: FactLink 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FactLink.md
+          - name: Files 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Files.md
+          - name: FlattenedReport 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/FlattenedReport.md
+          - name: General 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/General.md
+          - name: InstantPeriod 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/InstantPeriod.md
+          - name: OrganizationalProfile 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/OrganizationalProfile.md
+          - name: RangePeriod 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/RangePeriod.md
+          - name: Records 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Records.md
+          - name: Settings 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Settings.md
+          - name: Standard 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/Standard.md
+          - name: StandardRequirement 
+            href: industryCommon/Sustainability/CloudforSustainabilityExternalReportingDataModel/StandardRequirement.md
         - name: Shared data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/overview.md
           - name: Account 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/Account.md
+          - name: ApprovalPolicy 
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalPolicy.md
+          - name: ApprovalPolicyApprover 
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalPolicyApprover.md
+          - name: ApprovalRecord 
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalRecord.md
+          - name: ApprovalRecordDetails   
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ApprovalRecordDetails.md
           - name: Contact 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/Contact.md
           - name: CountryRegion
@@ -3119,6 +3138,8 @@
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/DataSourceType.md
           - name: DeprecatedProductIdentifier
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier.md
+          - name: DeprecatedValueChainPartner
+            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedValueChainPartner.md
           - name: EmissionFactor 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/EmissionFactor.md
           - name: EnergyProviderType
@@ -3189,8 +3210,6 @@
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/Unit.md
           - name: UnitGroup 
             href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/UnitGroup.md
-          - name: ValueChainPartner 
-            href: industryCommon/Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner.md
         - name: Waste data model
           items:
           - name: Summary

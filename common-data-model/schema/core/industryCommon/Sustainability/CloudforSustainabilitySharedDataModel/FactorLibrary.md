@@ -1,15 +1,15 @@
 ---
-title: FactorLibrary in Cloud for Sustainability shared data model
+title: FactorLibrary in Microsoft for Sustainability shared data model
 description: Repository for emission and estimation factor sets, including both system and user added.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# Factor library in Cloud for Sustainability shared data model (FactorLibrary)
+# Factor library in Microsoft for Sustainability shared data model (FactorLibrary)
 
 Repository for emission and estimation factor sets, including both system and user added.  
   
@@ -74,7 +74,7 @@ Repository for emission and estimation factor sets, including both system and us
 ### <a href=#calculationlibraryId name="calculationlibraryId">calculationlibraryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the normalentity  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -248,7 +248,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the normalentity  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#attribution name="attribution">attribution</a>
 
 Appropriate acknowledgment to the original content creator when utilizing or distributing their work within the application  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#documentationreference name="documentationreference">documentationreference</a>
 
 The documentation reference for the factor library.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -655,7 +655,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#librarytype name="librarytype">librarytype</a>
 
 Factor library type: estimation or emission.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#sustainabilitymodule name="sustainabilitymodule">sustainabilitymodule</a>
 
 Module to which this factor library belongs to.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -746,7 +746,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -794,7 +794,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#version name="version">version</a>
 
 The version of the library.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -842,7 +842,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#year name="year">year</a>
 
 The date on which the library was published.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -890,7 +890,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLi
 ### <a href=#type name="type">type</a>
 
 Strings indicating the type of factor library  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 

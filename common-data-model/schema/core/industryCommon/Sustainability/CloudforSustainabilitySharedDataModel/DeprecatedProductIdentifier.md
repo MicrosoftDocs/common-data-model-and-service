@@ -1,15 +1,15 @@
 ---
-title: DeprecatedProductIdentifier in Cloud for Sustainability shared data model
+title: DeprecatedProductIdentifier in Microsoft for Sustainability shared data model
 description: Uniquely identifies a product.
-author: andreabichsel
+author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
-ms.topic: reference 
-ms.date: 08/12/2024
-ms.author: anbichse
+ms.reviewer: lsuresh
+ms.topic: reference
+ms.date: 05/22/2025
+ms.author: leeclontz
 ---
 
-# (Deprecated) Product identifier in Cloud for Sustainability shared data model (DeprecatedProductIdentifier)
+# (Deprecated) Product identifier in Microsoft for Sustainability shared data model (DeprecatedProductIdentifier)
 
 Uniquely identifies a product.  
   
@@ -54,8 +54,8 @@ Uniquely identifies a product.
 |[sustainabilityproductidentifierId](#sustainabilityproductidentifierId)|Unique identifier for entity instances.|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
-|[statecode](#statecode)|Status of the (Deprecated) Sustainability product identifier|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
-|[statuscode](#statuscode)|Reason for the status of the (Deprecated) Sustainability product identifier|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
+|[statecode](#statecode)|Status of the (deprecated) Sustainability product identifier|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
+|[statuscode](#statuscode)|Reason for the status of the (deprecated) Sustainability product identifier|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DeprecatedProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier</a>|
@@ -68,7 +68,7 @@ Uniquely identifies a product.
 ### <a href=#sustainabilityproductidentifierId name="sustainabilityproductidentifierId">sustainabilityproductidentifierId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -195,12 +195,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the (Deprecated) Sustainability product identifier  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+Status of the (deprecated) Sustainability product identifier  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the (Deprecated) Sustainability product identifier</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the (deprecated) Sustainability product identifier</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -225,7 +225,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the (Deprecated) Sustainability product identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the (deprecated) Sustainability product identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -241,12 +241,12 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the (Deprecated) Sustainability product identifier  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+Reason for the status of the (deprecated) Sustainability product identifier  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the (Deprecated) Sustainability product identifier</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the (deprecated) Sustainability product identifier</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -271,7 +271,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 *is.localized.describedAs*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the (Deprecated) Sustainability product identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the (deprecated) Sustainability product identifier</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 *is.localized.displayedAs*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -291,7 +291,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
 The product this ID is for.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -550,7 +550,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#sustainabilityproductidentifier name="sustainabilityproductidentifier">sustainabilityproductidentifier</a>
 
 Uniquely identifies a product. Each sustainability product ID must be a conforming URN with a namespace value included in the Official IANA Registry of URN Namespaces.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: Sustainability/CloudforSustainabilitySharedDataModel/Deprecat
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/CloudforSustainabilitySharedDataModel/DeprecatedProductIdentifier (this entity)  
+First included in: Sustainability/SustainabilityShared/DeprecatedProductIdentifier (this entity)  
 
 #### Properties
 
